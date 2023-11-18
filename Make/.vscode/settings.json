@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "t1.h": "c",
+        "max.h": "c",
+        "global.h": "c"
+    }
+}
