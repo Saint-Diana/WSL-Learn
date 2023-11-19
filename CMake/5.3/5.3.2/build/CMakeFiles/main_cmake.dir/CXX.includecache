@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../headers/swap.h
+
+/home/shenhuichang/learn/CMake/5.3/5.3.2/main.cpp
+iostream
+-
+swap.h
+/home/shenhuichang/learn/CMake/5.3/5.3.2/swap.h
+
+/home/shenhuichang/learn/CMake/5.3/5.3.2/src/swap.cpp
+swap.h
+/home/shenhuichang/learn/CMake/5.3/5.3.2/src/swap.h
+iostream
+-
+

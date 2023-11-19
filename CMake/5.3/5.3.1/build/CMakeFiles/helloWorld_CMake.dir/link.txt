@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/helloWorld_CMake.dir/helloworld.c.o  -o helloWorld_CMake 
