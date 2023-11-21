@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}/build" // "cwd"表示当前工作目录：current working directory；workspaceFolder表示工作空间文件夹
+    },
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cmake", // 该任务的标签是："cmake"
+            "command": "cmake", // cmake任务生成makefile文件
+            "args": [ // cmake命令后所跟的参数，".."表示在父目录
+                ".."
+            ]
+        },
+        {
+            "label": "make", // 该任务的标签是："label"，根据makefile文件进行编译
+            "group": {
+                "kind": "build", // 当前任务所属的组是build组
+                "isDefault": true
+            },
+            "command": "make", // 在Windows下实际执行的命令是：mingw32-make
+            "args": [ // mingw32-make命令后面所跟的参数
+            ]
+        },
+        {
+            "label": "Build", //这个名为"Build"的task是launch.json执行前所预先执行的任务
+            "dependsOn": [ // 并且这个任务又依赖"cmake"和"make"这两个任务
+                "cmake",
+                "make"
+            ]
+        }
+    ]
+}

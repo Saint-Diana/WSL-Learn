@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        // task - cmake
+        {
+            "type": "shell",
+            "label": "cmake",
+            "command": "cmake",
+            "args": [
+                ".."
+            ],
+            // 需要指定工作目录cwd，确保执行命令所在的目录正确
+            "options": {
+                "cwd": "${workspaceFolder}/build/"
+            }
+        },
+        // task - make
+        {
+            "label": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "make",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}/build/"
+            }
+        },
+        // 这个任务依赖于上面两个任务，实际上就是把上面两个任务组合成为了Build任务
+        // task - Build
+        {
+            "label": "Build",
+            "dependsOrder": "sequence", // 按列出的顺序执行任务依赖项
+            "dependsOn": [
+                "cmake",
+                "make"
+            ]
+        }
+    ]
+}

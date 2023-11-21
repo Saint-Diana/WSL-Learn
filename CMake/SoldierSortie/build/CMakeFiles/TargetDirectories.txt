@@ -1,0 +1,3 @@
+/home/shenhuichang/learn/CMake/SoldierSortie/build/CMakeFiles/rebuild_cache.dir
+/home/shenhuichang/learn/CMake/SoldierSortie/build/CMakeFiles/edit_cache.dir
+/home/shenhuichang/learn/CMake/SoldierSortie/build/CMakeFiles/main.dir
