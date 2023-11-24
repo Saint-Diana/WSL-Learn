@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/shenhuichang/learn/ROS/customized_msg/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/shenhuichang/learn/ROS/customized_msg/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "files.associations": {
+        "*.json": "jsonc",
+        "string": "cpp"
+    }
+}

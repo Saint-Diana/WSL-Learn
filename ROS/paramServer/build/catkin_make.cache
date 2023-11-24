@@ -1,0 +1,2 @@
+demo_param_server
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/shenhuichang/learn/ROS/paramServer/devel -DCMAKE_INSTALL_PREFIX=/home/shenhuichang/learn/ROS/paramServer/install -G Unix Makefiles

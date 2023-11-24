@@ -1,0 +1,2 @@
+demo_talker_listener
+-DCATKIN_DEVEL_PREFIX=/home/shenhuichang/learn/ROS/customized_msg/devel -DCMAKE_INSTALL_PREFIX=/home/shenhuichang/learn/ROS/customized_msg/install -G Unix Makefiles

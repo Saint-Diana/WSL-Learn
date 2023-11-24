@@ -1,3 +1,7 @@
 {
-    "cmake.sourceDirectory": "/home/shenhuichang/learn/ROS/demo01_ws/src/helloworld"
+    "cmake.sourceDirectory": "/home/shenhuichang/learn/ROS/demo01_ws/src/helloworld",
+    "files.associations": {
+        "*.json": "jsonc",
+        "vector": "cpp"
+    }
 }

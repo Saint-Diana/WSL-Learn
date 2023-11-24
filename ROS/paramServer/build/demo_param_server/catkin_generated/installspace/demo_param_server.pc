@@ -1,0 +1,8 @@
+prefix=/home/shenhuichang/learn/ROS/paramServer/install
+
+Name: demo_param_server
+Description: Description of demo_param_server
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/shenhuichang/learn/ROS/topicCommunicationDemo01/install
+
+Name: listener
+Description: Description of listener
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

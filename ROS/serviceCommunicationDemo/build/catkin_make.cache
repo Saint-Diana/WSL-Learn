@@ -1,0 +1,2 @@
+demo_server_client
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/shenhuichang/learn/ROS/serviceCommunicationDemo/devel -DCMAKE_INSTALL_PREFIX=/home/shenhuichang/learn/ROS/serviceCommunicationDemo/install -G Unix Makefiles
