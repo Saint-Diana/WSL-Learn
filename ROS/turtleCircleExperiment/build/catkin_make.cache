@@ -1,0 +1,2 @@
+plumbing_test
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/shenhuichang/learn/ROS/turtleCircleExperiment/devel -DCMAKE_INSTALL_PREFIX=/home/shenhuichang/learn/ROS/turtleCircleExperiment/install -G Unix Makefiles

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test.dir/src/main.cpp.o  -o test   -L/opt/opencv-4.7.0/lib  -L/opt/opencv-4.7.0/bin  -Wl,-rpath,/opt/opencv-4.7.0/lib:/opt/opencv-4.7.0/bin -lopencv_world470 -lopencv_world470d -lopencv_world470 -lopencv_world470d 
