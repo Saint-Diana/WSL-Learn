@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/shenhuichang/learn/ROS/commonApis/src/build/gtest/googlemock",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/shenhuichang/learn/ROS/commonApis/src/build/gtest/googlemock",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/shenhuichang/learn/ROS/commonApis/src/build/gtest/googletest",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/shenhuichang/learn/ROS/commonApis/src/build/gtest/googletest",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/shenhuichang/learn/ROS/commonApis/src/build/plumbing_apis",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_apis\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/demo03_apis_time.dir/src/demo03_apis_time.cpp.o -c /home/shenhuichang/learn/ROS/commonApis/src/plumbing_apis/src/demo03_apis_time.cpp",
+  "file": "/home/shenhuichang/learn/ROS/commonApis/src/plumbing_apis/src/demo03_apis_time.cpp"
+},
+{
+  "directory": "/home/shenhuichang/learn/ROS/commonApis/src/build/plumbing_apis",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_apis\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/demo02_apis_sub.dir/src/demo02_apis_sub.cpp.o -c /home/shenhuichang/learn/ROS/commonApis/src/plumbing_apis/src/demo02_apis_sub.cpp",
+  "file": "/home/shenhuichang/learn/ROS/commonApis/src/plumbing_apis/src/demo02_apis_sub.cpp"
+},
+{
+  "directory": "/home/shenhuichang/learn/ROS/commonApis/src/build/plumbing_apis",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_apis\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/demo01_apis_pub.dir/src/demo01_apis_pub.cpp.o -c /home/shenhuichang/learn/ROS/commonApis/src/plumbing_apis/src/demo01_apis_pub.cpp",
+  "file": "/home/shenhuichang/learn/ROS/commonApis/src/plumbing_apis/src/demo01_apis_pub.cpp"
+},
+{
+  "directory": "/home/shenhuichang/learn/ROS/commonApis/src/build/plumbing_head",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_head\\\" -I/home/shenhuichang/learn/ROS/commonApis/src/plumbing_head/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/hello.dir/src/hello.cpp.o -c /home/shenhuichang/learn/ROS/commonApis/src/plumbing_head/src/hello.cpp",
+  "file": "/home/shenhuichang/learn/ROS/commonApis/src/plumbing_head/src/hello.cpp"
+},
+{
+  "directory": "/home/shenhuichang/learn/ROS/commonApis/src/build/plumbing_head_src",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_head_src\\\" -I/home/shenhuichang/learn/ROS/commonApis/src/plumbing_head_src/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/use_hello.dir/src/use_hello.cpp.o -c /home/shenhuichang/learn/ROS/commonApis/src/plumbing_head_src/src/use_hello.cpp",
+  "file": "/home/shenhuichang/learn/ROS/commonApis/src/plumbing_head_src/src/use_hello.cpp"
+},
+{
+  "directory": "/home/shenhuichang/learn/ROS/commonApis/src/build/plumbing_head_src",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_head_src\\\" -Dhead_src_EXPORTS -I/home/shenhuichang/learn/ROS/commonApis/src/plumbing_head_src/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -o CMakeFiles/head_src.dir/src/hello.cpp.o -c /home/shenhuichang/learn/ROS/commonApis/src/plumbing_head_src/src/hello.cpp",
+  "file": "/home/shenhuichang/learn/ROS/commonApis/src/plumbing_head_src/src/hello.cpp"
+},
+{
+  "directory": "/home/shenhuichang/learn/ROS/commonApis/src/build/plumbing_runtime_management",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_runtime_management\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/demo01.dir/src/demo01_node_rename.cpp.o -c /home/shenhuichang/learn/ROS/commonApis/src/plumbing_runtime_management/src/demo01_node_rename.cpp",
+  "file": "/home/shenhuichang/learn/ROS/commonApis/src/plumbing_runtime_management/src/demo01_node_rename.cpp"
+}
+]

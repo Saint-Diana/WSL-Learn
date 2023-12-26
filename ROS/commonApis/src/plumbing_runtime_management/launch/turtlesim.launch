@@ -1,0 +1,9 @@
+<launch>
+    <param name="p1" value="100" />
+    <node pkg="turtlesim" type="turtlesim_node" name="gui" >
+        <!-- remap 标签，将话题重命名 -->
+        <remap from="/turtle1/cmd_vel" to="/cmd_vel" />
+        <param name="p2" value="200" />
+    </node>
+    <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="key" />
+</launch>

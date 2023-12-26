@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="plumbing_apis" type="demo01_apis_pub" name="demo01" output="screen" ns="pub" />
+    <node pkg="plumbing_apis" type="demo02_apis_sub" name="demo02" output="screen" ns="sub" />
+</launch>

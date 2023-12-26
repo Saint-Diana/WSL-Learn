@@ -1,0 +1,8 @@
+prefix=/home/shenhuichang/learn/ROS/commonApis/install
+
+Name: plumbing_rosbag
+Description: Description of plumbing_rosbag
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

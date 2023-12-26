@@ -1,0 +1,2 @@
+launch01_basic:plumbing_apis:plumbing_head:plumbing_head_src:plumbing_meta_package:plumbing_rosbag:plumbing_runtime_management
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/shenhuichang/learn/ROS/commonApis/devel -DCMAKE_INSTALL_PREFIX=/home/shenhuichang/learn/ROS/commonApis/install -G Unix Makefiles

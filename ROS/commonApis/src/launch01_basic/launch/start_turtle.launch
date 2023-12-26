@@ -1,0 +1,13 @@
+<launch deprecated="此文件已经过时，不建议使用！"> <!-- deprecated表示该文件已经过时 -->
+    
+    <!-- 节点属性：respawn 会在节点退出后自动重启该节点 -->
+    <!-- 节点属性：required 会在该节点退出后将整个ros系统关闭 -->
+    <!-- 节点属性：ns 设置节点的命名空间，在节点名称前加上前缀 -->
+    <!-- 启动的节点 -->
+    <!-- gui节点 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="my_turtle" output="screen" />
+    <!-- 键盘控制节点 -->
+    <node pkg="turtlesim" type="turtle_teleop_key" name="my_key" output="screen" />
+
+
+</launch>  
