@@ -1,8 +1,8 @@
 # Ubuntu 20.04.6 LTS on Windows 10 x86_64
-This my workspace in WSL.
+This's my workspace in WSL.
 
 
-
+```shell
             .-/+oossssoo+/-.
         `:+ssssssssssssssssss+:`
       -+ssssssssssssssssssyyssss+-
@@ -25,7 +25,6 @@ ossyNMMMNyMMhsssssssssssssshmmmhssssssso   ----------------------------
             .-/+oossssoo+/-.               CPU: 13th Gen Intel i5-13500H (16) @ 3.187G 
                                            GPU: 41ca:00:00.0 Microsoft Corporation Dev 
                                            Memory: 864MiB / 15858MiB
-
-
+```
                                                                    
                                                                    
