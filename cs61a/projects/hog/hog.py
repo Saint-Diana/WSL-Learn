@@ -339,7 +339,7 @@ def always_roll(n):
     return strategy
 
 
-def make_averaged(original_function, trials_count=1000):
+def make_averaged(original_function, trials_count=1000): # roll_dice, 1000
     """Return a function that returns the average value of ORIGINAL_FUNCTION
     when called.
 
@@ -355,7 +355,7 @@ def make_averaged(original_function, trials_count=1000):
     def average_value(*args): # *args represents a tuple. so we can pass one or several formal parameters.
         total, i = 0, 0
         while i < trials_count:
-            total = total + original_function(*args)
+            total = total + original_function(*args) # roll_dice(4)
             i = i + 1
         return total / trials_count
     
@@ -408,7 +408,7 @@ def average_win_rate(strategy, baseline=always_roll(6)):
 
 def run_experiments():
     """Run a series of strategy experiments and report results."""
-    if True:  # Change to False when done finding max_scoring_num_rolls
+    if False:  # Change to False when done finding max_scoring_num_rolls
         six_sided_max = max_scoring_num_rolls(six_sided)
         print('Max scoring num rolls for six-sided dice:', six_sided_max)
 
@@ -421,7 +421,7 @@ def run_experiments():
     if False:  # Change to True to test extra_turn_strategy
         print('extra_turn_strategy win rate:', average_win_rate(extra_turn_strategy))
 
-    if False:  # Change to True to test final_strategy
+    if True:  # Change to True to test final_strategy
         print('final_strategy win rate:', average_win_rate(final_strategy))
 
     "*** You may add additional experiments as you wish ***"
@@ -459,7 +459,16 @@ def final_strategy(score, opponent_score):
     规则3：如果扔 0 个不能触发下一轮，且free_bacon(opponent_score) < make_averaged(six_sided)，就使用max_scoring_num_rolls()找出能够得到最大平均分的骰子数量，然后扔这么多。
     """
     # BEGIN PROBLEM 12
-    "不会"
+    # 想办法求出 cutoff 和 num_rolls
+    # 每次都扔 4 个骰子，骰子 6 个面，算出来的平均点数作为 cutoff
+    # >>> dice = make_test_dice(4, 2, 5, 1)
+    # >>> averaged_dice = make_averaged(dice, 1000)
+    # >>> averaged_dice()
+    dice = roll_dice
+    cutoff = make_averaged(dice, 10)(4, six_sided)
+    num_rolls = 5
+    score_temp = score + free_bacon(opponent_score) # 扔 0 个之后的当前玩家得分
+    return 0 if extra_turn(score_temp, opponent_score) or free_bacon(opponent_score) >= cutoff else num_rolls
     # END PROBLEM 12
 
 ##########################
