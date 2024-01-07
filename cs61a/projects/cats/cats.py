@@ -103,7 +103,18 @@ def autocorrect(user_word, valid_words, diff_function, limit):
     than LIMIT.
     """
     # BEGIN PROBLEM 5
-    "*** YOUR CODE HERE ***"
+    if user_word in valid_words:
+        return user_word
+    else:
+        lowest_difference, res_word = diff_function(user_word, valid_words[0], limit), valid_words[0]
+        for word in valid_words:
+            difference = diff_function(user_word, word, limit)
+            if difference < lowest_difference:
+                lowest_difference, res_word = difference, word
+        if lowest_difference > limit:
+            return user_word
+        else:
+            return res_word 
     # END PROBLEM 5
 
 
@@ -113,32 +124,38 @@ def shifty_shifts(start, goal, limit):
     their lengths.
     """
     # BEGIN PROBLEM 6
-    assert False, 'Remove this line'
+    if limit < 0:
+        return 0
+    if start == '' or goal == '':
+        return len(start) + len(goal)
+    elif start[0] == goal[0]:
+        return shifty_shifts(start[1:], goal[1:], limit)
+    else:
+        return shifty_shifts(start[1:], goal[1:], limit - 1) + 1
     # END PROBLEM 6
-
 
 def pawssible_patches(start, goal, limit):
     """A diff function that computes the edit distance from START to GOAL."""
-    assert False, 'Remove this line'
+    if limit < 0:
+        return 0
 
-    if ______________: # Fill in the condition
+    if start == '' or goal == '': # Fill in the condition
         # BEGIN
-        "*** YOUR CODE HERE ***"
+        return len(start) + len(goal)
         # END
 
-    elif ___________: # Feel free to remove or add additional cases
+    elif start[0] == goal[0]: # Feel free to remove or add additional cases
         # BEGIN
-        "*** YOUR CODE HERE ***"
+        return pawssible_patches(start[1:], goal[1:], limit)
         # END
 
     else:
-        add_diff = ... # Fill in these lines
-        remove_diff = ...
-        substitute_diff = ...
+        add_diff = pawssible_patches(start, goal[1:], limit - 1) + 1
+        remove_diff = pawssible_patches(start[1:], goal, limit - 1) + 1
+        substitute_diff = pawssible_patches(start[1:], goal[1:], limit - 1) + 1
         # BEGIN
-        "*** YOUR CODE HERE ***"
+        return min(add_diff, remove_diff, substitute_diff)
         # END
-
 
 def final_diff(start, goal, limit):
     """A diff function. If you implement this function, it will be used."""
@@ -153,7 +170,17 @@ def final_diff(start, goal, limit):
 def report_progress(typed, prompt, user_id, send):
     """Send a report of your id and progress so far to the multiplayer server."""
     # BEGIN PROBLEM 8
-    "*** YOUR CODE HERE ***"
+    # 先找到第一个错误单词的位置
+    index = 0
+    while index < len(typed):
+        if typed[index] == prompt[index]:
+            index += 1
+        else:
+            break
+    # 正确单词的数量就等于index
+    progress = index / len(prompt)
+    send({'id': user_id, 'progress': progress})
+    return progress
     # END PROBLEM 8
 
 
@@ -179,7 +206,13 @@ def time_per_word(times_per_player, words):
         words: a list of words, in the order they are typed.
     """
     # BEGIN PROBLEM 9
-    "*** YOUR CODE HERE ***"
+    times = []
+    for player in times_per_player:
+        word_time = []
+        for i in range(len(player) - 1):
+            word_time.append(player[i + 1] - player[i])
+        times.append(word_time)
+    return game(words, times)
     # END PROBLEM 9
 
 
@@ -194,7 +227,25 @@ def fastest_words(game):
     player_indices = range(len(all_times(game)))  # contains an *index* for each player
     word_indices = range(len(all_words(game)))    # contains an *index* for each word
     # BEGIN PROBLEM 10
-    "*** YOUR CODE HERE ***"
+    # 找出每个玩家输入最快的单词
+
+    # 找出每个单词输入的最短时间对应的玩家下标列表
+    shortest_time_list = []
+    for i in word_indices:
+        shortest_time, index = time(game, 0, i), 0
+        for j in player_indices:
+            if time(game, j, i) < shortest_time:
+                shortest_time = time(game, j, i)
+                index = j
+        shortest_time_list.append(index)
+    res = []
+    for i in player_indices:
+        player = []
+        for j in word_indices:
+            if shortest_time_list[j] == i:
+                player.append(word_at(game, j))
+        res.append(player)
+    return res
     # END PROBLEM 10
 
 
