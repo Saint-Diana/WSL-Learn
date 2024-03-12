@@ -1,0 +1,168 @@
+[0.000000] (-) TimerEvent: {}
+[0.000215] (my_can_utils) JobQueued: {'identifier': 'my_can_utils', 'dependencies': OrderedDict()}
+[0.000251] (my_can_utils) JobStarted: {'identifier': 'my_can_utils'}
+[0.056519] (my_can_utils) JobProgress: {'identifier': 'my_can_utils', 'progress': 'cmake'}
+[0.056835] (my_can_utils) Command: {'cmd': ['/usr/bin/cmake', '/home/shen/learn/ROS2/can_ws/src/my_can_utils', '-DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/can_ws/install/my_can_utils'], 'cwd': '/home/shen/learn/ROS2/can_ws/build/my_can_utils', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/154/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/can_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/154/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/154/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '3761'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/1967,unix/work:/tmp/.ICE-unix/1967'), ('GTK_EXE_PREFIX', '/snap/code/154/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/254025a7_a292_460d_8bb6_5f2a08b909c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/154/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-62653ebf79.sock'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/154/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/can_ws/build/my_can_utils'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/154/.local/share:/home/shen/snap/code/154:/snap/code/154/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099399] (-) TimerEvent: {}
+[0.199772] (-) TimerEvent: {}
+[0.204037] (my_can_utils) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299913] (-) TimerEvent: {}
+[0.318643] (my_can_utils) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.328820] (my_can_utils) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400052] (-) TimerEvent: {}
+[0.439686] (my_can_utils) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.453490] (my_can_utils) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.454055] (my_can_utils) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.454978] (my_can_utils) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.462064] (my_can_utils) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500162] (-) TimerEvent: {}
+[0.570095] (my_can_utils) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.588166] (my_can_utils) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.588854] (my_can_utils) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.589676] (my_can_utils) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.599987] (my_can_utils) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600197] (-) TimerEvent: {}
+[0.700438] (-) TimerEvent: {}
+[0.800727] (-) TimerEvent: {}
+[0.821687] (my_can_utils) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.900905] (-) TimerEvent: {}
+[0.937655] (my_can_utils) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.989113] (my_can_utils) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.998999] (my_can_utils) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.001031] (-) TimerEvent: {}
+[1.008725] (my_can_utils) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.025726] (my_can_utils) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.046664] (my_can_utils) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101172] (-) TimerEvent: {}
+[1.119094] (my_can_utils) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.122689] (my_can_utils) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.201341] (-) TimerEvent: {}
+[1.285621] (my_can_utils) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.301464] (-) TimerEvent: {}
+[1.315482] (my_can_utils) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.372824] (my_can_utils) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.384063] (my_can_utils) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.401607] (-) TimerEvent: {}
+[1.491301] (my_can_utils) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.492276] (my_can_utils) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.501734] (-) TimerEvent: {}
+[1.602058] (-) TimerEvent: {}
+[1.602407] (my_can_utils) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.603402] (my_can_utils) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.702194] (-) TimerEvent: {}
+[1.753369] (my_can_utils) StdoutLine: {'line': b'-- Found can_msgs: 2.0.0 (/opt/ros/humble/share/can_msgs/cmake)\n'}
+[1.795426] (my_can_utils) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.802366] (-) TimerEvent: {}
+[1.895642] (my_can_utils) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.895878] (my_can_utils) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.896003] (my_can_utils) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.896562] (my_can_utils) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.897921] (my_can_utils) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.898104] (my_can_utils) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.898460] (my_can_utils) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.900896] (my_can_utils) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.902441] (-) TimerEvent: {}
+[1.910315] (my_can_utils) StdoutLine: {'line': b'-- Generating done\n'}
+[1.911800] (my_can_utils) StdoutLine: {'line': b'-- Build files have been written to: /home/shen/learn/ROS2/can_ws/build/my_can_utils\n'}
+[1.920232] (my_can_utils) CommandEnded: {'returncode': 0}
+[1.921120] (my_can_utils) JobProgress: {'identifier': 'my_can_utils', 'progress': 'build'}
+[1.922757] (my_can_utils) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/can_ws/build/my_can_utils', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/can_ws/build/my_can_utils', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/154/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/can_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/154/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/154/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '3761'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/1967,unix/work:/tmp/.ICE-unix/1967'), ('GTK_EXE_PREFIX', '/snap/code/154/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/254025a7_a292_460d_8bb6_5f2a08b909c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/154/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-62653ebf79.sock'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/154/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/can_ws/build/my_can_utils'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/154/.local/share:/home/shen/snap/code/154:/snap/code/154/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.002617] (-) TimerEvent: {}
+[2.039446] (my_can_utils) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/can_recorder.dir/src/can_recorder.cpp.o\x1b[0m\n'}
+[2.102730] (-) TimerEvent: {}
+[2.203233] (-) TimerEvent: {}
+[2.303584] (-) TimerEvent: {}
+[2.403932] (-) TimerEvent: {}
+[2.504308] (-) TimerEvent: {}
+[2.604683] (-) TimerEvent: {}
+[2.705052] (-) TimerEvent: {}
+[2.805586] (-) TimerEvent: {}
+[2.905950] (-) TimerEvent: {}
+[3.006324] (-) TimerEvent: {}
+[3.106689] (-) TimerEvent: {}
+[3.207082] (-) TimerEvent: {}
+[3.307463] (-) TimerEvent: {}
+[3.407844] (-) TimerEvent: {}
+[3.508209] (-) TimerEvent: {}
+[3.608587] (-) TimerEvent: {}
+[3.708962] (-) TimerEvent: {}
+[3.809337] (-) TimerEvent: {}
+[3.909718] (-) TimerEvent: {}
+[4.010094] (-) TimerEvent: {}
+[4.110464] (-) TimerEvent: {}
+[4.210836] (-) TimerEvent: {}
+[4.311214] (-) TimerEvent: {}
+[4.411588] (-) TimerEvent: {}
+[4.511962] (-) TimerEvent: {}
+[4.612333] (-) TimerEvent: {}
+[4.712703] (-) TimerEvent: {}
+[4.813077] (-) TimerEvent: {}
+[4.913700] (-) TimerEvent: {}
+[5.014121] (-) TimerEvent: {}
+[5.114499] (-) TimerEvent: {}
+[5.214876] (-) TimerEvent: {}
+[5.315274] (-) TimerEvent: {}
+[5.415643] (-) TimerEvent: {}
+[5.516012] (-) TimerEvent: {}
+[5.616371] (-) TimerEvent: {}
+[5.716742] (-) TimerEvent: {}
+[5.817123] (-) TimerEvent: {}
+[5.917499] (-) TimerEvent: {}
+[6.017875] (-) TimerEvent: {}
+[6.118248] (-) TimerEvent: {}
+[6.218612] (-) TimerEvent: {}
+[6.318976] (-) TimerEvent: {}
+[6.419366] (-) TimerEvent: {}
+[6.519727] (-) TimerEvent: {}
+[6.620084] (-) TimerEvent: {}
+[6.720446] (-) TimerEvent: {}
+[6.820809] (-) TimerEvent: {}
+[6.921172] (-) TimerEvent: {}
+[7.021533] (-) TimerEvent: {}
+[7.121899] (-) TimerEvent: {}
+[7.222262] (-) TimerEvent: {}
+[7.322630] (-) TimerEvent: {}
+[7.423006] (-) TimerEvent: {}
+[7.523459] (-) TimerEvent: {}
+[7.623828] (-) TimerEvent: {}
+[7.724192] (-) TimerEvent: {}
+[7.824561] (-) TimerEvent: {}
+[7.924930] (-) TimerEvent: {}
+[8.025308] (-) TimerEvent: {}
+[8.125681] (-) TimerEvent: {}
+[8.226054] (-) TimerEvent: {}
+[8.326424] (-) TimerEvent: {}
+[8.376908] (my_can_utils) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable can_recorder\x1b[0m\n'}
+[8.426781] (-) TimerEvent: {}
+[8.527252] (-) TimerEvent: {}
+[8.627653] (-) TimerEvent: {}
+[8.728069] (-) TimerEvent: {}
+[8.828456] (-) TimerEvent: {}
+[8.841800] (my_can_utils) StdoutLine: {'line': b'[100%] Built target can_recorder\n'}
+[8.870549] (my_can_utils) CommandEnded: {'returncode': 0}
+[8.928579] (-) TimerEvent: {}
+[8.930059] (my_can_utils) JobProgress: {'identifier': 'my_can_utils', 'progress': 'install'}
+[8.941044] (my_can_utils) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shen/learn/ROS2/can_ws/build/my_can_utils'], 'cwd': '/home/shen/learn/ROS2/can_ws/build/my_can_utils', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/154/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/can_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/154/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/154/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '3761'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/1967,unix/work:/tmp/.ICE-unix/1967'), ('GTK_EXE_PREFIX', '/snap/code/154/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/254025a7_a292_460d_8bb6_5f2a08b909c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/154/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-62653ebf79.sock'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/154/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/can_ws/build/my_can_utils'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/154/.local/share:/home/shen/snap/code/154:/snap/code/154/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.959137] (my_can_utils) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.959819] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/ament_index/resource_index/package_run_dependencies/my_can_utils\n'}
+[8.960580] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/ament_index/resource_index/parent_prefix_path/my_can_utils\n'}
+[8.961140] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/environment/ament_prefix_path.sh\n'}
+[8.961527] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/environment/ament_prefix_path.dsv\n'}
+[8.961919] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/environment/path.sh\n'}
+[8.962260] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/environment/path.dsv\n'}
+[8.962632] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/local_setup.bash\n'}
+[8.963125] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/local_setup.sh\n'}
+[8.963682] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/local_setup.zsh\n'}
+[8.964227] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/local_setup.dsv\n'}
+[8.964679] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/package.dsv\n'}
+[8.965299] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/ament_index/resource_index/packages/my_can_utils\n'}
+[8.966021] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/cmake/my_can_utilsConfig.cmake\n'}
+[8.966473] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/cmake/my_can_utilsConfig-version.cmake\n'}
+[8.966884] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/package.xml\n'}
+[8.967783] (my_can_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/lib/my_can_utils/can_recorder\n'}
+[8.980739] (my_can_utils) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/can_ws/install/my_can_utils/lib/my_can_utils/can_recorder" to ""\n'}
+[8.985771] (my_can_utils) CommandEnded: {'returncode': 0}
+[9.028743] (-) TimerEvent: {}
+[9.129195] (-) TimerEvent: {}
+[9.166962] (my_can_utils) JobEnded: {'identifier': 'my_can_utils', 'rc': 0}
+[9.167840] (-) EventReactorShutdown: {}

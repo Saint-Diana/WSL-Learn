@@ -1,0 +1,53 @@
+[0.062s] Invoking command in '/home/shen/learn/ROS2/can_ws/build/my_can_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/can_ws/build/my_can_utils -- -j16 -l16
+[0.106s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.296s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.361s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.366s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.372s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.451s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.452s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.578s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.717s] -- Found can_msgs: 2.0.0 (/opt/ros/humble/share/can_msgs/cmake)
+[0.755s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.846s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.846s] -- Configured cppcheck include dirs: 
+[0.846s] -- Configured cppcheck exclude dirs and/or files: 
+[0.847s] -- Added test 'lint_cmake' to check CMake code style
+[0.848s] -- Added test 'uncrustify' to check C / C++ code style
+[0.848s] -- Configured uncrustify additional arguments: 
+[0.848s] -- Added test 'xmllint' to check XML markup files
+[0.849s] -- Configuring done
+[0.860s] -- Generating done
+[0.862s] -- Build files have been written to: /home/shen/learn/ROS2/can_ws/build/my_can_utils
+[0.910s] [35m[1mConsolidate compiler generated dependencies of target can_recorder[0m
+[0.928s] [ 25%] [32mBuilding CXX object CMakeFiles/can_publisher.dir/src/can_publisher.cpp.o[0m
+[0.965s] [ 50%] [32mBuilding CXX object CMakeFiles/can_recorder.dir/src/can_recorder.cpp.o[0m
+[4.221s] [ 75%] [32m[1mLinking CXX executable can_publisher[0m
+[4.430s] [ 75%] Built target can_publisher
+[7.513s] [100%] [32m[1mLinking CXX executable can_recorder[0m
+[7.919s] [100%] Built target can_recorder
+[7.937s] Invoked command in '/home/shen/learn/ROS2/can_ws/build/my_can_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/can_ws/build/my_can_utils -- -j16 -l16
+[8.021s] Invoking command in '/home/shen/learn/ROS2/can_ws/build/my_can_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/can_ws/build/my_can_utils
+[8.037s] -- Install configuration: ""
+[8.037s] -- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/lib/my_can_utils/can_recorder
+[8.049s] -- Set runtime path of "/home/shen/learn/ROS2/can_ws/install/my_can_utils/lib/my_can_utils/can_recorder" to ""
+[8.049s] -- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/lib/my_can_utils/can_publisher
+[8.052s] -- Set runtime path of "/home/shen/learn/ROS2/can_ws/install/my_can_utils/lib/my_can_utils/can_publisher" to ""
+[8.053s] -- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/ament_index/resource_index/package_run_dependencies/my_can_utils
+[8.053s] -- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/ament_index/resource_index/parent_prefix_path/my_can_utils
+[8.053s] -- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/environment/ament_prefix_path.sh
+[8.053s] -- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/environment/ament_prefix_path.dsv
+[8.054s] -- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/environment/path.sh
+[8.054s] -- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/environment/path.dsv
+[8.055s] -- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/local_setup.bash
+[8.055s] -- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/local_setup.sh
+[8.055s] -- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/local_setup.zsh
+[8.055s] -- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/local_setup.dsv
+[8.055s] -- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/package.dsv
+[8.056s] -- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/ament_index/resource_index/packages/my_can_utils
+[8.056s] -- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/cmake/my_can_utilsConfig.cmake
+[8.056s] -- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/cmake/my_can_utilsConfig-version.cmake
+[8.057s] -- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/package.xml
+[8.061s] Invoked command in '/home/shen/learn/ROS2/can_ws/build/my_can_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/can_ws/build/my_can_utils

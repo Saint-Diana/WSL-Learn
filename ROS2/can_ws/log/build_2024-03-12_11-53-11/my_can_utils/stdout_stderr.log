@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target can_publisher[0m
+[ 50%] Built target can_recorder
+[ 75%] [32mBuilding CXX object CMakeFiles/can_publisher.dir/src/can_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable can_publisher[0m
+[100%] Built target can_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/lib/my_can_utils/can_recorder
+-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/lib/my_can_utils/can_publisher
+-- Set runtime path of "/home/shen/learn/ROS2/can_ws/install/my_can_utils/lib/my_can_utils/can_publisher" to ""
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/ament_index/resource_index/package_run_dependencies/my_can_utils
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/ament_index/resource_index/parent_prefix_path/my_can_utils
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/environment/path.sh
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/environment/path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/local_setup.bash
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/local_setup.sh
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/local_setup.zsh
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/local_setup.dsv
+-- Installing: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/package.dsv
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/ament_index/resource_index/packages/my_can_utils
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/cmake/my_can_utilsConfig.cmake
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/cmake/my_can_utilsConfig-version.cmake
+-- Up-to-date: /home/shen/learn/ROS2/can_ws/install/my_can_utils/share/my_can_utils/package.xml
