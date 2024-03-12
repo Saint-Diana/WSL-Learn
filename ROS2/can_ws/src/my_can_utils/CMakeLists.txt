@@ -38,4 +38,12 @@ can_publisher
 DESTINATION lib/${PROJECT_NAME}
 )
 
+# about launch files
+install(DIRECTORY launch
+DESTINATION share/${PROJECT_NAME}
+)
+install(DIRECTORY config
+DESTINATION share/${PROJECT_NAME}
+)
+
 ament_package()

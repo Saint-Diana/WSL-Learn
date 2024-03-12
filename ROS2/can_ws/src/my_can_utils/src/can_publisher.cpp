@@ -1,6 +1,6 @@
 /**
  * @file can_publisher.cpp
- * @author your name (you@domain.com)
+ * @author Huichang Shen
  * @brief This node is aimed at getting CAN messages from CAN Interface(e.g. vcan0),
  *        then publish them to the topic "can_topic".
  * @version 0.1
@@ -22,7 +22,11 @@ class CANPublisher: public rclcpp::Node
 public:
     CANPublisher(): Node("can_publisher")
     {
-        publisher_ = this->create_publisher<can_msgs::msg::Frame>("can_topic", 10);
+        this->declare_parameter<std::string>("can_channel", "can0");
+        this->declare_parameter<std::string>("can_topic", "can_message");
+        this->get_parameter("can_channel", can_channel_);
+        this->get_parameter("can_topic", can_topic_);
+        publisher_ = this->create_publisher<can_msgs::msg::Frame>(can_topic_, 10);
         open_socket();
         read_and_publish();
     }
@@ -41,7 +45,7 @@ private:
         }
 
         // bind the CAN Interface
-        strcpy(ifr.ifr_name, "vcan0");
+        strcpy(ifr.ifr_name, can_channel_.c_str());
         ioctl(socket_, SIOCGIFINDEX, &ifr);
 
         addr.can_family = AF_CAN;
@@ -81,6 +85,8 @@ private:
 
     int socket_;
     rclcpp::Publisher<can_msgs::msg::Frame>::SharedPtr publisher_;
+    std::string can_channel_;
+    std::string can_topic_;
 };
 
 int main(int argc, char* argv[])

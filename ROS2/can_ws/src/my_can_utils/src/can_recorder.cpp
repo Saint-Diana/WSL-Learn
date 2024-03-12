@@ -1,6 +1,6 @@
 /**
  * @file can_recorder.cpp
- * @author your name (you@domain.com)
+ * @author Huichang Shen
  * @brief This node is aimed at recording CAN messages through subscribing the ROS topic -- "can_topic".
  * @version 0.1
  * @date 2024-03-12
