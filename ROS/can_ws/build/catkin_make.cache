@@ -1,0 +1,2 @@
+my_can_listener
+-DCATKIN_DEVEL_PREFIX=/home/shenhuichang/learn/ROS/can_ws/devel -DCMAKE_INSTALL_PREFIX=/home/shenhuichang/learn/ROS/can_ws/install -G Unix Makefiles

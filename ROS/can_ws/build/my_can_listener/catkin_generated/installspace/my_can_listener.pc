@@ -1,0 +1,8 @@
+prefix=/home/shenhuichang/learn/ROS/can_ws/install
+
+Name: my_can_listener
+Description: Description of my_can_listener
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmy_can_listener
+Requires: can_msgs roscpp
