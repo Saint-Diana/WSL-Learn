@@ -1,0 +1,950 @@
+[0.067s] Invoking command in '/home/shen/learn/ROS2/record_ws/build/my_record_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/record_ws/build/my_record_utils -- -j16 -l16
+[0.176s] [35m[1mConsolidate compiler generated dependencies of target topic_recorder[0m
+[0.224s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_recorder.dir/src/topic_recorder.cpp.o[0m
+[2.854s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.854s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.854s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.854s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.854s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.854s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.855s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.855s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:222:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::ParameterValue::ParameterValue(<brace-enclosed initializer list>)[m[K’
+[2.855s]   222 |   rclcpp::ParameterValue [01;31m[Kvalue[m[K{ParameterT{}};
+[2.856s]       |                          [01;31m[K^~~~~[m[K
+[2.857s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[2.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[2.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[2.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.858s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.859s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.859s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.859s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:121:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’
+[2.859s]   121 |   explicit [01;36m[KParameterValue[m[K(const std::vector<std::string> & string_array_value);
+[2.859s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.859s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:121:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >&[m[K’
+[2.859s]   121 |   explicit ParameterValue([01;36m[Kconst std::vector<std::string> & string_array_value[m[K);
+[2.860s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[2.860s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:118:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const std::vector<double, std::allocator<double> >&)[m[K’
+[2.860s]   118 |   explicit [01;36m[KParameterValue[m[K(const std::vector<double> & double_array_value);
+[2.860s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.860s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:118:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+[2.860s]   118 |   explicit ParameterValue([01;36m[Kconst std::vector<double> & double_array_value[m[K);
+[2.860s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[2.860s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:115:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const std::vector<float>&)[m[K’
+[2.861s]   115 |   explicit [01;36m[KParameterValue[m[K(const std::vector<float> & double_array_value);
+[2.861s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.861s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:115:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kconst std::vector<float>&[m[K’
+[2.861s]   115 |   explicit ParameterValue([01;36m[Kconst std::vector<float> & double_array_value[m[K);
+[2.861s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[2.861s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:112:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const std::vector<long int, std::allocator<long int> >&)[m[K’
+[2.861s]   112 |   explicit [01;36m[KParameterValue[m[K(const std::vector<int64_t> & int_array_value);
+[2.861s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.862s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:112:56:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kconst std::vector<long int, std::allocator<long int> >&[m[K’
+[2.862s]   112 |   explicit ParameterValue([01;36m[Kconst std::vector<int64_t> & int_array_value[m[K);
+[2.862s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[2.862s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:109:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const std::vector<int>&)[m[K’
+[2.862s]   109 |   explicit [01;36m[KParameterValue[m[K(const std::vector<int> & int_array_value);
+[2.862s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.862s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:109:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kconst std::vector<int>&[m[K’
+[2.863s]   109 |   explicit ParameterValue([01;36m[Kconst std::vector<int> & int_array_value[m[K);
+[2.863s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[2.863s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:106:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const std::vector<bool, std::allocator<bool> >&)[m[K’
+[2.863s]   106 |   explicit [01;36m[KParameterValue[m[K(const std::vector<bool> & bool_array_value);
+[2.863s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.863s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:106:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kconst std::vector<bool, std::allocator<bool> >&[m[K’
+[2.863s]   106 |   explicit ParameterValue([01;36m[Kconst std::vector<bool> & bool_array_value[m[K);
+[2.863s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[2.864s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:103:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’
+[2.864s]   103 |   explicit [01;36m[KParameterValue[m[K(const std::vector<uint8_t> & byte_array_value);
+[2.864s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.864s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:103:56:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&[m[K’
+[2.864s]   103 |   explicit ParameterValue([01;36m[Kconst std::vector<uint8_t> & byte_array_value[m[K);
+[2.864s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[2.864s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:100:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const char*)[m[K’
+[2.865s]   100 |   explicit [01;36m[KParameterValue[m[K(const char * string_value);
+[2.865s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.865s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:100:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kconst char*[m[K’
+[2.865s]   100 |   explicit ParameterValue([01;36m[Kconst char * string_value[m[K);
+[2.865s]       |                           [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.865s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:97:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const string&)[m[K’
+[2.865s]    97 |   explicit [01;36m[KParameterValue[m[K(const std::string & string_value);
+[2.865s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.866s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:97:47:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[2.866s]    97 |   explicit ParameterValue([01;36m[Kconst std::string & string_value[m[K);
+[2.866s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.866s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:94:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(double)[m[K’
+[2.866s]    94 |   explicit [01;36m[KParameterValue[m[K(const double double_value);
+[2.866s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.866s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:94:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kdouble[m[K’
+[2.866s]    94 |   explicit ParameterValue([01;36m[Kconst double double_value[m[K);
+[2.867s]       |                           [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.867s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(float)[m[K’
+[2.867s]    91 |   explicit [01;36m[KParameterValue[m[K(const float double_value);
+[2.867s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.867s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:91:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kfloat[m[K’
+[2.867s]    91 |   explicit ParameterValue([01;36m[Kconst float double_value[m[K);
+[2.867s]       |                           [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.867s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:88:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(int64_t)[m[K’
+[2.868s]    88 |   explicit [01;36m[KParameterValue[m[K(const int64_t int_value);
+[2.868s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.868s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:88:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’}
+[2.868s]    88 |   explicit ParameterValue([01;36m[Kconst int64_t int_value[m[K);
+[2.868s]       |                           [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.868s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:85:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(int)[m[K’
+[2.868s]    85 |   explicit [01;36m[KParameterValue[m[K(const int int_value);
+[2.869s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.869s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:85:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kint[m[K’
+[2.869s]    85 |   explicit ParameterValue([01;36m[Kconst int int_value[m[K);
+[2.869s]       |                           [01;36m[K~~~~~~~~~~^~~~~~~~~[m[K
+[2.869s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:82:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(bool)[m[K’
+[2.869s]    82 |   explicit [01;36m[KParameterValue[m[K(const bool bool_value);
+[2.869s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.870s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:82:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kbool[m[K’
+[2.870s]    82 |   explicit ParameterValue([01;36m[Kconst bool bool_value[m[K);
+[2.870s]       |                           [01;36m[K~~~~~~~~~~~^~~~~~~~~~[m[K
+[2.870s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:79:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const ParameterValue&)[m[K’
+[2.870s]    79 |   explicit [01;36m[KParameterValue[m[K(const rcl_interfaces::msg::ParameterValue & value);
+[2.870s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.870s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:79:71:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kconst ParameterValue&[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterValue_<std::allocator<void> >&[m[K’}
+[2.870s]    79 |   explicit ParameterValue([01;36m[Kconst rcl_interfaces::msg::ParameterValue & value[m[K);
+[2.871s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.871s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:76:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue()[m[K’
+[2.871s]    76 |   [01;36m[KParameterValue[m[K();
+[2.871s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.871s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:76:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[2.871s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(const rclcpp::ParameterValue&)[m[K’
+[2.871s]    71 | class [01;36m[KParameterValue[m[K
+[2.871s]       |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.872s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Kconst rclcpp::ParameterValue&[m[K’
+[2.872s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::ParameterValue::ParameterValue(rclcpp::ParameterValue&&)[m[K’
+[2.872s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:71:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’ to ‘[01m[Krclcpp::ParameterValue&&[m[K’
+[2.872s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.872s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.873s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.873s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::ParameterValue::get<std::vector<rclcpp::Parameter, std::allocator<rclcpp::Parameter> > >() const[m[K’
+[2.873s]   224 |     return [01;31m[Kthis->declare_parameter([m[K
+[2.873s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.873s]   225 | [01;31m[K      name,[m[K
+[2.873s]       |       [01;31m[K~~~~~[m[K           
+[2.873s]   226 | [01;31m[K      value.get_type(),[m[K
+[2.873s]       |       [01;31m[K~~~~~~~~~~~~~~~~~[m[K
+[2.874s]   227 | [01;31m[K      parameter_descriptor,[m[K
+[2.874s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.874s]   228 | [01;31m[K      ignore_override[m[K
+[2.874s]       |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+[2.874s]   229 | [01;31m[K    ).get<ParameterT>()[m[K;
+[2.874s]       |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[2.874s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[2.874s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.875s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.875s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.875s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:148:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL), const bool&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.875s]   148 |   [01;36m[Kget[m[K() const
+[2.876s]       |   [01;36m[K^~~[m[K
+[2.876s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:148:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.876s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.876s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.876s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.876s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL), const bool&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.877s]   224 |     return [01;31m[Kthis->declare_parameter([m[K
+[2.877s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.877s]   225 | [01;31m[K      name,[m[K
+[2.877s]       |       [01;31m[K~~~~~[m[K           
+[2.877s]   226 | [01;31m[K      value.get_type(),[m[K
+[2.877s]       |       [01;31m[K~~~~~~~~~~~~~~~~~[m[K
+[2.877s]   227 | [01;31m[K      parameter_descriptor,[m[K
+[2.877s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.878s]   228 | [01;31m[K      ignore_override[m[K
+[2.878s]       |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+[2.878s]   229 | [01;31m[K    ).get<ParameterT>()[m[K;
+[2.878s]       |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[2.878s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[2.878s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[2.878s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[2.878s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[2.879s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.879s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.879s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.879s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.879s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER), const long int&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.879s]   159 |   [01;36m[Kget[m[K() const
+[2.879s]       |   [01;36m[K^~~[m[K
+[2.880s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:159:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.880s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.880s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.880s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.880s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.880s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.880s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER), const long int&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.881s]   224 |     return [01;31m[Kthis->declare_parameter([m[K
+[2.881s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.881s]   225 | [01;31m[K      name,[m[K
+[2.881s]       |       [01;31m[K~~~~~[m[K           
+[2.881s]   226 | [01;31m[K      value.get_type(),[m[K
+[2.881s]       |       [01;31m[K~~~~~~~~~~~~~~~~~[m[K
+[2.881s]   227 | [01;31m[K      parameter_descriptor,[m[K
+[2.881s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.882s]   228 | [01;31m[K      ignore_override[m[K
+[2.882s]       |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+[2.882s]   229 | [01;31m[K    ).get<ParameterT>()[m[K;
+[2.882s]       |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[2.882s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[2.882s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[2.882s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[2.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[2.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.883s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.883s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.883s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:170:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE), const double&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.883s]   170 |   [01;36m[Kget[m[K() const
+[2.883s]       |   [01;36m[K^~~[m[K
+[2.884s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:170:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.884s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.884s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.884s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.884s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.884s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.884s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE), const double&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.885s]   224 |     return [01;31m[Kthis->declare_parameter([m[K
+[2.885s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.885s]   225 | [01;31m[K      name,[m[K
+[2.885s]       |       [01;31m[K~~~~~[m[K           
+[2.885s]   226 | [01;31m[K      value.get_type(),[m[K
+[2.885s]       |       [01;31m[K~~~~~~~~~~~~~~~~~[m[K
+[2.885s]   227 | [01;31m[K      parameter_descriptor,[m[K
+[2.885s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.886s]   228 | [01;31m[K      ignore_override[m[K
+[2.886s]       |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+[2.886s]   229 | [01;31m[K    ).get<ParameterT>()[m[K;
+[2.886s]       |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[2.886s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[2.886s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[2.886s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[2.886s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[2.887s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.887s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.887s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.887s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.887s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:181:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING), const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.887s]   181 |   [01;36m[Kget[m[K() const
+[2.887s]       |   [01;36m[K^~~[m[K
+[2.887s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:181:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.888s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.888s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.888s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.888s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING), const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.888s]   224 |     return [01;31m[Kthis->declare_parameter([m[K
+[2.889s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.889s]   225 | [01;31m[K      name,[m[K
+[2.889s]       |       [01;31m[K~~~~~[m[K           
+[2.889s]   226 | [01;31m[K      value.get_type(),[m[K
+[2.889s]       |       [01;31m[K~~~~~~~~~~~~~~~~~[m[K
+[2.889s]   227 | [01;31m[K      parameter_descriptor,[m[K
+[2.889s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.890s]   228 | [01;31m[K      ignore_override[m[K
+[2.890s]       |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+[2.890s]   229 | [01;31m[K    ).get<ParameterT>()[m[K;
+[2.890s]       |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[2.890s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[2.890s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[2.890s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[2.890s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[2.891s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.891s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.891s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.891s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.891s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:193:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BYTE_ARRAY), const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.891s]   193 |   [01;36m[Kget[m[K() const
+[2.891s]       |   [01;36m[K^~~[m[K
+[2.891s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:193:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.892s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.892s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.892s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.892s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.892s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.892s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BYTE_ARRAY), const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.892s]   224 |     return [01;31m[Kthis->declare_parameter([m[K
+[2.893s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.893s]   225 | [01;31m[K      name,[m[K
+[2.893s]       |       [01;31m[K~~~~~[m[K           
+[2.893s]   226 | [01;31m[K      value.get_type(),[m[K
+[2.893s]       |       [01;31m[K~~~~~~~~~~~~~~~~~[m[K
+[2.893s]   227 | [01;31m[K      parameter_descriptor,[m[K
+[2.893s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.893s]   228 | [01;31m[K      ignore_override[m[K
+[2.894s]       |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+[2.894s]   229 | [01;31m[K    ).get<ParameterT>()[m[K;
+[2.894s]       |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[2.894s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[2.894s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[2.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[2.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[2.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.895s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.895s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.895s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.895s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:205:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL_ARRAY), const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.895s]   205 |   [01;36m[Kget[m[K() const
+[2.895s]       |   [01;36m[K^~~[m[K
+[2.895s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:205:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.895s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.896s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.896s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.896s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL_ARRAY), const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.896s]   224 |     return [01;31m[Kthis->declare_parameter([m[K
+[2.897s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.897s]   225 | [01;31m[K      name,[m[K
+[2.897s]       |       [01;31m[K~~~~~[m[K           
+[2.897s]   226 | [01;31m[K      value.get_type(),[m[K
+[2.897s]       |       [01;31m[K~~~~~~~~~~~~~~~~~[m[K
+[2.897s]   227 | [01;31m[K      parameter_descriptor,[m[K
+[2.897s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.897s]   228 | [01;31m[K      ignore_override[m[K
+[2.898s]       |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+[2.898s]   229 | [01;31m[K    ).get<ParameterT>()[m[K;
+[2.898s]       |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[2.898s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[2.898s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[2.898s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[2.898s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[2.898s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.899s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.899s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.899s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.899s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:217:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER_ARRAY), const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.899s]   217 |   [01;36m[Kget[m[K() const
+[2.899s]       |   [01;36m[K^~~[m[K
+[2.899s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:217:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.899s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.900s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.900s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.900s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER_ARRAY), const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.900s]   224 |     return [01;31m[Kthis->declare_parameter([m[K
+[2.900s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.901s]   225 | [01;31m[K      name,[m[K
+[2.901s]       |       [01;31m[K~~~~~[m[K           
+[2.901s]   226 | [01;31m[K      value.get_type(),[m[K
+[2.901s]       |       [01;31m[K~~~~~~~~~~~~~~~~~[m[K
+[2.901s]   227 | [01;31m[K      parameter_descriptor,[m[K
+[2.901s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.901s]   228 | [01;31m[K      ignore_override[m[K
+[2.901s]       |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+[2.902s]   229 | [01;31m[K    ).get<ParameterT>()[m[K;
+[2.902s]       |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[2.902s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[2.902s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[2.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[2.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[2.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.903s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.903s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.903s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:229:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE_ARRAY), const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.903s]   229 |   [01;36m[Kget[m[K() const
+[2.903s]       |   [01;36m[K^~~[m[K
+[2.903s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:229:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.903s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.904s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.904s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.904s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.904s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.904s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE_ARRAY), const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.904s]   224 |     return [01;31m[Kthis->declare_parameter([m[K
+[2.905s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.905s]   225 | [01;31m[K      name,[m[K
+[2.905s]       |       [01;31m[K~~~~~[m[K           
+[2.905s]   226 | [01;31m[K      value.get_type(),[m[K
+[2.905s]       |       [01;31m[K~~~~~~~~~~~~~~~~~[m[K
+[2.905s]   227 | [01;31m[K      parameter_descriptor,[m[K
+[2.905s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.906s]   228 | [01;31m[K      ignore_override[m[K
+[2.906s]       |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+[2.906s]   229 | [01;31m[K    ).get<ParameterT>()[m[K;
+[2.906s]       |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[2.906s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[2.906s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[2.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[2.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[2.907s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.907s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.907s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.907s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.907s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:241:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING_ARRAY), const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.907s]   241 |   [01;36m[Kget[m[K() const
+[2.907s]       |   [01;36m[K^~~[m[K
+[2.907s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:241:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.908s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[2.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.908s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.908s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING_ARRAY), const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.908s]   224 |     return [01;31m[Kthis->declare_parameter([m[K
+[2.908s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.909s]   225 | [01;31m[K      name,[m[K
+[2.909s]       |       [01;31m[K~~~~~[m[K           
+[2.909s]   226 | [01;31m[K      value.get_type(),[m[K
+[2.909s]       |       [01;31m[K~~~~~~~~~~~~~~~~~[m[K
+[2.909s]   227 | [01;31m[K      parameter_descriptor,[m[K
+[2.909s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.910s]   228 | [01;31m[K      ignore_override[m[K
+[2.910s]       |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+[2.910s]   229 | [01;31m[K    ).get<ParameterT>()[m[K;
+[2.910s]       |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[2.910s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[2.910s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[2.910s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[2.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[2.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.911s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.911s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[2.911s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:254:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.912s]   254 |   [01;36m[Kget[m[K() const
+[2.912s]       |   [01;36m[K^~~[m[K
+[2.912s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:254:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.912s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[2.912s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.912s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.913s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:254:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const bool&>[m[K’
+[2.913s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.913s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.913s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:263:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.913s]   263 |   [01;36m[Kget[m[K() const
+[2.913s]       |   [01;36m[K^~~[m[K
+[2.913s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:263:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.914s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[2.914s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.914s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.914s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:263:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const long int&>[m[K’
+[2.914s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.914s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.914s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.914s]   271 |   [01;36m[Kget[m[K() const
+[2.915s]       |   [01;36m[K^~~[m[K
+[2.915s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:271:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.915s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[2.915s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.915s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.915s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:271:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const double&>[m[K’
+[2.915s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.916s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.916s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:279:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.916s]   279 |   [01;36m[Kget[m[K() const
+[2.916s]       |   [01;36m[K^~~[m[K
+[2.916s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:279:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.916s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[2.916s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.917s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.917s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:279:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::__cxx11::basic_string<char>&>[m[K’
+[2.917s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.917s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.917s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:289:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char, std::allocator<unsigned char> >&>::value, const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.917s]   289 |   [01;36m[Kget[m[K() const
+[2.917s]       |   [01;36m[K^~~[m[K
+[2.918s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:289:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.918s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char, std::allocator<unsigned char> >&>::value, const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[2.918s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.918s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.918s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:289:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<unsigned char, std::allocator<unsigned char> >&>[m[K’
+[2.918s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.918s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.919s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:299:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool, std::allocator<bool> >&>::value, const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.919s]   299 |   [01;36m[Kget[m[K() const
+[2.919s]       |   [01;36m[K^~~[m[K
+[2.919s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:299:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.919s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool, std::allocator<bool> >&>::value, const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[2.919s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.919s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.920s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:299:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<bool, std::allocator<bool> >&>[m[K’
+[2.920s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.920s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.920s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:309:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<int>&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.920s]   309 |   [01;36m[Kget[m[K() const
+[2.920s]       |   [01;36m[K^~~[m[K
+[2.920s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:309:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.921s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<int>&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[2.921s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.921s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.921s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:309:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<long int, std::allocator<long int> >&>[m[K’
+[2.921s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.921s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.921s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:319:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.922s]   319 |   [01;36m[Kget[m[K() const
+[2.922s]       |   [01;36m[K^~~[m[K
+[2.922s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:319:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.922s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[2.922s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.922s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.922s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:319:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<long int, std::allocator<long int> >&>[m[K’
+[2.922s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.923s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.923s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:329:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<float>&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.923s]   329 |   [01;36m[Kget[m[K() const
+[2.923s]       |   [01;36m[K^~~[m[K
+[2.923s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:329:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.923s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<float>&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[2.923s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.924s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.924s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:329:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<double, std::allocator<double> >&>[m[K’
+[2.924s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.924s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.924s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:339:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.924s]   339 |   [01;36m[Kget[m[K() const
+[2.925s]       |   [01;36m[K^~~[m[K
+[2.925s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:339:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.925s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[2.925s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.925s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.925s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:339:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<double, std::allocator<double> >&>[m[K’
+[2.926s] /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.926s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.926s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:349:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.926s]   349 |   [01;36m[Kget[m[K() const
+[2.926s]       |   [01;36m[K^~~[m[K
+[2.926s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:349:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.926s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[2.926s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:229:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.927s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:20:60:[m[K   required from here
+[2.927s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:349:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<std::__cxx11::basic_string<char> >&>[m[K’
+[3.018s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.018s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.019s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.020s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.020s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.020s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.020s] /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp: In instantiation of ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’:
+[3.020s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.020s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.021s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.021s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::ParameterValue::get<std::vector<rclcpp::Parameter, std::allocator<rclcpp::Parameter> > >() const[m[K’
+[3.021s]   239 |   return [01;31m[Kparameter->get_parameter_value().get<T>()[m[K;
+[3.021s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.021s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[3.021s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.022s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.022s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.022s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:148:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL), const bool&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.022s]   148 |   [01;36m[Kget[m[K() const
+[3.022s]       |   [01;36m[K^~~[m[K
+[3.023s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:148:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.023s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.023s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.024s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL), const bool&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.024s]   239 |   return [01;31m[Kparameter->get_parameter_value().get<T>()[m[K;
+[3.024s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.024s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[3.024s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[3.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.025s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.025s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER), const long int&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.025s]   159 |   [01;36m[Kget[m[K() const
+[3.025s]       |   [01;36m[K^~~[m[K
+[3.025s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:159:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.025s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.026s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.026s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.026s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.026s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.026s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.026s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER), const long int&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.026s]   239 |   return [01;31m[Kparameter->get_parameter_value().get<T>()[m[K;
+[3.027s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.027s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[3.027s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[3.027s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.027s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.028s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.028s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:170:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE), const double&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.029s]   170 |   [01;36m[Kget[m[K() const
+[3.029s]       |   [01;36m[K^~~[m[K
+[3.029s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:170:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.029s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.030s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.030s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.030s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.030s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.030s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.030s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE), const double&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.031s]   239 |   return [01;31m[Kparameter->get_parameter_value().get<T>()[m[K;
+[3.031s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.031s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[3.031s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[3.031s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.031s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.031s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.032s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.032s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:181:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING), const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.032s]   181 |   [01;36m[Kget[m[K() const
+[3.032s]       |   [01;36m[K^~~[m[K
+[3.032s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:181:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.033s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.033s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.034s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING), const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.034s]   239 |   return [01;31m[Kparameter->get_parameter_value().get<T>()[m[K;
+[3.034s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.034s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[3.034s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[3.034s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.036s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.036s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:193:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BYTE_ARRAY), const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.036s]   193 |   [01;36m[Kget[m[K() const
+[3.036s]       |   [01;36m[K^~~[m[K
+[3.037s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:193:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.037s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.037s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.037s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.037s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.037s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.037s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.038s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BYTE_ARRAY), const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.038s]   239 |   return [01;31m[Kparameter->get_parameter_value().get<T>()[m[K;
+[3.038s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.038s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[3.038s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[3.038s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.038s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.038s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.039s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.039s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:205:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL_ARRAY), const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.039s]   205 |   [01;36m[Kget[m[K() const
+[3.039s]       |   [01;36m[K^~~[m[K
+[3.039s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:205:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.040s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.040s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.040s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.040s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.040s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.040s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.040s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL_ARRAY), const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.041s]   239 |   return [01;31m[Kparameter->get_parameter_value().get<T>()[m[K;
+[3.041s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.041s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[3.041s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[3.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.041s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.042s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.042s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.042s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.042s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:217:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER_ARRAY), const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.042s]   217 |   [01;36m[Kget[m[K() const
+[3.042s]       |   [01;36m[K^~~[m[K
+[3.042s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:217:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.042s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.043s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.043s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.043s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.043s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.043s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.043s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER_ARRAY), const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.044s]   239 |   return [01;31m[Kparameter->get_parameter_value().get<T>()[m[K;
+[3.044s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.044s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[3.044s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[3.044s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.044s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.044s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.044s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.045s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.045s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.045s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:229:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE_ARRAY), const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.045s]   229 |   [01;36m[Kget[m[K() const
+[3.045s]       |   [01;36m[K^~~[m[K
+[3.045s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:229:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.045s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.045s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.046s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.046s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.046s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.046s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.046s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE_ARRAY), const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.046s]   239 |   return [01;31m[Kparameter->get_parameter_value().get<T>()[m[K;
+[3.046s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.046s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[3.047s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[3.047s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.047s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.047s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.047s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.047s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.047s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.047s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:241:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING_ARRAY), const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.048s]   241 |   [01;36m[Kget[m[K() const
+[3.048s]       |   [01;36m[K^~~[m[K
+[3.048s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:241:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.048s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.048s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.048s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.048s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.049s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.049s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.049s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING_ARRAY), const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.049s]   239 |   return [01;31m[Kparameter->get_parameter_value().get<T>()[m[K;
+[3.049s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.049s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kstd::vector<rclcpp::Parameter>[m[K’
+[3.049s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+[3.050s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[3.050s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+[3.050s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.050s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.050s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.050s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.051s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:254:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.051s]   254 |   [01;36m[Kget[m[K() const
+[3.051s]       |   [01;36m[K^~~[m[K
+[3.051s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:254:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.051s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[3.051s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K   required from ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.051s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.052s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.052s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.052s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:254:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const bool&>[m[K’
+[3.052s] /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp: In instantiation of ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’:
+[3.052s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.052s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.052s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.053s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:263:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.053s]   263 |   [01;36m[Kget[m[K() const
+[3.053s]       |   [01;36m[K^~~[m[K
+[3.053s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:263:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.053s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[3.053s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K   required from ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.053s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.054s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.054s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.054s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:263:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const long int&>[m[K’
+[3.054s] /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp: In instantiation of ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’:
+[3.054s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.054s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.054s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.055s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.055s]   271 |   [01;36m[Kget[m[K() const
+[3.055s]       |   [01;36m[K^~~[m[K
+[3.055s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:271:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.055s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[3.055s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K   required from ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.055s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.056s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.056s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.056s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:271:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const double&>[m[K’
+[3.056s] /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp: In instantiation of ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’:
+[3.056s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.056s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.056s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.057s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:279:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.057s]   279 |   [01;36m[Kget[m[K() const
+[3.057s]       |   [01;36m[K^~~[m[K
+[3.057s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:279:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.057s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[3.057s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K   required from ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.057s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.058s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.058s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.058s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:279:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::__cxx11::basic_string<char>&>[m[K’
+[3.058s] /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp: In instantiation of ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’:
+[3.058s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.058s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.058s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.058s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:289:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char, std::allocator<unsigned char> >&>::value, const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.059s]   289 |   [01;36m[Kget[m[K() const
+[3.059s]       |   [01;36m[K^~~[m[K
+[3.059s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:289:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.059s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char, std::allocator<unsigned char> >&>::value, const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[3.059s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K   required from ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.059s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.060s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.060s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.060s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:289:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<unsigned char, std::allocator<unsigned char> >&>[m[K’
+[3.060s] /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp: In instantiation of ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’:
+[3.060s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.060s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.060s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.061s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:299:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool, std::allocator<bool> >&>::value, const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.061s]   299 |   [01;36m[Kget[m[K() const
+[3.061s]       |   [01;36m[K^~~[m[K
+[3.061s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:299:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.061s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool, std::allocator<bool> >&>::value, const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[3.061s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K   required from ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.061s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.062s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.062s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.062s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:299:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<bool, std::allocator<bool> >&>[m[K’
+[3.062s] /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp: In instantiation of ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’:
+[3.062s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.062s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.062s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.063s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:309:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<int>&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.063s]   309 |   [01;36m[Kget[m[K() const
+[3.063s]       |   [01;36m[K^~~[m[K
+[3.063s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:309:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.063s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<int>&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[3.063s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K   required from ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.063s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.064s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.064s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.064s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:309:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<long int, std::allocator<long int> >&>[m[K’
+[3.064s] /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp: In instantiation of ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’:
+[3.064s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.064s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.064s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.065s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:319:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.065s]   319 |   [01;36m[Kget[m[K() const
+[3.065s]       |   [01;36m[K^~~[m[K
+[3.065s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:319:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.065s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[3.065s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K   required from ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.065s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.066s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.066s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.066s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:319:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<long int, std::allocator<long int> >&>[m[K’
+[3.066s] /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp: In instantiation of ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’:
+[3.066s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.066s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.066s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.067s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:329:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<float>&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.067s]   329 |   [01;36m[Kget[m[K() const
+[3.067s]       |   [01;36m[K^~~[m[K
+[3.067s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:329:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.067s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<float>&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[3.067s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K   required from ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.067s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.068s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.068s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.068s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:329:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<double, std::allocator<double> >&>[m[K’
+[3.068s] /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp: In instantiation of ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’:
+[3.068s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.068s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.068s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.068s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:339:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.069s]   339 |   [01;36m[Kget[m[K() const
+[3.069s]       |   [01;36m[K^~~[m[K
+[3.069s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:339:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.069s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[3.069s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K   required from ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.069s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.070s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.070s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.070s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:339:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<double, std::allocator<double> >&>[m[K’
+[3.070s] /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp: In instantiation of ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’:
+[3.070s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.070s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.070s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.071s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:349:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[3.071s]   349 |   [01;36m[Kget[m[K() const
+[3.071s]       |   [01;36m[K^~~[m[K
+[3.071s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:349:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.071s] /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<rclcpp::Parameter>][m[K’:
+[3.071s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:239:49:[m[K   required from ‘[01m[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.071s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:274:39:[m[K   required from ‘[01m[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<rclcpp::Parameter>][m[K’
+[3.072s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:294:80:[m[K   required from ‘[01m[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<rclcpp::Parameter>; std::string = std::__cxx11::basic_string<char>][m[K’
+[3.072s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:25:24:[m[K   required from here
+[3.072s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:349:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<std::__cxx11::basic_string<char> >&>[m[K’
+[3.458s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:32[m[K,
+[3.458s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.460s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.460s] /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp: In instantiation of ‘[01m[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; MessageT = can_msgs::msg::Frame_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’:
+[3.460s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:[m[K   required from ‘[01m[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = can_msgs::msg::Frame_<std::allocator<void> >; CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void>, can_msgs::msg::Frame_<std::allocator<void> >, can_msgs::msg::Frame_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = can_msgs::msg::Frame_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.461s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = can_msgs::msg::Frame_<std::allocator<void> >; CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void>, can_msgs::msg::Frame_<std::allocator<void> >, can_msgs::msg::Frame_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = can_msgs::msg::Frame_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.461s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = can_msgs::msg::Frame_<std::allocator<void> >; CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void>, can_msgs::msg::Frame_<std::allocator<void> >, can_msgs::msg::Frame_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.461s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = can_msgs::msg::Frame_<std::allocator<void> >; CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void>, can_msgs::msg::Frame_<std::allocator<void> >, can_msgs::msg::Frame_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.461s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:45:76:[m[K   required from here
+[3.461s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:394:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::detail::AnySubscriptionCallbackHelper<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void>, false>::variant_type[m[K’ {aka ‘[01m[Kstd::variant<std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&)>, std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >[m[K’} and ‘[01m[Krclcpp::detail::SubscriptionCallbackTypeHelper<can_msgs::msg::Frame_<std::allocator<void> >, std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>, void>::callback_type[m[K’ {aka ‘[01m[Kstd::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&)>[m[K’})
+[3.461s]   394 |       [01;31m[Kcallback_variant_ = static_cast<typename scbth::callback_type>(callback)[m[K;
+[3.461s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.462s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+[3.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.463s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.463s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.463s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.463s]                  from [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:1[m[K:
+[3.463s] [01m[K/usr/include/c++/11/variant:1461:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::enable_if_t<((__exactly_once<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<_Types>&> std::variant<_Types>::operator=(_Tp&&) [with _Tp = _Tp; _Types = {std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&)>, std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}][m[K’
+[3.463s]  1461 |         [01;36m[Koperator[m[K=(_Tp&& __rhs)
+[3.463s]       |         [01;36m[K^~~~~~~~[m[K
+[3.464s] [01m[K/usr/include/c++/11/variant:1461:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.464s] /usr/include/c++/11/variant: In substitution of ‘[01m[Ktemplate<class ... _Types> template<class _Tp, class> using __accepted_type = std::variant<_Types>::__to_type<__accepted_index<_Tp> > [with _Tp = std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&)>&&; <template-parameter-2-2> = void; _Types = {std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&)>, std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}][m[K’:
+[3.464s] [01m[K/usr/include/c++/11/variant:1457:14:[m[K   required by substitution of ‘[01m[Ktemplate<class _Tp> std::enable_if_t<((__exactly_once<std::variant<std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&)>, std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&)>, std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&)>, std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&)>, std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >&> std::variant<std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&)>, std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::operator=<_Tp>(_Tp&&) [with _Tp = std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&)>][m[K’
+[3.464s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:394:25:[m[K   required from ‘[01m[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; MessageT = can_msgs::msg::Frame_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[3.464s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:[m[K   required from ‘[01m[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = can_msgs::msg::Frame_<std::allocator<void> >; CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void>, can_msgs::msg::Frame_<std::allocator<void> >, can_msgs::msg::Frame_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = can_msgs::msg::Frame_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.465s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = can_msgs::msg::Frame_<std::allocator<void> >; CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void>, can_msgs::msg::Frame_<std::allocator<void> >, can_msgs::msg::Frame_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = can_msgs::msg::Frame_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.465s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = can_msgs::msg::Frame_<std::allocator<void> >; CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void>, can_msgs::msg::Frame_<std::allocator<void> >, can_msgs::msg::Frame_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.465s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = can_msgs::msg::Frame_<std::allocator<void> >; CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void>, can_msgs::msg::Frame_<std::allocator<void> >, can_msgs::msg::Frame_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.465s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:45:76:[m[K   required from here
+[3.465s] [01m[K/usr/include/c++/11/variant:1375:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[3.465s]  1375 |         using [01;31m[K__accepted_type[m[K = __to_type<__accepted_index<_Tp>>;
+[3.465s]       |               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.465s] /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp: In instantiation of ‘[01m[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; MessageT = can_msgs::msg::Frame_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’:
+[3.466s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:[m[K   required from ‘[01m[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = can_msgs::msg::Frame_<std::allocator<void> >; CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void>, can_msgs::msg::Frame_<std::allocator<void> >, can_msgs::msg::Frame_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = can_msgs::msg::Frame_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.466s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = can_msgs::msg::Frame_<std::allocator<void> >; CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void>, can_msgs::msg::Frame_<std::allocator<void> >, can_msgs::msg::Frame_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = can_msgs::msg::Frame_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.466s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = can_msgs::msg::Frame_<std::allocator<void> >; CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void>, can_msgs::msg::Frame_<std::allocator<void> >, can_msgs::msg::Frame_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.466s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = can_msgs::msg::Frame_<std::allocator<void> >; CallbackT = std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void>, can_msgs::msg::Frame_<std::allocator<void> >, can_msgs::msg::Frame_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<can_msgs::msg::Frame_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.466s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:45:76:[m[K   required from here
+[3.466s] [01m[K/usr/include/c++/11/variant:1398:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::variant<_Types>& std::variant<_Types>::operator=(const std::variant<_Types>&) [with _Types = {std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&)>, std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}][m[K’
+[3.466s]  1398 |       variant& [01;36m[Koperator[m[K=(const variant&) = default;
+[3.467s]       |                [01;36m[K^~~~~~~~[m[K
+[3.467s] [01m[K/usr/include/c++/11/variant:1398:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::detail::SubscriptionCallbackTypeHelper<can_msgs::msg::Frame_<std::allocator<void> >, std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>, void>::callback_type[m[K’ {aka ‘[01m[Kstd::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&)>[m[K’} to ‘[01m[Kconst std::variant<std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&)>, std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >&[m[K’
+[3.467s]  1398 |       variant& operator=([01;36m[Kconst variant&[m[K) = default;
+[3.467s]       |                          [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.467s] [01m[K/usr/include/c++/11/variant:1399:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::variant<_Types>& std::variant<_Types>::operator=(std::variant<_Types>&&) [with _Types = {std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&)>, std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}][m[K’
+[3.467s]  1399 |       variant& [01;36m[Koperator[m[K=(variant&&) = default;
+[3.467s]       |                [01;36m[K^~~~~~~~[m[K
+[3.468s] [01m[K/usr/include/c++/11/variant:1399:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::detail::SubscriptionCallbackTypeHelper<can_msgs::msg::Frame_<std::allocator<void> >, std::_Bind<void (TopicRecorder::*(TopicRecorder*, std::_Placeholder<1>, std::__cxx11::basic_string<char>))(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&) const>, void>::callback_type[m[K’ {aka ‘[01m[Kstd::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&)>[m[K’} to ‘[01m[Kstd::variant<std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&)>, std::function<void(const can_msgs::msg::Frame_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<can_msgs::msg::Frame_<std::allocator<void> >, std::default_delete<can_msgs::msg::Frame_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const can_msgs::msg::Frame_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<can_msgs::msg::Frame_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >&&[m[K’
+[3.468s]  1399 |       variant& operator=([01;36m[Kvariant&&[m[K) = default;
+[3.468s]       |                          [01;36m[K^~~~~~~~~[m[K
+[5.619s] gmake[2]: *** [CMakeFiles/topic_recorder.dir/build.make:76：CMakeFiles/topic_recorder.dir/src/topic_recorder.cpp.o] 错误 1
+[5.620s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/topic_recorder.dir/all] 错误 2
+[5.620s] gmake: *** [Makefile:146：all] 错误 2
+[5.623s] Invoked command in '/home/shen/learn/ROS2/record_ws/build/my_record_utils' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/record_ws/build/my_record_utils -- -j16 -l16
