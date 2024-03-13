@@ -798,4 +798,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/bag_recorder_nodes_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/simple_bag_recorder.dir/DependInfo.cmake"
   "CMakeFiles/can_bag_recorder.dir/DependInfo.cmake"
+  "CMakeFiles/multi_bag_recorder.dir/DependInfo.cmake"
   )

@@ -223,6 +223,19 @@ can_bag_recorder/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/can_bag_recorder.dir/build.make CMakeFiles/can_bag_recorder.dir/build
 .PHONY : can_bag_recorder/fast
 
+#=============================================================================
+# Target rules for targets named multi_bag_recorder
+
+# Build rule for target.
+multi_bag_recorder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 multi_bag_recorder
+.PHONY : multi_bag_recorder
+
+# fast build rule for target.
+multi_bag_recorder/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_bag_recorder.dir/build.make CMakeFiles/multi_bag_recorder.dir/build
+.PHONY : multi_bag_recorder/fast
+
 src/can_bag_recorder.o: src/can_bag_recorder.cpp.o
 .PHONY : src/can_bag_recorder.o
 
@@ -246,6 +259,30 @@ src/can_bag_recorder.s: src/can_bag_recorder.cpp.s
 src/can_bag_recorder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/can_bag_recorder.dir/build.make CMakeFiles/can_bag_recorder.dir/src/can_bag_recorder.cpp.s
 .PHONY : src/can_bag_recorder.cpp.s
+
+src/multi_bag_recorder.o: src/multi_bag_recorder.cpp.o
+.PHONY : src/multi_bag_recorder.o
+
+# target to build an object file
+src/multi_bag_recorder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_bag_recorder.dir/build.make CMakeFiles/multi_bag_recorder.dir/src/multi_bag_recorder.cpp.o
+.PHONY : src/multi_bag_recorder.cpp.o
+
+src/multi_bag_recorder.i: src/multi_bag_recorder.cpp.i
+.PHONY : src/multi_bag_recorder.i
+
+# target to preprocess a source file
+src/multi_bag_recorder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_bag_recorder.dir/build.make CMakeFiles/multi_bag_recorder.dir/src/multi_bag_recorder.cpp.i
+.PHONY : src/multi_bag_recorder.cpp.i
+
+src/multi_bag_recorder.s: src/multi_bag_recorder.cpp.s
+.PHONY : src/multi_bag_recorder.s
+
+# target to generate assembly for a file
+src/multi_bag_recorder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_bag_recorder.dir/build.make CMakeFiles/multi_bag_recorder.dir/src/multi_bag_recorder.cpp.s
+.PHONY : src/multi_bag_recorder.cpp.s
 
 src/simple_bag_recorder.o: src/simple_bag_recorder.cpp.o
 .PHONY : src/simple_bag_recorder.o
@@ -287,10 +324,14 @@ help:
 	@echo "... bag_recorder_nodes_uninstall"
 	@echo "... uninstall"
 	@echo "... can_bag_recorder"
+	@echo "... multi_bag_recorder"
 	@echo "... simple_bag_recorder"
 	@echo "... src/can_bag_recorder.o"
 	@echo "... src/can_bag_recorder.i"
 	@echo "... src/can_bag_recorder.s"
+	@echo "... src/multi_bag_recorder.o"
+	@echo "... src/multi_bag_recorder.i"
+	@echo "... src/multi_bag_recorder.s"
 	@echo "... src/simple_bag_recorder.o"
 	@echo "... src/simple_bag_recorder.i"
 	@echo "... src/simple_bag_recorder.s"

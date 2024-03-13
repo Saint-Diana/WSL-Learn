@@ -42,4 +42,12 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
+add_executable(multi_bag_recorder src/multi_bag_recorder.cpp)
+ament_target_dependencies(multi_bag_recorder rclcpp rosbag2_cpp can_msgs std_msgs)
+
+install(TARGETS
+  multi_bag_recorder
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 ament_package()
