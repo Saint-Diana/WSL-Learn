@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000322] (bag_recorder_nodes) JobQueued: {'identifier': 'bag_recorder_nodes', 'dependencies': OrderedDict()}
+[0.000399] (bag_recorder_nodes) JobStarted: {'identifier': 'bag_recorder_nodes'}
+[0.047395] (bag_recorder_nodes) JobProgress: {'identifier': 'bag_recorder_nodes', 'progress': 'cmake'}
+[0.047744] (bag_recorder_nodes) Command: {'cmd': ['/usr/bin/cmake', '/home/shen/learn/ROS2/test_rosbag_ws/src/bag_recorder_nodes', '-DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes'], 'cwd': '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/154/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/test_rosbag_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/154/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/154/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2077'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2058,unix/work:/tmp/.ICE-unix/2058'), ('GTK_EXE_PREFIX', '/snap/code/154/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c26329fc_00e5_4afe_b650_95e80b234b5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/154/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-58300ae323.sock'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/154/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/154/.local/share:/home/shen/snap/code/154:/snap/code/154/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099390] (-) TimerEvent: {}
+[0.153287] (bag_recorder_nodes) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199559] (-) TimerEvent: {}
+[0.270501] (bag_recorder_nodes) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.279454] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299723] (-) TimerEvent: {}
+[0.377871] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.387255] (bag_recorder_nodes) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.387698] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.387941] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.391835] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399870] (-) TimerEvent: {}
+[0.500301] (-) TimerEvent: {}
+[0.522556] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.529439] (bag_recorder_nodes) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.529879] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.530174] (bag_recorder_nodes) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.532715] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600424] (-) TimerEvent: {}
+[0.700841] (-) TimerEvent: {}
+[0.751395] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.800976] (-) TimerEvent: {}
+[0.835073] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.870827] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.875720] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.883410] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.895530] (bag_recorder_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901128] (-) TimerEvent: {}
+[0.913594] (bag_recorder_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001545] (-) TimerEvent: {}
+[1.057283] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.101710] (-) TimerEvent: {}
+[1.119113] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.121931] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.201848] (-) TimerEvent: {}
+[1.268530] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.302400] (-) TimerEvent: {}
+[1.303873] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.355389] (bag_recorder_nodes) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.364332] (bag_recorder_nodes) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.402829] (-) TimerEvent: {}
+[1.448054] (bag_recorder_nodes) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.448399] (bag_recorder_nodes) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.502948] (-) TimerEvent: {}
+[1.555035] (bag_recorder_nodes) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.555897] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.603071] (-) TimerEvent: {}
+[1.698672] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.8 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[1.703194] (-) TimerEvent: {}
+[1.745765] (bag_recorder_nodes) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.803318] (-) TimerEvent: {}
+[1.831577] (bag_recorder_nodes) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.831915] (bag_recorder_nodes) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.832111] (bag_recorder_nodes) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.832374] (bag_recorder_nodes) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.833661] (bag_recorder_nodes) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.833879] (bag_recorder_nodes) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.834107] (bag_recorder_nodes) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.835309] (bag_recorder_nodes) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.844746] (bag_recorder_nodes) StdoutLine: {'line': b'-- Generating done\n'}
+[1.846453] (bag_recorder_nodes) StdoutLine: {'line': b'-- Build files have been written to: /home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes\n'}
+[1.855468] (bag_recorder_nodes) CommandEnded: {'returncode': 0}
+[1.856780] (bag_recorder_nodes) JobProgress: {'identifier': 'bag_recorder_nodes', 'progress': 'build'}
+[1.858125] (bag_recorder_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/154/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/test_rosbag_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/154/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/154/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2077'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2058,unix/work:/tmp/.ICE-unix/2058'), ('GTK_EXE_PREFIX', '/snap/code/154/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c26329fc_00e5_4afe_b650_95e80b234b5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/154/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-58300ae323.sock'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/154/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/154/.local/share:/home/shen/snap/code/154:/snap/code/154/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.903439] (-) TimerEvent: {}
+[1.949158] (bag_recorder_nodes) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_bag_recorder.dir/src/simple_bag_recorder.cpp.o\x1b[0m\n'}
+[2.003564] (-) TimerEvent: {}
+[2.103952] (-) TimerEvent: {}
+[2.204341] (-) TimerEvent: {}
+[2.304991] (-) TimerEvent: {}
+[2.405389] (-) TimerEvent: {}
+[2.505782] (-) TimerEvent: {}
+[2.606410] (-) TimerEvent: {}
+[2.706831] (-) TimerEvent: {}
+[2.807204] (-) TimerEvent: {}
+[2.907564] (-) TimerEvent: {}
+[3.007882] (-) TimerEvent: {}
+[3.108251] (-) TimerEvent: {}
+[3.208570] (-) TimerEvent: {}
+[3.308983] (-) TimerEvent: {}
+[3.409599] (-) TimerEvent: {}
+[3.510014] (-) TimerEvent: {}
+[3.610785] (-) TimerEvent: {}
+[3.711187] (-) TimerEvent: {}
+[3.811581] (-) TimerEvent: {}
+[3.912355] (-) TimerEvent: {}
+[4.012749] (-) TimerEvent: {}
+[4.113372] (-) TimerEvent: {}
+[4.213770] (-) TimerEvent: {}
+[4.314396] (-) TimerEvent: {}
+[4.414803] (-) TimerEvent: {}
+[4.515188] (-) TimerEvent: {}
+[4.615574] (-) TimerEvent: {}
+[4.715973] (-) TimerEvent: {}
+[4.816409] (-) TimerEvent: {}
+[4.917060] (-) TimerEvent: {}
+[5.017633] (-) TimerEvent: {}
+[5.118207] (-) TimerEvent: {}
+[5.218882] (-) TimerEvent: {}
+[5.319279] (-) TimerEvent: {}
+[5.419671] (-) TimerEvent: {}
+[5.520456] (-) TimerEvent: {}
+[5.621080] (-) TimerEvent: {}
+[5.721902] (-) TimerEvent: {}
+[5.822479] (-) TimerEvent: {}
+[5.922885] (-) TimerEvent: {}
+[6.023265] (-) TimerEvent: {}
+[6.123662] (-) TimerEvent: {}
+[6.224084] (-) TimerEvent: {}
+[6.324548] (-) TimerEvent: {}
+[6.425242] (-) TimerEvent: {}
+[6.525701] (-) TimerEvent: {}
+[6.626384] (-) TimerEvent: {}
+[6.726812] (-) TimerEvent: {}
+[6.827183] (-) TimerEvent: {}
+[6.927574] (-) TimerEvent: {}
+[7.028400] (-) TimerEvent: {}
+[7.129026] (-) TimerEvent: {}
+[7.229442] (-) TimerEvent: {}
+[7.330051] (-) TimerEvent: {}
+[7.430414] (-) TimerEvent: {}
+[7.530929] (-) TimerEvent: {}
+[7.631343] (-) TimerEvent: {}
+[7.731702] (-) TimerEvent: {}
+[7.832088] (-) TimerEvent: {}
+[7.932482] (-) TimerEvent: {}
+[8.032869] (-) TimerEvent: {}
+[8.133504] (-) TimerEvent: {}
+[8.233897] (-) TimerEvent: {}
+[8.334315] (-) TimerEvent: {}
+[8.434851] (-) TimerEvent: {}
+[8.535216] (-) TimerEvent: {}
+[8.635581] (-) TimerEvent: {}
+[8.735925] (-) TimerEvent: {}
+[8.836319] (-) TimerEvent: {}
+[8.932345] (bag_recorder_nodes) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_bag_recorder\x1b[0m\n'}
+[8.936430] (-) TimerEvent: {}
+[9.036744] (-) TimerEvent: {}
+[9.137211] (-) TimerEvent: {}
+[9.238008] (-) TimerEvent: {}
+[9.338412] (-) TimerEvent: {}
+[9.438723] (-) TimerEvent: {}
+[9.445604] (bag_recorder_nodes) StdoutLine: {'line': b'[100%] Built target simple_bag_recorder\n'}
+[9.461177] (bag_recorder_nodes) CommandEnded: {'returncode': 0}
+[9.495711] (bag_recorder_nodes) JobProgress: {'identifier': 'bag_recorder_nodes', 'progress': 'install'}
+[9.505730] (bag_recorder_nodes) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes'], 'cwd': '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/154/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/test_rosbag_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/154/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/154/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2077'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2058,unix/work:/tmp/.ICE-unix/2058'), ('GTK_EXE_PREFIX', '/snap/code/154/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c26329fc_00e5_4afe_b650_95e80b234b5d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/154/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-58300ae323.sock'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/154/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/154/.local/share:/home/shen/snap/code/154:/snap/code/154/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.513969] (bag_recorder_nodes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.514219] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder\n'}
+[9.518983] (bag_recorder_nodes) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder" to ""\n'}
+[9.519216] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/ament_index/resource_index/package_run_dependencies/bag_recorder_nodes\n'}
+[9.519480] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/ament_index/resource_index/parent_prefix_path/bag_recorder_nodes\n'}
+[9.519721] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.sh\n'}
+[9.519903] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.dsv\n'}
+[9.520098] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.sh\n'}
+[9.520239] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.dsv\n'}
+[9.520404] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.bash\n'}
+[9.520600] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.sh\n'}
+[9.520802] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.zsh\n'}
+[9.520993] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.dsv\n'}
+[9.521182] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.dsv\n'}
+[9.521438] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/ament_index/resource_index/packages/bag_recorder_nodes\n'}
+[9.521651] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig.cmake\n'}
+[9.521807] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig-version.cmake\n'}
+[9.521974] (bag_recorder_nodes) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.xml\n'}
+[9.524500] (bag_recorder_nodes) CommandEnded: {'returncode': 0}
+[9.538818] (-) TimerEvent: {}
+[9.639228] (-) TimerEvent: {}
+[9.671242] (bag_recorder_nodes) JobEnded: {'identifier': 'bag_recorder_nodes', 'rc': 0}
+[9.671799] (-) EventReactorShutdown: {}

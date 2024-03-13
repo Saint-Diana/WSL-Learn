@@ -1,0 +1,70 @@
+[0.050s] Invoking command in '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/test_rosbag_ws/src/bag_recorder_nodes -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes
+[0.153s] -- The C compiler identification is GNU 11.4.0
+[0.270s] -- The CXX compiler identification is GNU 11.4.0
+[0.279s] -- Detecting C compiler ABI info
+[0.378s] -- Detecting C compiler ABI info - done
+[0.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.387s] -- Detecting C compile features
+[0.388s] -- Detecting C compile features - done
+[0.392s] -- Detecting CXX compiler ABI info
+[0.522s] -- Detecting CXX compiler ABI info - done
+[0.529s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.530s] -- Detecting CXX compile features
+[0.530s] -- Detecting CXX compile features - done
+[0.532s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.751s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.835s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.871s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.875s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.883s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.895s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.057s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.119s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.122s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.268s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.304s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.355s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.364s] -- Looking for pthread.h
+[1.448s] -- Looking for pthread.h - found
+[1.448s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.555s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.556s] -- Found Threads: TRUE  
+[1.698s] -- Found rosbag2_cpp: 0.15.8 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[1.746s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.831s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.832s] -- Configured cppcheck include dirs: 
+[1.832s] -- Configured cppcheck exclude dirs and/or files: 
+[1.832s] -- Added test 'lint_cmake' to check CMake code style
+[1.833s] -- Added test 'uncrustify' to check C / C++ code style
+[1.834s] -- Configured uncrustify additional arguments: 
+[1.834s] -- Added test 'xmllint' to check XML markup files
+[1.835s] -- Configuring done
+[1.844s] -- Generating done
+[1.846s] -- Build files have been written to: /home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes
+[1.856s] Invoked command in '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/test_rosbag_ws/src/bag_recorder_nodes -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes
+[1.858s] Invoking command in '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes -- -j16 -l16
+[1.949s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_bag_recorder.dir/src/simple_bag_recorder.cpp.o[0m
+[8.932s] [100%] [32m[1mLinking CXX executable simple_bag_recorder[0m
+[9.445s] [100%] Built target simple_bag_recorder
+[9.462s] Invoked command in '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes -- -j16 -l16
+[9.506s] Invoking command in '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes
+[9.514s] -- Install configuration: ""
+[9.514s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder
+[9.519s] -- Set runtime path of "/home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder" to ""
+[9.519s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/ament_index/resource_index/package_run_dependencies/bag_recorder_nodes
+[9.519s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/ament_index/resource_index/parent_prefix_path/bag_recorder_nodes
+[9.519s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.sh
+[9.520s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.dsv
+[9.520s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.sh
+[9.520s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.dsv
+[9.520s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.bash
+[9.520s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.sh
+[9.520s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.zsh
+[9.521s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.dsv
+[9.521s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.dsv
+[9.521s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/ament_index/resource_index/packages/bag_recorder_nodes
+[9.521s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig.cmake
+[9.521s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig-version.cmake
+[9.522s] -- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.xml
+[9.524s] Invoked command in '/home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/test_rosbag_ws/build/bag_recorder_nodes
