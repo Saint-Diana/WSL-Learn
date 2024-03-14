@@ -1,0 +1,10 @@
+/home/shen/learn/ROS2/yaml_ws/build/read_yaml/CMakeFiles/uninstall.dir
+/home/shen/learn/ROS2/yaml_ws/build/read_yaml/CMakeFiles/read_yaml_uninstall.dir
+/home/shen/learn/ROS2/yaml_ws/build/read_yaml/CMakeFiles/reader.dir
+/home/shen/learn/ROS2/yaml_ws/build/read_yaml/CMakeFiles/test.dir
+/home/shen/learn/ROS2/yaml_ws/build/read_yaml/CMakeFiles/edit_cache.dir
+/home/shen/learn/ROS2/yaml_ws/build/read_yaml/CMakeFiles/rebuild_cache.dir
+/home/shen/learn/ROS2/yaml_ws/build/read_yaml/CMakeFiles/list_install_components.dir
+/home/shen/learn/ROS2/yaml_ws/build/read_yaml/CMakeFiles/install.dir
+/home/shen/learn/ROS2/yaml_ws/build/read_yaml/CMakeFiles/install/local.dir
+/home/shen/learn/ROS2/yaml_ws/build/read_yaml/CMakeFiles/install/strip.dir

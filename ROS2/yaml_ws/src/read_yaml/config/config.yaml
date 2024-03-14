@@ -1,0 +1,5 @@
+topics:
+  - name: "can_message"
+    type: 0
+  - name: "ethernet_message"
+    type: 1

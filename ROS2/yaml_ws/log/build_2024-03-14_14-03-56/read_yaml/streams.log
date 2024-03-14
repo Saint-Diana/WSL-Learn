@@ -1,0 +1,26 @@
+[0.080s] Invoking command in '/home/shen/learn/ROS2/yaml_ws/build/read_yaml': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/yaml_ws/build/read_yaml -- -j16 -l16
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target reader[0m
+[0.229s] [ 50%] [32mBuilding CXX object CMakeFiles/reader.dir/src/reader.cpp.o[0m
+[2.952s] [100%] [32m[1mLinking CXX executable reader[0m
+[3.124s] [100%] Built target reader
+[3.139s] Invoked command in '/home/shen/learn/ROS2/yaml_ws/build/read_yaml' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/yaml_ws/build/read_yaml -- -j16 -l16
+[3.201s] Invoking command in '/home/shen/learn/ROS2/yaml_ws/build/read_yaml': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/yaml_ws/build/read_yaml
+[3.218s] -- Install configuration: ""
+[3.219s] -- Installing: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/lib/read_yaml/reader
+[3.220s] -- Set runtime path of "/home/shen/learn/ROS2/yaml_ws/install/read_yaml/lib/read_yaml/reader" to ""
+[3.220s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/ament_index/resource_index/package_run_dependencies/read_yaml
+[3.220s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/ament_index/resource_index/parent_prefix_path/read_yaml
+[3.220s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/environment/ament_prefix_path.sh
+[3.220s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/environment/ament_prefix_path.dsv
+[3.220s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/environment/path.sh
+[3.220s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/environment/path.dsv
+[3.220s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/local_setup.bash
+[3.221s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/local_setup.sh
+[3.221s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/local_setup.zsh
+[3.221s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/local_setup.dsv
+[3.221s] -- Installing: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/package.dsv
+[3.221s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/ament_index/resource_index/packages/read_yaml
+[3.221s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/cmake/read_yamlConfig.cmake
+[3.221s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/cmake/read_yamlConfig-version.cmake
+[3.221s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/package.xml
+[3.223s] Invoked command in '/home/shen/learn/ROS2/yaml_ws/build/read_yaml' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/yaml_ws/build/read_yaml

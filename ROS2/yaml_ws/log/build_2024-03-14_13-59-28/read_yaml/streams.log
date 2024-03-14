@@ -1,0 +1,49 @@
+[0.070s] Invoking command in '/home/shen/learn/ROS2/yaml_ws/build/read_yaml': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/yaml_ws/build/read_yaml -- -j16 -l16
+[0.151s] [35m[1mConsolidate compiler generated dependencies of target reader[0m
+[0.188s] [ 50%] [32mBuilding CXX object CMakeFiles/reader.dir/src/reader.cpp.o[0m
+[2.345s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.345s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.346s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.346s]                  from [01m[K/home/shen/learn/ROS2/yaml_ws/src/read_yaml/src/reader.cpp:1[m[K:
+[2.346s] [01m[K/home/shen/learn/ROS2/yaml_ws/src/read_yaml/src/reader.cpp:[m[K In constructor ‘[01m[KReader::Reader()[m[K’:
+[2.346s] [01m[K/home/shen/learn/ROS2/yaml_ws/src/read_yaml/src/reader.cpp:16:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.346s]    16 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"name: %s, type: %s"[m[K, config["name"].as<std::string>().c_str(), [32m[Kconfig["type"].as<std::string>()[m[K);
+[2.346s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K                                            [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.347s]       |                                                                                                                                       [32m[K|[m[K
+[2.347s]       |                                                                                                                                       [32m[Kstd::__cxx11::basic_string<char>[m[K
+[2.347s] [01m[K/home/shen/learn/ROS2/yaml_ws/src/read_yaml/src/reader.cpp:16:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.347s]    16 |         RCLCPP_INFO(this->get_logger(), "name: %s, type: [01;36m[K%s[m[K", config["name"].as<std::string>().c_str(), config["type"].as<std::string>());
+[2.347s]       |                                                          [01;36m[K~^[m[K
+[2.347s]       |                                                           [01;36m[K|[m[K
+[2.347s]       |                                                           [01;36m[Kchar*[m[K
+[2.972s] [100%] [32m[1mLinking CXX executable reader[0m
+[3.130s] [100%] Built target reader
+[3.145s] Invoked command in '/home/shen/learn/ROS2/yaml_ws/build/read_yaml' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/yaml_ws/build/read_yaml -- -j16 -l16
+[3.193s] Invoking command in '/home/shen/learn/ROS2/yaml_ws/build/read_yaml': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/yaml_ws/build/read_yaml
+[3.202s] -- Install configuration: ""
+[3.202s] -- Installing: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/lib/read_yaml/reader
+[3.203s] -- Set runtime path of "/home/shen/learn/ROS2/yaml_ws/install/read_yaml/lib/read_yaml/reader" to ""
+[3.203s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/ament_index/resource_index/package_run_dependencies/read_yaml
+[3.203s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/ament_index/resource_index/parent_prefix_path/read_yaml
+[3.203s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/environment/ament_prefix_path.sh
+[3.203s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/environment/ament_prefix_path.dsv
+[3.203s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/environment/path.sh
+[3.203s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/environment/path.dsv
+[3.204s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/local_setup.bash
+[3.204s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/local_setup.sh
+[3.204s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/local_setup.zsh
+[3.204s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/local_setup.dsv
+[3.204s] -- Installing: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/package.dsv
+[3.204s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/ament_index/resource_index/packages/read_yaml
+[3.204s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/cmake/read_yamlConfig.cmake
+[3.204s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/cmake/read_yamlConfig-version.cmake
+[3.204s] -- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/package.xml
+[3.206s] Invoked command in '/home/shen/learn/ROS2/yaml_ws/build/read_yaml' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/yaml_ws/build/read_yaml

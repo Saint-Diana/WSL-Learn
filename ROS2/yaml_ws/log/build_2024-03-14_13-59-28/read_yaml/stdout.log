@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target reader[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/reader.dir/src/reader.cpp.o[0m
+[100%] [32m[1mLinking CXX executable reader[0m
+[100%] Built target reader
+-- Install configuration: ""
+-- Installing: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/lib/read_yaml/reader
+-- Set runtime path of "/home/shen/learn/ROS2/yaml_ws/install/read_yaml/lib/read_yaml/reader" to ""
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/ament_index/resource_index/package_run_dependencies/read_yaml
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/ament_index/resource_index/parent_prefix_path/read_yaml
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/environment/path.sh
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/environment/path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/local_setup.bash
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/local_setup.sh
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/local_setup.zsh
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/local_setup.dsv
+-- Installing: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/package.dsv
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/ament_index/resource_index/packages/read_yaml
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/cmake/read_yamlConfig.cmake
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/cmake/read_yamlConfig-version.cmake
+-- Up-to-date: /home/shen/learn/ROS2/yaml_ws/install/read_yaml/share/read_yaml/package.xml
