@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000678] (my_record_utils) JobQueued: {'identifier': 'my_record_utils', 'dependencies': OrderedDict()}
+[0.000905] (my_record_utils) JobStarted: {'identifier': 'my_record_utils'}
+[0.062479] (my_record_utils) JobProgress: {'identifier': 'my_record_utils', 'progress': 'cmake'}
+[0.063054] (my_record_utils) JobProgress: {'identifier': 'my_record_utils', 'progress': 'build'}
+[0.063794] (my_record_utils) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/record_ws/build/my_record_utils', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/record_ws/build/my_record_utils', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2329'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/record_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2306,unix/work:/tmp/.ICE-unix/2306'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/380824ca_46c1_4276_8e68_2bcf41dc1025'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-011d35cc21.sock'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/record_ws/install/my_record_utils:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/record_ws/build/my_record_utils'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/155/.local/share:/home/shen/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/record_ws/install/my_record_utils:/opt/ros/humble')]), 'shell': False}
+[0.099473] (-) TimerEvent: {}
+[0.113449] (my_record_utils) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target topic_recorder\x1b[0m\n'}
+[0.143102] (my_record_utils) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/topic_recorder.dir/src/topic_recorder.cpp.o\x1b[0m\n'}
+[0.199612] (-) TimerEvent: {}
+[0.300000] (-) TimerEvent: {}
+[0.400387] (-) TimerEvent: {}
+[0.500787] (-) TimerEvent: {}
+[0.601165] (-) TimerEvent: {}
+[0.701547] (-) TimerEvent: {}
+[0.801920] (-) TimerEvent: {}
+[0.902319] (-) TimerEvent: {}
+[1.002726] (-) TimerEvent: {}
+[1.103126] (-) TimerEvent: {}
+[1.203521] (-) TimerEvent: {}
+[1.303910] (-) TimerEvent: {}
+[1.404287] (-) TimerEvent: {}
+[1.504685] (-) TimerEvent: {}
+[1.605070] (-) TimerEvent: {}
+[1.705452] (-) TimerEvent: {}
+[1.805844] (-) TimerEvent: {}
+[1.906241] (-) TimerEvent: {}
+[2.006642] (-) TimerEvent: {}
+[2.107052] (-) TimerEvent: {}
+[2.207450] (-) TimerEvent: {}
+[2.307830] (-) TimerEvent: {}
+[2.408208] (-) TimerEvent: {}
+[2.508590] (-) TimerEvent: {}
+[2.608989] (-) TimerEvent: {}
+[2.709368] (-) TimerEvent: {}
+[2.809733] (-) TimerEvent: {}
+[2.910101] (-) TimerEvent: {}
+[3.010477] (-) TimerEvent: {}
+[3.110849] (-) TimerEvent: {}
+[3.211288] (-) TimerEvent: {}
+[3.311674] (-) TimerEvent: {}
+[3.412054] (-) TimerEvent: {}
+[3.512616] (-) TimerEvent: {}
+[3.613028] (-) TimerEvent: {}
+[3.713441] (-) TimerEvent: {}
+[3.813840] (-) TimerEvent: {}
+[3.914227] (-) TimerEvent: {}
+[4.014867] (-) TimerEvent: {}
+[4.115266] (-) TimerEvent: {}
+[4.215672] (-) TimerEvent: {}
+[4.316084] (-) TimerEvent: {}
+[4.416481] (-) TimerEvent: {}
+[4.516897] (-) TimerEvent: {}
+[4.617526] (-) TimerEvent: {}
+[4.717933] (-) TimerEvent: {}
+[4.818303] (-) TimerEvent: {}
+[4.918698] (-) TimerEvent: {}
+[5.019099] (-) TimerEvent: {}
+[5.119502] (-) TimerEvent: {}
+[5.219916] (-) TimerEvent: {}
+[5.320383] (-) TimerEvent: {}
+[5.420846] (-) TimerEvent: {}
+[5.521288] (-) TimerEvent: {}
+[5.621670] (-) TimerEvent: {}
+[5.722159] (-) TimerEvent: {}
+[5.822643] (-) TimerEvent: {}
+[5.923130] (-) TimerEvent: {}
+[6.024081] (-) TimerEvent: {}
+[6.124580] (-) TimerEvent: {}
+[6.225083] (-) TimerEvent: {}
+[6.325550] (-) TimerEvent: {}
+[6.426032] (-) TimerEvent: {}
+[6.526510] (-) TimerEvent: {}
+[6.626996] (-) TimerEvent: {}
+[6.727454] (-) TimerEvent: {}
+[6.828217] (-) TimerEvent: {}
+[6.928619] (-) TimerEvent: {}
+[7.029014] (-) TimerEvent: {}
+[7.129397] (-) TimerEvent: {}
+[7.229748] (-) TimerEvent: {}
+[7.301267] (my_record_utils) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable topic_recorder\x1b[0m\n'}
+[7.329892] (-) TimerEvent: {}
+[7.430297] (-) TimerEvent: {}
+[7.530673] (-) TimerEvent: {}
+[7.631127] (-) TimerEvent: {}
+[7.731592] (-) TimerEvent: {}
+[7.808181] (my_record_utils) StdoutLine: {'line': b'[100%] Built target topic_recorder\n'}
+[7.831721] (-) TimerEvent: {}
+[7.836924] (my_record_utils) CommandEnded: {'returncode': 0}
+[7.891852] (my_record_utils) JobProgress: {'identifier': 'my_record_utils', 'progress': 'install'}
+[7.902842] (my_record_utils) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shen/learn/ROS2/record_ws/build/my_record_utils'], 'cwd': '/home/shen/learn/ROS2/record_ws/build/my_record_utils', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2329'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/record_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2306,unix/work:/tmp/.ICE-unix/2306'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/380824ca_46c1_4276_8e68_2bcf41dc1025'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-011d35cc21.sock'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/record_ws/install/my_record_utils:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/record_ws/build/my_record_utils'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/155/.local/share:/home/shen/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/record_ws/install/my_record_utils:/opt/ros/humble')]), 'shell': False}
+[7.918505] (my_record_utils) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.919037] (my_record_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/record_ws/install/my_record_utils/lib/my_record_utils/topic_recorder\n'}
+[7.931010] (my_record_utils) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/record_ws/install/my_record_utils/lib/my_record_utils/topic_recorder" to ""\n'}
+[7.931383] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/launch\n'}
+[7.931686] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/launch/recorder.launch.py\n'}
+[7.931863] (-) TimerEvent: {}
+[7.932060] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/config\n'}
+[7.932360] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/config/config.yaml\n'}
+[7.932557] (my_record_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/config/topics_config.yaml\n'}
+[7.932785] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/ament_index/resource_index/package_run_dependencies/my_record_utils\n'}
+[7.932982] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/ament_index/resource_index/parent_prefix_path/my_record_utils\n'}
+[7.933171] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/environment/ament_prefix_path.sh\n'}
+[7.933365] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/environment/ament_prefix_path.dsv\n'}
+[7.933582] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/environment/path.sh\n'}
+[7.933767] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/environment/path.dsv\n'}
+[7.934027] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/local_setup.bash\n'}
+[7.934283] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/local_setup.sh\n'}
+[7.934470] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/local_setup.zsh\n'}
+[7.934650] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/local_setup.dsv\n'}
+[7.934834] (my_record_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/package.dsv\n'}
+[7.935015] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/ament_index/resource_index/packages/my_record_utils\n'}
+[7.935197] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/cmake/my_record_utilsConfig.cmake\n'}
+[7.935377] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/cmake/my_record_utilsConfig-version.cmake\n'}
+[7.935558] (my_record_utils) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/package.xml\n'}
+[7.936622] (my_record_utils) CommandEnded: {'returncode': 0}
+[8.032004] (-) TimerEvent: {}
+[8.109476] (my_record_utils) JobEnded: {'identifier': 'my_record_utils', 'rc': 0}
+[8.110290] (-) EventReactorShutdown: {}

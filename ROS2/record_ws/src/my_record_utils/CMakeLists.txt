@@ -28,7 +28,8 @@ endif()
 
 
 add_executable(topic_recorder src/topic_recorder.cpp)
-ament_target_dependencies(topic_recorder rclcpp rosbag2_cpp std_msgs can_msgs)
+ament_target_dependencies(topic_recorder rclcpp rosbag2_cpp std_msgs can_msgs yaml-cpp)
+target_link_libraries(topic_recorder yaml-cpp)
 
 install(TARGETS
   topic_recorder

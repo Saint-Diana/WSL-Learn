@@ -1,6 +1,3 @@
 topic_recorder_node:
   ros__parameters:
-    topics:
-      - name: "can_message"
-        type: 0
     bag_file_path: "my_bag"

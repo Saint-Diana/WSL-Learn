@@ -133,11 +133,11 @@ topic_recorder: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
 topic_recorder: /opt/ros/humble/lib/libtracetools.so
 topic_recorder: /opt/ros/humble/lib/librmw_implementation.so
 topic_recorder: /opt/ros/humble/lib/librosbag2_storage.so
+topic_recorder: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 topic_recorder: /opt/ros/humble/lib/libament_index_cpp.so
 topic_recorder: /opt/ros/humble/lib/libclass_loader.so
 topic_recorder: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 topic_recorder: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-topic_recorder: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 topic_recorder: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 topic_recorder: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 topic_recorder: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so

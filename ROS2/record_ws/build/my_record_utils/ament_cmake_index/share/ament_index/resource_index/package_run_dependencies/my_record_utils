@@ -1,1 +1,1 @@
-rclcpp;std_msgs;can_msgs;rosbag2_cpp;launch_ros;ament_lint_auto;ament_lint_common
+rclcpp;std_msgs;can_msgs;rosbag2_cpp;launch_ros;yaml-cpp;ament_lint_auto;ament_lint_common

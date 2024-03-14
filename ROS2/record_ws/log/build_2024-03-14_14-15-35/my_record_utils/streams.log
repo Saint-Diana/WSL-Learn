@@ -1,0 +1,31 @@
+[0.066s] Invoking command in '/home/shen/learn/ROS2/record_ws/build/my_record_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/record_ws/build/my_record_utils -- -j16 -l16
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target topic_recorder[0m
+[0.142s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_recorder.dir/src/topic_recorder.cpp.o[0m
+[7.300s] [100%] [32m[1mLinking CXX executable topic_recorder[0m
+[7.807s] [100%] Built target topic_recorder
+[7.836s] Invoked command in '/home/shen/learn/ROS2/record_ws/build/my_record_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/record_ws/build/my_record_utils -- -j16 -l16
+[7.903s] Invoking command in '/home/shen/learn/ROS2/record_ws/build/my_record_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/record_ws/build/my_record_utils
+[7.918s] -- Install configuration: ""
+[7.918s] -- Installing: /home/shen/learn/ROS2/record_ws/install/my_record_utils/lib/my_record_utils/topic_recorder
+[7.930s] -- Set runtime path of "/home/shen/learn/ROS2/record_ws/install/my_record_utils/lib/my_record_utils/topic_recorder" to ""
+[7.931s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/launch
+[7.931s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/launch/recorder.launch.py
+[7.931s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/config
+[7.932s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/config/config.yaml
+[7.932s] -- Installing: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/config/topics_config.yaml
+[7.932s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/ament_index/resource_index/package_run_dependencies/my_record_utils
+[7.932s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/ament_index/resource_index/parent_prefix_path/my_record_utils
+[7.932s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/environment/ament_prefix_path.sh
+[7.933s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/environment/ament_prefix_path.dsv
+[7.933s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/environment/path.sh
+[7.933s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/environment/path.dsv
+[7.933s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/local_setup.bash
+[7.933s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/local_setup.sh
+[7.934s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/local_setup.zsh
+[7.934s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/local_setup.dsv
+[7.934s] -- Installing: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/package.dsv
+[7.934s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/ament_index/resource_index/packages/my_record_utils
+[7.934s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/cmake/my_record_utilsConfig.cmake
+[7.935s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/cmake/my_record_utilsConfig-version.cmake
+[7.935s] -- Up-to-date: /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/package.xml
+[7.936s] Invoked command in '/home/shen/learn/ROS2/record_ws/build/my_record_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/record_ws/build/my_record_utils
