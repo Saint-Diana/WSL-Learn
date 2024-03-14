@@ -1,0 +1,14 @@
+[0.054s] Invoking command in '/home/shen/learn/ROS2/build/my_record_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/build/my_record_utils -- -j16 -l16
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target topic_recorder[0m
+[0.153s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_recorder.dir/src/topic_recorder.cpp.o[0m
+[2.349s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:[m[K In constructor ‘[01m[KTopicRecorder::TopicRecorder()[m[K’:
+[2.349s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:43:98:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid TopicRecorder::can_msg_callback(std::shared_ptr<rclcpp::SerializedMessage>) const[m[K’
+[2.349s]    43 |         auto subscription = this->create_subscription<can_msgs::msg::Frame>(topic_info.name, 10, [01;31m[Kcan_msg_callback[m[K);
+[2.349s]       |                                                                                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.349s] [01m[K/home/shen/learn/ROS2/record_ws/src/my_record_utils/src/topic_recorder.cpp:51:8:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.350s]    51 |   void [01;36m[Kcan_msg_callback[m[K(std::shared_ptr<rclcpp::SerializedMessage> msg) const
+[2.350s]       |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.815s] gmake[2]: *** [CMakeFiles/topic_recorder.dir/build.make:76：CMakeFiles/topic_recorder.dir/src/topic_recorder.cpp.o] 错误 1
+[2.815s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/topic_recorder.dir/all] 错误 2
+[2.816s] gmake: *** [Makefile:146：all] 错误 2
+[2.819s] Invoked command in '/home/shen/learn/ROS2/build/my_record_utils' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/build/my_record_utils -- -j16 -l16

@@ -47,7 +47,8 @@ public:
 
 private:
   // I want to create a function which can product callback function!
-  std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)> create_callback(const std::string& topic_name, const std::string& topic_type)
+  std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)> create_callback(const std::string& topic_name, 
+    const std::string& topic_type)
   {
     auto callback =[this, topic_name, topic_type](std::shared_ptr<rclcpp::SerializedMessage> msg)
     {
