@@ -14,36 +14,47 @@ public:
     // get parameters from the yaml file
     this->get_parameter("bag_file_path", bag_file_path_);
 
-
     // get configuration in the yaml file
     YAML::Node config = YAML::LoadFile("/home/shen/learn/ROS2/record_ws/src/my_record_utils/config/topics_config.yaml");
     YAML::Node topics = config["topics"];
-    for (YAML::const_iterator it = topics.begin(); it != topics.end(); ++it)
-    {
-      // RCLCPP_INFO(this->get_logger(), "name: %s, age: %d", (*it)["name"].as<std::string>().c_str(), (*it)["type"].as<int>());
-      std::string topic_name = (*it)["name"].as<std::string>();
-      int topic_type = (*it)["type"].as<int>();
-      switch (topic_type)
-      {
-        case 0:
-        {
-          auto subscription = create_subscription<can_msgs::msg::Frame>(topic_name, 10, std::bind(&TopicRecorder::can_msg_callback, this, std::placeholders::_1));
-          subscriptions_.push_back(subscription);
-          break;
-        }
-      }
-    }
 
     // initialize writer_
     writer_ = std::make_unique<rosbag2_cpp::Writer>();
     writer_->open(bag_file_path_);
+
+    for (YAML::const_iterator it = topics.begin(); it != topics.end(); ++it)
+    {
+      // get name of the topic
+      std::string topic_name = (*it)["name"].as<std::string>();
+
+      // get type of the topic
+      std::string topic_type = "unknowm";
+      switch ((*it)["type"].as<int>())
+      {
+        case 0:
+        {
+          topic_type = "can_msgs/msg/Frame";
+          break;
+        }
+      }
+
+      // create the subscriber
+      auto callback = create_callback(topic_name, topic_type);
+      auto subscription = create_subscription<can_msgs::msg::Frame>(topic_name, 10, callback); // std::bind(&create_callback(topic_name, topic_type), this, std::placeholders::_1)
+      subscriptions_.push_back(subscription);
+    }
   }
 
 private:
-  void can_msg_callback(std::shared_ptr<rclcpp::SerializedMessage> msg) const
+  // I want to create a function which can product callback function!
+  std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)> create_callback(const std::string& topic_name, const std::string& topic_type)
   {
-    rclcpp::Time time_stamp = this->now();
-    writer_->write(msg, "can_message", "can_msgs/msg/Frame", time_stamp); // TODO: extract "can_message" to a parameter
+    auto callback =[this, topic_name, topic_type](std::shared_ptr<rclcpp::SerializedMessage> msg)
+    {
+      rclcpp::Time time_stamp = this->now();
+      this->writer_->write(msg, topic_name, topic_type, time_stamp);
+    };
+    return callback;
   }
 
   std::string bag_file_path_;                              // path of storage folder
