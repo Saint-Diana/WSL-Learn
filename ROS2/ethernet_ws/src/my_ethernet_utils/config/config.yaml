@@ -1,0 +1,5 @@
+ethernet_publisher_node:
+  ros__parameters:
+    topic_name: "ethernet_message"
+    ip: "0.0.0.0"
+    port: 12345
