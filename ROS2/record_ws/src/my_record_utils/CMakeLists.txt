@@ -11,6 +11,7 @@ find_package(rclcpp REQUIRED)
 find_package(rosbag2_cpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(can_msgs REQUIRED)
+find_package(udp_msgs REQUIRED)
 
 
 
@@ -28,7 +29,16 @@ endif()
 
 
 add_executable(topic_recorder src/topic_recorder.cpp)
-ament_target_dependencies(topic_recorder rclcpp rosbag2_cpp std_msgs can_msgs yaml-cpp)
+
+ament_target_dependencies(topic_recorder
+ rclcpp
+ rosbag2_cpp
+ std_msgs
+ can_msgs
+ udp_msgs
+ yaml-cpp
+)
+
 target_link_libraries(topic_recorder yaml-cpp)
 
 install(TARGETS

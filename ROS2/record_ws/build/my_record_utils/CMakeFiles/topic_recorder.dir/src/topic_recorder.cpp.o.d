@@ -669,4 +669,8 @@ CMakeFiles/topic_recorder.dir/src/topic_recorder.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
  /opt/ros/humble/include/can_msgs/can_msgs/msg/detail/frame__builder.hpp \
  /opt/ros/humble/include/can_msgs/can_msgs/msg/detail/frame__traits.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+ /opt/ros/humble/include/udp_msgs/udp_msgs/msg/udp_packet.hpp \
+ /opt/ros/humble/include/udp_msgs/udp_msgs/msg/detail/udp_packet__struct.hpp \
+ /opt/ros/humble/include/udp_msgs/udp_msgs/msg/detail/udp_packet__builder.hpp \
+ /opt/ros/humble/include/udp_msgs/udp_msgs/msg/detail/udp_packet__traits.hpp
