@@ -1,4 +1,9 @@
-can_publisher_node:
+can_publisher_node_1:                 # name of ROS2 node
   ros__parameters:
     can_channel: "vcan0"
-    can_topic: "can_message"
+    can_topic: "can_message_1"
+
+can_publisher_node_2:                 # name of ROS2 node
+  ros__parameters:
+    can_channel: "vcan1"
+    can_topic: "can_message_2"

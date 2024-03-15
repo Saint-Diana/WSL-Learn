@@ -1,3 +1,5 @@
 topics:
-  - name: "can_message"
+  - name: "can_message_1"
+    type: 0
+  - name: "can_message_2"
     type: 0

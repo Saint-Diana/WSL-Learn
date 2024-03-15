@@ -28,44 +28,33 @@ public:
 
         // initialize publisher
         publisher_ = this->create_publisher<udp_msgs::msg::UdpPacket>(topic_name_, 10);
+
         // set the ip address and port which are listened by the PC
         asio::ip::udp::endpoint listen_endpoint(asio::ip::address::from_string(ip_), port_);
+
         // open socket, bind it to the provided ip address and port
         socket_.open(asio::ip::udp::v4());
         socket_.bind(listen_endpoint);
+
         // start receive
-        start_receive();
+        receive_udp_packet(); // start_receive();
     }
 
 private:
-    void start_receive()
+    void receive_udp_packet()
     {
-        RCLCPP_INFO(this->get_logger(), "START RECEIVE");
-
-        RCLCPP_INFO(this->get_logger(), "Socket is opened: %d", socket_.is_open());
-
-        // remote_endpoint_ will be initialized automatically
-        socket_.async_receive_from(
-            asio::buffer(recv_buffer_), remote_endpoint_,
-            std::bind(&UDPPublisher::handle_receive, this,
-                        std::placeholders::_1, std::placeholders::_2)
-        );
-    }
-
-    void handle_receive(const asio::error_code& error, std::size_t bytes_transferred)
-    {
-        if (!error || error == asio::error::message_size)
+        while (rclcpp::ok())
         {
-            RCLCPP_INFO(this->get_logger(), "RECEIVE ONE UDP PACKET");
+            RCLCPP_INFO(this->get_logger(), "Waiting to receive UDP packet ...");
+
+            size_t length = socket_.receive_from(asio::buffer(recv_buffer_), remote_endpoint_);
+
+            RCLCPP_INFO(this->get_logger(), "Received one UDP packet");
 
             auto message = std::make_shared<udp_msgs::msg::UdpPacket>();
-            message->data = std::vector<uint8_t>(recv_buffer_.begin(),
-                                                    recv_buffer_.begin() + bytes_transferred);
-            // publish the message
-            publisher_->publish(*message);
+            message->data = std::vector<uint8_t>(recv_buffer_.begin(), recv_buffer_.begin() + length);
 
-            // cotinue to receive
-            start_receive();
+            publisher_->publish(*message);
         }
     }
 
