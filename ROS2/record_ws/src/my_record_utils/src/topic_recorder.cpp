@@ -1,4 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
+#include "rclcpp/serialization.hpp"
+#include "rclcpp/serialized_message.hpp"
 #include "rosbag2_cpp/writer.hpp"
 #include "can_msgs/msg/frame.hpp"
 #include "udp_msgs/msg/udp_packet.hpp"
@@ -57,6 +59,23 @@ private:
     auto callback =[this, topic_name, topic_type](std::shared_ptr<rclcpp::SerializedMessage> msg)
     {
       rclcpp::Time time_stamp = this->now();
+      if (topic_type == "can_msgs/msg/Frame")
+      {
+        rclcpp::Serialization<can_msgs::msg::Frame> serialization;
+        can_msgs::msg::Frame can_msg;
+        serialization.deserialize_message(msg.get(), &can_msg);
+        time_stamp = can_msg.header.stamp;
+      } else if (topic_type == "udp_msgs/msg/UdpPacket")
+      {
+        rclcpp::Serialization<udp_msgs::msg::UdpPacket> serialization;
+        udp_msgs::msg::UdpPacket udp_msg;
+        serialization.deserialize_message(msg.get(), &udp_msg);
+        time_stamp = udp_msg.header.stamp;
+      }
+
+      RCLCPP_INFO(this->get_logger(),"time_stamp.seconds = %.2f, time_stamp.nanoseconds = %ld",
+                    time_stamp.seconds(),time_stamp.nanoseconds());
+
       this->writer_->write(msg, topic_name, topic_type, time_stamp);
     };
     return callback;

@@ -54,6 +54,9 @@ private:
             auto message = std::make_shared<udp_msgs::msg::UdpPacket>();
             message->data = std::vector<uint8_t>(recv_buffer_.begin(), recv_buffer_.begin() + length);
 
+            // TODO: we should get the timestamp from recv_buffer_
+            message->header.stamp = this->get_clock()->now();
+
             publisher_->publish(*message);
         }
     }
@@ -75,5 +78,3 @@ int main(int argc, char* argv[])
     rclcpp::shutdown();
     return 0;
 }
-
-

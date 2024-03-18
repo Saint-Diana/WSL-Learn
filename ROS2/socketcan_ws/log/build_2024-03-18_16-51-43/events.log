@@ -1,0 +1,594 @@
+[0.000000] (-) TimerEvent: {}
+[0.000521] (ros2_socketcan_msgs) JobQueued: {'identifier': 'ros2_socketcan_msgs', 'dependencies': OrderedDict()}
+[0.000689] (ros2_socketcan) JobQueued: {'identifier': 'ros2_socketcan', 'dependencies': OrderedDict([('ros2_socketcan_msgs', '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs')])}
+[0.000757] (ros2_socketcan_msgs) JobStarted: {'identifier': 'ros2_socketcan_msgs'}
+[0.049971] (ros2_socketcan_msgs) JobProgress: {'identifier': 'ros2_socketcan_msgs', 'progress': 'cmake'}
+[0.050302] (ros2_socketcan_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/shen/learn/ROS2/socketcan_ws/src/ros2_socketcan/ros2_socketcan_msgs', '-DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs'], 'cwd': '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/socketcan_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2056'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2033,unix/work:/tmp/.ICE-unix/2033'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b8d050_c7dd_45ad_b39b_ea5b6ca48386'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875ef1d575.sock'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/155/.local/share:/home/shen/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099692] (-) TimerEvent: {}
+[0.129042] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199892] (-) TimerEvent: {}
+[0.238609] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.255833] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300080] (-) TimerEvent: {}
+[0.388089] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.400219] (-) TimerEvent: {}
+[0.408717] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.409244] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.410394] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.414819] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500380] (-) TimerEvent: {}
+[0.554883] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.575834] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.576453] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.577648] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.583615] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.600720] (-) TimerEvent: {}
+[0.701235] (-) TimerEvent: {}
+[0.801687] (-) TimerEvent: {}
+[0.879032] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.901802] (-) TimerEvent: {}
+[1.002225] (-) TimerEvent: {}
+[1.101932] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.102385] (-) TimerEvent: {}
+[1.119315] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.164746] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202545] (-) TimerEvent: {}
+[1.302992] (-) TimerEvent: {}
+[1.403396] (-) TimerEvent: {}
+[1.503885] (-) TimerEvent: {}
+[1.597170] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.9 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[1.601820] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.9 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[1.603983] (-) TimerEvent: {}
+[1.607097] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.9 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[1.612625] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.704159] (-) TimerEvent: {}
+[1.804646] (-) TimerEvent: {}
+[1.905108] (-) TimerEvent: {}
+[2.005513] (-) TimerEvent: {}
+[2.012575] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.105685] (-) TimerEvent: {}
+[2.206172] (-) TimerEvent: {}
+[2.306698] (-) TimerEvent: {}
+[2.407186] (-) TimerEvent: {}
+[2.504725] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.507296] (-) TimerEvent: {}
+[2.541539] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.546053] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.578188] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.578621] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.578813] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.578991] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.597121] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.607391] (-) TimerEvent: {}
+[2.683008] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.9 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[2.687968] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.9 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[2.695012] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.707529] (-) TimerEvent: {}
+[2.732415] (ros2_socketcan_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.733044] (ros2_socketcan_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.733704] (ros2_socketcan_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.736681] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.769914] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.772905] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan_msgs\n'}
+[2.781879] (ros2_socketcan_msgs) CommandEnded: {'returncode': 0}
+[2.783304] (ros2_socketcan_msgs) JobProgress: {'identifier': 'ros2_socketcan_msgs', 'progress': 'build'}
+[2.786636] (ros2_socketcan_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan_msgs', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/socketcan_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2056'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2033,unix/work:/tmp/.ICE-unix/2033'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b8d050_c7dd_45ad_b39b_ea5b6ca48386'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875ef1d575.sock'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/155/.local/share:/home/shen/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.807667] (-) TimerEvent: {}
+[2.835202] (ros2_socketcan_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.854375] (ros2_socketcan_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.865267] (ros2_socketcan_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_ros2_socketcan_msgs\n'}
+[2.907817] (-) TimerEvent: {}
+[3.008156] (-) TimerEvent: {}
+[3.093380] (ros2_socketcan_msgs) StdoutLine: {'line': b'[  6%] Built target ros2_socketcan_msgs__cpp\n'}
+[3.097775] (ros2_socketcan_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros2_socketcan_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_socketcan_msgs/msg/detail/fd_frame__functions.c.o\x1b[0m\n'}
+[3.106332] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.106589] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.106755] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.108151] (ros2_socketcan_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.108407] (-) TimerEvent: {}
+[3.109072] (ros2_socketcan_msgs) StdoutLine: {'line': b'creating ros2_socketcan_msgs.egg-info\n'}
+[3.109471] (ros2_socketcan_msgs) StdoutLine: {'line': b'writing ros2_socketcan_msgs.egg-info/PKG-INFO\n'}
+[3.109721] (ros2_socketcan_msgs) StdoutLine: {'line': b'writing dependency_links to ros2_socketcan_msgs.egg-info/dependency_links.txt\n'}
+[3.109891] (ros2_socketcan_msgs) StdoutLine: {'line': b'writing top-level names to ros2_socketcan_msgs.egg-info/top_level.txt\n'}
+[3.110133] (ros2_socketcan_msgs) StdoutLine: {'line': b"writing manifest file 'ros2_socketcan_msgs.egg-info/SOURCES.txt'\n"}
+[3.112768] (ros2_socketcan_msgs) StdoutLine: {'line': b"reading manifest file 'ros2_socketcan_msgs.egg-info/SOURCES.txt'\n"}
+[3.113580] (ros2_socketcan_msgs) StdoutLine: {'line': b"writing manifest file 'ros2_socketcan_msgs.egg-info/SOURCES.txt'\n"}
+[3.152877] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libros2_socketcan_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.153077] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_ros2_socketcan_msgs_egg\n'}
+[3.191867] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 22%] Built target ros2_socketcan_msgs__rosidl_generator_c\n'}
+[3.203013] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.203217] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.203328] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.208563] (-) TimerEvent: {}
+[3.309072] (-) TimerEvent: {}
+[3.331153] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ros2_socketcan_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_socketcan_msgs/msg/fd_frame__type_support.cpp.o\x1b[0m\n'}
+[3.342590] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros2_socketcan_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_socketcan_msgs/msg/detail/fd_frame__type_support.cpp.o\x1b[0m\n'}
+[3.371242] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ros2_socketcan_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_socketcan_msgs/msg/detail/dds_fastrtps/fd_frame__type_support.cpp.o\x1b[0m\n'}
+[3.409194] (-) TimerEvent: {}
+[3.410567] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ros2_socketcan_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_socketcan_msgs/msg/fd_frame__type_support.cpp.o\x1b[0m\n'}
+[3.440137] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ros2_socketcan_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_socketcan_msgs/msg/detail/fd_frame__type_support_c.cpp.o\x1b[0m\n'}
+[3.443535] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/ros2_socketcan_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_socketcan_msgs/msg/detail/fd_frame__type_support.c.o\x1b[0m\n'}
+[3.445427] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libros2_socketcan_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.484695] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libros2_socketcan_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.492178] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 58%] Built target ros2_socketcan_msgs__rosidl_typesupport_c\n'}
+[3.509306] (-) TimerEvent: {}
+[3.520926] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 58%] Built target ros2_socketcan_msgs__rosidl_typesupport_introspection_c\n'}
+[3.564700] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libros2_socketcan_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.608229] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 61%] Built target ros2_socketcan_msgs__rosidl_typesupport_cpp\n'}
+[3.609420] (-) TimerEvent: {}
+[3.704231] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libros2_socketcan_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.709534] (-) TimerEvent: {}
+[3.732552] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libros2_socketcan_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.734280] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libros2_socketcan_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.809653] (-) TimerEvent: {}
+[3.826367] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 70%] Built target ros2_socketcan_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.842682] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 70%] Built target ros2_socketcan_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.864917] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 70%] Built target ros2_socketcan_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.887851] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 70%] Built target ros2_socketcan_msgs\n'}
+[3.909806] (-) TimerEvent: {}
+[3.929761] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.009943] (-) TimerEvent: {}
+[4.110297] (-) TimerEvent: {}
+[4.210676] (-) TimerEvent: {}
+[4.216327] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 74%] Built target ros2_socketcan_msgs__py\n'}
+[4.255925] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/ros2_socketcan_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros2_socketcan_msgs/msg/_fd_frame_s.c.o\x1b[0m\n'}
+[4.310810] (-) TimerEvent: {}
+[4.382411] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_socketcan_msgs/libros2_socketcan_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[4.410977] (-) TimerEvent: {}
+[4.440006] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 80%] Built target ros2_socketcan_msgs__rosidl_generator_py\n'}
+[4.461647] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/ros2_socketcan_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_socketcan_msgs/_ros2_socketcan_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.461947] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ros2_socketcan_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_socketcan_msgs/_ros2_socketcan_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.479264] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ros2_socketcan_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_socketcan_msgs/_ros2_socketcan_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.511119] (-) TimerEvent: {}
+[4.578033] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_socketcan_msgs/ros2_socketcan_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.586291] (ros2_socketcan_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_socketcan_msgs/ros2_socketcan_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.601228] (ros2_socketcan_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_socketcan_msgs/ros2_socketcan_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.611257] (-) TimerEvent: {}
+[4.623121] (ros2_socketcan_msgs) StdoutLine: {'line': b'[100%] Built target ros2_socketcan_msgs__rosidl_typesupport_c__pyext\n'}
+[4.637646] (ros2_socketcan_msgs) StdoutLine: {'line': b'[100%] Built target ros2_socketcan_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.647417] (ros2_socketcan_msgs) StdoutLine: {'line': b'[100%] Built target ros2_socketcan_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.661551] (ros2_socketcan_msgs) CommandEnded: {'returncode': 0}
+[4.711346] (-) TimerEvent: {}
+[4.728693] (ros2_socketcan_msgs) JobProgress: {'identifier': 'ros2_socketcan_msgs', 'progress': 'install'}
+[4.738943] (ros2_socketcan_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan_msgs'], 'cwd': '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/socketcan_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2056'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2033,unix/work:/tmp/.ICE-unix/2033'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b8d050_c7dd_45ad_b39b_ea5b6ca48386'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875ef1d575.sock'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/155/.local/share:/home/shen/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.747658] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.747814] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ament_index/resource_index/rosidl_interfaces/ros2_socketcan_msgs\n'}
+[4.747932] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs\n'}
+[4.748039] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg\n'}
+[4.748129] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.748355] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/fd_frame.h\n'}
+[4.748520] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail\n'}
+[4.748648] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/fd_frame__struct.h\n'}
+[4.748920] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/fd_frame__functions.h\n'}
+[4.749131] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/fd_frame__type_support.h\n'}
+[4.749328] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/fd_frame__functions.c\n'}
+[4.749658] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/environment/library_path.sh\n'}
+[4.749861] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/environment/library_path.dsv\n'}
+[4.750153] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_generator_c.so\n'}
+[4.750753] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_generator_c.so" to ""\n'}
+[4.750843] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs\n'}
+[4.750922] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg\n'}
+[4.750999] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.751205] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail\n'}
+[4.751286] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/fd_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[4.751535] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.752040] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.752126] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs\n'}
+[4.752222] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg\n'}
+[4.752310] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.752447] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail\n'}
+[4.752524] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/fd_frame__rosidl_typesupport_introspection_c.h\n'}
+[4.752744] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/fd_frame__type_support.c\n'}
+[4.753018] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.753519] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.753611] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_typesupport_c.so\n'}
+[4.754080] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_typesupport_c.so" to ""\n'}
+[4.754165] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs\n'}
+[4.754253] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg\n'}
+[4.754328] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/fd_frame.hpp\n'}
+[4.754502] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail\n'}
+[4.754581] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/fd_frame__struct.hpp\n'}
+[4.754796] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/fd_frame__builder.hpp\n'}
+[4.755012] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/fd_frame__traits.hpp\n'}
+[4.755249] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs\n'}
+[4.755333] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg\n'}
+[4.755405] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.755595] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail\n'}
+[4.755681] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/dds_fastrtps\n'}
+[4.755809] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/fd_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.756065] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.756708] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.756809] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs\n'}
+[4.756894] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg\n'}
+[4.756956] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail\n'}
+[4.757040] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/fd_frame__type_support.cpp\n'}
+[4.757241] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/include/ros2_socketcan_msgs/ros2_socketcan_msgs/msg/detail/fd_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.757496] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.758125] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.758215] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_typesupport_cpp.so\n'}
+[4.758733] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.758825] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/environment/pythonpath.sh\n'}
+[4.759065] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/environment/pythonpath.dsv\n'}
+[4.759275] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs-1.2.0-py3.10.egg-info\n'}
+[4.759544] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs-1.2.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.759750] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs-1.2.0-py3.10.egg-info/top_level.txt\n'}
+[4.759953] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs-1.2.0-py3.10.egg-info/PKG-INFO\n'}
+[4.760153] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs-1.2.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.760383] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs\n'}
+[4.760511] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/msg\n'}
+[4.760640] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/msg/_fd_frame_s.c\n'}
+[4.761078] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/msg/__init__.py\n'}
+[4.761160] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/msg/_fd_frame.py\n'}
+[4.761302] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/_ros2_socketcan_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[4.761511] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/libros2_socketcan_msgs__rosidl_generator_py.so\n'}
+[4.761744] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/_ros2_socketcan_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.761955] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/ros2_socketcan_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.762192] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/__init__.py\n'}
+[4.762381] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/ros2_socketcan_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.762609] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/_ros2_socketcan_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.762829] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/ros2_socketcan_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.811500] (-) TimerEvent: {}
+[4.834848] (ros2_socketcan_msgs) StdoutLine: {'line': b"Listing '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs'...\n"}
+[4.835115] (ros2_socketcan_msgs) StdoutLine: {'line': b"Compiling '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/__init__.py'...\n"}
+[4.835256] (ros2_socketcan_msgs) StdoutLine: {'line': b"Listing '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/msg'...\n"}
+[4.835384] (ros2_socketcan_msgs) StdoutLine: {'line': b"Compiling '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/msg/__init__.py'...\n"}
+[4.835509] (ros2_socketcan_msgs) StdoutLine: {'line': b"Compiling '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/msg/_fd_frame.py'...\n"}
+[4.839545] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/ros2_socketcan_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.840348] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/ros2_socketcan_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.840741] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/ros2_socketcan_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.841610] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/ros2_socketcan_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.842074] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/ros2_socketcan_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.842885] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages/ros2_socketcan_msgs/ros2_socketcan_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.843140] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_generator_py.so\n'}
+[4.844024] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib/libros2_socketcan_msgs__rosidl_generator_py.so" to ""\n'}
+[4.844249] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/msg/FdFrame.idl\n'}
+[4.844652] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/msg/FdFrame.msg\n'}
+[4.845203] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ament_index/resource_index/package_run_dependencies/ros2_socketcan_msgs\n'}
+[4.845714] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ament_index/resource_index/parent_prefix_path/ros2_socketcan_msgs\n'}
+[4.846128] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/environment/ament_prefix_path.sh\n'}
+[4.846525] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/environment/ament_prefix_path.dsv\n'}
+[4.846935] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/environment/path.sh\n'}
+[4.847330] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/environment/path.dsv\n'}
+[4.847715] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/local_setup.bash\n'}
+[4.848100] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/local_setup.sh\n'}
+[4.848498] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/local_setup.zsh\n'}
+[4.848952] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/local_setup.dsv\n'}
+[4.849365] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/package.dsv\n'}
+[4.849918] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ament_index/resource_index/packages/ros2_socketcan_msgs\n'}
+[4.850440] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/export_ros2_socketcan_msgs__rosidl_generator_cExport.cmake\n'}
+[4.850872] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/export_ros2_socketcan_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.851295] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/export_ros2_socketcan_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.851734] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/export_ros2_socketcan_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.852191] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ros2_socketcan_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.852593] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ros2_socketcan_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.853133] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ros2_socketcan_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.853536] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ros2_socketcan_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.854020] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/export_ros2_socketcan_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.854444] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/export_ros2_socketcan_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.854890] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/export_ros2_socketcan_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.855334] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ros2_socketcan_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.855788] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ros2_socketcan_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.856262] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ros2_socketcan_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.856664] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ros2_socketcan_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.857173] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/export_ros2_socketcan_msgs__rosidl_generator_pyExport.cmake\n'}
+[4.857616] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/export_ros2_socketcan_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.858045] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.858446] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.858873] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.859282] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.859701] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.860123] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.860496] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.860936] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ros2_socketcan_msgsConfig.cmake\n'}
+[4.861322] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/cmake/ros2_socketcan_msgsConfig-version.cmake\n'}
+[4.861744] (ros2_socketcan_msgs) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/package.xml\n'}
+[4.866808] (ros2_socketcan_msgs) CommandEnded: {'returncode': 0}
+[4.911623] (-) TimerEvent: {}
+[5.012050] (-) TimerEvent: {}
+[5.114939] (-) TimerEvent: {}
+[5.193766] (ros2_socketcan_msgs) JobEnded: {'identifier': 'ros2_socketcan_msgs', 'rc': 0}
+[5.194850] (ros2_socketcan) JobStarted: {'identifier': 'ros2_socketcan'}
+[5.215127] (-) TimerEvent: {}
+[5.245473] (ros2_socketcan) JobProgress: {'identifier': 'ros2_socketcan', 'progress': 'cmake'}
+[5.245722] (ros2_socketcan) Command: {'cmd': ['/usr/bin/cmake', '/home/shen/learn/ROS2/socketcan_ws/src/ros2_socketcan/ros2_socketcan', '-DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan'], 'cwd': '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/socketcan_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2056'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2033,unix/work:/tmp/.ICE-unix/2033'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b8d050_c7dd_45ad_b39b_ea5b6ca48386'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875ef1d575.sock'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/155/.local/share:/home/shen/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs:/opt/ros/humble')]), 'shell': False}
+[5.315297] (-) TimerEvent: {}
+[5.344506] (ros2_socketcan) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.415360] (ros2_socketcan) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.415754] (-) TimerEvent: {}
+[5.433181] (ros2_socketcan) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.515930] (-) TimerEvent: {}
+[5.546998] (ros2_socketcan) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.562472] (ros2_socketcan) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.563009] (ros2_socketcan) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.563770] (ros2_socketcan) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.569799] (ros2_socketcan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.616043] (-) TimerEvent: {}
+[5.676184] (ros2_socketcan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.692518] (ros2_socketcan) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.693199] (ros2_socketcan) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.694086] (ros2_socketcan) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.700186] (ros2_socketcan) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[5.716190] (-) TimerEvent: {}
+[5.816646] (-) TimerEvent: {}
+[5.917230] (-) TimerEvent: {}
+[5.956188] (ros2_socketcan) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[6.017344] (-) TimerEvent: {}
+[6.117726] (-) TimerEvent: {}
+[6.218189] (-) TimerEvent: {}
+[6.302803] (ros2_socketcan) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.307729] (ros2_socketcan) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.315561] (ros2_socketcan) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.318285] (-) TimerEvent: {}
+[6.327989] (ros2_socketcan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.347733] (ros2_socketcan) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.411823] (ros2_socketcan) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.414248] (ros2_socketcan) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.418406] (-) TimerEvent: {}
+[6.518837] (-) TimerEvent: {}
+[6.568746] (ros2_socketcan) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.613562] (ros2_socketcan) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.618978] (-) TimerEvent: {}
+[6.672895] (ros2_socketcan) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.682306] (ros2_socketcan) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.719149] (-) TimerEvent: {}
+[6.809965] (ros2_socketcan) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.810431] (ros2_socketcan) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.819256] (-) TimerEvent: {}
+[6.919529] (-) TimerEvent: {}
+[6.943775] (ros2_socketcan) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.944576] (ros2_socketcan) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.019689] (-) TimerEvent: {}
+[7.120134] (-) TimerEvent: {}
+[7.220559] (-) TimerEvent: {}
+[7.294963] (ros2_socketcan) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.320760] (-) TimerEvent: {}
+[7.323344] (ros2_socketcan) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[7.330432] (ros2_socketcan) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.333652] (ros2_socketcan) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.333983] (ros2_socketcan) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/shen/learn/ROS2/socketcan_ws/src/ros2_socketcan/ros2_socketcan/include\n'}
+[7.334163] (ros2_socketcan) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.337147] (ros2_socketcan) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[7.337436] (ros2_socketcan) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[7.337952] (ros2_socketcan) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.339022] (ros2_socketcan) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.339711] (ros2_socketcan) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.342801] (ros2_socketcan) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.343060] (ros2_socketcan) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.343569] (ros2_socketcan) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.346653] (ros2_socketcan) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.379090] (ros2_socketcan) StdoutLine: {'line': b'-- Generating done\n'}
+[7.381564] (ros2_socketcan) StdoutLine: {'line': b'-- Build files have been written to: /home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan\n'}
+[7.392928] (ros2_socketcan) CommandEnded: {'returncode': 0}
+[7.393743] (ros2_socketcan) JobProgress: {'identifier': 'ros2_socketcan', 'progress': 'build'}
+[7.394428] (ros2_socketcan) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/socketcan_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2056'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2033,unix/work:/tmp/.ICE-unix/2033'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b8d050_c7dd_45ad_b39b_ea5b6ca48386'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875ef1d575.sock'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/155/.local/share:/home/shen/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs:/opt/ros/humble')]), 'shell': False}
+[7.421135] (-) TimerEvent: {}
+[7.475975] (ros2_socketcan) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/ros2_socketcan.dir/src/socket_can_common.cpp.o\x1b[0m\n'}
+[7.476231] (ros2_socketcan) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ros2_socketcan.dir/src/socket_can_id.cpp.o\x1b[0m\n'}
+[7.476332] (ros2_socketcan) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ros2_socketcan.dir/src/socket_can_sender.cpp.o\x1b[0m\n'}
+[7.478699] (ros2_socketcan) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ros2_socketcan.dir/src/socket_can_receiver.cpp.o\x1b[0m\n'}
+[7.478950] (ros2_socketcan) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[7.481355] (ros2_socketcan) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/socket_can_sender_node_exe.dir/rclcpp_components/node_main_socket_can_sender_node_exe.cpp.o\x1b[0m\n'}
+[7.483577] (ros2_socketcan) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/socket_can_receiver_node_exe.dir/rclcpp_components/node_main_socket_can_receiver_node_exe.cpp.o\x1b[0m\n'}
+[7.485481] (ros2_socketcan) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[7.521245] (-) TimerEvent: {}
+[7.621628] (-) TimerEvent: {}
+[7.722045] (-) TimerEvent: {}
+[7.822440] (-) TimerEvent: {}
+[7.922852] (-) TimerEvent: {}
+[7.936050] (ros2_socketcan) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libros2_socketcan.so\x1b[0m\n'}
+[8.023030] (-) TimerEvent: {}
+[8.046722] (ros2_socketcan) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[8.082001] (ros2_socketcan) StdoutLine: {'line': b'[ 47%] Built target ros2_socketcan\n'}
+[8.107917] (ros2_socketcan) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/socket_can_receiver_node.dir/src/socket_can_receiver_node.cpp.o\x1b[0m\n'}
+[8.108250] (ros2_socketcan) StdoutLine: {'line': b'[ 52%] Built target gtest_main\n'}
+[8.123166] (-) TimerEvent: {}
+[8.223569] (-) TimerEvent: {}
+[8.323897] (-) TimerEvent: {}
+[8.424229] (-) TimerEvent: {}
+[8.524582] (-) TimerEvent: {}
+[8.624949] (-) TimerEvent: {}
+[8.725298] (-) TimerEvent: {}
+[8.825642] (-) TimerEvent: {}
+[8.925995] (-) TimerEvent: {}
+[9.026344] (-) TimerEvent: {}
+[9.126704] (-) TimerEvent: {}
+[9.227067] (-) TimerEvent: {}
+[9.327431] (-) TimerEvent: {}
+[9.427769] (-) TimerEvent: {}
+[9.528135] (-) TimerEvent: {}
+[9.628480] (-) TimerEvent: {}
+[9.728876] (-) TimerEvent: {}
+[9.829228] (-) TimerEvent: {}
+[9.929571] (-) TimerEvent: {}
+[10.029924] (-) TimerEvent: {}
+[10.075188] (ros2_socketcan) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[10.130053] (-) TimerEvent: {}
+[10.167953] (ros2_socketcan) StdoutLine: {'line': b'[ 57%] Built target gtest\n'}
+[10.193417] (ros2_socketcan) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ros2_socketcan_test.dir/test/sanity_checks.cpp.o\x1b[0m\n'}
+[10.193708] (ros2_socketcan) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ros2_socketcan_test.dir/test/gtest_main.cpp.o\x1b[0m\n'}
+[10.201270] (ros2_socketcan) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ros2_socketcan_test.dir/test/receiver.cpp.o\x1b[0m\n'}
+[10.230192] (-) TimerEvent: {}
+[10.330540] (-) TimerEvent: {}
+[10.338465] (ros2_socketcan) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable socket_can_sender_node_exe\x1b[0m\n'}
+[10.400366] (ros2_socketcan) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable socket_can_receiver_node_exe\x1b[0m\n'}
+[10.430700] (-) TimerEvent: {}
+[10.528025] (ros2_socketcan) StdoutLine: {'line': b'[ 80%] Built target socket_can_sender_node_exe\n'}
+[10.530808] (-) TimerEvent: {}
+[10.569506] (ros2_socketcan) StdoutLine: {'line': b'[ 80%] Built target socket_can_receiver_node_exe\n'}
+[10.630960] (-) TimerEvent: {}
+[10.731352] (-) TimerEvent: {}
+[10.831744] (-) TimerEvent: {}
+[10.932161] (-) TimerEvent: {}
+[11.032551] (-) TimerEvent: {}
+[11.133033] (-) TimerEvent: {}
+[11.233418] (-) TimerEvent: {}
+[11.333783] (-) TimerEvent: {}
+[11.434178] (-) TimerEvent: {}
+[11.446261] (ros2_socketcan) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable ros2_socketcan_test\x1b[0m\n'}
+[11.534290] (-) TimerEvent: {}
+[11.634608] (-) TimerEvent: {}
+[11.704396] (ros2_socketcan) StdoutLine: {'line': b'[ 85%] Built target ros2_socketcan_test\n'}
+[11.734764] (-) TimerEvent: {}
+[11.835222] (-) TimerEvent: {}
+[11.935667] (-) TimerEvent: {}
+[12.036110] (-) TimerEvent: {}
+[12.136554] (-) TimerEvent: {}
+[12.237130] (-) TimerEvent: {}
+[12.337576] (-) TimerEvent: {}
+[12.438046] (-) TimerEvent: {}
+[12.522446] (ros2_socketcan) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libsocket_can_receiver_node.so\x1b[0m\n'}
+[12.538182] (-) TimerEvent: {}
+[12.638578] (-) TimerEvent: {}
+[12.739037] (-) TimerEvent: {}
+[12.813023] (ros2_socketcan) StdoutLine: {'line': b'[ 90%] Built target socket_can_receiver_node\n'}
+[12.839211] (-) TimerEvent: {}
+[12.854531] (ros2_socketcan) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/socket_can_sender_node.dir/src/socket_can_sender_node.cpp.o\x1b[0m\n'}
+[12.939350] (-) TimerEvent: {}
+[13.039752] (-) TimerEvent: {}
+[13.140153] (-) TimerEvent: {}
+[13.240564] (-) TimerEvent: {}
+[13.340997] (-) TimerEvent: {}
+[13.441410] (-) TimerEvent: {}
+[13.541771] (-) TimerEvent: {}
+[13.642155] (-) TimerEvent: {}
+[13.742543] (-) TimerEvent: {}
+[13.842927] (-) TimerEvent: {}
+[13.943314] (-) TimerEvent: {}
+[14.043697] (-) TimerEvent: {}
+[14.144080] (-) TimerEvent: {}
+[14.244428] (-) TimerEvent: {}
+[14.344860] (-) TimerEvent: {}
+[14.445229] (-) TimerEvent: {}
+[14.545638] (-) TimerEvent: {}
+[14.646000] (-) TimerEvent: {}
+[14.746392] (-) TimerEvent: {}
+[14.846768] (-) TimerEvent: {}
+[14.947154] (-) TimerEvent: {}
+[15.047537] (-) TimerEvent: {}
+[15.147925] (-) TimerEvent: {}
+[15.248289] (-) TimerEvent: {}
+[15.348669] (-) TimerEvent: {}
+[15.449067] (-) TimerEvent: {}
+[15.549451] (-) TimerEvent: {}
+[15.649819] (-) TimerEvent: {}
+[15.750176] (-) TimerEvent: {}
+[15.850560] (-) TimerEvent: {}
+[15.950985] (-) TimerEvent: {}
+[16.051372] (-) TimerEvent: {}
+[16.151747] (-) TimerEvent: {}
+[16.252132] (-) TimerEvent: {}
+[16.352516] (-) TimerEvent: {}
+[16.453102] (-) TimerEvent: {}
+[16.553482] (-) TimerEvent: {}
+[16.653838] (-) TimerEvent: {}
+[16.754214] (-) TimerEvent: {}
+[16.854565] (-) TimerEvent: {}
+[16.954941] (-) TimerEvent: {}
+[17.055289] (-) TimerEvent: {}
+[17.155642] (-) TimerEvent: {}
+[17.256002] (-) TimerEvent: {}
+[17.356385] (-) TimerEvent: {}
+[17.456728] (-) TimerEvent: {}
+[17.557164] (-) TimerEvent: {}
+[17.657574] (-) TimerEvent: {}
+[17.757998] (-) TimerEvent: {}
+[17.858411] (-) TimerEvent: {}
+[17.958818] (-) TimerEvent: {}
+[18.059224] (-) TimerEvent: {}
+[18.159624] (-) TimerEvent: {}
+[18.260034] (-) TimerEvent: {}
+[18.360460] (-) TimerEvent: {}
+[18.460872] (-) TimerEvent: {}
+[18.561275] (-) TimerEvent: {}
+[18.661647] (-) TimerEvent: {}
+[18.762049] (-) TimerEvent: {}
+[18.862444] (-) TimerEvent: {}
+[18.962848] (-) TimerEvent: {}
+[19.063242] (-) TimerEvent: {}
+[19.163640] (-) TimerEvent: {}
+[19.264042] (-) TimerEvent: {}
+[19.364447] (-) TimerEvent: {}
+[19.464867] (-) TimerEvent: {}
+[19.565246] (-) TimerEvent: {}
+[19.665622] (-) TimerEvent: {}
+[19.766019] (-) TimerEvent: {}
+[19.866413] (-) TimerEvent: {}
+[19.966815] (-) TimerEvent: {}
+[20.067227] (-) TimerEvent: {}
+[20.167610] (-) TimerEvent: {}
+[20.268014] (-) TimerEvent: {}
+[20.368416] (-) TimerEvent: {}
+[20.468848] (-) TimerEvent: {}
+[20.569249] (-) TimerEvent: {}
+[20.669621] (-) TimerEvent: {}
+[20.770014] (-) TimerEvent: {}
+[20.870508] (-) TimerEvent: {}
+[20.971004] (-) TimerEvent: {}
+[21.071505] (-) TimerEvent: {}
+[21.172012] (-) TimerEvent: {}
+[21.272509] (-) TimerEvent: {}
+[21.369255] (ros2_socketcan) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libsocket_can_sender_node.so\x1b[0m\n'}
+[21.372640] (-) TimerEvent: {}
+[21.473096] (-) TimerEvent: {}
+[21.573473] (-) TimerEvent: {}
+[21.673894] (-) TimerEvent: {}
+[21.774314] (-) TimerEvent: {}
+[21.874675] (-) TimerEvent: {}
+[21.975042] (-) TimerEvent: {}
+[22.073851] (ros2_socketcan) StdoutLine: {'line': b'[100%] Built target socket_can_sender_node\n'}
+[22.075101] (-) TimerEvent: {}
+[22.090427] (ros2_socketcan) CommandEnded: {'returncode': 0}
+[22.175285] (-) TimerEvent: {}
+[22.211978] (ros2_socketcan) JobProgress: {'identifier': 'ros2_socketcan', 'progress': 'install'}
+[22.213596] (ros2_socketcan) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan'], 'cwd': '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/socketcan_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2056'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2033,unix/work:/tmp/.ICE-unix/2033'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89b8d050_c7dd_45ad_b39b_ea5b6ca48386'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-875ef1d575.sock'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/socketcan_ws/build/ros2_socketcan'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/155/.local/share:/home/shen/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan_msgs:/opt/ros/humble')]), 'shell': False}
+[22.221480] (ros2_socketcan) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.221817] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/lib/ros2_socketcan/socket_can_receiver_node_exe\n'}
+[22.222402] (ros2_socketcan) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/lib/ros2_socketcan/socket_can_receiver_node_exe" to ""\n'}
+[22.222563] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/lib/ros2_socketcan/socket_can_sender_node_exe\n'}
+[22.223102] (ros2_socketcan) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/lib/ros2_socketcan/socket_can_sender_node_exe" to ""\n'}
+[22.223247] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/include\n'}
+[22.223419] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/include/ros2_socketcan\n'}
+[22.223553] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/include/ros2_socketcan/visibility_control.hpp\n'}
+[22.223707] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/include/ros2_socketcan/socket_can_common.hpp\n'}
+[22.223839] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/include/ros2_socketcan/socket_can_sender.hpp\n'}
+[22.223994] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/include/ros2_socketcan/socket_can_id.hpp\n'}
+[22.224150] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/include/ros2_socketcan/socket_can_receiver_node.hpp\n'}
+[22.224303] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/include/ros2_socketcan/socket_can_receiver.hpp\n'}
+[22.224454] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/include/ros2_socketcan/socket_can_sender_node.hpp\n'}
+[22.224624] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/environment/library_path.sh\n'}
+[22.224856] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/environment/library_path.dsv\n'}
+[22.225052] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/lib/libros2_socketcan.so\n'}
+[22.225501] (ros2_socketcan) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/lib/libros2_socketcan.so" to ""\n'}
+[22.225657] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/lib/libsocket_can_receiver_node.so\n'}
+[22.228646] (ros2_socketcan) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/lib/libsocket_can_receiver_node.so" to ""\n'}
+[22.229058] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/lib/libsocket_can_sender_node.so\n'}
+[22.240830] (ros2_socketcan) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/lib/libsocket_can_sender_node.so" to ""\n'}
+[22.241286] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/launch\n'}
+[22.241543] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/launch/socket_can_bridge.launch.xml\n'}
+[22.241786] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/launch/socket_can_receiver.launch.py\n'}
+[22.242029] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/launch/socket_can_sender.launch.py\n'}
+[22.242242] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ament_index/resource_index/package_run_dependencies/ros2_socketcan\n'}
+[22.242431] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ament_index/resource_index/parent_prefix_path/ros2_socketcan\n'}
+[22.242655] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/environment/ament_prefix_path.sh\n'}
+[22.242859] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/environment/ament_prefix_path.dsv\n'}
+[22.243067] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/environment/path.sh\n'}
+[22.243270] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/environment/path.dsv\n'}
+[22.243473] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/local_setup.bash\n'}
+[22.243667] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/local_setup.sh\n'}
+[22.243841] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/local_setup.zsh\n'}
+[22.244066] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/local_setup.dsv\n'}
+[22.244267] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/package.dsv\n'}
+[22.244450] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ament_index/resource_index/packages/ros2_socketcan\n'}
+[22.244650] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ament_index/resource_index/rclcpp_components/ros2_socketcan\n'}
+[22.244874] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.245057] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.245231] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.245403] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/cmake/ros2_socketcanConfig.cmake\n'}
+[22.245573] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/cmake/ros2_socketcanConfig-version.cmake\n'}
+[22.245744] (ros2_socketcan) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/socketcan_ws/install/ros2_socketcan/share/ros2_socketcan/package.xml\n'}
+[22.247150] (ros2_socketcan) CommandEnded: {'returncode': 0}
+[22.275579] (-) TimerEvent: {}
+[22.376706] (-) TimerEvent: {}
+[22.477305] (-) TimerEvent: {}
+[22.502791] (ros2_socketcan) JobEnded: {'identifier': 'ros2_socketcan', 'rc': 0}
+[22.504207] (-) EventReactorShutdown: {}

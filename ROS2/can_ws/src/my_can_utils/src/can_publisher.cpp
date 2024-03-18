@@ -51,7 +51,7 @@ private:
         addr.can_family = AF_CAN;
         addr.can_ifindex = ifr.ifr_ifindex;
 
-        // bind the socket
+        // bind the socket with CAN channel
         bind(socket_, (struct sockaddr *)&addr, sizeof(addr));
     }
 
@@ -75,8 +75,13 @@ private:
             {
                 // transfer CAN Frames to ROS topic, then publish them.
                 auto message = can_msgs::msg::Frame();
+                message.header.frame_id = "can";
+                message.header.stamp = this->get_clock()->now();
                 message.id = frame.can_id;
                 message.dlc = frame.can_dlc;
+                message.is_error = false;
+                message.is_rtr = false;
+                message.is_extended = false;
                 std::copy(std::begin(frame.data), std::end(frame.data), std::begin(message.data));
                 publisher_->publish(message);
             }
