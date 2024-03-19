@@ -4,7 +4,7 @@
 
   <!-- socket can param -->
   <arg name="interface" default="vcan0" />
-  <arg name="receiver_interval_sec" default="0.01" />
+  <arg name="receiver_interval_sec" default="0.1" />
   <arg name="use_bus_time" default="true" />
 
   <!-- ARS408 driver param -->
@@ -21,6 +21,7 @@
   <arg name="sequential_publish" default="false" />
   <arg name="size_x" default="1.8" />
   <arg name="size_y" default="1.8" />
+
 
   <include file="$(find-pkg-share ros2_socketcan)/launch/socket_can_receiver.launch.py" if="$(var launch_driver)">
     <arg name="interface" value="$(var interface)" />
