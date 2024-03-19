@@ -1,0 +1,6 @@
+radar_visulizer_node:
+  ros__parameters:
+    subscribe_topic: "objects_raw"
+    publish_topic: "radar_tracks_markers"
+    frame_id: "radar_tracks"
+    namespace: "radar_tracks"

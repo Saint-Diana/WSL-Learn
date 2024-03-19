@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000407] (radar_visualizer) JobQueued: {'identifier': 'radar_visualizer', 'dependencies': OrderedDict()}
+[0.000849] (radar_visualizer) JobStarted: {'identifier': 'radar_visualizer'}
+[0.050343] (radar_visualizer) JobProgress: {'identifier': 'radar_visualizer', 'progress': 'cmake'}
+[0.051039] (radar_visualizer) JobProgress: {'identifier': 'radar_visualizer', 'progress': 'build'}
+[0.052071] (radar_visualizer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '10967'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2057,unix/work:/tmp/.ICE-unix/2057'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c5d74ca3_229b_4c97_b222_d350bfa6079d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-066a3dc751.sock'), ('GNOME_TERMINAL_SERVICE', ':1.337'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/155/.local/share:/home/shen/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098973] (-) TimerEvent: {}
+[0.123018] (radar_visualizer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target radar_visualizer\x1b[0m\n'}
+[0.174093] (radar_visualizer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/radar_visualizer.dir/src/radar_visualizer.cpp.o\x1b[0m\n'}
+[0.199115] (-) TimerEvent: {}
+[0.299476] (-) TimerEvent: {}
+[0.399771] (-) TimerEvent: {}
+[0.500133] (-) TimerEvent: {}
+[0.600515] (-) TimerEvent: {}
+[0.700917] (-) TimerEvent: {}
+[0.801303] (-) TimerEvent: {}
+[0.901727] (-) TimerEvent: {}
+[1.002143] (-) TimerEvent: {}
+[1.102522] (-) TimerEvent: {}
+[1.202875] (-) TimerEvent: {}
+[1.303178] (-) TimerEvent: {}
+[1.403542] (-) TimerEvent: {}
+[1.504480] (-) TimerEvent: {}
+[1.604874] (-) TimerEvent: {}
+[1.705228] (-) TimerEvent: {}
+[1.805612] (-) TimerEvent: {}
+[1.906268] (-) TimerEvent: {}
+[2.006685] (-) TimerEvent: {}
+[2.107088] (-) TimerEvent: {}
+[2.207522] (-) TimerEvent: {}
+[2.307974] (-) TimerEvent: {}
+[2.408412] (-) TimerEvent: {}
+[2.508838] (-) TimerEvent: {}
+[2.609255] (-) TimerEvent: {}
+[2.709722] (-) TimerEvent: {}
+[2.810139] (-) TimerEvent: {}
+[2.910547] (-) TimerEvent: {}
+[3.010942] (-) TimerEvent: {}
+[3.111331] (-) TimerEvent: {}
+[3.211672] (-) TimerEvent: {}
+[3.312134] (-) TimerEvent: {}
+[3.412552] (-) TimerEvent: {}
+[3.512982] (-) TimerEvent: {}
+[3.613459] (-) TimerEvent: {}
+[3.713852] (-) TimerEvent: {}
+[3.814260] (-) TimerEvent: {}
+[3.914716] (-) TimerEvent: {}
+[4.015165] (-) TimerEvent: {}
+[4.115600] (-) TimerEvent: {}
+[4.216018] (-) TimerEvent: {}
+[4.316480] (-) TimerEvent: {}
+[4.416899] (-) TimerEvent: {}
+[4.517341] (-) TimerEvent: {}
+[4.617846] (-) TimerEvent: {}
+[4.718290] (-) TimerEvent: {}
+[4.818697] (-) TimerEvent: {}
+[4.919141] (-) TimerEvent: {}
+[5.019591] (-) TimerEvent: {}
+[5.120034] (-) TimerEvent: {}
+[5.220475] (-) TimerEvent: {}
+[5.320890] (-) TimerEvent: {}
+[5.421298] (-) TimerEvent: {}
+[5.521732] (-) TimerEvent: {}
+[5.622139] (-) TimerEvent: {}
+[5.722673] (-) TimerEvent: {}
+[5.823118] (-) TimerEvent: {}
+[5.923470] (-) TimerEvent: {}
+[6.023861] (-) TimerEvent: {}
+[6.124370] (-) TimerEvent: {}
+[6.224767] (-) TimerEvent: {}
+[6.325101] (-) TimerEvent: {}
+[6.425863] (-) TimerEvent: {}
+[6.526138] (-) TimerEvent: {}
+[6.626424] (-) TimerEvent: {}
+[6.726806] (-) TimerEvent: {}
+[6.827204] (-) TimerEvent: {}
+[6.927591] (-) TimerEvent: {}
+[7.027984] (-) TimerEvent: {}
+[7.128606] (-) TimerEvent: {}
+[7.229094] (-) TimerEvent: {}
+[7.329769] (-) TimerEvent: {}
+[7.430180] (-) TimerEvent: {}
+[7.530603] (-) TimerEvent: {}
+[7.629050] (radar_visualizer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable radar_visualizer\x1b[0m\n'}
+[7.630695] (-) TimerEvent: {}
+[7.731034] (-) TimerEvent: {}
+[7.831514] (-) TimerEvent: {}
+[7.931950] (-) TimerEvent: {}
+[8.032389] (-) TimerEvent: {}
+[8.132786] (-) TimerEvent: {}
+[8.173060] (radar_visualizer) StdoutLine: {'line': b'[100%] Built target radar_visualizer\n'}
+[8.196435] (radar_visualizer) CommandEnded: {'returncode': 0}
+[8.232891] (radar_visualizer) JobProgress: {'identifier': 'radar_visualizer', 'progress': 'install'}
+[8.233015] (-) TimerEvent: {}
+[8.252043] (radar_visualizer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer'], 'cwd': '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '10967'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2057,unix/work:/tmp/.ICE-unix/2057'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c5d74ca3_229b_4c97_b222_d350bfa6079d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-066a3dc751.sock'), ('GNOME_TERMINAL_SERVICE', ':1.337'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/155/.local/share:/home/shen/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.260264] (radar_visualizer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.260648] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/lib/radar_visualizer/radar_visualizer\n'}
+[8.265486] (radar_visualizer) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/lib/radar_visualizer/radar_visualizer" to ""\n'}
+[8.266281] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/ament_index/resource_index/package_run_dependencies/radar_visualizer\n'}
+[8.266493] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/ament_index/resource_index/parent_prefix_path/radar_visualizer\n'}
+[8.266691] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/environment/ament_prefix_path.sh\n'}
+[8.266928] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/environment/ament_prefix_path.dsv\n'}
+[8.267087] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/environment/path.sh\n'}
+[8.267242] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/environment/path.dsv\n'}
+[8.267454] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/local_setup.bash\n'}
+[8.267643] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/local_setup.sh\n'}
+[8.267803] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/local_setup.zsh\n'}
+[8.267992] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/local_setup.dsv\n'}
+[8.268168] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/package.dsv\n'}
+[8.268345] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/ament_index/resource_index/packages/radar_visualizer\n'}
+[8.268527] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/cmake/radar_visualizerConfig.cmake\n'}
+[8.268685] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/cmake/radar_visualizerConfig-version.cmake\n'}
+[8.268840] (radar_visualizer) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/package.xml\n'}
+[8.270836] (radar_visualizer) CommandEnded: {'returncode': 0}
+[8.333167] (-) TimerEvent: {}
+[8.411989] (radar_visualizer) JobEnded: {'identifier': 'radar_visualizer', 'rc': 0}
+[8.413181] (-) EventReactorShutdown: {}
