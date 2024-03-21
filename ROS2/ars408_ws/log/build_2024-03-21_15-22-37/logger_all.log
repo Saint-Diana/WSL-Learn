@@ -1,0 +1,306 @@
+[0.890s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.890s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79fa6ddec550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79fa6efcfca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79fa6efcfca0>>)
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.937s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shen/learn/ROS2/ars408_ws'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/ars408_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/ars408_driver) by extension 'ignore'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/ars408_driver) by extension 'ignore_ament_install'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/ars408_driver) by extensions ['colcon_pkg']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/ars408_driver) by extension 'colcon_pkg'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/ars408_driver) by extensions ['colcon_meta']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/ars408_driver) by extension 'colcon_meta'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/ars408_driver) by extensions ['ros']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/ars408_driver) by extension 'ros'
+[0.951s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ars408_driver' with type 'ros.ament_cmake' and name 'pe_ars408_ros'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extension 'ignore_ament_install'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extensions ['colcon_pkg']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extension 'colcon_pkg'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extension 'ros'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extensions ['cmake', 'python']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extension 'cmake'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extension 'python'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extensions ['python_setup_py']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan) by extension 'python_setup_py'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan) by extensions ['ignore', 'ignore_ament_install']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan) by extension 'ignore'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan) by extension 'ignore_ament_install'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan) by extensions ['colcon_pkg']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan) by extension 'colcon_pkg'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan) by extension 'ros'
+[0.953s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_socketcan/ros2_socketcan' with type 'ros.ament_cmake' and name 'ros2_socketcan'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan_msgs) by extension 'ignore'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan_msgs) by extension 'ignore_ament_install'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan_msgs) by extensions ['colcon_pkg']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan_msgs) by extension 'colcon_pkg'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan_msgs) by extensions ['colcon_meta']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan_msgs) by extension 'colcon_meta'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan_msgs) by extensions ['ros']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_socketcan/ros2_socketcan_msgs) by extension 'ros'
+[0.954s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_socketcan/ros2_socketcan_msgs' with type 'ros.ament_cmake' and name 'ros2_socketcan_msgs'
+[0.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.954s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.037s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.066s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 344 installed packages in /opt/ros/humble
+[1.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan_msgs' build argument 'cmake_args' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan_msgs' build argument 'cmake_target' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.163s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.164s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_socketcan_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs', 'merge_install': False, 'path': '/home/shen/learn/ROS2/ars408_ws/src/ros2_socketcan/ros2_socketcan_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan' build argument 'cmake_args' from command line to 'None'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan' build argument 'cmake_target' from command line to 'None'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan' build argument 'cmake_clean_cache' from command line to 'False'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan' build argument 'cmake_clean_first' from command line to 'False'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan' build argument 'cmake_force_configure' from command line to 'False'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan' build argument 'ament_cmake_args' from command line to 'None'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan' build argument 'catkin_cmake_args' from command line to 'None'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'ros2_socketcan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.176s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_socketcan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan', 'merge_install': False, 'path': '/home/shen/learn/ROS2/ars408_ws/src/ros2_socketcan/ros2_socketcan', 'symlink_install': False, 'test_result_base': None}
+[1.189s] Level 5:colcon.colcon_core.verb:set package 'pe_ars408_ros' build argument 'cmake_args' from command line to 'None'
+[1.189s] Level 5:colcon.colcon_core.verb:set package 'pe_ars408_ros' build argument 'cmake_target' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'pe_ars408_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'pe_ars408_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'pe_ars408_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'pe_ars408_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'pe_ars408_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'pe_ars408_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'pe_ars408_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.190s] DEBUG:colcon.colcon_core.verb:Building package 'pe_ars408_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros', 'merge_install': False, 'path': '/home/shen/learn/ROS2/ars408_ws/src/ars408_driver', 'symlink_install': False, 'test_result_base': None}
+[1.203s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.218s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shen/learn/ROS2/ars408_ws/src/ros2_socketcan/ros2_socketcan_msgs' with build type 'ament_cmake'
+[1.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shen/learn/ROS2/ars408_ws/src/ros2_socketcan/ros2_socketcan_msgs'
+[1.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan_msgs -- -j16 -l16
+[1.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan_msgs -- -j16 -l16
+[1.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan_msgs
+[1.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_socketcan_msgs)
+[1.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan_msgs
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs' for CMake module files
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs' for CMake config files
+[1.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_socketcan_msgs', 'cmake_prefix_path')
+[1.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/hook/cmake_prefix_path.ps1'
+[1.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/hook/cmake_prefix_path.dsv'
+[1.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/hook/cmake_prefix_path.sh'
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib'
+[1.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_socketcan_msgs', 'ld_library_path_lib')
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/hook/ld_library_path_lib.ps1'
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/hook/ld_library_path_lib.dsv'
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/hook/ld_library_path_lib.sh'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/bin'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib/pkgconfig/ros2_socketcan_msgs.pc'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib/python3.10/site-packages'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/bin'
+[1.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/package.ps1'
+[1.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/package.dsv'
+[1.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/package.sh'
+[1.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/package.bash'
+[1.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/package.zsh'
+[1.967s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/colcon-core/packages/ros2_socketcan_msgs)
+[2.047s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_socketcan_msgs)
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs' for CMake module files
+[2.061s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs' for CMake config files
+[2.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_socketcan_msgs', 'cmake_prefix_path')
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/hook/cmake_prefix_path.ps1'
+[2.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/hook/cmake_prefix_path.dsv'
+[2.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/hook/cmake_prefix_path.sh'
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib'
+[2.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_socketcan_msgs', 'ld_library_path_lib')
+[2.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/hook/ld_library_path_lib.ps1'
+[2.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/hook/ld_library_path_lib.dsv'
+[2.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/hook/ld_library_path_lib.sh'
+[2.091s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/bin'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib/pkgconfig/ros2_socketcan_msgs.pc'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib/python3.10/site-packages'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/bin'
+[2.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/package.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/package.dsv'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/package.sh'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/package.bash'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/ros2_socketcan_msgs/package.zsh'
+[2.108s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/share/colcon-core/packages/ros2_socketcan_msgs)
+[2.109s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shen/learn/ROS2/ars408_ws/src/ros2_socketcan/ros2_socketcan' with build type 'ament_cmake'
+[2.109s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shen/learn/ROS2/ars408_ws/src/ros2_socketcan/ros2_socketcan'
+[2.125s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.125s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan': AMENT_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan -- -j16 -l16
+[2.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan' returned '0': AMENT_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan -- -j16 -l16
+[2.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan': AMENT_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan
+[2.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_socketcan)
+[2.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan' returned '0': AMENT_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan' for CMake module files
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan' for CMake config files
+[2.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_socketcan', 'cmake_prefix_path')
+[2.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/hook/cmake_prefix_path.ps1'
+[2.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/hook/cmake_prefix_path.dsv'
+[2.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/hook/cmake_prefix_path.sh'
+[2.440s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib'
+[2.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_socketcan', 'ld_library_path_lib')
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/hook/ld_library_path_lib.ps1'
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/hook/ld_library_path_lib.dsv'
+[2.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/hook/ld_library_path_lib.sh'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/bin'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib/pkgconfig/ros2_socketcan.pc'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib/python3.10/site-packages'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/bin'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/package.ps1'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/package.dsv'
+[2.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/package.sh'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/package.bash'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/package.zsh'
+[2.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/colcon-core/packages/ros2_socketcan)
+[2.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_socketcan)
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan' for CMake module files
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan' for CMake config files
+[2.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_socketcan', 'cmake_prefix_path')
+[2.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/hook/cmake_prefix_path.ps1'
+[2.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/hook/cmake_prefix_path.dsv'
+[2.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/hook/cmake_prefix_path.sh'
+[2.587s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib'
+[2.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_socketcan', 'ld_library_path_lib')
+[2.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/hook/ld_library_path_lib.ps1'
+[2.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/hook/ld_library_path_lib.dsv'
+[2.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/hook/ld_library_path_lib.sh'
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/bin'
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib/pkgconfig/ros2_socketcan.pc'
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib/python3.10/site-packages'
+[2.603s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/bin'
+[2.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/package.ps1'
+[2.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/package.dsv'
+[2.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/package.sh'
+[2.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/package.bash'
+[2.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/ros2_socketcan/package.zsh'
+[2.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/share/colcon-core/packages/ros2_socketcan)
+[2.619s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shen/learn/ROS2/ars408_ws/src/ars408_driver' with build type 'ament_cmake'
+[2.619s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shen/learn/ROS2/ars408_ws/src/ars408_driver'
+[2.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros': AMENT_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros -- -j16 -l16
+[2.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros' returned '0': AMENT_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros -- -j16 -l16
+[2.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros': AMENT_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros
+[2.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pe_ars408_ros)
+[2.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros' returned '0': AMENT_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros
+[2.872s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros' for CMake module files
+[2.872s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros' for CMake config files
+[2.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('pe_ars408_ros', 'cmake_prefix_path')
+[2.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/hook/cmake_prefix_path.ps1'
+[2.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/hook/cmake_prefix_path.dsv'
+[2.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/hook/cmake_prefix_path.sh'
+[2.887s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib'
+[2.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('pe_ars408_ros', 'ld_library_path_lib')
+[2.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/hook/ld_library_path_lib.ps1'
+[2.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/hook/ld_library_path_lib.dsv'
+[2.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/hook/ld_library_path_lib.sh'
+[2.901s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/bin'
+[2.901s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib/pkgconfig/pe_ars408_ros.pc'
+[2.901s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib/python3.10/site-packages'
+[2.901s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/bin'
+[2.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/package.ps1'
+[2.914s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/package.dsv'
+[2.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/package.sh'
+[2.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/package.bash'
+[2.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/package.zsh'
+[2.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/colcon-core/packages/pe_ars408_ros)
+[2.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pe_ars408_ros)
+[2.980s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros' for CMake module files
+[2.981s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros' for CMake config files
+[2.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('pe_ars408_ros', 'cmake_prefix_path')
+[2.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/hook/cmake_prefix_path.ps1'
+[2.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/hook/cmake_prefix_path.dsv'
+[2.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/hook/cmake_prefix_path.sh'
+[2.996s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib'
+[2.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('pe_ars408_ros', 'ld_library_path_lib')
+[3.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/hook/ld_library_path_lib.ps1'
+[3.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/hook/ld_library_path_lib.dsv'
+[3.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/hook/ld_library_path_lib.sh'
+[3.010s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/bin'
+[3.010s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib/pkgconfig/pe_ars408_ros.pc'
+[3.010s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib/python3.10/site-packages'
+[3.011s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/bin'
+[3.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/package.ps1'
+[3.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/package.dsv'
+[3.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/package.sh'
+[3.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/package.bash'
+[3.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/package.zsh'
+[3.026s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/colcon-core/packages/pe_ars408_ros)
+[3.027s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.027s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.027s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.027s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.067s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.067s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.067s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.082s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.096s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/ars408_ws/install/local_setup.ps1'
+[3.097s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shen/learn/ROS2/ars408_ws/install/_local_setup_util_ps1.py'
+[3.098s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/ars408_ws/install/setup.ps1'
+[3.112s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/ars408_ws/install/local_setup.sh'
+[3.112s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shen/learn/ROS2/ars408_ws/install/_local_setup_util_sh.py'
+[3.113s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/ars408_ws/install/setup.sh'
+[3.127s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/ars408_ws/install/local_setup.bash'
+[3.127s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/ars408_ws/install/setup.bash'
+[3.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/ars408_ws/install/local_setup.zsh'
+[3.143s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/ars408_ws/install/setup.zsh'

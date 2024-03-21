@@ -2,17 +2,17 @@ rosbag2_bagfile_information:
   version: 5
   storage_identifier: sqlite3
   duration:
-    nanoseconds: 50412543541
+    nanoseconds: 23900475000
   starting_time:
-    nanoseconds_since_epoch: 1710751673855520871
-  message_count: 9227
+    nanoseconds_since_epoch: 1711002670488262000
+  message_count: 4317
   topics_with_message_count:
     - topic_metadata:
         name: from_can_bus
         type: can_msgs/msg/Frame
         serialization_format: cdr
         offered_qos_profiles: ""
-      message_count: 9227
+      message_count: 4317
   compression_format: ""
   compression_mode: ""
   relative_file_paths:
@@ -20,7 +20,7 @@ rosbag2_bagfile_information:
   files:
     - path: can_message_0.db3
       starting_time:
-        nanoseconds_since_epoch: 1710751673855520871
+        nanoseconds_since_epoch: 1711002670488262000
       duration:
-        nanoseconds: 50412543541
-      message_count: 9227
+        nanoseconds: 23900475000
+      message_count: 4317

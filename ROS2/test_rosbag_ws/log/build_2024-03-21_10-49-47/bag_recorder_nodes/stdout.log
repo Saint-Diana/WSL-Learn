@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target test_recorder[0m
+[ 25%] Built target can_bag_recorder
+[ 50%] Built target multi_bag_recorder
+[ 75%] Built target simple_bag_recorder
+[ 87%] [32mBuilding CXX object CMakeFiles/test_recorder.dir/src/test_recorder.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_recorder[0m
+[100%] Built target test_recorder
+-- Install configuration: ""
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/can_bag_recorder
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/multi_bag_recorder
+-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/test_recorder
+-- Set runtime path of "/home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/test_recorder" to ""
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/ament_index/resource_index/package_run_dependencies/bag_recorder_nodes
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/ament_index/resource_index/parent_prefix_path/bag_recorder_nodes
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.sh
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.bash
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.sh
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.zsh
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.dsv
+-- Installing: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.dsv
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/ament_index/resource_index/packages/bag_recorder_nodes
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig.cmake
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig-version.cmake
+-- Up-to-date: /home/shen/learn/ROS2/test_rosbag_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.xml

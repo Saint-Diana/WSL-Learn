@@ -1,6 +1,6 @@
 <launch>
   <!-- interface -->
-  <arg name="input/frame" default="/sensing/radar/can_tx" />
+  <arg name="input/frame" default="/from_can_bus" />
   <arg name="output/objects" default="objects_raw" />
   <arg name="output/scan" default="scan" />
   <!-- parameter -->

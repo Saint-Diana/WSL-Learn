@@ -236,6 +236,19 @@ multi_bag_recorder/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/multi_bag_recorder.dir/build.make CMakeFiles/multi_bag_recorder.dir/build
 .PHONY : multi_bag_recorder/fast
 
+#=============================================================================
+# Target rules for targets named test_recorder
+
+# Build rule for target.
+test_recorder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_recorder
+.PHONY : test_recorder
+
+# fast build rule for target.
+test_recorder/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_recorder.dir/build.make CMakeFiles/test_recorder.dir/build
+.PHONY : test_recorder/fast
+
 src/can_bag_recorder.o: src/can_bag_recorder.cpp.o
 .PHONY : src/can_bag_recorder.o
 
@@ -308,6 +321,30 @@ src/simple_bag_recorder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_bag_recorder.dir/build.make CMakeFiles/simple_bag_recorder.dir/src/simple_bag_recorder.cpp.s
 .PHONY : src/simple_bag_recorder.cpp.s
 
+src/test_recorder.o: src/test_recorder.cpp.o
+.PHONY : src/test_recorder.o
+
+# target to build an object file
+src/test_recorder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_recorder.dir/build.make CMakeFiles/test_recorder.dir/src/test_recorder.cpp.o
+.PHONY : src/test_recorder.cpp.o
+
+src/test_recorder.i: src/test_recorder.cpp.i
+.PHONY : src/test_recorder.i
+
+# target to preprocess a source file
+src/test_recorder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_recorder.dir/build.make CMakeFiles/test_recorder.dir/src/test_recorder.cpp.i
+.PHONY : src/test_recorder.cpp.i
+
+src/test_recorder.s: src/test_recorder.cpp.s
+.PHONY : src/test_recorder.s
+
+# target to generate assembly for a file
+src/test_recorder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_recorder.dir/build.make CMakeFiles/test_recorder.dir/src/test_recorder.cpp.s
+.PHONY : src/test_recorder.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -326,6 +363,7 @@ help:
 	@echo "... can_bag_recorder"
 	@echo "... multi_bag_recorder"
 	@echo "... simple_bag_recorder"
+	@echo "... test_recorder"
 	@echo "... src/can_bag_recorder.o"
 	@echo "... src/can_bag_recorder.i"
 	@echo "... src/can_bag_recorder.s"
@@ -335,6 +373,9 @@ help:
 	@echo "... src/simple_bag_recorder.o"
 	@echo "... src/simple_bag_recorder.i"
 	@echo "... src/simple_bag_recorder.s"
+	@echo "... src/test_recorder.o"
+	@echo "... src/test_recorder.i"
+	@echo "... src/test_recorder.s"
 .PHONY : help
 
 

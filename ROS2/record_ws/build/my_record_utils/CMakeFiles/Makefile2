@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/shen/learn/ROS2/record_ws/build/my_record_utils
 
 # The main recursive "all" target.
 all: CMakeFiles/topic_recorder.dir/all
+all: CMakeFiles/topic_player.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/my_record_utils_uninstall.dir/clean
 clean: CMakeFiles/topic_recorder.dir/clean
+clean: CMakeFiles/topic_player.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +137,7 @@ CMakeFiles/my_record_utils_uninstall.dir/clean:
 CMakeFiles/topic_recorder.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_recorder.dir/build.make CMakeFiles/topic_recorder.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_recorder.dir/build.make CMakeFiles/topic_recorder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shen/learn/ROS2/record_ws/build/my_record_utils/CMakeFiles --progress-num=1,2 "Built target topic_recorder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shen/learn/ROS2/record_ws/build/my_record_utils/CMakeFiles --progress-num=3,4 "Built target topic_recorder"
 .PHONY : CMakeFiles/topic_recorder.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +155,32 @@ topic_recorder: CMakeFiles/topic_recorder.dir/rule
 CMakeFiles/topic_recorder.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_recorder.dir/build.make CMakeFiles/topic_recorder.dir/clean
 .PHONY : CMakeFiles/topic_recorder.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/topic_player.dir
+
+# All Build rule for target.
+CMakeFiles/topic_player.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_player.dir/build.make CMakeFiles/topic_player.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_player.dir/build.make CMakeFiles/topic_player.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shen/learn/ROS2/record_ws/build/my_record_utils/CMakeFiles --progress-num=1,2 "Built target topic_player"
+.PHONY : CMakeFiles/topic_player.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/topic_player.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shen/learn/ROS2/record_ws/build/my_record_utils/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/topic_player.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shen/learn/ROS2/record_ws/build/my_record_utils/CMakeFiles 0
+.PHONY : CMakeFiles/topic_player.dir/rule
+
+# Convenience name for target.
+topic_player: CMakeFiles/topic_player.dir/rule
+.PHONY : topic_player
+
+# clean rule for target.
+CMakeFiles/topic_player.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_player.dir/build.make CMakeFiles/topic_player.dir/clean
+.PHONY : CMakeFiles/topic_player.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

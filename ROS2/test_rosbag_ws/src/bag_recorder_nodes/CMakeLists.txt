@@ -10,6 +10,8 @@ find_package(ament_cmake REQUIRED)
 find_package(example_interfaces REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rosbag2_cpp REQUIRED)
+find_package(rosbag2_transport REQUIRED)
+find_package(rosbag2_storage REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(can_msgs REQUIRED)
 
@@ -47,6 +49,14 @@ ament_target_dependencies(multi_bag_recorder rclcpp rosbag2_cpp can_msgs std_msg
 
 install(TARGETS
   multi_bag_recorder
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+add_executable(test_recorder src/test_recorder.cpp)
+ament_target_dependencies(test_recorder rclcpp rosbag2_cpp rosbag2_transport rosbag2_storage can_msgs std_msgs)
+
+install(TARGETS
+  test_recorder
   DESTINATION lib/${PROJECT_NAME}
 )
 

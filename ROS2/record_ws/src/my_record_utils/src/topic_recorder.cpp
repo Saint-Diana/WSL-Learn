@@ -34,7 +34,7 @@ public:
       std::string topic_type = (*it)["type"].as<std::string>();
 
       RCLCPP_INFO(this->get_logger(), "topic_name: %s, topic_type: %s",
-                    topic_name.c_str(), topic_type.c_str());
+                  topic_name.c_str(), topic_type.c_str());
 
       // create the subscriber
       if (topic_type == "can_msgs/msg/Frame")
@@ -42,7 +42,8 @@ public:
         auto callback = create_callback(topic_name, topic_type);
         auto subscription = create_subscription<can_msgs::msg::Frame>(topic_name, 10, callback);
         subscriptions_.push_back(subscription);
-      } else if (topic_type == "udp_msgs/msg/UdpPacket")
+      }
+      else if (topic_type == "udp_msgs/msg/UdpPacket")
       {
         auto callback = create_callback(topic_name, topic_type);
         auto subscription = create_subscription<udp_msgs::msg::UdpPacket>(topic_name, 10, callback);
@@ -53,10 +54,10 @@ public:
 
 private:
   // I want to create a function which can product callback function!
-  std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)> create_callback(const std::string& topic_name,
-    const std::string& topic_type)
+  std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)> create_callback(const std::string &topic_name,
+                                                                                  const std::string &topic_type)
   {
-    auto callback =[this, topic_name, topic_type](std::shared_ptr<rclcpp::SerializedMessage> msg)
+    auto callback = [this, topic_name, topic_type](std::shared_ptr<rclcpp::SerializedMessage> msg)
     {
       rclcpp::Time time_stamp = this->now();
       if (topic_type == "can_msgs/msg/Frame")
@@ -65,7 +66,8 @@ private:
         can_msgs::msg::Frame can_msg;
         serialization.deserialize_message(msg.get(), &can_msg);
         time_stamp = can_msg.header.stamp;
-      } else if (topic_type == "udp_msgs/msg/UdpPacket")
+      }
+      else if (topic_type == "udp_msgs/msg/UdpPacket")
       {
         rclcpp::Serialization<udp_msgs::msg::UdpPacket> serialization;
         udp_msgs::msg::UdpPacket udp_msg;
@@ -73,20 +75,20 @@ private:
         time_stamp = udp_msg.header.stamp;
       }
 
-      RCLCPP_INFO(this->get_logger(),"time_stamp.seconds = %.2f, time_stamp.nanoseconds = %ld",
-                    time_stamp.seconds(),time_stamp.nanoseconds());
+      RCLCPP_INFO(this->get_logger(), "time_stamp.seconds = %.2f, time_stamp.nanoseconds = %ld",
+                  time_stamp.seconds(), time_stamp.nanoseconds());
 
       this->writer_->write(msg, topic_name, topic_type, time_stamp);
     };
     return callback;
   }
 
-  std::string bag_file_path_;                              // path of storage folder
+  std::string bag_file_path_; // path of storage folder
   std::unique_ptr<rosbag2_cpp::Writer> writer_;
   std::vector<std::shared_ptr<void>> subscriptions_;
 };
 
-int main(int argc, char ** argv)
+int main(int argc, char **argv)
 {
   rclcpp::init(argc, argv);
   rclcpp::spin(std::make_shared<TopicRecorder>());

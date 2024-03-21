@@ -2,13 +2,14 @@ cmake_minimum_required(VERSION 3.8)
 project(my_record_utils)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
+  add_compile_options(-Wall -Wextra -Wpedantic -std=c++17)
 endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rosbag2_cpp REQUIRED)
+find_package(rosbag2_storage REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(can_msgs REQUIRED)
 find_package(udp_msgs REQUIRED)
@@ -26,7 +27,6 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-
 
 add_executable(topic_recorder src/topic_recorder.cpp)
 
@@ -46,6 +46,24 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
+# --------------------------------------------------------
+add_executable(topic_player src/toipc_player.cpp)
+
+ament_target_dependencies(topic_player
+ rclcpp
+ rosbag2_cpp
+ rosbag2_storage
+ std_msgs
+ can_msgs
+ udp_msgs
+)
+
+install(TARGETS
+  topic_player
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# ---------------------------------------------------------
 # about launch files
 install(DIRECTORY launch
 DESTINATION share/${PROJECT_NAME}

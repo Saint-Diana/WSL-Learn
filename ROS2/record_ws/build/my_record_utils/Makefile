@@ -210,6 +210,43 @@ topic_recorder/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_recorder.dir/build.make CMakeFiles/topic_recorder.dir/build
 .PHONY : topic_recorder/fast
 
+#=============================================================================
+# Target rules for targets named topic_player
+
+# Build rule for target.
+topic_player: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 topic_player
+.PHONY : topic_player
+
+# fast build rule for target.
+topic_player/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_player.dir/build.make CMakeFiles/topic_player.dir/build
+.PHONY : topic_player/fast
+
+src/toipc_player.o: src/toipc_player.cpp.o
+.PHONY : src/toipc_player.o
+
+# target to build an object file
+src/toipc_player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_player.dir/build.make CMakeFiles/topic_player.dir/src/toipc_player.cpp.o
+.PHONY : src/toipc_player.cpp.o
+
+src/toipc_player.i: src/toipc_player.cpp.i
+.PHONY : src/toipc_player.i
+
+# target to preprocess a source file
+src/toipc_player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_player.dir/build.make CMakeFiles/topic_player.dir/src/toipc_player.cpp.i
+.PHONY : src/toipc_player.cpp.i
+
+src/toipc_player.s: src/toipc_player.cpp.s
+.PHONY : src/toipc_player.s
+
+# target to generate assembly for a file
+src/toipc_player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_player.dir/build.make CMakeFiles/topic_player.dir/src/toipc_player.cpp.s
+.PHONY : src/toipc_player.cpp.s
+
 src/topic_recorder.o: src/topic_recorder.cpp.o
 .PHONY : src/topic_recorder.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... my_record_utils_uninstall"
 	@echo "... uninstall"
+	@echo "... topic_player"
 	@echo "... topic_recorder"
+	@echo "... src/toipc_player.o"
+	@echo "... src/toipc_player.i"
+	@echo "... src/toipc_player.s"
 	@echo "... src/topic_recorder.o"
 	@echo "... src/topic_recorder.i"
 	@echo "... src/topic_recorder.s"
