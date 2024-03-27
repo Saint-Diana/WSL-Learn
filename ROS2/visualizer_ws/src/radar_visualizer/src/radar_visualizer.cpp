@@ -27,7 +27,7 @@ private:
         marker.header.stamp = this->get_clock()->now();
         marker.ns = namespace_;
         marker.id = marker_id_++;
-        marker.lifetime = rclcpp::Duration::from_seconds(0);
+        marker.lifetime = rclcpp::Duration::from_seconds(4); // Point last for 4 seconds
         marker.type = visualization_msgs::msg::Marker::POINTS;
         marker.action = visualization_msgs::msg::Marker::ADD;
         marker.pose.orientation.w = 1.0;

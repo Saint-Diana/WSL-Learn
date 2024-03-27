@@ -1,0 +1,26 @@
+[0.060s] Invoking command in '/home/shen/learn/ROS2/test_sync/build/temp_sync': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/test_sync/build/temp_sync -- -j16 -l16
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target syncer[0m
+[0.155s] [ 50%] [32mBuilding CXX object CMakeFiles/syncer.dir/src/temp_sync.cpp.o[0m
+[9.866s] [100%] [32m[1mLinking CXX executable syncer[0m
+[10.527s] [100%] Built target syncer
+[10.554s] Invoked command in '/home/shen/learn/ROS2/test_sync/build/temp_sync' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/test_sync/build/temp_sync -- -j16 -l16
+[10.641s] Invoking command in '/home/shen/learn/ROS2/test_sync/build/temp_sync': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/test_sync/build/temp_sync
+[10.658s] -- Install configuration: ""
+[10.659s] -- Installing: /home/shen/learn/ROS2/test_sync/install/temp_sync/lib/temp_sync/syncer
+[10.682s] -- Set runtime path of "/home/shen/learn/ROS2/test_sync/install/temp_sync/lib/temp_sync/syncer" to ""
+[10.682s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/ament_index/resource_index/package_run_dependencies/temp_sync
+[10.683s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/ament_index/resource_index/parent_prefix_path/temp_sync
+[10.683s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/ament_prefix_path.sh
+[10.683s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/ament_prefix_path.dsv
+[10.684s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/path.sh
+[10.684s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/path.dsv
+[10.684s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.bash
+[10.684s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.sh
+[10.684s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.zsh
+[10.685s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.dsv
+[10.685s] -- Installing: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/package.dsv
+[10.685s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/ament_index/resource_index/packages/temp_sync
+[10.685s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/cmake/temp_syncConfig.cmake
+[10.685s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/cmake/temp_syncConfig-version.cmake
+[10.685s] -- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/package.xml
+[10.688s] Invoked command in '/home/shen/learn/ROS2/test_sync/build/temp_sync' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/test_sync/build/temp_sync

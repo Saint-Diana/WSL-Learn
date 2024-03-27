@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target syncer[0m
+[100%] Built target syncer
+-- Install configuration: ""
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/lib/temp_sync/syncer
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/ament_index/resource_index/package_run_dependencies/temp_sync
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/ament_index/resource_index/parent_prefix_path/temp_sync
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/path.sh
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.bash
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.sh
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.zsh
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.dsv
+-- Installing: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/package.dsv
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/ament_index/resource_index/packages/temp_sync
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/cmake/temp_syncConfig.cmake
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/cmake/temp_syncConfig-version.cmake
+-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/package.xml

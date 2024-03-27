@@ -1,0 +1,387 @@
+[0.813s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.813s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7da667bacee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7da668dd7f40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7da668dd7f40>>)
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.850s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shen/learn/ROS2/ethernet_ws'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'ignore'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'ignore_ament_install'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['colcon_pkg']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'colcon_pkg'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['colcon_meta']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'colcon_meta'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['ros']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'ros'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['cmake', 'python']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'cmake'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'python'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['python_setup_py']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'python_setup_py'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extensions ['ignore', 'ignore_ament_install']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'ignore'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'ignore_ament_install'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extensions ['colcon_pkg']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'colcon_pkg'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extensions ['colcon_meta']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'colcon_meta'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extensions ['ros']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'ros'
+[0.863s] DEBUG:colcon.colcon_core.package_identification:Package 'src/transport_drivers/asio_cmake_module' with type 'ros.ament_cmake' and name 'asio_cmake_module'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extensions ['ignore', 'ignore_ament_install']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'ignore'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'ignore_ament_install'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extensions ['colcon_pkg']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'colcon_pkg'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extensions ['colcon_meta']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'colcon_meta'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extensions ['ros']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'ros'
+[0.864s] DEBUG:colcon.colcon_core.package_identification:Package 'src/transport_drivers/io_context' with type 'ros.ament_cmake' and name 'io_context'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'ignore'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'ignore_ament_install'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extensions ['colcon_pkg']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'colcon_pkg'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extensions ['colcon_meta']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'colcon_meta'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extensions ['ros']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'ros'
+[0.865s] DEBUG:colcon.colcon_core.package_identification:Package 'src/transport_drivers/serial_driver' with type 'ros.ament_cmake' and name 'serial_driver'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'ignore'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'ignore_ament_install'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extensions ['colcon_pkg']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'colcon_pkg'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extensions ['colcon_meta']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'colcon_meta'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extensions ['ros']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'ros'
+[0.867s] DEBUG:colcon.colcon_core.package_identification:Package 'src/transport_drivers/udp_driver' with type 'ros.ament_cmake' and name 'udp_driver'
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.955s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.955s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.955s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.955s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/shen/learn/ROS2/ethernet_ws/install/io_context' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.955s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.955s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.956s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.956s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.956s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/shen/learn/ROS2/ethernet_ws/install/io_context' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.956s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.971s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/shen/learn/ROS2/ethernet_ws/install
+[0.985s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 344 installed packages in /opt/ros/humble
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_args' from command line to 'None'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_target' from command line to 'None'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_clean_cache' from command line to 'False'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_clean_first' from command line to 'False'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_force_configure' from command line to 'False'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'ament_cmake_args' from command line to 'None'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'catkin_cmake_args' from command line to 'None'
+[1.074s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.074s] DEBUG:colcon.colcon_core.verb:Building package 'asio_cmake_module' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shen/learn/ROS2/ethernet_ws/build/asio_cmake_module', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module', 'merge_install': False, 'path': '/home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/asio_cmake_module', 'symlink_install': False, 'test_result_base': None}
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_args' from command line to 'None'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_target' from command line to 'None'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_clean_cache' from command line to 'False'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_clean_first' from command line to 'False'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_force_configure' from command line to 'False'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'ament_cmake_args' from command line to 'None'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'catkin_cmake_args' from command line to 'None'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.086s] DEBUG:colcon.colcon_core.verb:Building package 'io_context' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shen/learn/ROS2/ethernet_ws/build/io_context', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shen/learn/ROS2/ethernet_ws/install/io_context', 'merge_install': False, 'path': '/home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/io_context', 'symlink_install': False, 'test_result_base': None}
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_args' from command line to 'None'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_target' from command line to 'None'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.099s] DEBUG:colcon.colcon_core.verb:Building package 'serial_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shen/learn/ROS2/ethernet_ws/build/serial_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver', 'merge_install': False, 'path': '/home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/serial_driver', 'symlink_install': False, 'test_result_base': None}
+[1.110s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_args' from command line to 'None'
+[1.110s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_target' from command line to 'None'
+[1.110s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.110s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.110s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.110s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.110s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.110s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.110s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.111s] DEBUG:colcon.colcon_core.verb:Building package 'udp_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shen/learn/ROS2/ethernet_ws/build/udp_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver', 'merge_install': False, 'path': '/home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/udp_driver', 'symlink_install': False, 'test_result_base': None}
+[1.123s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.136s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.136s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/asio_cmake_module' with build type 'ament_cmake'
+[1.136s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/asio_cmake_module'
+[1.151s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.151s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.151s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/asio_cmake_module -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module
+[2.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/asio_cmake_module -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module
+[2.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/ethernet_ws/build/asio_cmake_module -- -j16 -l16
+[2.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/ethernet_ws/build/asio_cmake_module -- -j16 -l16
+[2.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/ethernet_ws/build/asio_cmake_module
+[2.312s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asio_cmake_module)
+[2.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/ethernet_ws/build/asio_cmake_module
+[2.351s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module' for CMake module files
+[2.352s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module' for CMake config files
+[2.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('asio_cmake_module', 'cmake_prefix_path')
+[2.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.ps1'
+[2.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.dsv'
+[2.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.sh'
+[2.387s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/bin'
+[2.387s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/lib/pkgconfig/asio_cmake_module.pc'
+[2.387s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/lib/python3.10/site-packages'
+[2.388s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/bin'
+[2.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/package.ps1'
+[2.403s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/package.dsv'
+[2.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/package.sh'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/package.bash'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/package.zsh'
+[2.404s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/colcon-core/packages/asio_cmake_module)
+[2.448s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asio_cmake_module)
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module' for CMake module files
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module' for CMake config files
+[2.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('asio_cmake_module', 'cmake_prefix_path')
+[2.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.ps1'
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.dsv'
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.sh'
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/bin'
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/lib/pkgconfig/asio_cmake_module.pc'
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/lib/python3.10/site-packages'
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/bin'
+[2.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/package.ps1'
+[2.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/package.dsv'
+[2.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/package.sh'
+[2.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/package.bash'
+[2.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/asio_cmake_module/package.zsh'
+[2.487s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module/share/colcon-core/packages/asio_cmake_module)
+[2.487s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/io_context' with build type 'ament_cmake'
+[2.487s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/io_context'
+[2.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/io_context': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/home/shen/learn/ROS2/ethernet_ws/install/io_context:/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/io_context -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/ethernet_ws/install/io_context
+[4.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/home/shen/learn/ROS2/ethernet_ws/install/io_context:/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/io_context -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/ethernet_ws/install/io_context
+[4.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/io_context': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/home/shen/learn/ROS2/ethernet_ws/install/io_context:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/ethernet_ws/build/io_context -- -j16 -l16
+[8.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/home/shen/learn/ROS2/ethernet_ws/install/io_context:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/ethernet_ws/build/io_context -- -j16 -l16
+[9.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/io_context': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/home/shen/learn/ROS2/ethernet_ws/install/io_context:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/ethernet_ws/build/io_context
+[9.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(io_context)
+[9.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/home/shen/learn/ROS2/ethernet_ws/install/io_context:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/ethernet_ws/build/io_context
+[9.120s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context' for CMake module files
+[9.121s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context' for CMake config files
+[9.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'cmake_prefix_path')
+[9.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/hook/cmake_prefix_path.ps1'
+[9.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/hook/cmake_prefix_path.dsv'
+[9.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/hook/cmake_prefix_path.sh'
+[9.159s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib'
+[9.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'ld_library_path_lib')
+[9.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/hook/ld_library_path_lib.ps1'
+[9.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/hook/ld_library_path_lib.dsv'
+[9.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/hook/ld_library_path_lib.sh'
+[9.180s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context/bin'
+[9.180s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib/pkgconfig/io_context.pc'
+[9.180s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib/python3.10/site-packages'
+[9.180s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context/bin'
+[9.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/package.ps1'
+[9.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/package.dsv'
+[9.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/package.sh'
+[9.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/package.bash'
+[9.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/package.zsh'
+[9.193s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/colcon-core/packages/io_context)
+[9.312s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(io_context)
+[9.345s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context' for CMake module files
+[9.346s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context' for CMake config files
+[9.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'cmake_prefix_path')
+[9.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/hook/cmake_prefix_path.ps1'
+[9.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/hook/cmake_prefix_path.dsv'
+[9.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/hook/cmake_prefix_path.sh'
+[9.361s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib'
+[9.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'ld_library_path_lib')
+[9.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/hook/ld_library_path_lib.ps1'
+[9.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/hook/ld_library_path_lib.dsv'
+[9.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/hook/ld_library_path_lib.sh'
+[9.375s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context/bin'
+[9.375s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib/pkgconfig/io_context.pc'
+[9.375s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib/python3.10/site-packages'
+[9.375s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/io_context/bin'
+[9.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/package.ps1'
+[9.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/package.dsv'
+[9.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/package.sh'
+[9.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/package.bash'
+[9.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/package.zsh'
+[9.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ethernet_ws/install/io_context/share/colcon-core/packages/io_context)
+[9.390s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/serial_driver' with build type 'ament_cmake'
+[9.390s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/serial_driver'
+[9.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/udp_driver' with build type 'ament_cmake'
+[9.444s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/udp_driver'
+[9.457s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/serial_driver': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/serial_driver -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/ethernet_ws/install/serial_driver
+[9.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/udp_driver': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/udp_driver -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/ethernet_ws/install/udp_driver
+[11.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/udp_driver' returned '0': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/udp_driver -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/ethernet_ws/install/udp_driver
+[11.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/udp_driver': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shen/learn/ROS2/ethernet_ws/build/udp_driver -- -j16 -l16
+[11.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/serial_driver -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/ethernet_ws/install/serial_driver
+[11.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/serial_driver': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shen/learn/ROS2/ethernet_ws/build/serial_driver -- -j16 -l16
+[23.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shen/learn/ROS2/ethernet_ws/build/serial_driver -- -j16 -l16
+[23.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/serial_driver': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shen/learn/ROS2/ethernet_ws/build/serial_driver
+[23.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_driver)
+[23.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shen/learn/ROS2/ethernet_ws/build/serial_driver
+[23.648s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver' for CMake module files
+[23.648s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver' for CMake config files
+[23.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'cmake_prefix_path')
+[23.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.ps1'
+[23.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.dsv'
+[23.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.sh'
+[23.662s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib'
+[23.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'ld_library_path_lib')
+[23.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.ps1'
+[23.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.dsv'
+[23.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.sh'
+[23.676s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/bin'
+[23.676s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib/pkgconfig/serial_driver.pc'
+[23.676s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib/python3.10/site-packages'
+[23.676s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/bin'
+[23.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/package.ps1'
+[23.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/package.dsv'
+[23.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/package.sh'
+[23.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/package.bash'
+[23.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/package.zsh'
+[23.690s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/colcon-core/packages/serial_driver)
+[23.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_driver)
+[23.762s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver' for CMake module files
+[23.762s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver' for CMake config files
+[23.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'cmake_prefix_path')
+[23.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.ps1'
+[23.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.dsv'
+[23.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.sh'
+[23.776s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib'
+[23.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'ld_library_path_lib')
+[23.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.ps1'
+[23.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.dsv'
+[23.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.sh'
+[23.790s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/bin'
+[23.790s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib/pkgconfig/serial_driver.pc'
+[23.790s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib/python3.10/site-packages'
+[23.790s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/bin'
+[23.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/package.ps1'
+[23.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/package.dsv'
+[23.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/package.sh'
+[23.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/package.bash'
+[23.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/serial_driver/package.zsh'
+[23.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/share/colcon-core/packages/serial_driver)
+[33.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/udp_driver' returned '0': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shen/learn/ROS2/ethernet_ws/build/udp_driver -- -j16 -l16
+[33.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/udp_driver': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shen/learn/ROS2/ethernet_ws/build/udp_driver
+[33.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udp_driver)
+[33.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/udp_driver' returned '0': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/my_ethernet_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shen/learn/ROS2/ethernet_ws/build/udp_driver
+[33.401s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver' for CMake module files
+[33.402s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver' for CMake config files
+[33.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'cmake_prefix_path')
+[33.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.ps1'
+[33.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.dsv'
+[33.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.sh'
+[33.438s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib'
+[33.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'ld_library_path_lib')
+[33.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.ps1'
+[33.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.dsv'
+[33.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.sh'
+[33.470s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/bin'
+[33.470s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib/pkgconfig/udp_driver.pc'
+[33.471s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib/python3.10/site-packages'
+[33.471s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/bin'
+[33.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/package.ps1'
+[33.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/package.dsv'
+[33.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/package.sh'
+[33.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/package.bash'
+[33.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/package.zsh'
+[33.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/colcon-core/packages/udp_driver)
+[33.621s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udp_driver)
+[33.648s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver' for CMake module files
+[33.649s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver' for CMake config files
+[33.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'cmake_prefix_path')
+[33.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.ps1'
+[33.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.dsv'
+[33.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.sh'
+[33.662s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib'
+[33.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'ld_library_path_lib')
+[33.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.ps1'
+[33.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.dsv'
+[33.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.sh'
+[33.687s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/bin'
+[33.687s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib/pkgconfig/udp_driver.pc'
+[33.687s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib/python3.10/site-packages'
+[33.687s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/bin'
+[33.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/package.ps1'
+[33.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/package.dsv'
+[33.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/package.sh'
+[33.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/package.bash'
+[33.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/udp_driver/package.zsh'
+[33.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/share/colcon-core/packages/udp_driver)
+[33.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.702s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.702s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[33.702s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.745s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.746s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.746s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.761s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/ethernet_ws/install/local_setup.ps1'
+[33.774s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shen/learn/ROS2/ethernet_ws/install/_local_setup_util_ps1.py'
+[33.775s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/ethernet_ws/install/setup.ps1'
+[33.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/ethernet_ws/install/local_setup.sh'
+[33.789s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shen/learn/ROS2/ethernet_ws/install/_local_setup_util_sh.py'
+[33.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/ethernet_ws/install/setup.sh'
+[33.802s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/ethernet_ws/install/local_setup.bash'
+[33.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/ethernet_ws/install/setup.bash'
+[33.815s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/ethernet_ws/install/local_setup.zsh'
+[33.816s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/ethernet_ws/install/setup.zsh'

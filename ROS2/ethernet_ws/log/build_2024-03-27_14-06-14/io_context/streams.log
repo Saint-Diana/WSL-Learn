@@ -1,0 +1,38 @@
+[0.061s] Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/io_context': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/io_context:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/ethernet_ws/build/io_context -- -j16 -l16
+[0.170s] [ 22%] Built target gtest
+[0.175s] [ 44%] Built target gtest_main
+[0.183s] [ 77%] Built target io_context
+[0.232s] [100%] Built target test_io_context
+[0.244s] Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/io_context:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/ethernet_ws/build/io_context -- -j16 -l16
+[0.295s] Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/io_context': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/io_context:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/ethernet_ws/build/io_context
+[0.304s] -- Install configuration: ""
+[0.304s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/include
+[0.305s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/include/msg_converters
+[0.305s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/include/msg_converters/converters.hpp
+[0.305s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/include/msg_converters/udp_msgs.hpp
+[0.305s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/include/msg_converters/std_msgs.hpp
+[0.305s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/include/io_context
+[0.305s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/include/io_context/common.hpp
+[0.305s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/include/io_context/io_context.hpp
+[0.306s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/environment/library_path.sh
+[0.306s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/environment/library_path.dsv
+[0.306s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/lib/libio_context.so
+[0.306s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/ament_index/resource_index/package_run_dependencies/io_context
+[0.306s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/ament_index/resource_index/parent_prefix_path/io_context
+[0.306s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/environment/ament_prefix_path.sh
+[0.307s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/environment/ament_prefix_path.dsv
+[0.307s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/environment/path.sh
+[0.307s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/environment/path.dsv
+[0.307s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/local_setup.bash
+[0.307s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/local_setup.sh
+[0.307s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/local_setup.zsh
+[0.308s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/local_setup.dsv
+[0.308s] -- Installing: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/package.dsv
+[0.309s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/ament_index/resource_index/packages/io_context
+[0.310s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.310s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.310s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/cmake/ament_cmake_export_libraries-extras.cmake
+[0.311s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/cmake/io_contextConfig.cmake
+[0.312s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/cmake/io_contextConfig-version.cmake
+[0.312s] -- Up-to-date: /home/shen/learn/ROS2/ethernet_ws/install/io_context/share/io_context/package.xml
+[0.312s] Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/home/shen/learn/ROS2/ethernet_ws/install/io_context:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/ethernet_ws/build/io_context

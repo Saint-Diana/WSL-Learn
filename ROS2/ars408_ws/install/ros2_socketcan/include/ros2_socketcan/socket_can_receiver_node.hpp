@@ -81,6 +81,7 @@ private:
   std::chrono::nanoseconds interval_ns_;
   bool enable_fd_;
   bool use_bus_time_;
+  std::string topic_name_;
 };
 }  // namespace socketcan
 }  // namespace drivers

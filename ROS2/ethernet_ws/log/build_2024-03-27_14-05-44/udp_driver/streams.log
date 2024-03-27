@@ -1,0 +1,35 @@
+[0.063s] Invoking command in '/home/shen/learn/ROS2/ethernet_ws/build/udp_driver': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shen/learn/ROS2/ethernet_ws/build/udp_driver -- -j16 -l16
+[0.101s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.347s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.349s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.362s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.404s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.454s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.455s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.482s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.806s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.811s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.827s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.829s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.829s] -- Configured cppcheck include dirs: /home/shen/learn/ROS2/ethernet_ws/src/transport_drivers/udp_driver/include
+[0.829s] -- Configured cppcheck exclude dirs and/or files: 
+[0.831s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.831s] -- Configured cpplint exclude dirs and/or files: 
+[0.832s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.832s] -- Added test 'lint_cmake' to check CMake code style
+[0.832s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.834s] -- Added test 'uncrustify' to check C / C++ code style
+[0.834s] -- Configured uncrustify additional arguments: 
+[0.835s] -- Added test 'xmllint' to check XML markup files
+[0.837s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_export_dependencies/cmake/ament_export_dependencies.cmake:29 (message):
+[0.837s]   ament_export_dependencies() must be called before ament_package()
+[0.837s] Call Stack (most recent call first):
+[0.837s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_package.cmake:58 (ament_export_dependencies)
+[0.838s]   CMakeLists.txt:98 (ament_auto_package)
+[0.838s] 
+[0.838s] [0m
+[0.838s] -- Configuring incomplete, errors occurred!
+[0.838s] See also "/home/shen/learn/ROS2/ethernet_ws/build/udp_driver/CMakeFiles/CMakeOutput.log".
+[0.844s] gmake: *** [Makefile:677：cmake_check_build_system] 错误 1
+[0.847s] Invoked command in '/home/shen/learn/ROS2/ethernet_ws/build/udp_driver' returned '2': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context:/home/shen/learn/ROS2/ethernet_ws/install/asio_cmake_module:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ethernet_ws/install/io_context/lib:/home/shen/learn/ROS2/ethernet_ws/install/udp_driver/lib:/home/shen/learn/ROS2/ethernet_ws/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shen/learn/ROS2/ethernet_ws/build/udp_driver -- -j16 -l16

@@ -1,0 +1,2 @@
+Invoking command in '/home/shen/learn/ROS2/test_sync/build/temp_sync': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/test_sync/build/temp_sync -- -j16 -l16
+Invoked command in '/home/shen/learn/ROS2/test_sync/build/temp_sync' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/test_sync/build/temp_sync -- -j16 -l16

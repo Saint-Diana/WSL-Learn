@@ -1,7 +1,3 @@
 topic_recorder_node:
   ros__parameters:
-    bag_file_path: "can_message"
-
-topic_player_node:
-  ros__parameters:
-    bag_file_path: "can_message"
+    bag_file_path: "record_message"

@@ -39,6 +39,7 @@ def generate_launch_description():
             'enable_can_fd': LaunchConfiguration('enable_can_fd'),
             'timeout_sec':
             LaunchConfiguration('timeout_sec'),
+            'topic_name': LaunchConfiguration('topic_name'),
         }],
         output='screen')
 
@@ -75,11 +76,12 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        DeclareLaunchArgument('interface', default_value='can0'),
+        DeclareLaunchArgument('interface', default_value='vcan0'),
         DeclareLaunchArgument('enable_can_fd', default_value='false'),
-        DeclareLaunchArgument('timeout_sec', default_value='0.01'),
+        DeclareLaunchArgument('timeout_sec', default_value='0.1'),
         DeclareLaunchArgument('auto_configure', default_value='true'),
         DeclareLaunchArgument('auto_activate', default_value='true'),
+        DeclareLaunchArgument('topic_name', default_value='can_message'),
         socket_can_sender_node,
         socket_can_sender_configure_event_handler,
         socket_can_sender_activate_event_handler,

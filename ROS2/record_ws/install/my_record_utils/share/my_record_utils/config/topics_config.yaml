@@ -1,9 +1,5 @@
 topics:
-  - name: "from_can_bus"
+  - name: "can_message"
     type: "can_msgs/msg/Frame"
-  # - name: "can_message_1"
-  #   type: "can_msgs/msg/Frame"
-  # - name: "can_message_2"
-  #   type: "can_msgs/msg/Frame"
-  # - name: "ethernet_message"
+  # - name: "udp_message"
   #   type: "udp_msgs/msg/UdpPacket"

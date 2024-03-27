@@ -1,0 +1,42 @@
+[0.070s] Invoking command in '/home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros -- -j16 -l16
+[0.178s] [ 33%] Built target pe_ars408_node
+[0.181s] [ 66%] Built target pe_ars408_parser
+[0.235s] [100%] Built target pe_ars408_node_component
+[0.250s] Invoked command in '/home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros' returned '0': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros -- -j16 -l16
+[0.311s] Invoking command in '/home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros
+[0.319s] -- Install configuration: "Release"
+[0.320s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib/pe_ars408_ros/pe_ars408_node
+[0.320s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/include
+[0.321s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/include/ars408_ros
+[0.321s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/include/ars408_ros/ars408_commands.hpp
+[0.322s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/include/ars408_ros/ars408_object.hpp
+[0.322s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/include/ars408_ros/ars408_constants.hpp
+[0.322s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/include/ars408_ros/ars408_ros_node.hpp
+[0.322s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/include/ars408_ros/ars408_driver.hpp
+[0.322s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/environment/library_path.sh
+[0.323s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/environment/library_path.dsv
+[0.323s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib/libpe_ars408_parser.so
+[0.323s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib/libpe_ars408_node_component.so
+[0.324s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/launch
+[0.326s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/launch/continental_ars408_socket_can.launch.xml
+[0.326s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/launch/continental_ars408.launch.xml
+[0.328s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/ament_index/resource_index/package_run_dependencies/pe_ars408_ros
+[0.329s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/ament_index/resource_index/parent_prefix_path/pe_ars408_ros
+[0.329s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/environment/ament_prefix_path.sh
+[0.330s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/environment/ament_prefix_path.dsv
+[0.331s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/environment/path.sh
+[0.331s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/environment/path.dsv
+[0.331s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/local_setup.bash
+[0.332s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/local_setup.sh
+[0.333s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/local_setup.zsh
+[0.334s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/local_setup.dsv
+[0.334s] -- Installing: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/package.dsv
+[0.335s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/ament_index/resource_index/packages/pe_ars408_ros
+[0.336s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/ament_index/resource_index/rclcpp_components/pe_ars408_ros
+[0.337s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.337s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.338s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[0.339s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/cmake/pe_ars408_rosConfig.cmake
+[0.339s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/cmake/pe_ars408_rosConfig-version.cmake
+[0.340s] -- Up-to-date: /home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/share/pe_ars408_ros/package.xml
+[0.341s] Invoked command in '/home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros' returned '0': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shen/learn/ROS2/ars408_ws/build/pe_ars408_ros

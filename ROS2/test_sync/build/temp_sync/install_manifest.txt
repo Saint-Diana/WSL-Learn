@@ -1,0 +1,16 @@
+/home/shen/learn/ROS2/test_sync/install/temp_sync/lib/temp_sync/syncer
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/ament_index/resource_index/package_run_dependencies/temp_sync
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/ament_index/resource_index/parent_prefix_path/temp_sync
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/ament_prefix_path.sh
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/ament_prefix_path.dsv
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/path.sh
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/path.dsv
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.bash
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.sh
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.zsh
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.dsv
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/package.dsv
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/ament_index/resource_index/packages/temp_sync
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/cmake/temp_syncConfig.cmake
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/cmake/temp_syncConfig-version.cmake
+/home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/package.xml

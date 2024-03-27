@@ -1,6 +1,0 @@
-{
-  "package_name": "ros2_socketcan_msgs",
-  "non_idl_tuples": [
-    "/home/shen/learn/ROS2/socketcan_ws/src/ros2_socketcan/ros2_socketcan_msgs:msg/FdFrame.msg"
-  ]
-}

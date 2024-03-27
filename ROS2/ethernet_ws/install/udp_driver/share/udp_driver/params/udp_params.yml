@@ -1,0 +1,11 @@
+/udp_receiver_node:
+  ros__parameters:
+    ip: "192.168.1.34"          # ip 是接收UDP datagrams的主机的ip
+    port: 12345                 # port 是接收UDP datagrams的主机的端口
+    topic_name: "udp_read"      # topic_name 是发布的话题名称，也就是数据目的地的名称
+
+/udp_sender_node:
+  ros__parameters:
+    ip: "192.168.1.31"          # ip 是发送UDP datagrams的目标主机的ip
+    port: 6666                  # port 是发送UDP datagrams的目标主机的端口
+    topic_name: "udp_write"     # topic_name 是订阅的话题名称，也就是数据源的名称

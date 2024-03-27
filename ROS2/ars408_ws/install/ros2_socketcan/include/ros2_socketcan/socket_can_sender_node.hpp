@@ -80,6 +80,7 @@ private:
   rclcpp::Subscription<ros2_socketcan_msgs::msg::FdFrame>::SharedPtr fd_frames_sub_;
   std::unique_ptr<SocketCanSender> sender_;
   std::chrono::nanoseconds timeout_ns_;
+  std::string topic_name_;
 };
 }  // namespace socketcan
 }  // namespace drivers

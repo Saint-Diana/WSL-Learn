@@ -1,0 +1,10 @@
+/home/shen/learn/ROS2/test_sync/build/temp_sync/CMakeFiles/uninstall.dir
+/home/shen/learn/ROS2/test_sync/build/temp_sync/CMakeFiles/temp_sync_uninstall.dir
+/home/shen/learn/ROS2/test_sync/build/temp_sync/CMakeFiles/syncer.dir
+/home/shen/learn/ROS2/test_sync/build/temp_sync/CMakeFiles/test.dir
+/home/shen/learn/ROS2/test_sync/build/temp_sync/CMakeFiles/edit_cache.dir
+/home/shen/learn/ROS2/test_sync/build/temp_sync/CMakeFiles/rebuild_cache.dir
+/home/shen/learn/ROS2/test_sync/build/temp_sync/CMakeFiles/list_install_components.dir
+/home/shen/learn/ROS2/test_sync/build/temp_sync/CMakeFiles/install.dir
+/home/shen/learn/ROS2/test_sync/build/temp_sync/CMakeFiles/install/local.dir
+/home/shen/learn/ROS2/test_sync/build/temp_sync/CMakeFiles/install/strip.dir

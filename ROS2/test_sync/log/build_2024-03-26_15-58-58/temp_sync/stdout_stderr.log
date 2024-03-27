@@ -1,0 +1,24 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/syncer.dir/src/temp_sync.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/message_filters/message_filters/subscriber.h:40[m[K,
+                 from [01m[K/home/shen/learn/ROS2/test_sync/src/temp_sync/src/temp_sync.cpp:3[m[K:
+[01m[K/home/shen/learn/ROS2/test_sync/src/temp_sync/src/temp_sync.cpp:[m[K In member function ‘[01m[Kvoid SyncerNode::TempSyncCallback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[01m[K/home/shen/learn/ROS2/test_sync/src/temp_sync/src/temp_sync.cpp:33:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg_1[m[K’ was not declared in this scope
+   33 |                 [01;31m[Kmsg_1[m[K->header.stamp.sec, msg_2->header.stamp.sec);
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/shen/learn/ROS2/test_sync/src/temp_sync/src/temp_sync.cpp:33:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg_2[m[K’ was not declared in this scope
+   33 |                 msg_1->header.stamp.sec, [01;31m[Kmsg_2[m[K->header.stamp.sec);
+      |                                          [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/syncer.dir/build.make:76：CMakeFiles/syncer.dir/src/temp_sync.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/syncer.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -85,5 +85,6 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/shen/learn/ROS2/record_ws/src/my_record_utils"
 }

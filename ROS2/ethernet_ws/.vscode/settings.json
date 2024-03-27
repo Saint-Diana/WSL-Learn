@@ -86,5 +86,6 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "*.ipp": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/shen/learn/ROS2/ethernet_ws/src/my_ethernet_utils"
 }

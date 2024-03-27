@@ -41,6 +41,7 @@ def generate_launch_description():
             LaunchConfiguration('interval_sec'),
             'filters': LaunchConfiguration('filters'),
             'use_bus_time': LaunchConfiguration('use_bus_time'),
+            'topic_name': LaunchConfiguration('topic_name')
         }],
         output='screen')
 
@@ -77,10 +78,10 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        DeclareLaunchArgument('interface', default_value='can0'),
+        DeclareLaunchArgument('interface', default_value='vcan0'),
         DeclareLaunchArgument('enable_can_fd', default_value='false'),
-        DeclareLaunchArgument('interval_sec', default_value='0.01'),
-        DeclareLaunchArgument('use_bus_time', default_value='false'),
+        DeclareLaunchArgument('interval_sec', default_value='0.1'),
+        DeclareLaunchArgument('use_bus_time', default_value='true'),
         DeclareLaunchArgument('filters', default_value='0:0',
                               description='Comma separated filters can be specified for each given'
                                           ' CAN interface.\n'
@@ -106,6 +107,7 @@ def generate_launch_description():
                                           'man1/candump.1.html'),
         DeclareLaunchArgument('auto_configure', default_value='true'),
         DeclareLaunchArgument('auto_activate', default_value='true'),
+        DeclareLaunchArgument('topic_name', default_value='can_message'),
         socket_can_receiver_node,
         socket_can_receiver_configure_event_handler,
         socket_can_receiver_activate_event_handler,

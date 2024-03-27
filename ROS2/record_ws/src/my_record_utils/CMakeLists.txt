@@ -46,30 +46,9 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
-# --------------------------------------------------------
-add_executable(topic_player src/toipc_player.cpp)
-
-ament_target_dependencies(topic_player
- rclcpp
- rosbag2_cpp
- rosbag2_storage
- std_msgs
- can_msgs
- udp_msgs
-)
-
-install(TARGETS
-  topic_player
-  DESTINATION lib/${PROJECT_NAME}
-)
-
 # ---------------------------------------------------------
 # about launch files
 install(DIRECTORY launch
-DESTINATION share/${PROJECT_NAME}
-)
-
-install(DIRECTORY config
 DESTINATION share/${PROJECT_NAME}
 )
 

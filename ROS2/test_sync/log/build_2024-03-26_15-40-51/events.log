@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.000366] (temp_sync) JobQueued: {'identifier': 'temp_sync', 'dependencies': OrderedDict()}
+[0.000425] (temp_sync) JobStarted: {'identifier': 'temp_sync'}
+[0.056954] (temp_sync) JobProgress: {'identifier': 'temp_sync', 'progress': 'cmake'}
+[0.057439] (temp_sync) JobProgress: {'identifier': 'temp_sync', 'progress': 'build'}
+[0.058098] (temp_sync) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/test_sync/build/temp_sync', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/test_sync/build/temp_sync', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('SSH_CLIENT', '192.168.1.24 51530 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/shen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/shen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/shen'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a74d00d0-4541-4259-86d7-a06456056051.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/shen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/shen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/test_sync/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/home/shen/.local/bin:/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b1e2cead4c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/test_sync/install/temp_sync:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/shen/learn/ROS2/test_sync/build/temp_sync'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.24 51530 192.168.1.34 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/test_sync/install/temp_sync:/opt/ros/humble')]), 'shell': False}
+[0.099040] (-) TimerEvent: {}
+[0.149557] (temp_sync) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target syncer\x1b[0m\n'}
+[0.196466] (temp_sync) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/syncer.dir/src/temp_sync.cpp.o\x1b[0m\n'}
+[0.199192] (-) TimerEvent: {}
+[0.299568] (-) TimerEvent: {}
+[0.399925] (-) TimerEvent: {}
+[0.500364] (-) TimerEvent: {}
+[0.600796] (-) TimerEvent: {}
+[0.701245] (-) TimerEvent: {}
+[0.801660] (-) TimerEvent: {}
+[0.902018] (-) TimerEvent: {}
+[1.002376] (-) TimerEvent: {}
+[1.102773] (-) TimerEvent: {}
+[1.203188] (-) TimerEvent: {}
+[1.303602] (-) TimerEvent: {}
+[1.404029] (-) TimerEvent: {}
+[1.504458] (-) TimerEvent: {}
+[1.604891] (-) TimerEvent: {}
+[1.705315] (-) TimerEvent: {}
+[1.805725] (-) TimerEvent: {}
+[1.906118] (-) TimerEvent: {}
+[2.006541] (-) TimerEvent: {}
+[2.106948] (-) TimerEvent: {}
+[2.207356] (-) TimerEvent: {}
+[2.307797] (-) TimerEvent: {}
+[2.408242] (-) TimerEvent: {}
+[2.508613] (-) TimerEvent: {}
+[2.608980] (-) TimerEvent: {}
+[2.709346] (-) TimerEvent: {}
+[2.809704] (-) TimerEvent: {}
+[2.910078] (-) TimerEvent: {}
+[3.010447] (-) TimerEvent: {}
+[3.110804] (-) TimerEvent: {}
+[3.211164] (-) TimerEvent: {}
+[3.311483] (-) TimerEvent: {}
+[3.411739] (-) TimerEvent: {}
+[3.512057] (-) TimerEvent: {}
+[3.612477] (-) TimerEvent: {}
+[3.712874] (-) TimerEvent: {}
+[3.813242] (-) TimerEvent: {}
+[3.913870] (-) TimerEvent: {}
+[4.014268] (-) TimerEvent: {}
+[4.114713] (-) TimerEvent: {}
+[4.215117] (-) TimerEvent: {}
+[4.315491] (-) TimerEvent: {}
+[4.415803] (-) TimerEvent: {}
+[4.516226] (-) TimerEvent: {}
+[4.616651] (-) TimerEvent: {}
+[4.717083] (-) TimerEvent: {}
+[4.817481] (-) TimerEvent: {}
+[4.917818] (-) TimerEvent: {}
+[5.018165] (-) TimerEvent: {}
+[5.118765] (-) TimerEvent: {}
+[5.219189] (-) TimerEvent: {}
+[5.319590] (-) TimerEvent: {}
+[5.420018] (-) TimerEvent: {}
+[5.520443] (-) TimerEvent: {}
+[5.620863] (-) TimerEvent: {}
+[5.721262] (-) TimerEvent: {}
+[5.821624] (-) TimerEvent: {}
+[5.922041] (-) TimerEvent: {}
+[6.022779] (-) TimerEvent: {}
+[6.123171] (-) TimerEvent: {}
+[6.223594] (-) TimerEvent: {}
+[6.324025] (-) TimerEvent: {}
+[6.424450] (-) TimerEvent: {}
+[6.524869] (-) TimerEvent: {}
+[6.625291] (-) TimerEvent: {}
+[6.725714] (-) TimerEvent: {}
+[6.826133] (-) TimerEvent: {}
+[6.926557] (-) TimerEvent: {}
+[7.026974] (-) TimerEvent: {}
+[7.127369] (-) TimerEvent: {}
+[7.227788] (-) TimerEvent: {}
+[7.328223] (-) TimerEvent: {}
+[7.428823] (-) TimerEvent: {}
+[7.529254] (-) TimerEvent: {}
+[7.629680] (-) TimerEvent: {}
+[7.730103] (-) TimerEvent: {}
+[7.830540] (-) TimerEvent: {}
+[7.930932] (-) TimerEvent: {}
+[8.031268] (-) TimerEvent: {}
+[8.131587] (-) TimerEvent: {}
+[8.231868] (-) TimerEvent: {}
+[8.332197] (-) TimerEvent: {}
+[8.432531] (-) TimerEvent: {}
+[8.532860] (-) TimerEvent: {}
+[8.633197] (-) TimerEvent: {}
+[8.733535] (-) TimerEvent: {}
+[8.833865] (-) TimerEvent: {}
+[8.934207] (-) TimerEvent: {}
+[9.034573] (-) TimerEvent: {}
+[9.134948] (-) TimerEvent: {}
+[9.235296] (-) TimerEvent: {}
+[9.335658] (-) TimerEvent: {}
+[9.436017] (-) TimerEvent: {}
+[9.536353] (-) TimerEvent: {}
+[9.636704] (-) TimerEvent: {}
+[9.737061] (-) TimerEvent: {}
+[9.826392] (temp_sync) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable syncer\x1b[0m\n'}
+[9.837182] (-) TimerEvent: {}
+[9.937542] (-) TimerEvent: {}
+[10.037917] (-) TimerEvent: {}
+[10.138320] (-) TimerEvent: {}
+[10.238722] (-) TimerEvent: {}
+[10.339081] (-) TimerEvent: {}
+[10.439440] (-) TimerEvent: {}
+[10.519864] (temp_sync) StdoutLine: {'line': b'[100%] Built target syncer\n'}
+[10.539730] (-) TimerEvent: {}
+[10.540567] (temp_sync) CommandEnded: {'returncode': 0}
+[10.595778] (temp_sync) JobProgress: {'identifier': 'temp_sync', 'progress': 'install'}
+[10.613074] (temp_sync) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shen/learn/ROS2/test_sync/build/temp_sync'], 'cwd': '/home/shen/learn/ROS2/test_sync/build/temp_sync', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('SSH_CLIENT', '192.168.1.24 51530 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/shen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/shen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/shen'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a74d00d0-4541-4259-86d7-a06456056051.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/shen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/shen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/test_sync/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shen/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/home/shen/.local/bin:/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b1e2cead4c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/test_sync/install/temp_sync:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/shen/learn/ROS2/test_sync/build/temp_sync'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.24 51530 192.168.1.34 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/test_sync/install/temp_sync:/opt/ros/humble')]), 'shell': False}
+[10.631578] (temp_sync) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.632120] (temp_sync) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_sync/install/temp_sync/lib/temp_sync/syncer\n'}
+[10.639839] (-) TimerEvent: {}
+[10.655834] (temp_sync) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/test_sync/install/temp_sync/lib/temp_sync/syncer" to ""\n'}
+[10.656215] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/ament_index/resource_index/package_run_dependencies/temp_sync\n'}
+[10.656351] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/ament_index/resource_index/parent_prefix_path/temp_sync\n'}
+[10.656475] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/ament_prefix_path.sh\n'}
+[10.656594] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/ament_prefix_path.dsv\n'}
+[10.656822] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/path.sh\n'}
+[10.656992] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/environment/path.dsv\n'}
+[10.657131] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.bash\n'}
+[10.657269] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.sh\n'}
+[10.657412] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.zsh\n'}
+[10.657531] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/local_setup.dsv\n'}
+[10.657648] (temp_sync) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/package.dsv\n'}
+[10.657767] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/ament_index/resource_index/packages/temp_sync\n'}
+[10.657885] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/cmake/temp_syncConfig.cmake\n'}
+[10.657991] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/cmake/temp_syncConfig-version.cmake\n'}
+[10.658064] (temp_sync) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/test_sync/install/temp_sync/share/temp_sync/package.xml\n'}
+[10.660446] (temp_sync) CommandEnded: {'returncode': 0}
+[10.740198] (-) TimerEvent: {}
+[10.840671] (-) TimerEvent: {}
+[10.892147] (temp_sync) JobEnded: {'identifier': 'temp_sync', 'rc': 0}
+[10.893153] (-) EventReactorShutdown: {}
