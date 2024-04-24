@@ -1,0 +1,16 @@
+/home/shen/learn/ROS2/inject_ws/install/replay_client/lib/replay_client/replay_client_node
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/ament_index/resource_index/package_run_dependencies/replay_client
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/ament_index/resource_index/parent_prefix_path/replay_client
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/environment/ament_prefix_path.sh
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/environment/ament_prefix_path.dsv
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/environment/path.sh
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/environment/path.dsv
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/local_setup.bash
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/local_setup.sh
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/local_setup.zsh
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/local_setup.dsv
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/package.dsv
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/ament_index/resource_index/packages/replay_client
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/cmake/replay_clientConfig.cmake
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/cmake/replay_clientConfig-version.cmake
+/home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/package.xml

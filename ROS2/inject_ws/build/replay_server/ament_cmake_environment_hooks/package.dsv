@@ -1,0 +1,4 @@
+source;share/replay_server/local_setup.bash
+source;share/replay_server/local_setup.dsv
+source;share/replay_server/local_setup.sh
+source;share/replay_server/local_setup.zsh

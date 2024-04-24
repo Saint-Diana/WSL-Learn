@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target replay_server_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/replay_server_node.dir/src/replay_server_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable replay_server_node[0m
+[100%] Built target replay_server_node
+-- Install configuration: ""
+-- Installing: /home/shen/learn/ROS2/inject_ws/install/replay_server/lib/replay_server/replay_server_node
+-- Set runtime path of "/home/shen/learn/ROS2/inject_ws/install/replay_server/lib/replay_server/replay_server_node" to ""
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/launch
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/launch/server.launch.py
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/ament_index/resource_index/package_run_dependencies/replay_server
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/ament_index/resource_index/parent_prefix_path/replay_server
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/environment/path.sh
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/environment/path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/local_setup.bash
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/local_setup.sh
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/local_setup.zsh
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/local_setup.dsv
+-- Installing: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/package.dsv
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/ament_index/resource_index/packages/replay_server
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/cmake/replay_serverConfig.cmake
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/cmake/replay_serverConfig-version.cmake
+-- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/package.xml

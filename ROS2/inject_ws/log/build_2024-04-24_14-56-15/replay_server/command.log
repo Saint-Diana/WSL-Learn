@@ -1,0 +1,6 @@
+Invoking command in '/home/shen/learn/ROS2/inject_ws/build/replay_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/inject_ws/src/replay_server -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/inject_ws/install/replay_server
+Invoked command in '/home/shen/learn/ROS2/inject_ws/build/replay_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/inject_ws/src/replay_server -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/inject_ws/install/replay_server
+Invoking command in '/home/shen/learn/ROS2/inject_ws/build/replay_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/inject_ws/build/replay_server -- -j16 -l16
+Invoked command in '/home/shen/learn/ROS2/inject_ws/build/replay_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/inject_ws/build/replay_server -- -j16 -l16
+Invoking command in '/home/shen/learn/ROS2/inject_ws/build/replay_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/inject_ws/build/replay_server
+Invoked command in '/home/shen/learn/ROS2/inject_ws/build/replay_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/inject_ws/build/replay_server

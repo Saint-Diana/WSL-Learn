@@ -1,0 +1,24 @@
+[0.090s] Invoking command in '/home/shen/learn/ROS2/inject_ws/build/replay_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/inject_ws/build/replay_client -- -j16 -l16
+[0.173s] [35m[1mConsolidate compiler generated dependencies of target replay_client_node[0m
+[0.212s] [100%] Built target replay_client_node
+[0.225s] Invoked command in '/home/shen/learn/ROS2/inject_ws/build/replay_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/inject_ws/build/replay_client -- -j16 -l16
+[0.263s] Invoking command in '/home/shen/learn/ROS2/inject_ws/build/replay_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/inject_ws/build/replay_client
+[0.270s] -- Install configuration: ""
+[0.271s] -- Installing: /home/shen/learn/ROS2/inject_ws/install/replay_client/lib/replay_client/replay_client_node
+[0.272s] -- Set runtime path of "/home/shen/learn/ROS2/inject_ws/install/replay_client/lib/replay_client/replay_client_node" to ""
+[0.272s] -- Installing: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/ament_index/resource_index/package_run_dependencies/replay_client
+[0.272s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/ament_index/resource_index/parent_prefix_path/replay_client
+[0.272s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/environment/ament_prefix_path.sh
+[0.273s] -- Installing: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/environment/ament_prefix_path.dsv
+[0.273s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/environment/path.sh
+[0.273s] -- Installing: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/environment/path.dsv
+[0.274s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/local_setup.bash
+[0.274s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/local_setup.sh
+[0.274s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/local_setup.zsh
+[0.274s] -- Installing: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/local_setup.dsv
+[0.274s] -- Installing: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/package.dsv
+[0.274s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/ament_index/resource_index/packages/replay_client
+[0.274s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/cmake/replay_clientConfig.cmake
+[0.274s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/cmake/replay_clientConfig-version.cmake
+[0.275s] -- Installing: /home/shen/learn/ROS2/inject_ws/install/replay_client/share/replay_client/package.xml
+[0.276s] Invoked command in '/home/shen/learn/ROS2/inject_ws/build/replay_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/inject_ws/build/replay_client

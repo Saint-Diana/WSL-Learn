@@ -1,0 +1,28 @@
+[0.067s] Invoking command in '/home/shen/learn/ROS2/inject_ws/build/replay_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/inject_ws/build/replay_server -- -j16 -l16
+[0.155s] [35m[1mConsolidate compiler generated dependencies of target replay_server_node[0m
+[0.213s] [ 50%] [32mBuilding CXX object CMakeFiles/replay_server_node.dir/src/replay_server_node.cpp.o[0m
+[3.059s] [100%] [32m[1mLinking CXX executable replay_server_node[0m
+[3.315s] [100%] Built target replay_server_node
+[3.339s] Invoked command in '/home/shen/learn/ROS2/inject_ws/build/replay_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/inject_ws/build/replay_server -- -j16 -l16
+[3.391s] Invoking command in '/home/shen/learn/ROS2/inject_ws/build/replay_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/inject_ws/build/replay_server
+[3.405s] -- Install configuration: ""
+[3.406s] -- Installing: /home/shen/learn/ROS2/inject_ws/install/replay_server/lib/replay_server/replay_server_node
+[3.408s] -- Set runtime path of "/home/shen/learn/ROS2/inject_ws/install/replay_server/lib/replay_server/replay_server_node" to ""
+[3.408s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/launch
+[3.408s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/launch/server.launch.py
+[3.408s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/ament_index/resource_index/package_run_dependencies/replay_server
+[3.408s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/ament_index/resource_index/parent_prefix_path/replay_server
+[3.408s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/environment/ament_prefix_path.sh
+[3.409s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/environment/ament_prefix_path.dsv
+[3.409s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/environment/path.sh
+[3.409s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/environment/path.dsv
+[3.409s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/local_setup.bash
+[3.409s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/local_setup.sh
+[3.409s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/local_setup.zsh
+[3.409s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/local_setup.dsv
+[3.409s] -- Installing: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/package.dsv
+[3.409s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/ament_index/resource_index/packages/replay_server
+[3.410s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/cmake/replay_serverConfig.cmake
+[3.410s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/cmake/replay_serverConfig-version.cmake
+[3.410s] -- Up-to-date: /home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/package.xml
+[3.411s] Invoked command in '/home/shen/learn/ROS2/inject_ws/build/replay_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/inject_ws/build/replay_server

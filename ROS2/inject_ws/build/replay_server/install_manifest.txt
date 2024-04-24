@@ -1,0 +1,17 @@
+/home/shen/learn/ROS2/inject_ws/install/replay_server/lib/replay_server/replay_server_node
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/launch/server.launch.py
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/ament_index/resource_index/package_run_dependencies/replay_server
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/ament_index/resource_index/parent_prefix_path/replay_server
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/environment/ament_prefix_path.sh
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/environment/ament_prefix_path.dsv
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/environment/path.sh
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/environment/path.dsv
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/local_setup.bash
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/local_setup.sh
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/local_setup.zsh
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/local_setup.dsv
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/package.dsv
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/ament_index/resource_index/packages/replay_server
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/cmake/replay_serverConfig.cmake
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/cmake/replay_serverConfig-version.cmake
+/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/package.xml

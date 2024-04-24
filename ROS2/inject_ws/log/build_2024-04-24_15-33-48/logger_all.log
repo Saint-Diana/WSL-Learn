@@ -1,0 +1,144 @@
+[0.880s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.880s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x772da90b2d40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x772da94e7a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x772da94e7a30>>)
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.922s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shen/learn/ROS2/inject_ws'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_client) by extensions ['ignore', 'ignore_ament_install']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_client) by extension 'ignore'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_client) by extension 'ignore_ament_install'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_client) by extensions ['colcon_pkg']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_client) by extension 'colcon_pkg'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_client) by extensions ['colcon_meta']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_client) by extension 'colcon_meta'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_client) by extensions ['ros']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_client) by extension 'ros'
+[0.935s] DEBUG:colcon.colcon_core.package_identification:Package 'src/replay_client' with type 'ros.ament_cmake' and name 'replay_client'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_server) by extensions ['ignore', 'ignore_ament_install']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_server) by extension 'ignore'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_server) by extension 'ignore_ament_install'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_server) by extensions ['colcon_pkg']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_server) by extension 'colcon_pkg'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_server) by extensions ['colcon_meta']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_server) by extension 'colcon_meta'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_server) by extensions ['ros']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/replay_server) by extension 'ros'
+[0.936s] DEBUG:colcon.colcon_core.package_identification:Package 'src/replay_server' with type 'ros.ament_cmake' and name 'replay_server'
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.040s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 349 installed packages in /opt/ros/humble
+[1.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'replay_client' build argument 'cmake_args' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'replay_client' build argument 'cmake_target' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'replay_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'replay_client' build argument 'cmake_clean_cache' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'replay_client' build argument 'cmake_clean_first' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'replay_client' build argument 'cmake_force_configure' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'replay_client' build argument 'ament_cmake_args' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'replay_client' build argument 'catkin_cmake_args' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'replay_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.133s] DEBUG:colcon.colcon_core.verb:Building package 'replay_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shen/learn/ROS2/inject_ws/build/replay_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shen/learn/ROS2/inject_ws/install/replay_client', 'merge_install': False, 'path': '/home/shen/learn/ROS2/inject_ws/src/replay_client', 'symlink_install': False, 'test_result_base': None}
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'replay_server' build argument 'cmake_args' from command line to 'None'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'replay_server' build argument 'cmake_target' from command line to 'None'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'replay_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'replay_server' build argument 'cmake_clean_cache' from command line to 'False'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'replay_server' build argument 'cmake_clean_first' from command line to 'False'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'replay_server' build argument 'cmake_force_configure' from command line to 'False'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'replay_server' build argument 'ament_cmake_args' from command line to 'None'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'replay_server' build argument 'catkin_cmake_args' from command line to 'None'
+[1.146s] Level 5:colcon.colcon_core.verb:set package 'replay_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.146s] DEBUG:colcon.colcon_core.verb:Building package 'replay_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shen/learn/ROS2/inject_ws/build/replay_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shen/learn/ROS2/inject_ws/install/replay_server', 'merge_install': False, 'path': '/home/shen/learn/ROS2/inject_ws/src/replay_server', 'symlink_install': False, 'test_result_base': None}
+[1.158s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.172s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.173s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shen/learn/ROS2/inject_ws/src/replay_client' with build type 'ament_cmake'
+[1.173s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shen/learn/ROS2/inject_ws/src/replay_client'
+[1.187s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.188s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.188s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.216s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shen/learn/ROS2/inject_ws/src/replay_server' with build type 'ament_cmake'
+[1.216s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shen/learn/ROS2/inject_ws/src/replay_server'
+[1.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/inject_ws/build/replay_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/inject_ws/build/replay_client -- -j16 -l16
+[1.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/inject_ws/build/replay_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/inject_ws/build/replay_server -- -j16 -l16
+[4.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/inject_ws/build/replay_server' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/inject_ws/build/replay_server -- -j16 -l16
+[4.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(replay_server)
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/inject_ws/install/replay_server' for CMake module files
+[4.824s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/inject_ws/install/replay_server' for CMake config files
+[4.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('replay_server', 'cmake_prefix_path')
+[4.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/hook/cmake_prefix_path.ps1'
+[4.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/hook/cmake_prefix_path.dsv'
+[4.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/hook/cmake_prefix_path.sh'
+[4.847s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/inject_ws/install/replay_server/bin'
+[4.848s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/inject_ws/install/replay_server/lib/pkgconfig/replay_server.pc'
+[4.848s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/inject_ws/install/replay_server/lib/python3.10/site-packages'
+[4.848s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/inject_ws/install/replay_server/bin'
+[4.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/package.ps1'
+[4.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/package.dsv'
+[4.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/package.sh'
+[4.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/package.bash'
+[4.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/inject_ws/install/replay_server/share/replay_server/package.zsh'
+[4.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/inject_ws/install/replay_server/share/colcon-core/packages/replay_server)
+[5.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[5.108s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.156s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.157s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.157s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.178s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/inject_ws/install/local_setup.ps1'
+[5.217s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shen/learn/ROS2/inject_ws/install/_local_setup_util_ps1.py'
+[5.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/inject_ws/install/setup.ps1'
+[5.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/inject_ws/install/local_setup.sh'
+[5.259s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shen/learn/ROS2/inject_ws/install/_local_setup_util_sh.py'
+[5.260s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/inject_ws/install/setup.sh'
+[5.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/inject_ws/install/local_setup.bash'
+[5.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/inject_ws/install/setup.bash'
+[5.287s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/inject_ws/install/local_setup.zsh'
+[5.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/inject_ws/install/setup.zsh'
