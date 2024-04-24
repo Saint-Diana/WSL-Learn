@@ -1,0 +1,10 @@
+/home/shen/learn/ROS2/sync_ws/build/synchronize_utils/CMakeFiles/uninstall.dir
+/home/shen/learn/ROS2/sync_ws/build/synchronize_utils/CMakeFiles/synchronize_utils_uninstall.dir
+/home/shen/learn/ROS2/sync_ws/build/synchronize_utils/CMakeFiles/sync_node.dir
+/home/shen/learn/ROS2/sync_ws/build/synchronize_utils/CMakeFiles/test.dir
+/home/shen/learn/ROS2/sync_ws/build/synchronize_utils/CMakeFiles/edit_cache.dir
+/home/shen/learn/ROS2/sync_ws/build/synchronize_utils/CMakeFiles/rebuild_cache.dir
+/home/shen/learn/ROS2/sync_ws/build/synchronize_utils/CMakeFiles/list_install_components.dir
+/home/shen/learn/ROS2/sync_ws/build/synchronize_utils/CMakeFiles/install.dir
+/home/shen/learn/ROS2/sync_ws/build/synchronize_utils/CMakeFiles/install/local.dir
+/home/shen/learn/ROS2/sync_ws/build/synchronize_utils/CMakeFiles/install/strip.dir

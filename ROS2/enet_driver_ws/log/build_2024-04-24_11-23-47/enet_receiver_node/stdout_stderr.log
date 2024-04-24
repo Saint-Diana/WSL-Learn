@@ -1,0 +1,48 @@
+[35m[1mConsolidate compiler generated dependencies of target enet_receiver_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/enet_receiver_node.dir/src/enet_receiver.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_receiver_node/src/enet_receiver.cpp:2[m[K:
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_receiver_node/src/enet_receiver.cpp:[m[K In member function ‘[01m[Kvoid EnetReceiver::receive_and_publish()[m[K’:
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_receiver_node/src/enet_receiver.cpp:62:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   62 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"A packet of length %u containing %s was received from %x:%u on channel %u.\n"[m[K,
+      |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   63 |                         [32m[Kevent_.packet->dataLength[m[K,
+      |                         [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                        [32m[K|[m[K
+      |                                        [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_receiver_node/src/enet_receiver.cpp:62:70:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   62 |                 RCLCPP_INFO(this->get_logger(), "A packet of length [01;36m[K%u[m[K containing %s was received from %x:%u on channel %u.\n",
+      |                                                                     [01;36m[K~^[m[K
+      |                                                                      [01;36m[K|[m[K
+      |                                                                      [01;36m[Kunsigned int[m[K
+      |                                                                     [32m[K%lu[m[K
+[100%] [32m[1mLinking CXX executable enet_receiver_node[0m
+[100%] Built target enet_receiver_node
+-- Install configuration: ""
+-- Installing: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/lib/enet_receiver_node/enet_receiver_node
+-- Set runtime path of "/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/lib/enet_receiver_node/enet_receiver_node" to ""
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/ament_index/resource_index/package_run_dependencies/enet_receiver_node
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/ament_index/resource_index/parent_prefix_path/enet_receiver_node
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/path.sh
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.bash
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.sh
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.zsh
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.dsv
+-- Installing: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.dsv
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/ament_index/resource_index/packages/enet_receiver_node
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/cmake/enet_receiver_nodeConfig.cmake
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/cmake/enet_receiver_nodeConfig-version.cmake
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.xml

@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.000848] (h264_decode) JobQueued: {'identifier': 'h264_decode', 'dependencies': OrderedDict()}
+[0.001193] (h264_decode) JobStarted: {'identifier': 'h264_decode'}
+[0.079340] (h264_decode) JobProgress: {'identifier': 'h264_decode', 'progress': 'cmake'}
+[0.079878] (h264_decode) JobProgress: {'identifier': 'h264_decode', 'progress': 'build'}
+[0.080652] (h264_decode) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/decode_ws/build/h264_decode', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/decode_ws/build/h264_decode', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2297'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/decode_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2278,unix/work:/tmp/.ICE-unix/2278'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da4af947_cad5_4586_acfc_fe9b17f18ef4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-759371bcb7.sock'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/decode_ws/install/h264_decode:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/decode_ws/build/h264_decode'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/155/.local/share:/home/shen/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/decode_ws/install/h264_decode:/opt/ros/humble')]), 'shell': False}
+[0.099509] (-) TimerEvent: {}
+[0.165603] (h264_decode) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target decoder_node\x1b[0m\n'}
+[0.199620] (-) TimerEvent: {}
+[0.222546] (h264_decode) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/decoder_node.dir/src/decoder_node.cpp.o\x1b[0m\n'}
+[0.299739] (-) TimerEvent: {}
+[0.400091] (-) TimerEvent: {}
+[0.500559] (-) TimerEvent: {}
+[0.600945] (-) TimerEvent: {}
+[0.701331] (-) TimerEvent: {}
+[0.801923] (-) TimerEvent: {}
+[0.902579] (-) TimerEvent: {}
+[1.003217] (-) TimerEvent: {}
+[1.103811] (-) TimerEvent: {}
+[1.204402] (-) TimerEvent: {}
+[1.304859] (-) TimerEvent: {}
+[1.405327] (-) TimerEvent: {}
+[1.505757] (-) TimerEvent: {}
+[1.606253] (-) TimerEvent: {}
+[1.706660] (-) TimerEvent: {}
+[1.807191] (-) TimerEvent: {}
+[1.907743] (-) TimerEvent: {}
+[2.008175] (-) TimerEvent: {}
+[2.108963] (-) TimerEvent: {}
+[2.209323] (-) TimerEvent: {}
+[2.309829] (-) TimerEvent: {}
+[2.410292] (-) TimerEvent: {}
+[2.510878] (-) TimerEvent: {}
+[2.611339] (-) TimerEvent: {}
+[2.711876] (-) TimerEvent: {}
+[2.812276] (-) TimerEvent: {}
+[2.912691] (-) TimerEvent: {}
+[3.013122] (-) TimerEvent: {}
+[3.113617] (-) TimerEvent: {}
+[3.214115] (-) TimerEvent: {}
+[3.314460] (-) TimerEvent: {}
+[3.414925] (-) TimerEvent: {}
+[3.515379] (-) TimerEvent: {}
+[3.615833] (-) TimerEvent: {}
+[3.716342] (-) TimerEvent: {}
+[3.816683] (-) TimerEvent: {}
+[3.917015] (-) TimerEvent: {}
+[4.017444] (-) TimerEvent: {}
+[4.117805] (-) TimerEvent: {}
+[4.218257] (-) TimerEvent: {}
+[4.318656] (-) TimerEvent: {}
+[4.419335] (-) TimerEvent: {}
+[4.519845] (-) TimerEvent: {}
+[4.620428] (-) TimerEvent: {}
+[4.720894] (-) TimerEvent: {}
+[4.821431] (-) TimerEvent: {}
+[4.922046] (-) TimerEvent: {}
+[5.022568] (-) TimerEvent: {}
+[5.122932] (-) TimerEvent: {}
+[5.223369] (-) TimerEvent: {}
+[5.323794] (-) TimerEvent: {}
+[5.424334] (-) TimerEvent: {}
+[5.524742] (-) TimerEvent: {}
+[5.625083] (-) TimerEvent: {}
+[5.725476] (-) TimerEvent: {}
+[5.825795] (-) TimerEvent: {}
+[5.926103] (-) TimerEvent: {}
+[6.026412] (-) TimerEvent: {}
+[6.126770] (-) TimerEvent: {}
+[6.227278] (-) TimerEvent: {}
+[6.327658] (-) TimerEvent: {}
+[6.428126] (-) TimerEvent: {}
+[6.528660] (-) TimerEvent: {}
+[6.628970] (-) TimerEvent: {}
+[6.729392] (-) TimerEvent: {}
+[6.829839] (-) TimerEvent: {}
+[6.930306] (-) TimerEvent: {}
+[7.030681] (-) TimerEvent: {}
+[7.131068] (-) TimerEvent: {}
+[7.231451] (-) TimerEvent: {}
+[7.331799] (-) TimerEvent: {}
+[7.432244] (-) TimerEvent: {}
+[7.532741] (-) TimerEvent: {}
+[7.633193] (-) TimerEvent: {}
+[7.733628] (-) TimerEvent: {}
+[7.834146] (-) TimerEvent: {}
+[7.934583] (-) TimerEvent: {}
+[8.034962] (-) TimerEvent: {}
+[8.135309] (-) TimerEvent: {}
+[8.235779] (-) TimerEvent: {}
+[8.336092] (-) TimerEvent: {}
+[8.436539] (-) TimerEvent: {}
+[8.536898] (-) TimerEvent: {}
+[8.637264] (-) TimerEvent: {}
+[8.737646] (-) TimerEvent: {}
+[8.838080] (-) TimerEvent: {}
+[8.938553] (-) TimerEvent: {}
+[9.038897] (-) TimerEvent: {}
+[9.139245] (-) TimerEvent: {}
+[9.239581] (-) TimerEvent: {}
+[9.249371] (h264_decode) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable decoder_node\x1b[0m\n'}
+[9.339766] (-) TimerEvent: {}
+[9.440277] (-) TimerEvent: {}
+[9.540771] (-) TimerEvent: {}
+[9.641321] (-) TimerEvent: {}
+[9.741845] (-) TimerEvent: {}
+[9.842218] (-) TimerEvent: {}
+[9.942543] (-) TimerEvent: {}
+[10.042943] (-) TimerEvent: {}
+[10.143403] (-) TimerEvent: {}
+[10.243856] (-) TimerEvent: {}
+[10.292262] (h264_decode) StdoutLine: {'line': b'[100%] Built target decoder_node\n'}
+[10.305373] (h264_decode) CommandEnded: {'returncode': 0}
+[10.335514] (h264_decode) JobProgress: {'identifier': 'h264_decode', 'progress': 'install'}
+[10.343994] (-) TimerEvent: {}
+[10.354006] (h264_decode) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shen/learn/ROS2/decode_ws/build/h264_decode'], 'cwd': '/home/shen/learn/ROS2/decode_ws/build/h264_decode', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/155/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/155/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2297'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/decode_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/2278,unix/work:/tmp/.ICE-unix/2278'), ('GTK_EXE_PREFIX', '/snap/code/155/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da4af947_cad5_4586_acfc_fe9b17f18ef4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/155/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-759371bcb7.sock'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/155/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/decode_ws/install/h264_decode:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/decode_ws/build/h264_decode'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/155/.local/share:/home/shen/snap/code/155:/snap/code/155/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/decode_ws/install/h264_decode:/opt/ros/humble')]), 'shell': False}
+[10.373824] (h264_decode) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.374192] (h264_decode) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/decode_ws/install/h264_decode/lib/h264_decode/decoder_node\n'}
+[10.384558] (h264_decode) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/decode_ws/install/h264_decode/lib/h264_decode/decoder_node" to ""\n'}
+[10.384851] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/launch\n'}
+[10.385049] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/launch/decoder.launch.py\n'}
+[10.385222] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/ament_index/resource_index/package_run_dependencies/h264_decode\n'}
+[10.385388] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/ament_index/resource_index/parent_prefix_path/h264_decode\n'}
+[10.385547] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/environment/ament_prefix_path.sh\n'}
+[10.385695] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/environment/ament_prefix_path.dsv\n'}
+[10.385843] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/environment/path.sh\n'}
+[10.386002] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/environment/path.dsv\n'}
+[10.386228] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/local_setup.bash\n'}
+[10.386384] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/local_setup.sh\n'}
+[10.386512] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/local_setup.zsh\n'}
+[10.386584] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/local_setup.dsv\n'}
+[10.386653] (h264_decode) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.dsv\n'}
+[10.386722] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/ament_index/resource_index/packages/h264_decode\n'}
+[10.386792] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/cmake/h264_decodeConfig.cmake\n'}
+[10.386862] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/cmake/h264_decodeConfig-version.cmake\n'}
+[10.386932] (h264_decode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.xml\n'}
+[10.388607] (h264_decode) CommandEnded: {'returncode': 0}
+[10.444066] (-) TimerEvent: {}
+[10.540188] (h264_decode) JobEnded: {'identifier': 'h264_decode', 'rc': 0}
+[10.540886] (-) EventReactorShutdown: {}

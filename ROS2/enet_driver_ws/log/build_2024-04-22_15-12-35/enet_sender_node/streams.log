@@ -1,0 +1,10 @@
+[0.079s] Invoking command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node -- -j16 -l16
+[0.126s] [31mCMake Error at CMakeLists.txt:17:
+[0.126s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.126s]   "/lidar".
+[0.126s] 
+[0.127s] [0m
+[0.127s] -- Configuring incomplete, errors occurred!
+[0.127s] See also "/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node/CMakeFiles/CMakeOutput.log".
+[0.131s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[0.136s] Invoked command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node -- -j16 -l16

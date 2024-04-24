@@ -1,0 +1,5 @@
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:[m[K In member function ‘[01m[Kvoid EnetSender::lidar_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:73:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   73 | [01;35m[K_msgs::msg::PointCloud2::SharedPtr msg[m[K)
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+

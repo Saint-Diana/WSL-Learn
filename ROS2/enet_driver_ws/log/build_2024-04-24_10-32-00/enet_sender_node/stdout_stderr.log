@@ -1,0 +1,62 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node
+[35m[1mConsolidate compiler generated dependencies of target enet_sender_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o[0m
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:[m[K In function ‘[01m[Kvoid* MsgLoop(void*)[m[K’:
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:20:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   20 |                 printf("A packet of length [01;35m[K%u[m[K containing %s was received from %x:%u on channel %u.\n",
+      |                                            [01;35m[K~^[m[K
+      |                                             [01;35m[K|[m[K
+      |                                             [01;35m[Kunsigned int[m[K
+      |                                            [32m[K%lu[m[K
+   21 |                     [32m[Kevent.packet->dataLength[m[K,
+      |                     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+      |                                   [32m[K|[m[K
+      |                                   [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:[m[K In member function ‘[01m[Kvoid EnetSender::SendPacket(ENetPeer*, uint8_t*, size_t)[m[K’:
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:128:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpeer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  128 |     void SendPacket([01;35m[KENetPeer *peer[m[K, uint8_t *data, size_t length) {
+      |                     [01;35m[K~~~~~~~~~~^~~~[m[K
+[100%] [32m[1mLinking CXX executable enet_sender_node[0m
+/usr/bin/ld: CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o: in function `MsgLoop(void*)':
+enet_sender.cpp:(.text+0xe8): undefined reference to `enet_packet_destroy'
+/usr/bin/ld: enet_sender.cpp:(.text+0x103): undefined reference to `enet_host_service'
+/usr/bin/ld: CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o: in function `EnetSender::EnetSender()':
+enet_sender.cpp:(.text._ZN10EnetSenderC2Ev[_ZN10EnetSenderC5Ev]+0x10f): undefined reference to `enet_initialize'
+/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderC2Ev[_ZN10EnetSenderC5Ev]+0x32f): undefined reference to `enet_host_create'
+/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderC2Ev[_ZN10EnetSenderC5Ev]+0x567): undefined reference to `enet_address_set_host'
+/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderC2Ev[_ZN10EnetSenderC5Ev]+0x5a5): undefined reference to `enet_host_connect'
+/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderC2Ev[_ZN10EnetSenderC5Ev]+0x7ea): undefined reference to `enet_host_service'
+/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderC2Ev[_ZN10EnetSenderC5Ev]+0x99e): undefined reference to `enet_peer_reset'
+/usr/bin/ld: CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o: in function `EnetSender::~EnetSender()':
+enet_sender.cpp:(.text._ZN10EnetSenderD2Ev[_ZN10EnetSenderD5Ev]+0x6b): undefined reference to `enet_peer_disconnect'
+/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderD2Ev[_ZN10EnetSenderD5Ev]+0xa1): undefined reference to `enet_packet_destroy'
+/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderD2Ev[_ZN10EnetSenderD5Ev]+0x240): undefined reference to `enet_host_service'
+/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderD2Ev[_ZN10EnetSenderD5Ev]+0x252): undefined reference to `enet_deinitialize'
+/usr/bin/ld: CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o: in function `EnetSender::SendPacket(_ENetPeer*, unsigned char*, unsigned long)':
+enet_sender.cpp:(.text._ZN10EnetSender10SendPacketEP9_ENetPeerPhm[_ZN10EnetSender10SendPacketEP9_ENetPeerPhm]+0x57): undefined reference to `enet_packet_create'
+/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSender10SendPacketEP9_ENetPeerPhm[_ZN10EnetSender10SendPacketEP9_ENetPeerPhm]+0x282): undefined reference to `enet_peer_send'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/enet_sender_node.dir/build.make:999：enet_sender_node] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/enet_sender_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

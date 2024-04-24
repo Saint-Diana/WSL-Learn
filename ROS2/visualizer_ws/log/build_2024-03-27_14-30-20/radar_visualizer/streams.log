@@ -1,0 +1,30 @@
+[0.058s] Invoking command in '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer -- -j16 -l16
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target radar_visualizer[0m
+[0.204s] [ 50%] [32mBuilding CXX object CMakeFiles/radar_visualizer.dir/src/radar_visualizer.cpp.o[0m
+[6.861s] [100%] [32m[1mLinking CXX executable radar_visualizer[0m
+[7.410s] [100%] Built target radar_visualizer
+[7.432s] Invoked command in '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer -- -j16 -l16
+[7.493s] Invoking command in '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer
+[7.508s] -- Install configuration: ""
+[7.509s] -- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/lib/radar_visualizer/radar_visualizer
+[7.531s] -- Set runtime path of "/home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/lib/radar_visualizer/radar_visualizer" to ""
+[7.531s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/launch
+[7.532s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/launch/radar_visualizer.launch.py
+[7.532s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/config
+[7.532s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/config/config.yaml
+[7.532s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/ament_index/resource_index/package_run_dependencies/radar_visualizer
+[7.533s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/ament_index/resource_index/parent_prefix_path/radar_visualizer
+[7.533s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/environment/ament_prefix_path.sh
+[7.533s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/environment/ament_prefix_path.dsv
+[7.533s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/environment/path.sh
+[7.533s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/environment/path.dsv
+[7.533s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/local_setup.bash
+[7.534s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/local_setup.sh
+[7.534s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/local_setup.zsh
+[7.534s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/local_setup.dsv
+[7.534s] -- Installing: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/package.dsv
+[7.534s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/ament_index/resource_index/packages/radar_visualizer
+[7.534s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/cmake/radar_visualizerConfig.cmake
+[7.535s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/cmake/radar_visualizerConfig-version.cmake
+[7.535s] -- Up-to-date: /home/shen/learn/ROS2/visualizer_ws/install/radar_visualizer/share/radar_visualizer/package.xml
+[7.537s] Invoked command in '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer

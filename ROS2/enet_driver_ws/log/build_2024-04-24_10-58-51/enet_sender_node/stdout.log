@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o[0m
+[100%] [32m[1mLinking CXX executable enet_sender_node[0m
+[100%] Built target enet_sender_node
+-- Install configuration: ""
+-- Installing: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/lib/enet_sender_node/enet_sender_node
+-- Set runtime path of "/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/lib/enet_sender_node/enet_sender_node" to ""
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/ament_index/resource_index/package_run_dependencies/enet_sender_node
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/ament_index/resource_index/parent_prefix_path/enet_sender_node
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/environment/path.sh
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/environment/path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/local_setup.bash
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/local_setup.sh
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/local_setup.zsh
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/local_setup.dsv
+-- Installing: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/package.dsv
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/ament_index/resource_index/packages/enet_sender_node
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/cmake/enet_sender_nodeConfig.cmake
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/cmake/enet_sender_nodeConfig-version.cmake
+-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/package.xml

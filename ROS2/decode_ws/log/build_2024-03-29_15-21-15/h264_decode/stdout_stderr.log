@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target decoder_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/decoder_node.dir/src/decoder_node.cpp.o[0m
+gmake[2]: *** [CMakeFiles/decoder_node.dir/build.make:76: CMakeFiles/decoder_node.dir/src/decoder_node.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/decoder_node.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

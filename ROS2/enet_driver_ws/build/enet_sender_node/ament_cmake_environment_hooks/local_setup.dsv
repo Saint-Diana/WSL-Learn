@@ -1,0 +1,2 @@
+source;share/enet_sender_node/environment/ament_prefix_path.sh
+source;share/enet_sender_node/environment/path.sh

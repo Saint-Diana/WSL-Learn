@@ -1,0 +1,11 @@
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:72:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   72 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:72:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   72 | int main(int argc, [01;35m[Kchar **argv[m[K)
+      |                    [01;35m[K~~~~~~~^~~~[m[K
+gmake[2]: *** 正在删除文件“enet_sender_node”
+gmake[2]: *** [CMakeFiles/enet_sender_node.dir/build.make:1356: enet_sender_node] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/enet_sender_node.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

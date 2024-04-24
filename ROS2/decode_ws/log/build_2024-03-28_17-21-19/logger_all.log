@@ -1,0 +1,141 @@
+[0.895s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.895s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ae02f058ac0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ae0301d7f40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ae0301d7f40>>)
+[0.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.934s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shen/learn/ROS2/decode_ws'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/h264_decode) by extensions ['ignore', 'ignore_ament_install']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/h264_decode) by extension 'ignore'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/h264_decode) by extension 'ignore_ament_install'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/h264_decode) by extensions ['colcon_pkg']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/h264_decode) by extension 'colcon_pkg'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/h264_decode) by extensions ['colcon_meta']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/h264_decode) by extension 'colcon_meta'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/h264_decode) by extensions ['ros']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/h264_decode) by extension 'ros'
+[0.949s] DEBUG:colcon.colcon_core.package_identification:Package 'src/h264_decode' with type 'ros.ament_cmake' and name 'h264_decode'
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.058s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/shen/learn/ROS2/decode_ws/install
+[1.072s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 345 installed packages in /opt/ros/humble
+[1.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'h264_decode' build argument 'cmake_args' from command line to 'None'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'h264_decode' build argument 'cmake_target' from command line to 'None'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'h264_decode' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'h264_decode' build argument 'cmake_clean_cache' from command line to 'False'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'h264_decode' build argument 'cmake_clean_first' from command line to 'False'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'h264_decode' build argument 'cmake_force_configure' from command line to 'False'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'h264_decode' build argument 'ament_cmake_args' from command line to 'None'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'h264_decode' build argument 'catkin_cmake_args' from command line to 'None'
+[1.178s] Level 5:colcon.colcon_core.verb:set package 'h264_decode' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.178s] DEBUG:colcon.colcon_core.verb:Building package 'h264_decode' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shen/learn/ROS2/decode_ws/build/h264_decode', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shen/learn/ROS2/decode_ws/install/h264_decode', 'merge_install': False, 'path': '/home/shen/learn/ROS2/decode_ws/src/h264_decode', 'symlink_install': False, 'test_result_base': None}
+[1.190s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.204s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.204s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shen/learn/ROS2/decode_ws/src/h264_decode' with build type 'ament_cmake'
+[1.204s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shen/learn/ROS2/decode_ws/src/h264_decode'
+[1.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/decode_ws/build/h264_decode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/decode_ws/build/h264_decode -- -j16 -l16
+[10.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/decode_ws/build/h264_decode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/decode_ws/build/h264_decode -- -j16 -l16
+[10.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/decode_ws/build/h264_decode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/decode_ws/build/h264_decode
+[10.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(h264_decode)
+[10.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/decode_ws/build/h264_decode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/decode_ws/build/h264_decode
+[10.918s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode' for CMake module files
+[10.919s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode' for CMake config files
+[10.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('h264_decode', 'cmake_prefix_path')
+[10.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/hook/cmake_prefix_path.ps1'
+[10.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/hook/cmake_prefix_path.dsv'
+[10.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/hook/cmake_prefix_path.sh'
+[10.945s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode/lib'
+[10.945s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode/bin'
+[10.945s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode/lib/pkgconfig/h264_decode.pc'
+[10.946s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode/lib/python3.10/site-packages'
+[10.946s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode/bin'
+[10.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.ps1'
+[10.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.dsv'
+[10.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.sh'
+[10.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.bash'
+[10.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.zsh'
+[10.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/colcon-core/packages/h264_decode)
+[11.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(h264_decode)
+[11.040s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode' for CMake module files
+[11.040s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode' for CMake config files
+[11.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('h264_decode', 'cmake_prefix_path')
+[11.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/hook/cmake_prefix_path.ps1'
+[11.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/hook/cmake_prefix_path.dsv'
+[11.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/hook/cmake_prefix_path.sh'
+[11.057s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode/lib'
+[11.057s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode/bin'
+[11.057s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode/lib/pkgconfig/h264_decode.pc'
+[11.057s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode/lib/python3.10/site-packages'
+[11.057s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/decode_ws/install/h264_decode/bin'
+[11.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.ps1'
+[11.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.dsv'
+[11.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.sh'
+[11.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.bash'
+[11.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.zsh'
+[11.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/decode_ws/install/h264_decode/share/colcon-core/packages/h264_decode)
+[11.073s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.074s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.074s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.093s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.093s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.093s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.110s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.123s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/decode_ws/install/local_setup.ps1'
+[11.124s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shen/learn/ROS2/decode_ws/install/_local_setup_util_ps1.py'
+[11.125s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/decode_ws/install/setup.ps1'
+[11.141s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/decode_ws/install/local_setup.sh'
+[11.142s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shen/learn/ROS2/decode_ws/install/_local_setup_util_sh.py'
+[11.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/decode_ws/install/setup.sh'
+[11.155s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/decode_ws/install/local_setup.bash'
+[11.156s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/decode_ws/install/setup.bash'
+[11.169s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/decode_ws/install/local_setup.zsh'
+[11.169s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/decode_ws/install/setup.zsh'

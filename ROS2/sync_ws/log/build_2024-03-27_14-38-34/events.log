@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.000591] (synchronize_utils) JobQueued: {'identifier': 'synchronize_utils', 'dependencies': OrderedDict()}
+[0.000647] (synchronize_utils) JobStarted: {'identifier': 'synchronize_utils'}
+[0.042091] (synchronize_utils) JobProgress: {'identifier': 'synchronize_utils', 'progress': 'cmake'}
+[0.042366] (synchronize_utils) Command: {'cmd': ['/usr/bin/cmake', '/home/shen/learn/ROS2/sync_ws/src/synchronize_utils', '-DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/sync_ws/install/synchronize_utils'], 'cwd': '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('SSH_CLIENT', '192.168.1.24 49362 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/shen'), ('OLDPWD', '/home/shen/learn/ROS2/sync_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-12492633-6a85-4965-9fe9-1f57601bac37.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/shen/.local/bin:/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6928fc11fb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.24 49362 192.168.1.34 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099634] (-) TimerEvent: {}
+[0.136086] (synchronize_utils) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199790] (-) TimerEvent: {}
+[0.233092] (synchronize_utils) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.251034] (synchronize_utils) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299925] (-) TimerEvent: {}
+[0.400352] (-) TimerEvent: {}
+[0.402638] (synchronize_utils) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.421412] (synchronize_utils) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.421986] (synchronize_utils) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.422895] (synchronize_utils) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.437306] (synchronize_utils) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500514] (-) TimerEvent: {}
+[0.568142] (synchronize_utils) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.584740] (synchronize_utils) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.585353] (synchronize_utils) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.586432] (synchronize_utils) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.600645] (-) TimerEvent: {}
+[0.603247] (synchronize_utils) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700952] (-) TimerEvent: {}
+[0.801381] (-) TimerEvent: {}
+[0.858719] (synchronize_utils) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.901534] (-) TimerEvent: {}
+[1.001947] (-) TimerEvent: {}
+[1.024479] (synchronize_utils) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.066656] (synchronize_utils) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.071472] (synchronize_utils) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.079111] (synchronize_utils) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.092144] (synchronize_utils) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.102073] (-) TimerEvent: {}
+[1.109479] (synchronize_utils) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.171479] (synchronize_utils) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.174120] (synchronize_utils) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.202219] (-) TimerEvent: {}
+[1.202502] (synchronize_utils) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.212152] (synchronize_utils) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.293632] (synchronize_utils) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.293927] (synchronize_utils) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.302380] (-) TimerEvent: {}
+[1.384491] (synchronize_utils) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.386508] (synchronize_utils) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.402540] (-) TimerEvent: {}
+[1.502934] (-) TimerEvent: {}
+[1.578556] (synchronize_utils) StdoutLine: {'line': b'-- Found udp_msgs: 0.0.3 (/opt/ros/humble/share/udp_msgs/cmake)\n'}
+[1.603102] (-) TimerEvent: {}
+[1.617246] (synchronize_utils) StdoutLine: {'line': b'-- Found can_msgs: 2.0.0 (/opt/ros/humble/share/can_msgs/cmake)\n'}
+[1.657805] (synchronize_utils) StdoutLine: {'line': b'-- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[1.663654] (synchronize_utils) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.703337] (-) TimerEvent: {}
+[1.764319] (synchronize_utils) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.764540] (synchronize_utils) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.764660] (synchronize_utils) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.764919] (synchronize_utils) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.765818] (synchronize_utils) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.765980] (synchronize_utils) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.766203] (synchronize_utils) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.767317] (synchronize_utils) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.776145] (synchronize_utils) StdoutLine: {'line': b'-- Generating done\n'}
+[1.777504] (synchronize_utils) StdoutLine: {'line': b'-- Build files have been written to: /home/shen/learn/ROS2/sync_ws/build/synchronize_utils\n'}
+[1.784532] (synchronize_utils) CommandEnded: {'returncode': 0}
+[1.785389] (synchronize_utils) JobProgress: {'identifier': 'synchronize_utils', 'progress': 'build'}
+[1.787561] (synchronize_utils) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('SSH_CLIENT', '192.168.1.24 49362 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/shen'), ('OLDPWD', '/home/shen/learn/ROS2/sync_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-12492633-6a85-4965-9fe9-1f57601bac37.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/shen/.local/bin:/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6928fc11fb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.24 49362 192.168.1.34 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.803492] (-) TimerEvent: {}
+[1.857480] (synchronize_utils) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sync_node.dir/src/sync_node.cpp.o\x1b[0m\n'}
+[1.903628] (-) TimerEvent: {}
+[2.004023] (-) TimerEvent: {}
+[2.104382] (-) TimerEvent: {}
+[2.204732] (-) TimerEvent: {}
+[2.305095] (-) TimerEvent: {}
+[2.405449] (-) TimerEvent: {}
+[2.505807] (-) TimerEvent: {}
+[2.606169] (-) TimerEvent: {}
+[2.706594] (-) TimerEvent: {}
+[2.806957] (-) TimerEvent: {}
+[2.907355] (-) TimerEvent: {}
+[3.007715] (-) TimerEvent: {}
+[3.108073] (-) TimerEvent: {}
+[3.208438] (-) TimerEvent: {}
+[3.308799] (-) TimerEvent: {}
+[3.409165] (-) TimerEvent: {}
+[3.509530] (-) TimerEvent: {}
+[3.609896] (-) TimerEvent: {}
+[3.710260] (-) TimerEvent: {}
+[3.810633] (-) TimerEvent: {}
+[3.911165] (-) TimerEvent: {}
+[4.011505] (-) TimerEvent: {}
+[4.111862] (-) TimerEvent: {}
+[4.212221] (-) TimerEvent: {}
+[4.312580] (-) TimerEvent: {}
+[4.412943] (-) TimerEvent: {}
+[4.513308] (-) TimerEvent: {}
+[4.613670] (-) TimerEvent: {}
+[4.714037] (-) TimerEvent: {}
+[4.814399] (-) TimerEvent: {}
+[4.915090] (-) TimerEvent: {}
+[5.015470] (-) TimerEvent: {}
+[5.115809] (-) TimerEvent: {}
+[5.216169] (-) TimerEvent: {}
+[5.316532] (-) TimerEvent: {}
+[5.416898] (-) TimerEvent: {}
+[5.517254] (-) TimerEvent: {}
+[5.617790] (-) TimerEvent: {}
+[5.718148] (-) TimerEvent: {}
+[5.818510] (-) TimerEvent: {}
+[5.918871] (-) TimerEvent: {}
+[6.019266] (-) TimerEvent: {}
+[6.119629] (-) TimerEvent: {}
+[6.219986] (-) TimerEvent: {}
+[6.320341] (-) TimerEvent: {}
+[6.420702] (-) TimerEvent: {}
+[6.521063] (-) TimerEvent: {}
+[6.621452] (-) TimerEvent: {}
+[6.721805] (-) TimerEvent: {}
+[6.822165] (-) TimerEvent: {}
+[6.922543] (-) TimerEvent: {}
+[7.022906] (-) TimerEvent: {}
+[7.123296] (-) TimerEvent: {}
+[7.223654] (-) TimerEvent: {}
+[7.323991] (-) TimerEvent: {}
+[7.424354] (-) TimerEvent: {}
+[7.524724] (-) TimerEvent: {}
+[7.625084] (-) TimerEvent: {}
+[7.725440] (-) TimerEvent: {}
+[7.825789] (-) TimerEvent: {}
+[7.926141] (-) TimerEvent: {}
+[8.026487] (-) TimerEvent: {}
+[8.126836] (-) TimerEvent: {}
+[8.227137] (-) TimerEvent: {}
+[8.327481] (-) TimerEvent: {}
+[8.427810] (-) TimerEvent: {}
+[8.528157] (-) TimerEvent: {}
+[8.628511] (-) TimerEvent: {}
+[8.728864] (-) TimerEvent: {}
+[8.829217] (-) TimerEvent: {}
+[8.929570] (-) TimerEvent: {}
+[9.029923] (-) TimerEvent: {}
+[9.130278] (-) TimerEvent: {}
+[9.230632] (-) TimerEvent: {}
+[9.330987] (-) TimerEvent: {}
+[9.431354] (-) TimerEvent: {}
+[9.531703] (-) TimerEvent: {}
+[9.632054] (-) TimerEvent: {}
+[9.732406] (-) TimerEvent: {}
+[9.832754] (-) TimerEvent: {}
+[9.933106] (-) TimerEvent: {}
+[10.033458] (-) TimerEvent: {}
+[10.133809] (-) TimerEvent: {}
+[10.234323] (-) TimerEvent: {}
+[10.334669] (-) TimerEvent: {}
+[10.435015] (-) TimerEvent: {}
+[10.535409] (-) TimerEvent: {}
+[10.635738] (-) TimerEvent: {}
+[10.736082] (-) TimerEvent: {}
+[10.836430] (-) TimerEvent: {}
+[10.936777] (-) TimerEvent: {}
+[11.037123] (-) TimerEvent: {}
+[11.137471] (-) TimerEvent: {}
+[11.237815] (-) TimerEvent: {}
+[11.338161] (-) TimerEvent: {}
+[11.438534] (-) TimerEvent: {}
+[11.538951] (-) TimerEvent: {}
+[11.639518] (-) TimerEvent: {}
+[11.740233] (-) TimerEvent: {}
+[11.840644] (-) TimerEvent: {}
+[11.941052] (-) TimerEvent: {}
+[12.041439] (-) TimerEvent: {}
+[12.141844] (-) TimerEvent: {}
+[12.172431] (synchronize_utils) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sync_node\x1b[0m\n'}
+[12.242013] (-) TimerEvent: {}
+[12.342437] (-) TimerEvent: {}
+[12.442886] (-) TimerEvent: {}
+[12.543334] (-) TimerEvent: {}
+[12.643746] (-) TimerEvent: {}
+[12.744173] (-) TimerEvent: {}
+[12.844604] (-) TimerEvent: {}
+[12.897859] (synchronize_utils) StdoutLine: {'line': b'[100%] Built target sync_node\n'}
+[12.927276] (synchronize_utils) CommandEnded: {'returncode': 0}
+[12.944746] (-) TimerEvent: {}
+[12.977569] (synchronize_utils) JobProgress: {'identifier': 'synchronize_utils', 'progress': 'install'}
+[12.999176] (synchronize_utils) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils'], 'cwd': '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('SSH_CLIENT', '192.168.1.24 49362 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/shen'), ('OLDPWD', '/home/shen/learn/ROS2/sync_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-12492633-6a85-4965-9fe9-1f57601bac37.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/shen/.local/bin:/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6928fc11fb.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.24 49362 192.168.1.34 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.015707] (synchronize_utils) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.016180] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/lib/synchronize_utils/sync_node\n'}
+[13.038009] (synchronize_utils) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/lib/synchronize_utils/sync_node" to ""\n'}
+[13.038337] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/ament_index/resource_index/package_run_dependencies/synchronize_utils\n'}
+[13.038860] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/ament_index/resource_index/parent_prefix_path/synchronize_utils\n'}
+[13.039582] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/environment/ament_prefix_path.sh\n'}
+[13.039995] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/environment/ament_prefix_path.dsv\n'}
+[13.040398] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/environment/path.sh\n'}
+[13.040653] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/environment/path.dsv\n'}
+[13.040920] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/local_setup.bash\n'}
+[13.041227] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/local_setup.sh\n'}
+[13.041506] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/local_setup.zsh\n'}
+[13.041765] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/local_setup.dsv\n'}
+[13.042051] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/package.dsv\n'}
+[13.042443] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/ament_index/resource_index/packages/synchronize_utils\n'}
+[13.042835] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/cmake/synchronize_utilsConfig.cmake\n'}
+[13.043099] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/cmake/synchronize_utilsConfig-version.cmake\n'}
+[13.043547] (synchronize_utils) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/package.xml\n'}
+[13.044804] (-) TimerEvent: {}
+[13.047876] (synchronize_utils) CommandEnded: {'returncode': 0}
+[13.144931] (-) TimerEvent: {}
+[13.245594] (-) TimerEvent: {}
+[13.248770] (synchronize_utils) JobEnded: {'identifier': 'synchronize_utils', 'rc': 0}
+[13.249492] (-) EventReactorShutdown: {}

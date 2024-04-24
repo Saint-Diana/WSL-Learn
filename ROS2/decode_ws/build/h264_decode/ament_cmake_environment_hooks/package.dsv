@@ -1,0 +1,4 @@
+source;share/h264_decode/local_setup.bash
+source;share/h264_decode/local_setup.dsv
+source;share/h264_decode/local_setup.sh
+source;share/h264_decode/local_setup.zsh

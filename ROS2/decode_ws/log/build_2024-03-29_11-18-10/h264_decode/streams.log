@@ -1,0 +1,28 @@
+[0.073s] Invoking command in '/home/shen/learn/ROS2/decode_ws/build/h264_decode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/decode_ws/build/h264_decode -- -j16 -l16
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target decoder_node[0m
+[0.179s] [ 33%] [32mBuilding CXX object CMakeFiles/decoder_node.dir/src/decoder_node.cpp.o[0m
+[8.849s] [ 66%] [32m[1mLinking CXX executable decoder_node[0m
+[9.834s] [100%] Built target decoder_node
+[9.849s] Invoked command in '/home/shen/learn/ROS2/decode_ws/build/h264_decode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/decode_ws/build/h264_decode -- -j16 -l16
+[9.915s] Invoking command in '/home/shen/learn/ROS2/decode_ws/build/h264_decode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/decode_ws/build/h264_decode
+[9.921s] -- Install configuration: ""
+[9.922s] -- Installing: /home/shen/learn/ROS2/decode_ws/install/h264_decode/lib/h264_decode/decoder_node
+[9.929s] -- Set runtime path of "/home/shen/learn/ROS2/decode_ws/install/h264_decode/lib/h264_decode/decoder_node" to ""
+[9.929s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/launch
+[9.929s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/launch/decoder.launch.py
+[9.929s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/ament_index/resource_index/package_run_dependencies/h264_decode
+[9.929s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/ament_index/resource_index/parent_prefix_path/h264_decode
+[9.930s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/environment/ament_prefix_path.sh
+[9.930s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/environment/ament_prefix_path.dsv
+[9.930s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/environment/path.sh
+[9.930s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/environment/path.dsv
+[9.930s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/local_setup.bash
+[9.930s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/local_setup.sh
+[9.930s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/local_setup.zsh
+[9.930s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/local_setup.dsv
+[9.931s] -- Installing: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.dsv
+[9.931s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/ament_index/resource_index/packages/h264_decode
+[9.931s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/cmake/h264_decodeConfig.cmake
+[9.931s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/cmake/h264_decodeConfig-version.cmake
+[9.932s] -- Up-to-date: /home/shen/learn/ROS2/decode_ws/install/h264_decode/share/h264_decode/package.xml
+[9.933s] Invoked command in '/home/shen/learn/ROS2/decode_ws/build/h264_decode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/decode_ws/build/h264_decode

@@ -1,0 +1,4 @@
+source;share/enet_sender_node/local_setup.bash
+source;share/enet_sender_node/local_setup.dsv
+source;share/enet_sender_node/local_setup.sh
+source;share/enet_sender_node/local_setup.zsh

@@ -1,2 +1,0 @@
-Invoking command in '/home/shen/learn/ROS2/record_ws/build/my_record_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/record_ws/build/my_record_utils -- -j16 -l16
-Invoked command in '/home/shen/learn/ROS2/record_ws/build/my_record_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/record_ws/build/my_record_utils -- -j16 -l16

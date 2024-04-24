@@ -1,0 +1,184 @@
+[0.986s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.986s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7987c89a3760>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7987c8de38e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7987c8de38e0>>)
+[1.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.031s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shen/learn/ROS2/enet_driver_ws'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.041s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_receiver_node) by extensions ['ignore', 'ignore_ament_install']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_receiver_node) by extension 'ignore'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_receiver_node) by extension 'ignore_ament_install'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_receiver_node) by extensions ['colcon_pkg']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_receiver_node) by extension 'colcon_pkg'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_receiver_node) by extensions ['colcon_meta']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_receiver_node) by extension 'colcon_meta'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_receiver_node) by extensions ['ros']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_receiver_node) by extension 'ros'
+[1.045s] DEBUG:colcon.colcon_core.package_identification:Package 'src/enet_receiver_node' with type 'ros.ament_cmake' and name 'enet_receiver_node'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_sender_node) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_sender_node) by extension 'ignore'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_sender_node) by extension 'ignore_ament_install'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_sender_node) by extensions ['colcon_pkg']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_sender_node) by extension 'colcon_pkg'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_sender_node) by extensions ['colcon_meta']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_sender_node) by extension 'colcon_meta'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_sender_node) by extensions ['ros']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/enet_sender_node) by extension 'ros'
+[1.046s] DEBUG:colcon.colcon_core.package_identification:Package 'src/enet_sender_node' with type 'ros.ament_cmake' and name 'enet_sender_node'
+[1.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.046s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.177s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/shen/learn/ROS2/enet_driver_ws/install
+[1.193s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 349 installed packages in /opt/ros/humble
+[1.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.301s] Level 5:colcon.colcon_core.verb:set package 'enet_receiver_node' build argument 'cmake_args' from command line to 'None'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'enet_receiver_node' build argument 'cmake_target' from command line to 'None'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'enet_receiver_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'enet_receiver_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'enet_receiver_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'enet_receiver_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'enet_receiver_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'enet_receiver_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'enet_receiver_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.302s] DEBUG:colcon.colcon_core.verb:Building package 'enet_receiver_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node', 'merge_install': False, 'path': '/home/shen/learn/ROS2/enet_driver_ws/src/enet_receiver_node', 'symlink_install': False, 'test_result_base': None}
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'enet_sender_node' build argument 'cmake_args' from command line to 'None'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'enet_sender_node' build argument 'cmake_target' from command line to 'None'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'enet_sender_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'enet_sender_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'enet_sender_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'enet_sender_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'enet_sender_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'enet_sender_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.317s] Level 5:colcon.colcon_core.verb:set package 'enet_sender_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.317s] DEBUG:colcon.colcon_core.verb:Building package 'enet_sender_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node', 'merge_install': False, 'path': '/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node', 'symlink_install': False, 'test_result_base': None}
+[1.332s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.348s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.348s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shen/learn/ROS2/enet_driver_ws/src/enet_receiver_node' with build type 'ament_cmake'
+[1.348s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shen/learn/ROS2/enet_driver_ws/src/enet_receiver_node'
+[1.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node' with build type 'ament_cmake'
+[1.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node'
+[1.441s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node -- -j16 -l16
+[1.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node -- -j16 -l16
+[1.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node -- -j16 -l16
+[1.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node
+[1.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(enet_receiver_node)
+[1.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node
+[1.646s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node' for CMake module files
+[1.646s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node' for CMake config files
+[1.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('enet_receiver_node', 'cmake_prefix_path')
+[1.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/hook/cmake_prefix_path.ps1'
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/hook/cmake_prefix_path.dsv'
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/hook/cmake_prefix_path.sh'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/bin'
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/lib/pkgconfig/enet_receiver_node.pc'
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/lib/python3.10/site-packages'
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/bin'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.ps1'
+[1.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.dsv'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.sh'
+[1.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.bash'
+[1.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.zsh'
+[1.685s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/colcon-core/packages/enet_receiver_node)
+[1.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(enet_receiver_node)
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node' for CMake module files
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node' for CMake config files
+[1.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('enet_receiver_node', 'cmake_prefix_path')
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/hook/cmake_prefix_path.ps1'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/hook/cmake_prefix_path.dsv'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/hook/cmake_prefix_path.sh'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/bin'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/lib/pkgconfig/enet_receiver_node.pc'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/lib/python3.10/site-packages'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/bin'
+[1.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.ps1'
+[1.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.dsv'
+[1.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.sh'
+[1.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.bash'
+[1.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.zsh'
+[1.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/colcon-core/packages/enet_receiver_node)
+[60.203s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[60.204s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[60.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node -- -j16 -l16
+[60.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(enet_sender_node)
+[60.303s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node' for CMake module files
+[60.304s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node' for CMake config files
+[60.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('enet_sender_node', 'cmake_prefix_path')
+[60.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/hook/cmake_prefix_path.ps1'
+[60.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/hook/cmake_prefix_path.dsv'
+[60.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/hook/cmake_prefix_path.sh'
+[60.321s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/bin'
+[60.321s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/lib/pkgconfig/enet_sender_node.pc'
+[60.321s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/lib/python3.10/site-packages'
+[60.321s] Level 1:colcon.colcon_core.environment:checking '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/bin'
+[60.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/package.ps1'
+[60.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/package.dsv'
+[60.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/package.sh'
+[60.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/package.bash'
+[60.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/package.zsh'
+[60.339s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/colcon-core/packages/enet_sender_node)
+[60.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[60.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[60.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[60.339s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[60.365s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[60.365s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[60.365s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[60.386s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[60.400s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/enet_driver_ws/install/local_setup.ps1'
+[60.401s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shen/learn/ROS2/enet_driver_ws/install/_local_setup_util_ps1.py'
+[60.402s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/enet_driver_ws/install/setup.ps1'
+[60.417s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/enet_driver_ws/install/local_setup.sh'
+[60.418s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shen/learn/ROS2/enet_driver_ws/install/_local_setup_util_sh.py'
+[60.418s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/enet_driver_ws/install/setup.sh'
+[60.434s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/enet_driver_ws/install/local_setup.bash'
+[60.435s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/enet_driver_ws/install/setup.bash'
+[60.450s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shen/learn/ROS2/enet_driver_ws/install/local_setup.zsh'
+[60.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shen/learn/ROS2/enet_driver_ws/install/setup.zsh'

@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000547] (h264_encode) JobQueued: {'identifier': 'h264_encode', 'dependencies': OrderedDict()}
+[0.000635] (h264_encode) JobStarted: {'identifier': 'h264_encode'}
+[0.063073] (h264_encode) JobProgress: {'identifier': 'h264_encode', 'progress': 'cmake'}
+[0.063836] (h264_encode) JobProgress: {'identifier': 'h264_encode', 'progress': 'build'}
+[0.064573] (h264_encode) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/encode_ws/build/h264_encode', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/encode_ws/build/h264_encode', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('SSH_CLIENT', '192.168.1.24 39022 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/shen'), ('OLDPWD', '/home/shen/learn/ROS2'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c3b0f0da-933d-404b-a914-00072cc27951.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/encode_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/shen/.local/bin:/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-938b1325a2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/encode_ws/install/h264_encode:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/shen/learn/ROS2/encode_ws/build/h264_encode'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.24 39022 192.168.1.34 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/encode_ws/install/h264_encode:/opt/ros/humble')]), 'shell': False}
+[0.099445] (-) TimerEvent: {}
+[0.126001] (h264_encode) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target encoder_node\x1b[0m\n'}
+[0.168713] (h264_encode) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/encoder_node.dir/src/encoder_node.cpp.o\x1b[0m\n'}
+[0.199548] (-) TimerEvent: {}
+[0.299897] (-) TimerEvent: {}
+[0.400306] (-) TimerEvent: {}
+[0.500647] (-) TimerEvent: {}
+[0.601099] (-) TimerEvent: {}
+[0.701510] (-) TimerEvent: {}
+[0.801962] (-) TimerEvent: {}
+[0.902349] (-) TimerEvent: {}
+[1.002740] (-) TimerEvent: {}
+[1.103186] (-) TimerEvent: {}
+[1.203687] (-) TimerEvent: {}
+[1.304476] (-) TimerEvent: {}
+[1.405225] (-) TimerEvent: {}
+[1.505655] (-) TimerEvent: {}
+[1.606083] (-) TimerEvent: {}
+[1.706467] (-) TimerEvent: {}
+[1.806846] (-) TimerEvent: {}
+[1.907207] (-) TimerEvent: {}
+[2.007835] (-) TimerEvent: {}
+[2.108209] (-) TimerEvent: {}
+[2.208609] (-) TimerEvent: {}
+[2.309403] (-) TimerEvent: {}
+[2.409773] (-) TimerEvent: {}
+[2.510224] (-) TimerEvent: {}
+[2.610875] (-) TimerEvent: {}
+[2.711239] (-) TimerEvent: {}
+[2.811628] (-) TimerEvent: {}
+[2.912026] (-) TimerEvent: {}
+[3.012412] (-) TimerEvent: {}
+[3.113073] (-) TimerEvent: {}
+[3.213491] (-) TimerEvent: {}
+[3.313908] (-) TimerEvent: {}
+[3.414213] (-) TimerEvent: {}
+[3.514546] (-) TimerEvent: {}
+[3.614906] (-) TimerEvent: {}
+[3.715605] (-) TimerEvent: {}
+[3.816251] (-) TimerEvent: {}
+[3.916658] (-) TimerEvent: {}
+[4.017067] (-) TimerEvent: {}
+[4.117517] (-) TimerEvent: {}
+[4.217949] (-) TimerEvent: {}
+[4.318408] (-) TimerEvent: {}
+[4.419386] (-) TimerEvent: {}
+[4.520115] (-) TimerEvent: {}
+[4.620554] (-) TimerEvent: {}
+[4.720987] (-) TimerEvent: {}
+[4.821459] (-) TimerEvent: {}
+[4.921921] (-) TimerEvent: {}
+[5.022363] (-) TimerEvent: {}
+[5.122822] (-) TimerEvent: {}
+[5.223252] (-) TimerEvent: {}
+[5.324167] (-) TimerEvent: {}
+[5.424597] (-) TimerEvent: {}
+[5.525093] (-) TimerEvent: {}
+[5.625644] (-) TimerEvent: {}
+[5.726212] (-) TimerEvent: {}
+[5.817031] (h264_encode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/encoder_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid H264Encoder::callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.817424] (h264_encode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/encoder_node.cpp:54:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid free(void*)\x1b[m\x1b[K\xe2\x80\x99 called on unallocated object \xe2\x80\x98\x1b[01m\x1b[Kpkt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wfree-nonheap-object\x07-Wfree-nonheap-object\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.817629] (h264_encode) StderrLine: {'line': b'   54 |             \x1b[01;35m\x1b[Kstd::free(&pkt)\x1b[m\x1b[K;\n'}
+[5.817809] (h264_encode) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.818000] (h264_encode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/encoder_node.cpp:45:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.818179] (h264_encode) StderrLine: {'line': b'   45 |             AVPacket *\x1b[01;36m\x1b[Kpkt\x1b[m\x1b[K = h264_.encode(bgr);\n'}
+[5.818355] (h264_encode) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.826340] (-) TimerEvent: {}
+[5.926824] (-) TimerEvent: {}
+[6.027265] (-) TimerEvent: {}
+[6.127750] (-) TimerEvent: {}
+[6.228219] (-) TimerEvent: {}
+[6.328667] (-) TimerEvent: {}
+[6.429078] (-) TimerEvent: {}
+[6.529507] (-) TimerEvent: {}
+[6.629913] (-) TimerEvent: {}
+[6.730331] (-) TimerEvent: {}
+[6.830769] (-) TimerEvent: {}
+[6.931185] (-) TimerEvent: {}
+[7.031602] (-) TimerEvent: {}
+[7.132022] (-) TimerEvent: {}
+[7.232481] (-) TimerEvent: {}
+[7.332910] (-) TimerEvent: {}
+[7.433354] (-) TimerEvent: {}
+[7.533754] (-) TimerEvent: {}
+[7.634156] (-) TimerEvent: {}
+[7.734566] (-) TimerEvent: {}
+[7.834969] (-) TimerEvent: {}
+[7.935363] (-) TimerEvent: {}
+[8.035779] (-) TimerEvent: {}
+[8.136192] (-) TimerEvent: {}
+[8.236846] (-) TimerEvent: {}
+[8.337298] (-) TimerEvent: {}
+[8.437713] (-) TimerEvent: {}
+[8.439370] (h264_encode) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable encoder_node\x1b[0m\n'}
+[8.537890] (-) TimerEvent: {}
+[8.638373] (-) TimerEvent: {}
+[8.738787] (-) TimerEvent: {}
+[8.839227] (-) TimerEvent: {}
+[8.939594] (-) TimerEvent: {}
+[9.039942] (-) TimerEvent: {}
+[9.140362] (-) TimerEvent: {}
+[9.240849] (-) TimerEvent: {}
+[9.341245] (-) TimerEvent: {}
+[9.411466] (h264_encode) StdoutLine: {'line': b'[100%] Built target encoder_node\n'}
+[9.431596] (h264_encode) CommandEnded: {'returncode': 0}
+[9.441363] (-) TimerEvent: {}
+[9.467968] (h264_encode) JobProgress: {'identifier': 'h264_encode', 'progress': 'install'}
+[9.478356] (h264_encode) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shen/learn/ROS2/encode_ws/build/h264_encode'], 'cwd': '/home/shen/learn/ROS2/encode_ws/build/h264_encode', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('SSH_CLIENT', '192.168.1.24 39022 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/shen'), ('OLDPWD', '/home/shen/learn/ROS2'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c3b0f0da-933d-404b-a914-00072cc27951.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/encode_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/shen/.local/bin:/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-938b1325a2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/encode_ws/install/h264_encode:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/shen/learn/ROS2/encode_ws/build/h264_encode'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.24 39022 192.168.1.34 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/encode_ws/install/h264_encode:/opt/ros/humble')]), 'shell': False}
+[9.486905] (h264_encode) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.488256] (h264_encode) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/lib/h264_encode/encoder_node\n'}
+[9.493947] (h264_encode) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/encode_ws/install/h264_encode/lib/h264_encode/encoder_node" to ""\n'}
+[9.494200] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/launch\n'}
+[9.494298] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/launch/encoder.launch.py\n'}
+[9.494454] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/ament_index/resource_index/package_run_dependencies/h264_encode\n'}
+[9.494549] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/ament_index/resource_index/parent_prefix_path/h264_encode\n'}
+[9.494640] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/ament_prefix_path.sh\n'}
+[9.494779] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/ament_prefix_path.dsv\n'}
+[9.494907] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/path.sh\n'}
+[9.495017] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/path.dsv\n'}
+[9.495103] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.bash\n'}
+[9.495196] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.sh\n'}
+[9.495283] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.zsh\n'}
+[9.495369] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.dsv\n'}
+[9.495457] (h264_encode) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/package.dsv\n'}
+[9.495543] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/ament_index/resource_index/packages/h264_encode\n'}
+[9.495631] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/cmake/h264_encodeConfig.cmake\n'}
+[9.495716] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/cmake/h264_encodeConfig-version.cmake\n'}
+[9.495812] (h264_encode) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/package.xml\n'}
+[9.497362] (h264_encode) CommandEnded: {'returncode': 0}
+[9.541485] (-) TimerEvent: {}
+[9.641943] (-) TimerEvent: {}
+[9.685942] (h264_encode) JobEnded: {'identifier': 'h264_encode', 'rc': 0}
+[9.686962] (-) EventReactorShutdown: {}

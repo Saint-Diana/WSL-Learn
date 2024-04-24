@@ -1,5 +1,5 @@
 topics:
-  - name: "can_message_1"
-    type: 0
-  - name: "can_message_2"
-    type: 0
+  - name: "can_message"
+    type: "can_msgs/msg/Frame"
+  # - name: "udp_message"
+  #   type: "udp_msgs/msg/UdpPacket"

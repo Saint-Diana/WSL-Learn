@@ -1,0 +1,7 @@
+[01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/encoder_node.cpp:[m[K In member function ‘[01m[Kvoid H264Encoder::callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/encoder_node.cpp:54:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid free(void*)[m[K’ called on unallocated object ‘[01m[Kpkt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wfree-nonheap-object-Wfree-nonheap-object]8;;[m[K]
+   54 |             [01;35m[Kstd::free(&pkt)[m[K;
+      |             [01;35m[K~~~~~~~~~^~~~~~[m[K
+[01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/encoder_node.cpp:45:23:[m[K [01;36m[Knote: [m[Kdeclared here
+   45 |             AVPacket *[01;36m[Kpkt[m[K = h264_.encode(bgr);
+      |                       [01;36m[K^~~[m[K

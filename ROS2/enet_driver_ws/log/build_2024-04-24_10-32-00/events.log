@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000277] (enet_receiver_node) JobQueued: {'identifier': 'enet_receiver_node', 'dependencies': OrderedDict()}
+[0.000433] (enet_sender_node) JobQueued: {'identifier': 'enet_sender_node', 'dependencies': OrderedDict()}
+[0.000486] (enet_receiver_node) JobStarted: {'identifier': 'enet_receiver_node'}
+[0.049124] (enet_sender_node) JobStarted: {'identifier': 'enet_sender_node'}
+[0.097637] (enet_receiver_node) JobProgress: {'identifier': 'enet_receiver_node', 'progress': 'cmake'}
+[0.098239] (enet_receiver_node) JobProgress: {'identifier': 'enet_receiver_node', 'progress': 'build'}
+[0.098863] (enet_receiver_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2003'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/1975,unix/work:/tmp/.ICE-unix/1975'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/01db51b4_a399_4c5a_81cc_f5ddd186e6b4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E7SEM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ba73c5cd82.sock'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/157/.local/share:/home/shen/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101289] (-) TimerEvent: {}
+[0.103377] (enet_sender_node) JobProgress: {'identifier': 'enet_sender_node', 'progress': 'cmake'}
+[0.104002] (enet_sender_node) JobProgress: {'identifier': 'enet_sender_node', 'progress': 'build'}
+[0.104859] (enet_sender_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2003'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/1975,unix/work:/tmp/.ICE-unix/1975'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/01db51b4_a399_4c5a_81cc_f5ddd186e6b4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E7SEM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ba73c5cd82.sock'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/157/.local/share:/home/shen/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.132011] (enet_sender_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.176842] (enet_receiver_node) StdoutLine: {'line': b'[100%] Built target enet_receiver_node\n'}
+[0.199299] (enet_receiver_node) CommandEnded: {'returncode': 0}
+[0.201373] (-) TimerEvent: {}
+[0.239159] (enet_receiver_node) JobProgress: {'identifier': 'enet_receiver_node', 'progress': 'install'}
+[0.248798] (enet_receiver_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node'], 'cwd': '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2003'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/1975,unix/work:/tmp/.ICE-unix/1975'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/01db51b4_a399_4c5a_81cc_f5ddd186e6b4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E7SEM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ba73c5cd82.sock'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/157/.local/share:/home/shen/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.256731] (enet_receiver_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.256977] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/lib/enet_receiver_node/enet_receiver_node\n'}
+[0.257168] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/ament_index/resource_index/package_run_dependencies/enet_receiver_node\n'}
+[0.257361] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/ament_index/resource_index/parent_prefix_path/enet_receiver_node\n'}
+[0.257632] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/ament_prefix_path.sh\n'}
+[0.257819] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/ament_prefix_path.dsv\n'}
+[0.258005] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/path.sh\n'}
+[0.258103] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/path.dsv\n'}
+[0.258198] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.bash\n'}
+[0.258320] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.sh\n'}
+[0.258454] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.zsh\n'}
+[0.258575] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.dsv\n'}
+[0.258666] (enet_receiver_node) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.dsv\n'}
+[0.258753] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/ament_index/resource_index/packages/enet_receiver_node\n'}
+[0.258859] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/cmake/enet_receiver_nodeConfig.cmake\n'}
+[0.258961] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/cmake/enet_receiver_nodeConfig-version.cmake\n'}
+[0.259043] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.xml\n'}
+[0.260758] (enet_receiver_node) CommandEnded: {'returncode': 0}
+[0.301522] (-) TimerEvent: {}
+[0.343273] (enet_sender_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.370863] (enet_sender_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.373726] (enet_sender_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.388931] (enet_sender_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.401678] (-) TimerEvent: {}
+[0.409374] (enet_sender_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.427588] (enet_sender_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.463586] (enet_receiver_node) JobEnded: {'identifier': 'enet_receiver_node', 'rc': 0}
+[0.480898] (enet_sender_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.482511] (enet_sender_node) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.501878] (-) TimerEvent: {}
+[0.519220] (enet_sender_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.602226] (-) TimerEvent: {}
+[0.661522] (enet_sender_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.702378] (-) TimerEvent: {}
+[0.776894] (enet_sender_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.802683] (-) TimerEvent: {}
+[0.873213] (enet_sender_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.873419] (enet_sender_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.873486] (enet_sender_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.874145] (enet_sender_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.875470] (enet_sender_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.875586] (enet_sender_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.875887] (enet_sender_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.877223] (enet_sender_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.902778] (-) TimerEvent: {}
+[0.966116] (enet_sender_node) StdoutLine: {'line': b'-- Generating done\n'}
+[0.967844] (enet_sender_node) StdoutLine: {'line': b'-- Build files have been written to: /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node\n'}
+[1.002942] (-) TimerEvent: {}
+[1.024357] (enet_sender_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target enet_sender_node\x1b[0m\n'}
+[1.079550] (enet_sender_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o\x1b[0m\n'}
+[1.103057] (-) TimerEvent: {}
+[1.203426] (-) TimerEvent: {}
+[1.303806] (-) TimerEvent: {}
+[1.404243] (-) TimerEvent: {}
+[1.504654] (-) TimerEvent: {}
+[1.605078] (-) TimerEvent: {}
+[1.705468] (-) TimerEvent: {}
+[1.806122] (-) TimerEvent: {}
+[1.906506] (-) TimerEvent: {}
+[2.006917] (-) TimerEvent: {}
+[2.107296] (-) TimerEvent: {}
+[2.207672] (-) TimerEvent: {}
+[2.308034] (-) TimerEvent: {}
+[2.408420] (-) TimerEvent: {}
+[2.508801] (-) TimerEvent: {}
+[2.609190] (-) TimerEvent: {}
+[2.709574] (-) TimerEvent: {}
+[2.809956] (-) TimerEvent: {}
+[2.910338] (-) TimerEvent: {}
+[3.010725] (-) TimerEvent: {}
+[3.034266] (enet_sender_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* MsgLoop(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.034544] (enet_sender_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:20:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%u\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.034617] (enet_sender_node) StderrLine: {'line': b'   20 |                 printf("A packet of length \x1b[01;35m\x1b[K%u\x1b[m\x1b[K containing %s was received from %x:%u on channel %u.\\n",\n'}
+[3.034682] (enet_sender_node) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.034744] (enet_sender_node) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K|\x1b[m\x1b[K\n'}
+[3.034806] (enet_sender_node) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[Kunsigned int\x1b[m\x1b[K\n'}
+[3.034894] (enet_sender_node) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[3.034956] (enet_sender_node) StderrLine: {'line': b'   21 |                     \x1b[32m\x1b[Kevent.packet->dataLength\x1b[m\x1b[K,\n'}
+[3.035018] (enet_sender_node) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[3.035081] (enet_sender_node) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.035144] (enet_sender_node) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.076585] (enet_sender_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid EnetSender::SendPacket(ENetPeer*, uint8_t*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.076933] (enet_sender_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:128:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpeer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.077129] (enet_sender_node) StderrLine: {'line': b'  128 |     void SendPacket(\x1b[01;35m\x1b[KENetPeer *peer\x1b[m\x1b[K, uint8_t *data, size_t length) {\n'}
+[3.077317] (enet_sender_node) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.110899] (-) TimerEvent: {}
+[3.211287] (-) TimerEvent: {}
+[3.311657] (-) TimerEvent: {}
+[3.412040] (-) TimerEvent: {}
+[3.512413] (-) TimerEvent: {}
+[3.612806] (-) TimerEvent: {}
+[3.713162] (-) TimerEvent: {}
+[3.813531] (-) TimerEvent: {}
+[3.913902] (-) TimerEvent: {}
+[4.014283] (-) TimerEvent: {}
+[4.114665] (-) TimerEvent: {}
+[4.215235] (-) TimerEvent: {}
+[4.315597] (-) TimerEvent: {}
+[4.415960] (-) TimerEvent: {}
+[4.516349] (-) TimerEvent: {}
+[4.616745] (-) TimerEvent: {}
+[4.717132] (-) TimerEvent: {}
+[4.817486] (-) TimerEvent: {}
+[4.917842] (-) TimerEvent: {}
+[5.018208] (-) TimerEvent: {}
+[5.118528] (-) TimerEvent: {}
+[5.218912] (-) TimerEvent: {}
+[5.319294] (-) TimerEvent: {}
+[5.419673] (-) TimerEvent: {}
+[5.520033] (-) TimerEvent: {}
+[5.620405] (-) TimerEvent: {}
+[5.720749] (-) TimerEvent: {}
+[5.821123] (-) TimerEvent: {}
+[5.921488] (-) TimerEvent: {}
+[6.021862] (-) TimerEvent: {}
+[6.122228] (-) TimerEvent: {}
+[6.222609] (-) TimerEvent: {}
+[6.323009] (-) TimerEvent: {}
+[6.423387] (-) TimerEvent: {}
+[6.523733] (-) TimerEvent: {}
+[6.624110] (-) TimerEvent: {}
+[6.724463] (-) TimerEvent: {}
+[6.824840] (-) TimerEvent: {}
+[6.925577] (-) TimerEvent: {}
+[7.025955] (-) TimerEvent: {}
+[7.126325] (-) TimerEvent: {}
+[7.226668] (-) TimerEvent: {}
+[7.327154] (-) TimerEvent: {}
+[7.427605] (-) TimerEvent: {}
+[7.528013] (-) TimerEvent: {}
+[7.628410] (-) TimerEvent: {}
+[7.729029] (-) TimerEvent: {}
+[7.756042] (enet_sender_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable enet_sender_node\x1b[0m\n'}
+[7.829182] (-) TimerEvent: {}
+[7.929562] (-) TimerEvent: {}
+[8.029954] (-) TimerEvent: {}
+[8.130326] (-) TimerEvent: {}
+[8.230864] (-) TimerEvent: {}
+[8.331378] (-) TimerEvent: {}
+[8.431847] (-) TimerEvent: {}
+[8.532277] (-) TimerEvent: {}
+[8.632679] (-) TimerEvent: {}
+[8.733116] (-) TimerEvent: {}
+[8.833530] (-) TimerEvent: {}
+[8.933914] (-) TimerEvent: {}
+[9.034274] (-) TimerEvent: {}
+[9.134633] (-) TimerEvent: {}
+[9.235220] (-) TimerEvent: {}
+[9.335603] (-) TimerEvent: {}
+[9.435966] (-) TimerEvent: {}
+[9.467096] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o: in function `MsgLoop(void*)':\n"}
+[9.467367] (enet_sender_node) StderrLine: {'line': b"enet_sender.cpp:(.text+0xe8): undefined reference to `enet_packet_destroy'\n"}
+[9.467714] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: enet_sender.cpp:(.text+0x103): undefined reference to `enet_host_service'\n"}
+[9.469464] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o: in function `EnetSender::EnetSender()':\n"}
+[9.469720] (enet_sender_node) StderrLine: {'line': b"enet_sender.cpp:(.text._ZN10EnetSenderC2Ev[_ZN10EnetSenderC5Ev]+0x10f): undefined reference to `enet_initialize'\n"}
+[9.470093] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderC2Ev[_ZN10EnetSenderC5Ev]+0x32f): undefined reference to `enet_host_create'\n"}
+[9.470712] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderC2Ev[_ZN10EnetSenderC5Ev]+0x567): undefined reference to `enet_address_set_host'\n"}
+[9.471342] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderC2Ev[_ZN10EnetSenderC5Ev]+0x5a5): undefined reference to `enet_host_connect'\n"}
+[9.471862] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderC2Ev[_ZN10EnetSenderC5Ev]+0x7ea): undefined reference to `enet_host_service'\n"}
+[9.472386] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderC2Ev[_ZN10EnetSenderC5Ev]+0x99e): undefined reference to `enet_peer_reset'\n"}
+[9.473076] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o: in function `EnetSender::~EnetSender()':\n"}
+[9.473317] (enet_sender_node) StderrLine: {'line': b"enet_sender.cpp:(.text._ZN10EnetSenderD2Ev[_ZN10EnetSenderD5Ev]+0x6b): undefined reference to `enet_peer_disconnect'\n"}
+[9.473690] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderD2Ev[_ZN10EnetSenderD5Ev]+0xa1): undefined reference to `enet_packet_destroy'\n"}
+[9.474197] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderD2Ev[_ZN10EnetSenderD5Ev]+0x240): undefined reference to `enet_host_service'\n"}
+[9.474628] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSenderD2Ev[_ZN10EnetSenderD5Ev]+0x252): undefined reference to `enet_deinitialize'\n"}
+[9.475469] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o: in function `EnetSender::SendPacket(_ENetPeer*, unsigned char*, unsigned long)':\n"}
+[9.475724] (enet_sender_node) StderrLine: {'line': b"enet_sender.cpp:(.text._ZN10EnetSender10SendPacketEP9_ENetPeerPhm[_ZN10EnetSender10SendPacketEP9_ENetPeerPhm]+0x57): undefined reference to `enet_packet_create'\n"}
+[9.476051] (enet_sender_node) StderrLine: {'line': b"/usr/bin/ld: enet_sender.cpp:(.text._ZN10EnetSender10SendPacketEP9_ENetPeerPhm[_ZN10EnetSender10SendPacketEP9_ENetPeerPhm]+0x282): undefined reference to `enet_peer_send'\n"}
+[9.533353] (enet_sender_node) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[9.536112] (-) TimerEvent: {}
+[9.536577] (enet_sender_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/enet_sender_node.dir/build.make:999\xef\xbc\x9aenet_sender_node] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[9.537324] (enet_sender_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/enet_sender_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[9.537911] (enet_sender_node) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[9.543276] (enet_sender_node) CommandEnded: {'returncode': 2}
+[9.636262] (-) TimerEvent: {}
+[9.700005] (enet_sender_node) JobEnded: {'identifier': 'enet_sender_node', 'rc': 2}
+[9.710670] (-) EventReactorShutdown: {}

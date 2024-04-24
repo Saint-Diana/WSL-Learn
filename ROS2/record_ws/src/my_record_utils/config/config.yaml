@@ -1,3 +1,0 @@
-topic_recorder_node:
-  ros__parameters:
-    bag_file_path: "my_bag"

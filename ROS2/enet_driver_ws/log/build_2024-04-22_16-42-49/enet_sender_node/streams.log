@@ -1,0 +1,31 @@
+[0.067s] Invoking command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node -- -j16 -l16
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target enet_sender_node[0m
+[0.214s] [ 50%] [32mBuilding CXX object CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o[0m
+[2.201s] [01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:[m[K In member function ‘[01m[Kvoid EnetSender::lidar_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.201s] [01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:73:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.202s]    73 | [01;35m[K_msgs::msg::PointCloud2::SharedPtr msg[m[K)
+[2.202s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.202s] 
+[6.750s] [100%] [32m[1mLinking CXX executable enet_sender_node[0m
+[7.229s] [100%] Built target enet_sender_node
+[7.246s] Invoked command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node -- -j16 -l16
+[7.280s] Invoking command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node
+[7.288s] -- Install configuration: ""
+[7.288s] -- Installing: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/lib/enet_sender_node/enet_sender_node
+[7.295s] -- Set runtime path of "/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/lib/enet_sender_node/enet_sender_node" to ""
+[7.295s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/ament_index/resource_index/package_run_dependencies/enet_sender_node
+[7.296s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/ament_index/resource_index/parent_prefix_path/enet_sender_node
+[7.296s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/environment/ament_prefix_path.sh
+[7.296s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/environment/ament_prefix_path.dsv
+[7.296s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/environment/path.sh
+[7.296s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/environment/path.dsv
+[7.296s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/local_setup.bash
+[7.297s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/local_setup.sh
+[7.297s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/local_setup.zsh
+[7.297s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/local_setup.dsv
+[7.297s] -- Installing: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/package.dsv
+[7.297s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/ament_index/resource_index/packages/enet_sender_node
+[7.298s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/cmake/enet_sender_nodeConfig.cmake
+[7.299s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/cmake/enet_sender_nodeConfig-version.cmake
+[7.299s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/package.xml
+[7.300s] Invoked command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node

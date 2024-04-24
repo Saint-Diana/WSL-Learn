@@ -1,0 +1,26 @@
+[0.048s] Invoking command in '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/sync_ws/build/synchronize_utils -- -j16 -l16
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target sync_node[0m
+[0.161s] [ 50%] [32mBuilding CXX object CMakeFiles/sync_node.dir/src/sync_node.cpp.o[0m
+[10.549s] [100%] [32m[1mLinking CXX executable sync_node[0m
+[11.236s] [100%] Built target sync_node
+[11.264s] Invoked command in '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/sync_ws/build/synchronize_utils -- -j16 -l16
+[11.343s] Invoking command in '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/sync_ws/build/synchronize_utils
+[11.357s] -- Install configuration: ""
+[11.358s] -- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/lib/synchronize_utils/sync_node
+[11.378s] -- Set runtime path of "/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/lib/synchronize_utils/sync_node" to ""
+[11.378s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/ament_index/resource_index/package_run_dependencies/synchronize_utils
+[11.379s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/ament_index/resource_index/parent_prefix_path/synchronize_utils
+[11.379s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/environment/ament_prefix_path.sh
+[11.379s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/environment/ament_prefix_path.dsv
+[11.379s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/environment/path.sh
+[11.379s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/environment/path.dsv
+[11.380s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/local_setup.bash
+[11.380s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/local_setup.sh
+[11.380s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/local_setup.zsh
+[11.380s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/local_setup.dsv
+[11.380s] -- Installing: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/package.dsv
+[11.380s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/ament_index/resource_index/packages/synchronize_utils
+[11.381s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/cmake/synchronize_utilsConfig.cmake
+[11.381s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/cmake/synchronize_utilsConfig-version.cmake
+[11.381s] -- Up-to-date: /home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/package.xml
+[11.384s] Invoked command in '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/sync_ws/build/synchronize_utils

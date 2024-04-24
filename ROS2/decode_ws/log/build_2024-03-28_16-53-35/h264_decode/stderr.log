@@ -1,0 +1,12 @@
+[01m[K/home/shen/learn/ROS2/decode_ws/src/h264_decode/src/h264decoder.cpp:[m[K In member function ‘[01m[Kint CH264Decoder::initial()[m[K’:
+[01m[K/home/shen/learn/ROS2/decode_ws/src/h264_decode/src/h264decoder.cpp:19:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid av_init_packet(AVPacket*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   19 |     [01;35m[Kav_init_packet(&packet)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/libavcodec/bsf.h:30[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h:44[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:312[m[K,
+                 from [01m[K/home/shen/learn/ROS2/decode_ws/src/h264_decode/include/h264_decode/h264decoder.h:9[m[K,
+                 from [01m[K/home/shen/learn/ROS2/decode_ws/src/h264_decode/src/h264decoder.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/libavcodec/packet.h:488:6:[m[K [01;36m[Knote: [m[Kdeclared here
+  488 | void [01;36m[Kav_init_packet[m[K(AVPacket *pkt);
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K

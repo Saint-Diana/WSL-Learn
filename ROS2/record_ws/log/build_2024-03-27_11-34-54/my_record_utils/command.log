@@ -1,0 +1,2 @@
+Invoking command in '/home/shen/learn/ROS2/record_ws/build/my_record_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/record_ws/src/my_record_utils -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/record_ws/install/my_record_utils
+Invoked command in '/home/shen/learn/ROS2/record_ws/build/my_record_utils' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/record_ws/src/my_record_utils -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/record_ws/install/my_record_utils

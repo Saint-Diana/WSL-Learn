@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000506] (my_record_utils) JobQueued: {'identifier': 'my_record_utils', 'dependencies': OrderedDict()}
+[0.000587] (my_record_utils) JobStarted: {'identifier': 'my_record_utils'}
+[0.056999] (my_record_utils) JobProgress: {'identifier': 'my_record_utils', 'progress': 'cmake'}
+[0.057318] (my_record_utils) Command: {'cmd': ['/usr/bin/cmake', '/home/shen/learn/ROS2/record_ws/src/my_record_utils', '-DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/record_ws/install/my_record_utils'], 'cwd': '/home/shen/learn/ROS2/record_ws/build/my_record_utils', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('SSH_CLIENT', '192.168.1.24 49362 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/shen'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-63e25f8e-2b30-4080-8e62-a11ead1435d2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/record_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/shen/.local/bin:/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f7afd87408.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/record_ws/install/my_record_utils:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/shen/learn/ROS2/record_ws/build/my_record_utils'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.24 49362 192.168.1.34 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/record_ws/install/my_record_utils:/opt/ros/humble')]), 'shell': False}
+[0.099523] (-) TimerEvent: {}
+[0.174012] (my_record_utils) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199688] (-) TimerEvent: {}
+[0.289145] (my_record_utils) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.299818] (-) TimerEvent: {}
+[0.306259] (my_record_utils) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399985] (-) TimerEvent: {}
+[0.424973] (my_record_utils) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.431167] (my_record_utils) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.431503] (my_record_utils) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.431725] (my_record_utils) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.434183] (my_record_utils) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500137] (-) TimerEvent: {}
+[0.577295] (my_record_utils) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.595607] (my_record_utils) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.596220] (my_record_utils) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.597080] (my_record_utils) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.600209] (-) TimerEvent: {}
+[0.603279] (my_record_utils) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700350] (-) TimerEvent: {}
+[0.800770] (-) TimerEvent: {}
+[0.879273] (my_record_utils) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.900898] (-) TimerEvent: {}
+[1.001262] (-) TimerEvent: {}
+[1.019409] (my_record_utils) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.057873] (my_record_utils) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.062503] (my_record_utils) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.070473] (my_record_utils) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.082040] (my_record_utils) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.098905] (my_record_utils) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101384] (-) TimerEvent: {}
+[1.158998] (my_record_utils) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.161286] (my_record_utils) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.188967] (my_record_utils) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.197598] (my_record_utils) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201480] (-) TimerEvent: {}
+[1.301758] (-) TimerEvent: {}
+[1.309133] (my_record_utils) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.309430] (my_record_utils) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.401877] (-) TimerEvent: {}
+[1.470661] (my_record_utils) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.472829] (my_record_utils) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.502017] (-) TimerEvent: {}
+[1.602280] (-) TimerEvent: {}
+[1.661365] (my_record_utils) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.8 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[1.702421] (-) TimerEvent: {}
+[1.711259] (my_record_utils) StdoutLine: {'line': b'-- Found can_msgs: 2.0.0 (/opt/ros/humble/share/can_msgs/cmake)\n'}
+[1.751934] (my_record_utils) StdoutLine: {'line': b'-- Found udp_msgs: 0.0.3 (/opt/ros/humble/share/udp_msgs/cmake)\n'}
+[1.790186] (my_record_utils) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.802797] (-) TimerEvent: {}
+[1.900463] (my_record_utils) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.900731] (my_record_utils) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.900854] (my_record_utils) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.901070] (my_record_utils) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.901548] (my_record_utils) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.901971] (my_record_utils) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.902861] (-) TimerEvent: {}
+[1.903068] (my_record_utils) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.903159] (my_record_utils) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.903568] (my_record_utils) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.904697] (my_record_utils) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.908606] (my_record_utils) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:50 (add_executable):\n'}
+[1.908863] (my_record_utils) StderrLine: {'line': b'  Cannot find source file:\n'}
+[1.909005] (my_record_utils) StderrLine: {'line': b'\n'}
+[1.909192] (my_record_utils) StderrLine: {'line': b'    src/toipc_player.cpp\n'}
+[1.909296] (my_record_utils) StderrLine: {'line': b'\n'}
+[1.909398] (my_record_utils) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[1.909501] (my_record_utils) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[1.909603] (my_record_utils) StderrLine: {'line': b'\n'}
+[1.909708] (my_record_utils) StderrLine: {'line': b'\x1b[0m\n'}
+[1.909809] (my_record_utils) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:50 (add_executable):\n'}
+[1.909911] (my_record_utils) StderrLine: {'line': b'  No SOURCES given to target: topic_player\n'}
+[1.910015] (my_record_utils) StderrLine: {'line': b'\n'}
+[1.910116] (my_record_utils) StderrLine: {'line': b'\x1b[0m\n'}
+[1.910217] (my_record_utils) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[1.916139] (my_record_utils) CommandEnded: {'returncode': 1}
+[1.976288] (my_record_utils) JobEnded: {'identifier': 'my_record_utils', 'rc': 1}
+[1.987233] (-) EventReactorShutdown: {}

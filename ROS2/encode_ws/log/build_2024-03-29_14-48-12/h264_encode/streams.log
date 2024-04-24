@@ -1,0 +1,28 @@
+[0.085s] Invoking command in '/home/shen/learn/ROS2/encode_ws/build/h264_encode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/encode_ws/build/h264_encode -- -j16 -l16
+[0.146s] [35m[1mConsolidate compiler generated dependencies of target encoder_node[0m
+[0.189s] [ 33%] [32mBuilding CXX object CMakeFiles/encoder_node.dir/src/encoder_node.cpp.o[0m
+[9.339s] [ 66%] [32m[1mLinking CXX executable encoder_node[0m
+[10.431s] [100%] Built target encoder_node
+[10.458s] Invoked command in '/home/shen/learn/ROS2/encode_ws/build/h264_encode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/encode_ws/build/h264_encode -- -j16 -l16
+[10.510s] Invoking command in '/home/shen/learn/ROS2/encode_ws/build/h264_encode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/encode_ws/build/h264_encode
+[10.519s] -- Install configuration: ""
+[10.519s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/lib/h264_encode/encoder_node
+[10.527s] -- Set runtime path of "/home/shen/learn/ROS2/encode_ws/install/h264_encode/lib/h264_encode/encoder_node" to ""
+[10.528s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/launch
+[10.528s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/launch/encoder.launch.py
+[10.528s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/ament_index/resource_index/package_run_dependencies/h264_encode
+[10.528s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/ament_index/resource_index/parent_prefix_path/h264_encode
+[10.528s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/ament_prefix_path.sh
+[10.528s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/ament_prefix_path.dsv
+[10.528s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/path.sh
+[10.529s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/path.dsv
+[10.529s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.bash
+[10.529s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.sh
+[10.529s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.zsh
+[10.529s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.dsv
+[10.529s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/package.dsv
+[10.530s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/ament_index/resource_index/packages/h264_encode
+[10.530s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/cmake/h264_encodeConfig.cmake
+[10.530s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/cmake/h264_encodeConfig-version.cmake
+[10.530s] -- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/package.xml
+[10.532s] Invoked command in '/home/shen/learn/ROS2/encode_ws/build/h264_encode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/encode_ws/build/h264_encode

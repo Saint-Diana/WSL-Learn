@@ -1,0 +1,6 @@
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_receiver_node/src/enet_receiver.cpp:[m[K In member function ‘[01m[Kvoid EnetReceiver::receive_and_publish()[m[K’:
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_receiver_node/src/enet_receiver.cpp:51:20:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KENET_EVENT_TYPE_NONE[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+   51 |             switch [01;35m[K([m[Kevent.type)
+      |                    [01;35m[K^[m[K
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_receiver_node/src/enet_receiver.cpp:51:20:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KENET_EVENT_TYPE_CONNECT[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_receiver_node/src/enet_receiver.cpp:51:20:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KENET_EVENT_TYPE_DISCONNECT[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]

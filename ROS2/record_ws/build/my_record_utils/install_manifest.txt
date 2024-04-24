@@ -1,7 +1,5 @@
 /home/shen/learn/ROS2/record_ws/install/my_record_utils/lib/my_record_utils/topic_recorder
 /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/launch/recorder.launch.py
-/home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/config/config.yaml
-/home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/config/topics_config.yaml
 /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/ament_index/resource_index/package_run_dependencies/my_record_utils
 /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/ament_index/resource_index/parent_prefix_path/my_record_utils
 /home/shen/learn/ROS2/record_ws/install/my_record_utils/share/my_record_utils/environment/ament_prefix_path.sh

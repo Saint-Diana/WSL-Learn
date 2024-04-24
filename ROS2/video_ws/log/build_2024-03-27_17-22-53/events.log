@@ -1,0 +1,252 @@
+[0.000000] (-) TimerEvent: {}
+[0.000669] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.000750] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.055880] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[0.056260] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '/home/shen/learn/ROS2/video_ws/src/usb_cam', '-DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/video_ws/install/usb_cam'], 'cwd': '/home/shen/learn/ROS2/video_ws/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('SSH_CLIENT', '192.168.1.24 49362 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/shen/learn/ROS2/video_ws/install/usb_cam/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/shen'), ('OLDPWD', '/home/shen/learn/ROS2/video_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66979c87-6947-424b-86f8-0edd253c781f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/video_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/shen/.local/bin:/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa70bd8300.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/video_ws/install/usb_cam:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/shen/learn/ROS2/video_ws/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.24 49362 192.168.1.34 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/video_ws/install/usb_cam:/opt/ros/humble')]), 'shell': False}
+[0.099512] (-) TimerEvent: {}
+[0.189164] (usb_cam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199636] (-) TimerEvent: {}
+[0.289357] (usb_cam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.299777] (-) TimerEvent: {}
+[0.308389] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399941] (-) TimerEvent: {}
+[0.440742] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.448405] (usb_cam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.448767] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.449123] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.451758] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500102] (-) TimerEvent: {}
+[0.585125] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.600258] (-) TimerEvent: {}
+[0.604469] (usb_cam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.605097] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.605966] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.611788] (usb_cam) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.700414] (-) TimerEvent: {}
+[0.800874] (-) TimerEvent: {}
+[0.814693] (usb_cam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.901000] (-) TimerEvent: {}
+[1.001392] (-) TimerEvent: {}
+[1.083208] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.087718] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.095047] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.101498] (-) TimerEvent: {}
+[1.106565] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.124471] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.185249] (usb_cam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.187528] (usb_cam) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.201637] (-) TimerEvent: {}
+[1.215018] (usb_cam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.223369] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.301817] (-) TimerEvent: {}
+[1.334736] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.335177] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.401949] (-) TimerEvent: {}
+[1.469746] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.471877] (usb_cam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.502118] (-) TimerEvent: {}
+[1.602553] (-) TimerEvent: {}
+[1.702986] (-) TimerEvent: {}
+[1.803586] (-) TimerEvent: {}
+[1.903995] (-) TimerEvent: {}
+[1.967960] (usb_cam) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.974894] (usb_cam) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.975432] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[2.003062] (usb_cam) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[2.004067] (-) TimerEvent: {}
+[2.078344] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[2.104251] (-) TimerEvent: {}
+[2.106140] (usb_cam) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[2.183806] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[2.204409] (-) TimerEvent: {}
+[2.216008] (usb_cam) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[2.299554] (usb_cam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.304721] (-) TimerEvent: {}
+[2.318277] (usb_cam) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.327350] (usb_cam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.333978] (usb_cam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.334396] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/shen/learn/ROS2/video_ws/src/usb_cam/include\n'}
+[2.334652] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.340527] (usb_cam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.340833] (usb_cam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.341648] (usb_cam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.343425] (usb_cam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.344508] (usb_cam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.350942] (usb_cam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.351185] (usb_cam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.351828] (usb_cam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.354973] (usb_cam) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.391292] (usb_cam) StdoutLine: {'line': b'-- Generating done\n'}
+[2.394605] (usb_cam) StdoutLine: {'line': b'-- Build files have been written to: /home/shen/learn/ROS2/video_ws/build/usb_cam\n'}
+[2.404875] (-) TimerEvent: {}
+[2.406024] (usb_cam) CommandEnded: {'returncode': 0}
+[2.407050] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[2.408231] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/video_ws/build/usb_cam', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/video_ws/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('SSH_CLIENT', '192.168.1.24 49362 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/shen/learn/ROS2/video_ws/install/usb_cam/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/shen'), ('OLDPWD', '/home/shen/learn/ROS2/video_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66979c87-6947-424b-86f8-0edd253c781f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/video_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/shen/.local/bin:/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa70bd8300.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/video_ws/install/usb_cam:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/shen/learn/ROS2/video_ws/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.24 49362 192.168.1.34 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/video_ws/install/usb_cam:/opt/ros/humble')]), 'shell': False}
+[2.472751] (usb_cam) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o\x1b[0m\n'}
+[2.474140] (usb_cam) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.479693] (usb_cam) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o\x1b[0m\n'}
+[2.486056] (usb_cam) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.505013] (-) TimerEvent: {}
+[2.605331] (-) TimerEvent: {}
+[2.705651] (-) TimerEvent: {}
+[2.806000] (-) TimerEvent: {}
+[2.906379] (-) TimerEvent: {}
+[3.006731] (-) TimerEvent: {}
+[3.107120] (-) TimerEvent: {}
+[3.188497] (usb_cam) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.207277] (-) TimerEvent: {}
+[3.233676] (usb_cam) StdoutLine: {'line': b'[ 35%] Built target gtest_main\n'}
+[3.307436] (-) TimerEvent: {}
+[3.407799] (-) TimerEvent: {}
+[3.508164] (-) TimerEvent: {}
+[3.608550] (-) TimerEvent: {}
+[3.708916] (-) TimerEvent: {}
+[3.809276] (-) TimerEvent: {}
+[3.909646] (-) TimerEvent: {}
+[4.010010] (-) TimerEvent: {}
+[4.015506] (usb_cam) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam.so\x1b[0m\n'}
+[4.110131] (-) TimerEvent: {}
+[4.210421] (-) TimerEvent: {}
+[4.258190] (usb_cam) StdoutLine: {'line': b'[ 42%] Built target usb_cam\n'}
+[4.282299] (usb_cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o\x1b[0m\n'}
+[4.310568] (-) TimerEvent: {}
+[4.410921] (-) TimerEvent: {}
+[4.511284] (-) TimerEvent: {}
+[4.611643] (-) TimerEvent: {}
+[4.712003] (-) TimerEvent: {}
+[4.812365] (-) TimerEvent: {}
+[4.912761] (-) TimerEvent: {}
+[4.983342] (usb_cam) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[5.001303] (usb_cam) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable usb_cam_node_exe\x1b[0m\n'}
+[5.012949] (-) TimerEvent: {}
+[5.079412] (usb_cam) StdoutLine: {'line': b'[ 64%] Built target gtest\n'}
+[5.104247] (usb_cam) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o\x1b[0m\n'}
+[5.113288] (-) TimerEvent: {}
+[5.115998] (usb_cam) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o\x1b[0m\n'}
+[5.170050] (usb_cam) StdoutLine: {'line': b'[ 78%] Built target usb_cam_node_exe\n'}
+[5.213413] (-) TimerEvent: {}
+[5.313765] (-) TimerEvent: {}
+[5.414150] (-) TimerEvent: {}
+[5.514541] (-) TimerEvent: {}
+[5.614903] (-) TimerEvent: {}
+[5.715273] (-) TimerEvent: {}
+[5.815642] (-) TimerEvent: {}
+[5.916017] (-) TimerEvent: {}
+[6.016396] (-) TimerEvent: {}
+[6.116763] (-) TimerEvent: {}
+[6.217162] (-) TimerEvent: {}
+[6.223827] (usb_cam) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable test_usb_cam_utils\x1b[0m\n'}
+[6.317312] (-) TimerEvent: {}
+[6.417668] (-) TimerEvent: {}
+[6.450987] (usb_cam) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable test_pixel_formats\x1b[0m\n'}
+[6.462307] (usb_cam) StdoutLine: {'line': b'[ 92%] Built target test_usb_cam_utils\n'}
+[6.517797] (-) TimerEvent: {}
+[6.618154] (-) TimerEvent: {}
+[6.655892] (usb_cam) StdoutLine: {'line': b'[ 92%] Built target test_pixel_formats\n'}
+[6.718273] (-) TimerEvent: {}
+[6.818581] (-) TimerEvent: {}
+[6.918907] (-) TimerEvent: {}
+[7.019269] (-) TimerEvent: {}
+[7.119615] (-) TimerEvent: {}
+[7.219978] (-) TimerEvent: {}
+[7.320332] (-) TimerEvent: {}
+[7.420692] (-) TimerEvent: {}
+[7.521057] (-) TimerEvent: {}
+[7.621422] (-) TimerEvent: {}
+[7.721780] (-) TimerEvent: {}
+[7.822143] (-) TimerEvent: {}
+[7.922509] (-) TimerEvent: {}
+[8.022866] (-) TimerEvent: {}
+[8.123235] (-) TimerEvent: {}
+[8.223592] (-) TimerEvent: {}
+[8.323957] (-) TimerEvent: {}
+[8.424323] (-) TimerEvent: {}
+[8.524694] (-) TimerEvent: {}
+[8.625075] (-) TimerEvent: {}
+[8.725409] (-) TimerEvent: {}
+[8.825754] (-) TimerEvent: {}
+[8.926104] (-) TimerEvent: {}
+[9.026453] (-) TimerEvent: {}
+[9.126796] (-) TimerEvent: {}
+[9.227144] (-) TimerEvent: {}
+[9.327510] (-) TimerEvent: {}
+[9.427892] (-) TimerEvent: {}
+[9.528240] (-) TimerEvent: {}
+[9.628586] (-) TimerEvent: {}
+[9.728955] (-) TimerEvent: {}
+[9.829300] (-) TimerEvent: {}
+[9.929654] (-) TimerEvent: {}
+[10.029997] (-) TimerEvent: {}
+[10.130370] (-) TimerEvent: {}
+[10.230783] (-) TimerEvent: {}
+[10.331198] (-) TimerEvent: {}
+[10.421713] (usb_cam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam_node.so\x1b[0m\n'}
+[10.431381] (-) TimerEvent: {}
+[10.531799] (-) TimerEvent: {}
+[10.632193] (-) TimerEvent: {}
+[10.732610] (-) TimerEvent: {}
+[10.832961] (-) TimerEvent: {}
+[10.898525] (usb_cam) StdoutLine: {'line': b'[100%] Built target usb_cam_node\n'}
+[10.920707] (usb_cam) CommandEnded: {'returncode': 0}
+[10.933076] (-) TimerEvent: {}
+[10.965408] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'install'}
+[10.975152] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shen/learn/ROS2/video_ws/build/usb_cam'], 'cwd': '/home/shen/learn/ROS2/video_ws/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('SSH_CLIENT', '192.168.1.24 49362 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/shen/learn/ROS2/video_ws/install/usb_cam/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/shen'), ('OLDPWD', '/home/shen/learn/ROS2/video_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66979c87-6947-424b-86f8-0edd253c781f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/video_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shen/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/shen/.local/bin:/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aa70bd8300.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/video_ws/install/usb_cam:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/shen/learn/ROS2/video_ws/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.24 49362 192.168.1.34 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/video_ws/install/usb_cam:/opt/ros/humble')]), 'shell': False}
+[10.992953] (usb_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.993427] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/environment/library_path.sh\n'}
+[10.993833] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv\n'}
+[10.994292] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe\n'}
+[10.996050] (usb_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/video_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""\n'}
+[10.996210] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/lib/usb_cam/show_image.py\n'}
+[10.996383] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/lib/libusb_cam.so\n'}
+[11.001691] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/lib/libusb_cam_node.so\n'}
+[11.021830] (usb_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/shen/learn/ROS2/video_ws/install/usb_cam/lib/libusb_cam_node.so" to ""\n'}
+[11.022020] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include\n'}
+[11.022258] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam\n'}
+[11.022479] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/constants.hpp\n'}
+[11.022642] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/conversions.hpp\n'}
+[11.022789] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats\n'}
+[11.022852] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp\n'}
+[11.022906] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp\n'}
+[11.022999] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp\n'}
+[11.023115] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/m420.hpp\n'}
+[11.023273] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp\n'}
+[11.023441] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/mono.hpp\n'}
+[11.023608] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp\n'}
+[11.023776] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/utils.hpp\n'}
+[11.023936] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp\n'}
+[11.024104] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/usb_cam.hpp\n'}
+[11.024280] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp\n'}
+[11.024445] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/utils.hpp\n'}
+[11.024839] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/video_ws/install/usb_cam/lib/libusb_cam_node.so\n'}
+[11.025093] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/launch\n'}
+[11.025197] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/launch/camera_config.py\n'}
+[11.025349] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py\n'}
+[11.025484] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/launch/__init__.py\n'}
+[11.025628] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/config\n'}
+[11.025730] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml\n'}
+[11.025873] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/config/params_1.yaml\n'}
+[11.026008] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/config/params_2.yaml\n'}
+[11.026289] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam\n'}
+[11.026523] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam\n'}
+[11.026711] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh\n'}
+[11.026872] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv\n'}
+[11.027039] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/environment/path.sh\n'}
+[11.027204] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/environment/path.dsv\n'}
+[11.027358] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/local_setup.bash\n'}
+[11.027488] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/local_setup.sh\n'}
+[11.027624] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/local_setup.zsh\n'}
+[11.027765] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/local_setup.dsv\n'}
+[11.027895] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/package.dsv\n'}
+[11.028073] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam\n'}
+[11.028245] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam\n'}
+[11.028423] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.028560] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.028695] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.028850] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake\n'}
+[11.028996] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake\n'}
+[11.029125] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/package.xml\n'}
+[11.031284] (usb_cam) CommandEnded: {'returncode': 0}
+[11.033218] (-) TimerEvent: {}
+[11.133489] (-) TimerEvent: {}
+[11.201526] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 0}
+[11.202421] (-) EventReactorShutdown: {}

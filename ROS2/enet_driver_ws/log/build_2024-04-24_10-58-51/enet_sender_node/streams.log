@@ -1,0 +1,64 @@
+[0.069s] Invoking command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node -- -j16 -l16
+[0.174s] [ 50%] [32mBuilding CXX object CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o[0m
+[2.493s] [01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:[m[K In function ‘[01m[Kvoid* msgLoop(void*)[m[K’:
+[2.493s] [01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:20:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.493s]    20 |                 printf("A packet of length [01;35m[K%u[m[K containing %s was received from %x:%u on channel %u.\n",
+[2.493s]       |                                            [01;35m[K~^[m[K
+[2.493s]       |                                             [01;35m[K|[m[K
+[2.494s]       |                                             [01;35m[Kunsigned int[m[K
+[2.494s]       |                                            [32m[K%lu[m[K
+[2.494s]    21 |                     [32m[Kevent.packet->dataLength[m[K,
+[2.494s]       |                     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+[2.494s]       |                                   [32m[K|[m[K
+[2.495s]       |                                   [32m[Ksize_t {aka long unsigned int}[m[K
+[2.540s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.540s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.540s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.541s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.541s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.541s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.541s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.541s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.541s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.541s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.542s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.542s]                  from [01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:2[m[K:
+[2.542s] [01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:[m[K In member function ‘[01m[Kvoid EnetSender::lidar_callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.542s] [01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:120:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.542s]   120 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"buffer_length = %d\n"[m[K, [32m[Kserialized_msg.get_rcl_serialized_message().buffer_length[m[K);
+[2.542s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.542s]       |                                                                                                             [32m[K|[m[K
+[2.543s]       |                                                                                                             [32m[Ksize_t {aka long unsigned int}[m[K
+[2.543s] [01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:120:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.543s]   120 |         RCLCPP_INFO(this->get_logger(), "buffer_length = [01;36m[K%d[m[K\n", serialized_msg.get_rcl_serialized_message().buffer_length);
+[2.543s]       |                                                          [01;36m[K~^[m[K
+[2.543s]       |                                                           [01;36m[K|[m[K
+[2.543s]       |                                                           [01;36m[Kint[m[K
+[2.544s]       |                                                          [32m[K%ld[m[K
+[2.544s] [01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:[m[K In member function ‘[01m[Kvoid EnetSender::sendPacket(ENetPeer*, uint8_t*, size_t)[m[K’:
+[2.544s] [01m[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:127:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpeer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.544s]   127 |     void sendPacket([01;35m[KENetPeer *peer[m[K, uint8_t *data, size_t length) {
+[2.544s]       |                     [01;35m[K~~~~~~~~~~^~~~[m[K
+[7.602s] [100%] [32m[1mLinking CXX executable enet_sender_node[0m
+[9.657s] [100%] Built target enet_sender_node
+[9.674s] Invoked command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node -- -j16 -l16
+[9.724s] Invoking command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node
+[9.732s] -- Install configuration: ""
+[9.732s] -- Installing: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/lib/enet_sender_node/enet_sender_node
+[9.739s] -- Set runtime path of "/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/lib/enet_sender_node/enet_sender_node" to ""
+[9.740s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/ament_index/resource_index/package_run_dependencies/enet_sender_node
+[9.740s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/ament_index/resource_index/parent_prefix_path/enet_sender_node
+[9.740s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/environment/ament_prefix_path.sh
+[9.740s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/environment/ament_prefix_path.dsv
+[9.740s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/environment/path.sh
+[9.741s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/environment/path.dsv
+[9.741s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/local_setup.bash
+[9.741s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/local_setup.sh
+[9.741s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/local_setup.zsh
+[9.741s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/local_setup.dsv
+[9.741s] -- Installing: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/package.dsv
+[9.742s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/ament_index/resource_index/packages/enet_sender_node
+[9.742s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/cmake/enet_sender_nodeConfig.cmake
+[9.742s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/cmake/enet_sender_nodeConfig-version.cmake
+[9.743s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node/share/enet_sender_node/package.xml
+[9.744s] Invoked command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node

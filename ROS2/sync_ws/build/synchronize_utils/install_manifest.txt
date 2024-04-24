@@ -1,0 +1,16 @@
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/lib/synchronize_utils/sync_node
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/ament_index/resource_index/package_run_dependencies/synchronize_utils
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/ament_index/resource_index/parent_prefix_path/synchronize_utils
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/environment/ament_prefix_path.sh
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/environment/ament_prefix_path.dsv
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/environment/path.sh
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/environment/path.dsv
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/local_setup.bash
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/local_setup.sh
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/local_setup.zsh
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/local_setup.dsv
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/package.dsv
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/ament_index/resource_index/packages/synchronize_utils
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/cmake/synchronize_utilsConfig.cmake
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/cmake/synchronize_utilsConfig-version.cmake
+/home/shen/learn/ROS2/sync_ws/install/synchronize_utils/share/synchronize_utils/package.xml

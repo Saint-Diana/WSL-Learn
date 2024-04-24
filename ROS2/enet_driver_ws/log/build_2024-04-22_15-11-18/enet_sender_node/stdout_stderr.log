@@ -1,0 +1,8 @@
+[31mCMake Error at CMakeLists.txt:17:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "/lidar".
+
+-- Configuring incomplete, errors occurred!
+See also "/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node/CMakeFiles/CMakeOutput.log".
+[0m
+gmake: *** [Makefile:267：cmake_check_build_system] 错误 1

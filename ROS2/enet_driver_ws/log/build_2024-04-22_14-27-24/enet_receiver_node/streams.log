@@ -1,0 +1,20 @@
+[0.154s] Invoking command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node -- -j16 -l16
+[0.209s] Invoked command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node -- -j16 -l16
+[0.251s] Invoking command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node
+[0.258s] -- Install configuration: ""
+[0.258s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/ament_index/resource_index/package_run_dependencies/enet_receiver_node
+[0.258s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/ament_index/resource_index/parent_prefix_path/enet_receiver_node
+[0.259s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/ament_prefix_path.sh
+[0.259s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/ament_prefix_path.dsv
+[0.259s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/path.sh
+[0.259s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/path.dsv
+[0.259s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.bash
+[0.259s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.sh
+[0.259s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.zsh
+[0.259s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.dsv
+[0.259s] -- Installing: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.dsv
+[0.259s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/ament_index/resource_index/packages/enet_receiver_node
+[0.260s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/cmake/enet_receiver_nodeConfig.cmake
+[0.260s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/cmake/enet_receiver_nodeConfig-version.cmake
+[0.260s] -- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.xml
+[0.264s] Invoked command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node

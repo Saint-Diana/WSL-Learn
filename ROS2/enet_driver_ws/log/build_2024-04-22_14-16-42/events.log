@@ -1,0 +1,657 @@
+[0.000000] (-) TimerEvent: {}
+[0.000306] (enet_receiver_node) JobQueued: {'identifier': 'enet_receiver_node', 'dependencies': OrderedDict()}
+[0.000512] (enet_sender_node) JobQueued: {'identifier': 'enet_sender_node', 'dependencies': OrderedDict()}
+[0.000757] (enet_receiver_node) JobStarted: {'identifier': 'enet_receiver_node'}
+[0.073242] (enet_sender_node) JobStarted: {'identifier': 'enet_sender_node'}
+[0.099069] (-) TimerEvent: {}
+[0.145538] (enet_receiver_node) JobProgress: {'identifier': 'enet_receiver_node', 'progress': 'cmake'}
+[0.146130] (enet_receiver_node) JobProgress: {'identifier': 'enet_receiver_node', 'progress': 'build'}
+[0.146913] (enet_receiver_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/enet_driver_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '3891'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/enet_driver_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/1981,unix/work:/tmp/.ICE-unix/1981'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3db6d002_30c8_404d_a5cb_76bb7d6ccba4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OSXFM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ba73c5cd82.sock'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node:/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/157/.local/share:/home/shen/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node:/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node:/opt/ros/humble')]), 'shell': False}
+[0.151503] (enet_sender_node) JobProgress: {'identifier': 'enet_sender_node', 'progress': 'cmake'}
+[0.152128] (enet_sender_node) JobProgress: {'identifier': 'enet_sender_node', 'progress': 'build'}
+[0.152365] (enet_sender_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node', '--', '-j16', '-l16'], 'cwd': '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/enet_driver_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '3891'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/enet_driver_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/1981,unix/work:/tmp/.ICE-unix/1981'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3db6d002_30c8_404d_a5cb_76bb7d6ccba4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OSXFM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ba73c5cd82.sock'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node:/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/157/.local/share:/home/shen/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node:/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node:/opt/ros/humble')]), 'shell': False}
+[0.182559] (enet_sender_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199173] (-) TimerEvent: {}
+[0.228205] (enet_receiver_node) CommandEnded: {'returncode': 0}
+[0.257513] (enet_receiver_node) JobProgress: {'identifier': 'enet_receiver_node', 'progress': 'install'}
+[0.267425] (enet_receiver_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node'], 'cwd': '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'shen'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('GIO_MODULE_DIR', '/home/shen/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shen'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/shen/learn/ROS2/enet_driver_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', ''), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('GTK_IM_MODULE_FILE', '/home/shen/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/157/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '3891'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/shen/learn/ROS2/enet_driver_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shen'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'shen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/work:@/tmp/.ICE-unix/1981,unix/work:/tmp/.ICE-unix/1981'), ('GTK_EXE_PREFIX', '/snap/code/157/usr'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3db6d002_30c8_404d_a5cb_76bb7d6ccba4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/157/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OSXFM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ba73c5cd82.sock'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/shen/snap/code/157/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node:/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shen/learn/ROS2/enet_driver_ws/build/enet_receiver_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/shen/snap/code/157/.local/share:/home/shen/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shen/learn/ROS2/enet_driver_ws/install/enet_sender_node:/home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node:/opt/ros/humble')]), 'shell': False}
+[0.277210] (enet_receiver_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.277957] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/ament_index/resource_index/package_run_dependencies/enet_receiver_node\n'}
+[0.278125] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/ament_index/resource_index/parent_prefix_path/enet_receiver_node\n'}
+[0.278335] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/ament_prefix_path.sh\n'}
+[0.278460] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/ament_prefix_path.dsv\n'}
+[0.278523] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/path.sh\n'}
+[0.278587] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/environment/path.dsv\n'}
+[0.278650] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.bash\n'}
+[0.278717] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.sh\n'}
+[0.278780] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.zsh\n'}
+[0.278842] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/local_setup.dsv\n'}
+[0.278903] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.dsv\n'}
+[0.278965] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/ament_index/resource_index/packages/enet_receiver_node\n'}
+[0.279028] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/cmake/enet_receiver_nodeConfig.cmake\n'}
+[0.279090] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/cmake/enet_receiver_nodeConfig-version.cmake\n'}
+[0.279161] (enet_receiver_node) StdoutLine: {'line': b'-- Up-to-date: /home/shen/learn/ROS2/enet_driver_ws/install/enet_receiver_node/share/enet_receiver_node/package.xml\n'}
+[0.280270] (enet_receiver_node) CommandEnded: {'returncode': 0}
+[0.299285] (-) TimerEvent: {}
+[0.360324] (enet_sender_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400434] (-) TimerEvent: {}
+[0.429658] (enet_sender_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.432389] (enet_sender_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.439974] (enet_sender_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.454980] (enet_sender_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.463077] (enet_receiver_node) JobEnded: {'identifier': 'enet_receiver_node', 'rc': 0}
+[0.472831] (enet_sender_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500569] (-) TimerEvent: {}
+[0.540257] (enet_sender_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.541864] (enet_sender_node) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.573034] (enet_sender_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.600689] (-) TimerEvent: {}
+[0.701104] (-) TimerEvent: {}
+[0.758555] (enet_sender_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.801279] (-) TimerEvent: {}
+[0.901789] (-) TimerEvent: {}
+[0.912833] (enet_sender_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.001983] (-) TimerEvent: {}
+[1.032462] (enet_sender_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.032845] (enet_sender_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.032984] (enet_sender_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.033892] (enet_sender_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.035233] (enet_sender_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.035327] (enet_sender_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.035999] (enet_sender_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.037705] (enet_sender_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.102072] (-) TimerEvent: {}
+[1.185037] (enet_sender_node) StdoutLine: {'line': b'-- Generating done\n'}
+[1.186716] (enet_sender_node) StdoutLine: {'line': b'-- Build files have been written to: /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node\n'}
+[1.202195] (-) TimerEvent: {}
+[1.245755] (enet_sender_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/enet_sender_node.dir/src/enet_sender.cpp.o\x1b[0m\n'}
+[1.302336] (-) TimerEvent: {}
+[1.402751] (-) TimerEvent: {}
+[1.503176] (-) TimerEvent: {}
+[1.603584] (-) TimerEvent: {}
+[1.703908] (-) TimerEvent: {}
+[1.804216] (-) TimerEvent: {}
+[1.904533] (-) TimerEvent: {}
+[2.004895] (-) TimerEvent: {}
+[2.105220] (-) TimerEvent: {}
+[2.205535] (-) TimerEvent: {}
+[2.305833] (-) TimerEvent: {}
+[2.406153] (-) TimerEvent: {}
+[2.506461] (-) TimerEvent: {}
+[2.606782] (-) TimerEvent: {}
+[2.707109] (-) TimerEvent: {}
+[2.807446] (-) TimerEvent: {}
+[2.907769] (-) TimerEvent: {}
+[3.008086] (-) TimerEvent: {}
+[3.108389] (-) TimerEvent: {}
+[3.208690] (-) TimerEvent: {}
+[3.309084] (-) TimerEvent: {}
+[3.402228] (enet_sender_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.402646] (enet_sender_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:72:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.402840] (enet_sender_node) StderrLine: {'line': b'   72 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char **argv)\n'}
+[3.403033] (enet_sender_node) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[3.403162] (enet_sender_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shen/learn/ROS2/enet_driver_ws/src/enet_sender_node/src/enet_sender.cpp:72:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.403291] (enet_sender_node) StderrLine: {'line': b'   72 | int main(int argc, \x1b[01;35m\x1b[Kchar **argv\x1b[m\x1b[K)\n'}
+[3.403416] (enet_sender_node) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.409222] (-) TimerEvent: {}
+[3.509587] (-) TimerEvent: {}
+[3.610050] (-) TimerEvent: {}
+[3.710371] (-) TimerEvent: {}
+[3.810707] (-) TimerEvent: {}
+[3.911028] (-) TimerEvent: {}
+[4.011351] (-) TimerEvent: {}
+[4.111681] (-) TimerEvent: {}
+[4.212024] (-) TimerEvent: {}
+[4.312337] (-) TimerEvent: {}
+[4.412655] (-) TimerEvent: {}
+[4.513032] (-) TimerEvent: {}
+[4.613363] (-) TimerEvent: {}
+[4.713691] (-) TimerEvent: {}
+[4.814050] (-) TimerEvent: {}
+[4.914661] (-) TimerEvent: {}
+[5.015059] (-) TimerEvent: {}
+[5.115465] (-) TimerEvent: {}
+[5.215914] (-) TimerEvent: {}
+[5.316338] (-) TimerEvent: {}
+[5.411829] (enet_sender_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable enet_sender_node\x1b[0m\n'}
+[5.416431] (-) TimerEvent: {}
+[5.516882] (-) TimerEvent: {}
+[5.617433] (-) TimerEvent: {}
+[5.717786] (-) TimerEvent: {}
+[5.818147] (-) TimerEvent: {}
+[5.918434] (-) TimerEvent: {}
+[6.018743] (-) TimerEvent: {}
+[6.119042] (-) TimerEvent: {}
+[6.219344] (-) TimerEvent: {}
+[6.319632] (-) TimerEvent: {}
+[6.419919] (-) TimerEvent: {}
+[6.520210] (-) TimerEvent: {}
+[6.620506] (-) TimerEvent: {}
+[6.720826] (-) TimerEvent: {}
+[6.821132] (-) TimerEvent: {}
+[6.921465] (-) TimerEvent: {}
+[7.021809] (-) TimerEvent: {}
+[7.122257] (-) TimerEvent: {}
+[7.222755] (-) TimerEvent: {}
+[7.323060] (-) TimerEvent: {}
+[7.423381] (-) TimerEvent: {}
+[7.523698] (-) TimerEvent: {}
+[7.623999] (-) TimerEvent: {}
+[7.724294] (-) TimerEvent: {}
+[7.824682] (-) TimerEvent: {}
+[7.925017] (-) TimerEvent: {}
+[8.025295] (-) TimerEvent: {}
+[8.125586] (-) TimerEvent: {}
+[8.225879] (-) TimerEvent: {}
+[8.326178] (-) TimerEvent: {}
+[8.426477] (-) TimerEvent: {}
+[8.526775] (-) TimerEvent: {}
+[8.627091] (-) TimerEvent: {}
+[8.727380] (-) TimerEvent: {}
+[8.827698] (-) TimerEvent: {}
+[8.928006] (-) TimerEvent: {}
+[9.028322] (-) TimerEvent: {}
+[9.128622] (-) TimerEvent: {}
+[9.228987] (-) TimerEvent: {}
+[9.329455] (-) TimerEvent: {}
+[9.429754] (-) TimerEvent: {}
+[9.530058] (-) TimerEvent: {}
+[9.630345] (-) TimerEvent: {}
+[9.730641] (-) TimerEvent: {}
+[9.830933] (-) TimerEvent: {}
+[9.931216] (-) TimerEvent: {}
+[10.031510] (-) TimerEvent: {}
+[10.131794] (-) TimerEvent: {}
+[10.232120] (-) TimerEvent: {}
+[10.332561] (-) TimerEvent: {}
+[10.432977] (-) TimerEvent: {}
+[10.533391] (-) TimerEvent: {}
+[10.633705] (-) TimerEvent: {}
+[10.734122] (-) TimerEvent: {}
+[10.834778] (-) TimerEvent: {}
+[10.935078] (-) TimerEvent: {}
+[11.035379] (-) TimerEvent: {}
+[11.135693] (-) TimerEvent: {}
+[11.235989] (-) TimerEvent: {}
+[11.336286] (-) TimerEvent: {}
+[11.436632] (-) TimerEvent: {}
+[11.537344] (-) TimerEvent: {}
+[11.637657] (-) TimerEvent: {}
+[11.738067] (-) TimerEvent: {}
+[11.838357] (-) TimerEvent: {}
+[11.938650] (-) TimerEvent: {}
+[12.038964] (-) TimerEvent: {}
+[12.139272] (-) TimerEvent: {}
+[12.239578] (-) TimerEvent: {}
+[12.339893] (-) TimerEvent: {}
+[12.440180] (-) TimerEvent: {}
+[12.540465] (-) TimerEvent: {}
+[12.640761] (-) TimerEvent: {}
+[12.741082] (-) TimerEvent: {}
+[12.841366] (-) TimerEvent: {}
+[12.941657] (-) TimerEvent: {}
+[13.041960] (-) TimerEvent: {}
+[13.142256] (-) TimerEvent: {}
+[13.242553] (-) TimerEvent: {}
+[13.342844] (-) TimerEvent: {}
+[13.443141] (-) TimerEvent: {}
+[13.543454] (-) TimerEvent: {}
+[13.643779] (-) TimerEvent: {}
+[13.744078] (-) TimerEvent: {}
+[13.844390] (-) TimerEvent: {}
+[13.944689] (-) TimerEvent: {}
+[14.045089] (-) TimerEvent: {}
+[14.145444] (-) TimerEvent: {}
+[14.245733] (-) TimerEvent: {}
+[14.346025] (-) TimerEvent: {}
+[14.446309] (-) TimerEvent: {}
+[14.546594] (-) TimerEvent: {}
+[14.646900] (-) TimerEvent: {}
+[14.747207] (-) TimerEvent: {}
+[14.847506] (-) TimerEvent: {}
+[14.947897] (-) TimerEvent: {}
+[15.048307] (-) TimerEvent: {}
+[15.148684] (-) TimerEvent: {}
+[15.249101] (-) TimerEvent: {}
+[15.349403] (-) TimerEvent: {}
+[15.449695] (-) TimerEvent: {}
+[15.549987] (-) TimerEvent: {}
+[15.650283] (-) TimerEvent: {}
+[15.750580] (-) TimerEvent: {}
+[15.850885] (-) TimerEvent: {}
+[15.951186] (-) TimerEvent: {}
+[16.051517] (-) TimerEvent: {}
+[16.151943] (-) TimerEvent: {}
+[16.252339] (-) TimerEvent: {}
+[16.352722] (-) TimerEvent: {}
+[16.453116] (-) TimerEvent: {}
+[16.553477] (-) TimerEvent: {}
+[16.653891] (-) TimerEvent: {}
+[16.754256] (-) TimerEvent: {}
+[16.854616] (-) TimerEvent: {}
+[16.954978] (-) TimerEvent: {}
+[17.055417] (-) TimerEvent: {}
+[17.155799] (-) TimerEvent: {}
+[17.256164] (-) TimerEvent: {}
+[17.356550] (-) TimerEvent: {}
+[17.456910] (-) TimerEvent: {}
+[17.557315] (-) TimerEvent: {}
+[17.657724] (-) TimerEvent: {}
+[17.758179] (-) TimerEvent: {}
+[17.858590] (-) TimerEvent: {}
+[17.958968] (-) TimerEvent: {}
+[18.059299] (-) TimerEvent: {}
+[18.159704] (-) TimerEvent: {}
+[18.260035] (-) TimerEvent: {}
+[18.360448] (-) TimerEvent: {}
+[18.460883] (-) TimerEvent: {}
+[18.561285] (-) TimerEvent: {}
+[18.661671] (-) TimerEvent: {}
+[18.761986] (-) TimerEvent: {}
+[18.862391] (-) TimerEvent: {}
+[18.962809] (-) TimerEvent: {}
+[19.063285] (-) TimerEvent: {}
+[19.163678] (-) TimerEvent: {}
+[19.263993] (-) TimerEvent: {}
+[19.364401] (-) TimerEvent: {}
+[19.464678] (-) TimerEvent: {}
+[19.564996] (-) TimerEvent: {}
+[19.665443] (-) TimerEvent: {}
+[19.765905] (-) TimerEvent: {}
+[19.866200] (-) TimerEvent: {}
+[19.966526] (-) TimerEvent: {}
+[20.066949] (-) TimerEvent: {}
+[20.167230] (-) TimerEvent: {}
+[20.267540] (-) TimerEvent: {}
+[20.367976] (-) TimerEvent: {}
+[20.468396] (-) TimerEvent: {}
+[20.568881] (-) TimerEvent: {}
+[20.669294] (-) TimerEvent: {}
+[20.769810] (-) TimerEvent: {}
+[20.870231] (-) TimerEvent: {}
+[20.970629] (-) TimerEvent: {}
+[21.071023] (-) TimerEvent: {}
+[21.171477] (-) TimerEvent: {}
+[21.271921] (-) TimerEvent: {}
+[21.372365] (-) TimerEvent: {}
+[21.472983] (-) TimerEvent: {}
+[21.573392] (-) TimerEvent: {}
+[21.673780] (-) TimerEvent: {}
+[21.774197] (-) TimerEvent: {}
+[21.874726] (-) TimerEvent: {}
+[21.975215] (-) TimerEvent: {}
+[22.075666] (-) TimerEvent: {}
+[22.176104] (-) TimerEvent: {}
+[22.276475] (-) TimerEvent: {}
+[22.376887] (-) TimerEvent: {}
+[22.477257] (-) TimerEvent: {}
+[22.577664] (-) TimerEvent: {}
+[22.678190] (-) TimerEvent: {}
+[22.778553] (-) TimerEvent: {}
+[22.878910] (-) TimerEvent: {}
+[22.979199] (-) TimerEvent: {}
+[23.079514] (-) TimerEvent: {}
+[23.179857] (-) TimerEvent: {}
+[23.280145] (-) TimerEvent: {}
+[23.380505] (-) TimerEvent: {}
+[23.480972] (-) TimerEvent: {}
+[23.581417] (-) TimerEvent: {}
+[23.681818] (-) TimerEvent: {}
+[23.782236] (-) TimerEvent: {}
+[23.882663] (-) TimerEvent: {}
+[23.983124] (-) TimerEvent: {}
+[24.083598] (-) TimerEvent: {}
+[24.183893] (-) TimerEvent: {}
+[24.284275] (-) TimerEvent: {}
+[24.384609] (-) TimerEvent: {}
+[24.485026] (-) TimerEvent: {}
+[24.585419] (-) TimerEvent: {}
+[24.685880] (-) TimerEvent: {}
+[24.786258] (-) TimerEvent: {}
+[24.886613] (-) TimerEvent: {}
+[24.987023] (-) TimerEvent: {}
+[25.087437] (-) TimerEvent: {}
+[25.187865] (-) TimerEvent: {}
+[25.288291] (-) TimerEvent: {}
+[25.388715] (-) TimerEvent: {}
+[25.489363] (-) TimerEvent: {}
+[25.589757] (-) TimerEvent: {}
+[25.690184] (-) TimerEvent: {}
+[25.790599] (-) TimerEvent: {}
+[25.891015] (-) TimerEvent: {}
+[25.991437] (-) TimerEvent: {}
+[26.091837] (-) TimerEvent: {}
+[26.192140] (-) TimerEvent: {}
+[26.292476] (-) TimerEvent: {}
+[26.392841] (-) TimerEvent: {}
+[26.493183] (-) TimerEvent: {}
+[26.593581] (-) TimerEvent: {}
+[26.693983] (-) TimerEvent: {}
+[26.794401] (-) TimerEvent: {}
+[26.894983] (-) TimerEvent: {}
+[26.995408] (-) TimerEvent: {}
+[27.095807] (-) TimerEvent: {}
+[27.196154] (-) TimerEvent: {}
+[27.296473] (-) TimerEvent: {}
+[27.396900] (-) TimerEvent: {}
+[27.497300] (-) TimerEvent: {}
+[27.597746] (-) TimerEvent: {}
+[27.698272] (-) TimerEvent: {}
+[27.798691] (-) TimerEvent: {}
+[27.898998] (-) TimerEvent: {}
+[27.999415] (-) TimerEvent: {}
+[28.099789] (-) TimerEvent: {}
+[28.200124] (-) TimerEvent: {}
+[28.300638] (-) TimerEvent: {}
+[28.401397] (-) TimerEvent: {}
+[28.501799] (-) TimerEvent: {}
+[28.602197] (-) TimerEvent: {}
+[28.702613] (-) TimerEvent: {}
+[28.802948] (-) TimerEvent: {}
+[28.903364] (-) TimerEvent: {}
+[29.003778] (-) TimerEvent: {}
+[29.104222] (-) TimerEvent: {}
+[29.204635] (-) TimerEvent: {}
+[29.305062] (-) TimerEvent: {}
+[29.405460] (-) TimerEvent: {}
+[29.505842] (-) TimerEvent: {}
+[29.606170] (-) TimerEvent: {}
+[29.706582] (-) TimerEvent: {}
+[29.807000] (-) TimerEvent: {}
+[29.907457] (-) TimerEvent: {}
+[30.007840] (-) TimerEvent: {}
+[30.108230] (-) TimerEvent: {}
+[30.208619] (-) TimerEvent: {}
+[30.309026] (-) TimerEvent: {}
+[30.409393] (-) TimerEvent: {}
+[30.509765] (-) TimerEvent: {}
+[30.610046] (-) TimerEvent: {}
+[30.710425] (-) TimerEvent: {}
+[30.810813] (-) TimerEvent: {}
+[30.911208] (-) TimerEvent: {}
+[31.011636] (-) TimerEvent: {}
+[31.112052] (-) TimerEvent: {}
+[31.212565] (-) TimerEvent: {}
+[31.313252] (-) TimerEvent: {}
+[31.413698] (-) TimerEvent: {}
+[31.514081] (-) TimerEvent: {}
+[31.614384] (-) TimerEvent: {}
+[31.714709] (-) TimerEvent: {}
+[31.815122] (-) TimerEvent: {}
+[31.915432] (-) TimerEvent: {}
+[32.015768] (-) TimerEvent: {}
+[32.116103] (-) TimerEvent: {}
+[32.216436] (-) TimerEvent: {}
+[32.316886] (-) TimerEvent: {}
+[32.417258] (-) TimerEvent: {}
+[32.517629] (-) TimerEvent: {}
+[32.617993] (-) TimerEvent: {}
+[32.718446] (-) TimerEvent: {}
+[32.818835] (-) TimerEvent: {}
+[32.919292] (-) TimerEvent: {}
+[33.019716] (-) TimerEvent: {}
+[33.120150] (-) TimerEvent: {}
+[33.220571] (-) TimerEvent: {}
+[33.321045] (-) TimerEvent: {}
+[33.421494] (-) TimerEvent: {}
+[33.522037] (-) TimerEvent: {}
+[33.622407] (-) TimerEvent: {}
+[33.722772] (-) TimerEvent: {}
+[33.823156] (-) TimerEvent: {}
+[33.923580] (-) TimerEvent: {}
+[34.024001] (-) TimerEvent: {}
+[34.124423] (-) TimerEvent: {}
+[34.224859] (-) TimerEvent: {}
+[34.325173] (-) TimerEvent: {}
+[34.425562] (-) TimerEvent: {}
+[34.525960] (-) TimerEvent: {}
+[34.626377] (-) TimerEvent: {}
+[34.726800] (-) TimerEvent: {}
+[34.827218] (-) TimerEvent: {}
+[34.927608] (-) TimerEvent: {}
+[35.027981] (-) TimerEvent: {}
+[35.128419] (-) TimerEvent: {}
+[35.228861] (-) TimerEvent: {}
+[35.329256] (-) TimerEvent: {}
+[35.429652] (-) TimerEvent: {}
+[35.530064] (-) TimerEvent: {}
+[35.630537] (-) TimerEvent: {}
+[35.730923] (-) TimerEvent: {}
+[35.831341] (-) TimerEvent: {}
+[35.931766] (-) TimerEvent: {}
+[36.032185] (-) TimerEvent: {}
+[36.132593] (-) TimerEvent: {}
+[36.233008] (-) TimerEvent: {}
+[36.333457] (-) TimerEvent: {}
+[36.433979] (-) TimerEvent: {}
+[36.534261] (-) TimerEvent: {}
+[36.634589] (-) TimerEvent: {}
+[36.735008] (-) TimerEvent: {}
+[36.835420] (-) TimerEvent: {}
+[36.935808] (-) TimerEvent: {}
+[37.036222] (-) TimerEvent: {}
+[37.136621] (-) TimerEvent: {}
+[37.237055] (-) TimerEvent: {}
+[37.337461] (-) TimerEvent: {}
+[37.437891] (-) TimerEvent: {}
+[37.538246] (-) TimerEvent: {}
+[37.638628] (-) TimerEvent: {}
+[37.739029] (-) TimerEvent: {}
+[37.839395] (-) TimerEvent: {}
+[37.939790] (-) TimerEvent: {}
+[38.040202] (-) TimerEvent: {}
+[38.140592] (-) TimerEvent: {}
+[38.240987] (-) TimerEvent: {}
+[38.341352] (-) TimerEvent: {}
+[38.441723] (-) TimerEvent: {}
+[38.542155] (-) TimerEvent: {}
+[38.642647] (-) TimerEvent: {}
+[38.743035] (-) TimerEvent: {}
+[38.843426] (-) TimerEvent: {}
+[38.943785] (-) TimerEvent: {}
+[39.044168] (-) TimerEvent: {}
+[39.144551] (-) TimerEvent: {}
+[39.244940] (-) TimerEvent: {}
+[39.345392] (-) TimerEvent: {}
+[39.445786] (-) TimerEvent: {}
+[39.546184] (-) TimerEvent: {}
+[39.646592] (-) TimerEvent: {}
+[39.747006] (-) TimerEvent: {}
+[39.847437] (-) TimerEvent: {}
+[39.947867] (-) TimerEvent: {}
+[40.048254] (-) TimerEvent: {}
+[40.148557] (-) TimerEvent: {}
+[40.248906] (-) TimerEvent: {}
+[40.349267] (-) TimerEvent: {}
+[40.449677] (-) TimerEvent: {}
+[40.550044] (-) TimerEvent: {}
+[40.650425] (-) TimerEvent: {}
+[40.750773] (-) TimerEvent: {}
+[40.851088] (-) TimerEvent: {}
+[40.951441] (-) TimerEvent: {}
+[41.051816] (-) TimerEvent: {}
+[41.152203] (-) TimerEvent: {}
+[41.252582] (-) TimerEvent: {}
+[41.352970] (-) TimerEvent: {}
+[41.453328] (-) TimerEvent: {}
+[41.553739] (-) TimerEvent: {}
+[41.654217] (-) TimerEvent: {}
+[41.754597] (-) TimerEvent: {}
+[41.854971] (-) TimerEvent: {}
+[41.955385] (-) TimerEvent: {}
+[42.055753] (-) TimerEvent: {}
+[42.156092] (-) TimerEvent: {}
+[42.256622] (-) TimerEvent: {}
+[42.357302] (-) TimerEvent: {}
+[42.457688] (-) TimerEvent: {}
+[42.557986] (-) TimerEvent: {}
+[42.658355] (-) TimerEvent: {}
+[42.758647] (-) TimerEvent: {}
+[42.858947] (-) TimerEvent: {}
+[42.959333] (-) TimerEvent: {}
+[43.059652] (-) TimerEvent: {}
+[43.159954] (-) TimerEvent: {}
+[43.260299] (-) TimerEvent: {}
+[43.360717] (-) TimerEvent: {}
+[43.461139] (-) TimerEvent: {}
+[43.561537] (-) TimerEvent: {}
+[43.661943] (-) TimerEvent: {}
+[43.762303] (-) TimerEvent: {}
+[43.862644] (-) TimerEvent: {}
+[43.963052] (-) TimerEvent: {}
+[44.063430] (-) TimerEvent: {}
+[44.163810] (-) TimerEvent: {}
+[44.264222] (-) TimerEvent: {}
+[44.364591] (-) TimerEvent: {}
+[44.464993] (-) TimerEvent: {}
+[44.565434] (-) TimerEvent: {}
+[44.665768] (-) TimerEvent: {}
+[44.766035] (-) TimerEvent: {}
+[44.866329] (-) TimerEvent: {}
+[44.966699] (-) TimerEvent: {}
+[45.067070] (-) TimerEvent: {}
+[45.167453] (-) TimerEvent: {}
+[45.267803] (-) TimerEvent: {}
+[45.368093] (-) TimerEvent: {}
+[45.468464] (-) TimerEvent: {}
+[45.568874] (-) TimerEvent: {}
+[45.669229] (-) TimerEvent: {}
+[45.769586] (-) TimerEvent: {}
+[45.869936] (-) TimerEvent: {}
+[45.970293] (-) TimerEvent: {}
+[46.070657] (-) TimerEvent: {}
+[46.171042] (-) TimerEvent: {}
+[46.271409] (-) TimerEvent: {}
+[46.371783] (-) TimerEvent: {}
+[46.472159] (-) TimerEvent: {}
+[46.572526] (-) TimerEvent: {}
+[46.673065] (-) TimerEvent: {}
+[46.773621] (-) TimerEvent: {}
+[46.873978] (-) TimerEvent: {}
+[46.974343] (-) TimerEvent: {}
+[47.074719] (-) TimerEvent: {}
+[47.175092] (-) TimerEvent: {}
+[47.275472] (-) TimerEvent: {}
+[47.375808] (-) TimerEvent: {}
+[47.476095] (-) TimerEvent: {}
+[47.576462] (-) TimerEvent: {}
+[47.676904] (-) TimerEvent: {}
+[47.777278] (-) TimerEvent: {}
+[47.877643] (-) TimerEvent: {}
+[47.978015] (-) TimerEvent: {}
+[48.078374] (-) TimerEvent: {}
+[48.178743] (-) TimerEvent: {}
+[48.279117] (-) TimerEvent: {}
+[48.379488] (-) TimerEvent: {}
+[48.479874] (-) TimerEvent: {}
+[48.580247] (-) TimerEvent: {}
+[48.680629] (-) TimerEvent: {}
+[48.780997] (-) TimerEvent: {}
+[48.881465] (-) TimerEvent: {}
+[48.982029] (-) TimerEvent: {}
+[49.082462] (-) TimerEvent: {}
+[49.182881] (-) TimerEvent: {}
+[49.283334] (-) TimerEvent: {}
+[49.383709] (-) TimerEvent: {}
+[49.484099] (-) TimerEvent: {}
+[49.584550] (-) TimerEvent: {}
+[49.684951] (-) TimerEvent: {}
+[49.785345] (-) TimerEvent: {}
+[49.885704] (-) TimerEvent: {}
+[49.986119] (-) TimerEvent: {}
+[50.086494] (-) TimerEvent: {}
+[50.186868] (-) TimerEvent: {}
+[50.287239] (-) TimerEvent: {}
+[50.387646] (-) TimerEvent: {}
+[50.488045] (-) TimerEvent: {}
+[50.588415] (-) TimerEvent: {}
+[50.688832] (-) TimerEvent: {}
+[50.789239] (-) TimerEvent: {}
+[50.889598] (-) TimerEvent: {}
+[50.990049] (-) TimerEvent: {}
+[51.090572] (-) TimerEvent: {}
+[51.190984] (-) TimerEvent: {}
+[51.291361] (-) TimerEvent: {}
+[51.391758] (-) TimerEvent: {}
+[51.492132] (-) TimerEvent: {}
+[51.592541] (-) TimerEvent: {}
+[51.692941] (-) TimerEvent: {}
+[51.793501] (-) TimerEvent: {}
+[51.893858] (-) TimerEvent: {}
+[51.994262] (-) TimerEvent: {}
+[52.094643] (-) TimerEvent: {}
+[52.195046] (-) TimerEvent: {}
+[52.295445] (-) TimerEvent: {}
+[52.395829] (-) TimerEvent: {}
+[52.496211] (-) TimerEvent: {}
+[52.596585] (-) TimerEvent: {}
+[52.697011] (-) TimerEvent: {}
+[52.797360] (-) TimerEvent: {}
+[52.897736] (-) TimerEvent: {}
+[52.998056] (-) TimerEvent: {}
+[53.098460] (-) TimerEvent: {}
+[53.198886] (-) TimerEvent: {}
+[53.299304] (-) TimerEvent: {}
+[53.404105] (-) TimerEvent: {}
+[53.504539] (-) TimerEvent: {}
+[53.605013] (-) TimerEvent: {}
+[53.705435] (-) TimerEvent: {}
+[53.805930] (-) TimerEvent: {}
+[53.906452] (-) TimerEvent: {}
+[54.006890] (-) TimerEvent: {}
+[54.107272] (-) TimerEvent: {}
+[54.207661] (-) TimerEvent: {}
+[54.308048] (-) TimerEvent: {}
+[54.408439] (-) TimerEvent: {}
+[54.508867] (-) TimerEvent: {}
+[54.609250] (-) TimerEvent: {}
+[54.709621] (-) TimerEvent: {}
+[54.810051] (-) TimerEvent: {}
+[54.910500] (-) TimerEvent: {}
+[55.010943] (-) TimerEvent: {}
+[55.111406] (-) TimerEvent: {}
+[55.211901] (-) TimerEvent: {}
+[55.312417] (-) TimerEvent: {}
+[55.412885] (-) TimerEvent: {}
+[55.513293] (-) TimerEvent: {}
+[55.613740] (-) TimerEvent: {}
+[55.714156] (-) TimerEvent: {}
+[55.814610] (-) TimerEvent: {}
+[55.915090] (-) TimerEvent: {}
+[56.015512] (-) TimerEvent: {}
+[56.115884] (-) TimerEvent: {}
+[56.216265] (-) TimerEvent: {}
+[56.316632] (-) TimerEvent: {}
+[56.417074] (-) TimerEvent: {}
+[56.517475] (-) TimerEvent: {}
+[56.617859] (-) TimerEvent: {}
+[56.718233] (-) TimerEvent: {}
+[56.818626] (-) TimerEvent: {}
+[56.919051] (-) TimerEvent: {}
+[57.019483] (-) TimerEvent: {}
+[57.119889] (-) TimerEvent: {}
+[57.220309] (-) TimerEvent: {}
+[57.320732] (-) TimerEvent: {}
+[57.421243] (-) TimerEvent: {}
+[57.521846] (-) TimerEvent: {}
+[57.622246] (-) TimerEvent: {}
+[57.722647] (-) TimerEvent: {}
+[57.823061] (-) TimerEvent: {}
+[57.923458] (-) TimerEvent: {}
+[58.023764] (-) TimerEvent: {}
+[58.124142] (-) TimerEvent: {}
+[58.224659] (-) TimerEvent: {}
+[58.325126] (-) TimerEvent: {}
+[58.425552] (-) TimerEvent: {}
+[58.525981] (-) TimerEvent: {}
+[58.626492] (-) TimerEvent: {}
+[58.727009] (-) TimerEvent: {}
+[58.827507] (-) TimerEvent: {}
+[58.855063] (enet_sender_node) StderrLine: {'line': b'gmake[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe5\x88\xa0\xe9\x99\xa4\xe6\x96\x87\xe4\xbb\xb6\xe2\x80\x9cenet_sender_node\xe2\x80\x9d\n'}
+[58.857948] (enet_sender_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/enet_sender_node.dir/build.make:1356: enet_sender_node] \xe4\xb8\xad\xe6\x96\xad\n'}
+[58.858682] (enet_sender_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/enet_sender_node.dir/all] \xe4\xb8\xad\xe6\x96\xad\n'}
+[58.859487] (enet_sender_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe4\xb8\xad\xe6\x96\xad\n'}
+[58.870092] (enet_sender_node) CommandEnded: {'returncode': -2}
+[58.927643] (-) TimerEvent: {}
+[58.989967] (enet_sender_node) JobEnded: {'identifier': 'enet_sender_node', 'rc': 'SIGINT'}
+[58.991267] (-) EventReactorShutdown: {}

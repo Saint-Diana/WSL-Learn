@@ -1,0 +1,9 @@
+[31mCMake Error at CMakeLists.txt:26:
+  Parse error.  Expected "(", got newline with text "
+
+  ".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:267：cmake_check_build_system] 错误 1

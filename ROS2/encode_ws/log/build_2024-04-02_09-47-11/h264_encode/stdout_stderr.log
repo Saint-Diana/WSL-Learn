@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target encoder_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/encoder_node.dir/src/encoder_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/encoder_node.dir/src/h264encoder.cpp.o[0m
+[01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/h264encoder.cpp:[m[K In member function ‘[01m[Kint h264Encoder::Init(AvH264EncConfig)[m[K’:
+[01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/h264encoder.cpp:53:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid av_init_packet(AVPacket*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   53 |     [01;35m[Kav_init_packet(avp_)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/libavcodec/bsf.h:30[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h:44[m[K,
+                 from [01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/include/h264_encode/h264encoder.h:19[m[K,
+                 from [01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/h264encoder.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/libavcodec/packet.h:488:6:[m[K [01;36m[Knote: [m[Kdeclared here
+  488 | void [01;36m[Kav_init_packet[m[K(AVPacket *pkt);
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/h264encoder.cpp:[m[K In function ‘[01m[Kvoid YUV422_YUY2_to_YUV420(const cv::Mat&, cv::Mat&)[m[K’:
+[01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/h264encoder.cpp:80:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksrc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 | void YUV422_YUY2_to_YUV420([01;35m[Kconst cv::Mat &src[m[K, cv::Mat &dst) {
+      |                            [01;35m[K~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/h264encoder.cpp:80:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdst[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 | void YUV422_YUY2_to_YUV420(const cv::Mat &src, [01;35m[Kcv::Mat &dst[m[K) {
+      |                                                [01;35m[K~~~~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable encoder_node[0m
+[100%] Built target encoder_node
+-- Install configuration: ""
+-- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/lib/h264_encode/encoder_node
+-- Set runtime path of "/home/shen/learn/ROS2/encode_ws/install/h264_encode/lib/h264_encode/encoder_node" to ""
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/launch
+-- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/launch/encoder.launch.py
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/ament_index/resource_index/package_run_dependencies/h264_encode
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/ament_index/resource_index/parent_prefix_path/h264_encode
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/path.sh
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/path.dsv
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.bash
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.sh
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.zsh
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.dsv
+-- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/package.dsv
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/ament_index/resource_index/packages/h264_encode
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/cmake/h264_encodeConfig.cmake
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/cmake/h264_encodeConfig-version.cmake
+-- Up-to-date: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/package.xml

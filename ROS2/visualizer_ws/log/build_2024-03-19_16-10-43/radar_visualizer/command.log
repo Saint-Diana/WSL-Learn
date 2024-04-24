@@ -1,0 +1,4 @@
+Invoking command in '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer -- -j16 -l16
+Invoked command in '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer -- -j16 -l16
+Invoking command in '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer
+Invoked command in '/home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/visualizer_ws/build/radar_visualizer

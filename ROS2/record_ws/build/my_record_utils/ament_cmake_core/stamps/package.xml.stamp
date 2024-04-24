@@ -12,8 +12,9 @@
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <depend>can_msgs</depend>
+  <depend>udp_msgs</depend>
   <depend>rosbag2_cpp</depend>
-  <depend>launch_ros</depend>
+  <depend>rosbag2_storage</depend>
   <depend>yaml-cpp</depend>
 
   <test_depend>ament_lint_auto</test_depend>

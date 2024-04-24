@@ -1,0 +1,133 @@
+[0.059s] Invoking command in '/home/shen/learn/ROS2/video_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/video_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/video_ws/install/usb_cam
+[0.189s] -- The C compiler identification is GNU 11.4.0
+[0.289s] -- The CXX compiler identification is GNU 11.4.0
+[0.308s] -- Detecting C compiler ABI info
+[0.440s] -- Detecting C compiler ABI info - done
+[0.448s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.448s] -- Detecting C compile features
+[0.448s] -- Detecting C compile features - done
+[0.451s] -- Detecting CXX compiler ABI info
+[0.585s] -- Detecting CXX compiler ABI info - done
+[0.604s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.604s] -- Detecting CXX compile features
+[0.605s] -- Detecting CXX compile features - done
+[0.611s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.814s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.083s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.087s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.094s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.106s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.185s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.187s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.214s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.223s] -- Looking for pthread.h
+[1.334s] -- Looking for pthread.h - found
+[1.335s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.469s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.471s] -- Found Threads: TRUE  
+[1.967s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.974s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.975s] -- Checking for module 'libavcodec'
+[2.002s] --   Found libavcodec, version 58.134.100
+[2.078s] -- Checking for module 'libavutil'
+[2.105s] --   Found libavutil, version 56.70.100
+[2.183s] -- Checking for module 'libswscale'
+[2.215s] --   Found libswscale, version 5.9.100
+[2.299s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.318s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.327s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.333s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.334s] -- Configured cppcheck include dirs: /home/shen/learn/ROS2/video_ws/src/usb_cam/include
+[2.334s] -- Configured cppcheck exclude dirs and/or files: 
+[2.340s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.340s] -- Configured cpplint exclude dirs and/or files: 
+[2.341s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.343s] -- Added test 'lint_cmake' to check CMake code style
+[2.344s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.350s] -- Added test 'uncrustify' to check C / C++ code style
+[2.350s] -- Configured uncrustify additional arguments: 
+[2.351s] -- Added test 'xmllint' to check XML markup files
+[2.354s] -- Configuring done
+[2.391s] -- Generating done
+[2.394s] -- Build files have been written to: /home/shen/learn/ROS2/video_ws/build/usb_cam
+[2.406s] Invoked command in '/home/shen/learn/ROS2/video_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/video_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/video_ws/install/usb_cam
+[2.408s] Invoking command in '/home/shen/learn/ROS2/video_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/video_ws/build/usb_cam -- -j16 -l16
+[2.472s] [  7%] [32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o[0m
+[2.473s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.479s] [ 21%] [32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o[0m
+[2.485s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.188s] [ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.233s] [ 35%] Built target gtest_main
+[4.015s] [ 42%] [32m[1mLinking CXX shared library libusb_cam.so[0m
+[4.257s] [ 42%] Built target usb_cam
+[4.282s] [ 50%] [32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o[0m
+[4.983s] [ 57%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.001s] [ 64%] [32m[1mLinking CXX executable usb_cam_node_exe[0m
+[5.079s] [ 64%] Built target gtest
+[5.104s] [ 71%] [32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o[0m
+[5.115s] [ 78%] [32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o[0m
+[5.169s] [ 78%] Built target usb_cam_node_exe
+[6.223s] [ 85%] [32m[1mLinking CXX executable test_usb_cam_utils[0m
+[6.450s] [ 92%] [32m[1mLinking CXX executable test_pixel_formats[0m
+[6.462s] [ 92%] Built target test_usb_cam_utils
+[6.655s] [ 92%] Built target test_pixel_formats
+[10.421s] [100%] [32m[1mLinking CXX shared library libusb_cam_node.so[0m
+[10.898s] [100%] Built target usb_cam_node
+[10.920s] Invoked command in '/home/shen/learn/ROS2/video_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/video_ws/build/usb_cam -- -j16 -l16
+[10.975s] Invoking command in '/home/shen/learn/ROS2/video_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/video_ws/build/usb_cam
+[10.992s] -- Install configuration: ""
+[10.993s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/environment/library_path.sh
+[10.993s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[10.994s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[10.995s] -- Set runtime path of "/home/shen/learn/ROS2/video_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""
+[10.995s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/lib/usb_cam/show_image.py
+[10.996s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/lib/libusb_cam.so
+[11.001s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/lib/libusb_cam_node.so
+[11.021s] -- Set runtime path of "/home/shen/learn/ROS2/video_ws/install/usb_cam/lib/libusb_cam_node.so" to ""
+[11.021s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include
+[11.022s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam
+[11.022s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/constants.hpp
+[11.022s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/conversions.hpp
+[11.022s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats
+[11.022s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[11.022s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[11.022s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[11.022s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/m420.hpp
+[11.022s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[11.023s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/mono.hpp
+[11.023s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[11.023s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/utils.hpp
+[11.023s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[11.023s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/usb_cam.hpp
+[11.023s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[11.024s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/include/usb_cam/utils.hpp
+[11.024s] -- Up-to-date: /home/shen/learn/ROS2/video_ws/install/usb_cam/lib/libusb_cam_node.so
+[11.024s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/launch
+[11.024s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/launch/camera_config.py
+[11.025s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[11.025s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/launch/__init__.py
+[11.025s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/config
+[11.025s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[11.025s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/config/params_1.yaml
+[11.025s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/config/params_2.yaml
+[11.025s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[11.026s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[11.026s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[11.026s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[11.026s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/environment/path.sh
+[11.026s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/environment/path.dsv
+[11.027s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/local_setup.bash
+[11.027s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/local_setup.sh
+[11.027s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/local_setup.zsh
+[11.027s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/local_setup.dsv
+[11.027s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/package.dsv
+[11.027s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[11.027s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[11.028s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[11.028s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.028s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.028s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[11.028s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[11.028s] -- Installing: /home/shen/learn/ROS2/video_ws/install/usb_cam/share/usb_cam/package.xml
+[11.031s] Invoked command in '/home/shen/learn/ROS2/video_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/video_ws/build/usb_cam

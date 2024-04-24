@@ -1,0 +1,92 @@
+[0.063s] Invoking command in '/home/shen/learn/ROS2/encode_ws/build/h264_encode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/encode_ws/src/h264_encode -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/encode_ws/install/h264_encode
+[0.150s] -- The C compiler identification is GNU 11.4.0
+[0.225s] -- The CXX compiler identification is GNU 11.4.0
+[0.236s] -- Detecting C compiler ABI info
+[0.350s] -- Detecting C compiler ABI info - done
+[0.358s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.358s] -- Detecting C compile features
+[0.358s] -- Detecting C compile features - done
+[0.362s] -- Detecting CXX compiler ABI info
+[0.498s] -- Detecting CXX compiler ABI info - done
+[0.514s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.515s] -- Detecting CXX compile features
+[0.516s] -- Detecting CXX compile features - done
+[0.524s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.765s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.897s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.958s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.962s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.971s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.983s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.001s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.064s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.066s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.094s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.111s] -- Looking for pthread.h
+[1.245s] -- Looking for pthread.h - found
+[1.245s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.324s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.325s] -- Found Threads: TRUE  
+[1.465s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.576s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.593s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.595s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.672s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.673s] -- Configured cppcheck include dirs: /home/shen/learn/ROS2/encode_ws/src/h264_encode/include/h264_encode
+[1.673s] -- Configured cppcheck exclude dirs and/or files: 
+[1.673s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.673s] -- Added test 'lint_cmake' to check CMake code style
+[1.674s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.675s] -- Added test 'uncrustify' to check C / C++ code style
+[1.675s] -- Configured uncrustify additional arguments: 
+[1.675s] -- Added test 'xmllint' to check XML markup files
+[1.677s] -- Configuring done
+[1.690s] -- Generating done
+[1.692s] -- Build files have been written to: /home/shen/learn/ROS2/encode_ws/build/h264_encode
+[1.700s] Invoked command in '/home/shen/learn/ROS2/encode_ws/build/h264_encode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/encode_ws/src/h264_encode -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/encode_ws/install/h264_encode
+[1.702s] Invoking command in '/home/shen/learn/ROS2/encode_ws/build/h264_encode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/encode_ws/build/h264_encode -- -j16 -l16
+[1.782s] [ 66%] [32mBuilding CXX object CMakeFiles/encoder_node.dir/src/encoder_node.cpp.o[0m
+[1.782s] [ 66%] [32mBuilding CXX object CMakeFiles/encoder_node.dir/src/h264encoder.cpp.o[0m
+[2.850s] [01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/h264encoder.cpp:[m[K In member function ‘[01m[Kint h264Encoder::Init(AvH264EncConfig)[m[K’:
+[2.850s] [01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/h264encoder.cpp:53:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid av_init_packet(AVPacket*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.850s]    53 |     [01;35m[Kav_init_packet(avp_)[m[K;
+[2.850s]       |     [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+[2.850s] In file included from [01m[K/usr/include/x86_64-linux-gnu/libavcodec/bsf.h:30[m[K,
+[2.850s]                  from [01m[K/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h:44[m[K,
+[2.851s]                  from [01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/include/h264_encode/h264encoder.h:19[m[K,
+[2.851s]                  from [01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/h264encoder.cpp:1[m[K:
+[2.851s] [01m[K/usr/include/x86_64-linux-gnu/libavcodec/packet.h:488:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.851s]   488 | void [01;36m[Kav_init_packet[m[K(AVPacket *pkt);
+[2.851s]       |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.851s] [01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/h264encoder.cpp:[m[K In function ‘[01m[Kvoid YUV422_YUY2_to_YUV420(const cv::Mat&, cv::Mat&)[m[K’:
+[2.851s] [01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/h264encoder.cpp:80:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksrc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.851s]    80 | void YUV422_YUY2_to_YUV420([01;35m[Kconst cv::Mat &src[m[K, cv::Mat &dst) {
+[2.851s]       |                            [01;35m[K~~~~~~~~~~~~~~~^~~[m[K
+[2.852s] [01m[K/home/shen/learn/ROS2/encode_ws/src/h264_encode/src/h264encoder.cpp:80:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdst[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.852s]    80 | void YUV422_YUY2_to_YUV420(const cv::Mat &src, [01;35m[Kcv::Mat &dst[m[K) {
+[2.852s]       |                                                [01;35m[K~~~~~~~~~^~~[m[K
+[9.559s] [100%] [32m[1mLinking CXX executable encoder_node[0m
+[10.471s] [100%] Built target encoder_node
+[10.488s] Invoked command in '/home/shen/learn/ROS2/encode_ws/build/h264_encode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/encode_ws/build/h264_encode -- -j16 -l16
+[10.534s] Invoking command in '/home/shen/learn/ROS2/encode_ws/build/h264_encode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/encode_ws/build/h264_encode
+[10.552s] -- Install configuration: ""
+[10.552s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/lib/h264_encode/encoder_node
+[10.564s] -- Set runtime path of "/home/shen/learn/ROS2/encode_ws/install/h264_encode/lib/h264_encode/encoder_node" to ""
+[10.564s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/launch
+[10.564s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/launch/encoder.launch.py
+[10.565s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/ament_index/resource_index/package_run_dependencies/h264_encode
+[10.565s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/ament_index/resource_index/parent_prefix_path/h264_encode
+[10.565s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/ament_prefix_path.sh
+[10.566s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/ament_prefix_path.dsv
+[10.566s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/path.sh
+[10.566s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/environment/path.dsv
+[10.567s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.bash
+[10.567s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.sh
+[10.567s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.zsh
+[10.567s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/local_setup.dsv
+[10.568s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/package.dsv
+[10.568s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/ament_index/resource_index/packages/h264_encode
+[10.569s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/cmake/h264_encodeConfig.cmake
+[10.569s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/cmake/h264_encodeConfig-version.cmake
+[10.569s] -- Installing: /home/shen/learn/ROS2/encode_ws/install/h264_encode/share/h264_encode/package.xml
+[10.574s] Invoked command in '/home/shen/learn/ROS2/encode_ws/build/h264_encode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shen/learn/ROS2/encode_ws/build/h264_encode

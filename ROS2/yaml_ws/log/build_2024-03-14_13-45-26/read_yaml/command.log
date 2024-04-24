@@ -1,4 +1,0 @@
-Invoking command in '/home/shen/learn/ROS2/yaml_ws/build/read_yaml': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/yaml_ws/src/read_yaml -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/yaml_ws/install/read_yaml
-Invoked command in '/home/shen/learn/ROS2/yaml_ws/build/read_yaml' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shen/learn/ROS2/yaml_ws/src/read_yaml -DCMAKE_INSTALL_PREFIX=/home/shen/learn/ROS2/yaml_ws/install/read_yaml
-Invoking command in '/home/shen/learn/ROS2/yaml_ws/build/read_yaml': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/yaml_ws/build/read_yaml -- -j16 -l16
-Invoked command in '/home/shen/learn/ROS2/yaml_ws/build/read_yaml' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/yaml_ws/build/read_yaml -- -j16 -l16

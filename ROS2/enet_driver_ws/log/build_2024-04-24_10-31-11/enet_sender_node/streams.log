@@ -1,0 +1,33 @@
+[0.059s] Invoking command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node -- -j16 -l16
+[0.099s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.304s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.345s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.349s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.366s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.385s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.466s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.468s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.503s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.678s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.813s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.813s]   By not providing "FindENet.cmake" in CMAKE_MODULE_PATH this project has
+[0.813s]   asked CMake to find a package configuration file provided by "ENet", but
+[0.813s]   CMake did not find one.
+[0.813s] 
+[0.814s]   Could not find a package configuration file provided by "ENet" with any of
+[0.814s]   the following names:
+[0.814s] 
+[0.814s]     ENetConfig.cmake
+[0.814s]     enet-config.cmake
+[0.814s] 
+[0.814s]   Add the installation prefix of "ENet" to CMAKE_PREFIX_PATH or set
+[0.814s]   "ENet_DIR" to a directory containing one of the above files.  If "ENet"
+[0.814s]   provides a separate development package or SDK, be sure it has been
+[0.814s]   installed.
+[0.815s] 
+[0.815s] [0m
+[0.815s] -- Configuring incomplete, errors occurred!
+[0.815s] See also "/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node/CMakeFiles/CMakeOutput.log".
+[0.819s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[0.821s] Invoked command in '/home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/enet_driver_ws/build/enet_sender_node -- -j16 -l16
