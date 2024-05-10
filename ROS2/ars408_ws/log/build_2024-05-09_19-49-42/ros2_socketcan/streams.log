@@ -1,0 +1,45 @@
+[0.107s] Invoking command in '/home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan -- -j16 -l16
+[0.152s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.515s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.519s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.533s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.555s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.584s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.699s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.706s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.769s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.348s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.366s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.382s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.387s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.387s] -- Configured cppcheck include dirs: /home/shen/learn/ROS2/ars408_ws/src/ros2_socketcan/ros2_socketcan/include
+[1.388s] -- Configured cppcheck exclude dirs and/or files: 
+[1.392s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.392s] -- Configured cpplint exclude dirs and/or files: 
+[1.393s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.395s] -- Added test 'lint_cmake' to check CMake code style
+[1.396s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.401s] -- Added test 'uncrustify' to check C / C++ code style
+[1.401s] -- Configured uncrustify additional arguments: 
+[1.402s] -- Added test 'xmllint' to check XML markup files
+[1.409s] -- Configuring done
+[1.419s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_add_library.cmake:66 (add_library):
+[1.419s]   Cannot find source file:
+[1.419s] 
+[1.419s]     <build_type>ament_cmake</build_type>
+[1.419s] 
+[1.420s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.420s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.420s] Call Stack (most recent call first):
+[1.420s]   CMakeLists.txt:36 (ament_auto_add_library)
+[1.420s] 
+[1.420s] [0m
+[1.421s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_add_library.cmake:66 (add_library):
+[1.421s]   No SOURCES given to target: socket_can_sender_node
+[1.421s] Call Stack (most recent call first):
+[1.421s]   CMakeLists.txt:36 (ament_auto_add_library)
+[1.421s] 
+[1.421s] [0m
+[1.422s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.436s] gmake: *** [Makefile:635：cmake_check_build_system] 错误 1
+[1.440s] Invoked command in '/home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan' returned '2': CMAKE_PREFIX_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs:/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan:/opt/ros/humble LD_LIBRARY_PATH=/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan_msgs/lib:/home/shen/learn/ROS2/ars408_ws/install/pe_ars408_ros/lib:/home/shen/learn/ROS2/ars408_ws/install/ros2_socketcan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shen/learn/ROS2/ars408_ws/build/ros2_socketcan -- -j16 -l16

@@ -10,7 +10,7 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
-  <depend>udp_msgs</depend>
+  <depend>sensor_msgs</depend>
   <depend>can_msgs</depend>
   <depend>message_filters</depend>
 

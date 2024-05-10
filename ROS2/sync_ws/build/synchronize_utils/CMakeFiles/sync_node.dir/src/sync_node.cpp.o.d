@@ -620,7 +620,13 @@ CMakeFiles/sync_node.dir/src/sync_node.cpp.o: \
  /opt/ros/humble/include/can_msgs/can_msgs/msg/detail/frame__builder.hpp \
  /opt/ros/humble/include/can_msgs/can_msgs/msg/detail/frame__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
- /opt/ros/humble/include/udp_msgs/udp_msgs/msg/udp_packet.hpp \
- /opt/ros/humble/include/udp_msgs/udp_msgs/msg/detail/udp_packet__struct.hpp \
- /opt/ros/humble/include/udp_msgs/udp_msgs/msg/detail/udp_packet__builder.hpp \
- /opt/ros/humble/include/udp_msgs/udp_msgs/msg/detail/udp_packet__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__builder.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp \
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp

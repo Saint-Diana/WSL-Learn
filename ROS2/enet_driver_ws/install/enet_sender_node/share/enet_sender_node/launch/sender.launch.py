@@ -19,7 +19,7 @@ def generate_launch_description():
 
     return LaunchDescription([
         DeclareLaunchArgument('sub_topic_name', default_value='/livox/lidar'),
-        DeclareLaunchArgument('server_ip', default_value='127.0.0.1'),
+        DeclareLaunchArgument('server_ip', default_value='192.168.1.31'),
         DeclareLaunchArgument('server_port', default_value='6666'),
         enet_sender_node,
     ])

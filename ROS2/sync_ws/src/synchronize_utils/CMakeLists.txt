@@ -8,7 +8,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(udp_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 find_package(can_msgs REQUIRED)
 find_package(message_filters REQUIRED)
 
@@ -25,7 +25,7 @@ if(BUILD_TESTING)
 endif()
 
 add_executable(sync_node src/sync_node.cpp)
-ament_target_dependencies(sync_node rclcpp udp_msgs can_msgs message_filters)
+ament_target_dependencies(sync_node rclcpp sensor_msgs can_msgs message_filters)
 
 install(TARGETS sync_node
   EXPORT export_${PROJECT_NAME}

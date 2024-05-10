@@ -92,12 +92,11 @@ sync_node_EXTERNAL_OBJECTS =
 
 sync_node: CMakeFiles/sync_node.dir/src/sync_node.cpp.o
 sync_node: CMakeFiles/sync_node.dir/build.make
-sync_node: /opt/ros/humble/lib/libudp_msgs__rosidl_typesupport_fastrtps_c.so
-sync_node: /opt/ros/humble/lib/libudp_msgs__rosidl_typesupport_fastrtps_cpp.so
-sync_node: /opt/ros/humble/lib/libudp_msgs__rosidl_typesupport_introspection_c.so
-sync_node: /opt/ros/humble/lib/libudp_msgs__rosidl_typesupport_introspection_cpp.so
-sync_node: /opt/ros/humble/lib/libudp_msgs__rosidl_typesupport_cpp.so
-sync_node: /opt/ros/humble/lib/libudp_msgs__rosidl_generator_py.so
+sync_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+sync_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+sync_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+sync_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+sync_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 sync_node: /opt/ros/humble/lib/libcan_msgs__rosidl_typesupport_fastrtps_c.so
 sync_node: /opt/ros/humble/lib/libcan_msgs__rosidl_typesupport_introspection_c.so
 sync_node: /opt/ros/humble/lib/libcan_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -105,8 +104,17 @@ sync_node: /opt/ros/humble/lib/libcan_msgs__rosidl_typesupport_introspection_cpp
 sync_node: /opt/ros/humble/lib/libcan_msgs__rosidl_typesupport_cpp.so
 sync_node: /opt/ros/humble/lib/libcan_msgs__rosidl_generator_py.so
 sync_node: /opt/ros/humble/lib/libmessage_filters.so
-sync_node: /opt/ros/humble/lib/libudp_msgs__rosidl_typesupport_c.so
-sync_node: /opt/ros/humble/lib/libudp_msgs__rosidl_generator_c.so
+sync_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+sync_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+sync_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+sync_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+sync_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
+sync_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+sync_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+sync_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+sync_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+sync_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+sync_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 sync_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 sync_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 sync_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so

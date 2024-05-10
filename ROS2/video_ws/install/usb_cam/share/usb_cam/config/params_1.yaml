@@ -1,7 +1,7 @@
 /**:
     ros__parameters:
       video_device: "/dev/video0"
-      framerate: 30.0
+      framerate: 10.0
       io_method: "mmap"
       frame_id: "camera"
       pixel_format: "yuyv"  # support  yuyv / yuyv2rgb / raw_mjpeg / mjpeg2rgb  Only yuyv / rgb can be seen by human
@@ -15,9 +15,9 @@
       saturation: -1
       sharpness: -1
       gain: -1
-      auto_white_balance: true
+      auto_white_balance: false
       white_balance: 4000
-      autoexposure: true
+      autoexposure: false
       exposure: 100
       autofocus: false
       focus: -1

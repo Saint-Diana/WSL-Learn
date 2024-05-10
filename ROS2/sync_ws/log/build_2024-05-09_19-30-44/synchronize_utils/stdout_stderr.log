@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target sync_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sync_node.dir/src/sync_node.cpp.o[0m
+[01m[K/home/shen/learn/ROS2/sync_ws/src/synchronize_utils/src/sync_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/image.hpp: 没有那个文件或目录
+    7 | #include [01;31m[K<sensor_msgs/msg/image.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sync_node.dir/build.make:76：CMakeFiles/sync_node.dir/src/sync_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/sync_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -8,7 +8,7 @@
   <arg name="use_bus_time" default="true" />
 
   <!-- ARS408 driver param -->
-  <!-- input topic name which is defined by ros2_socketcan(/sensing/radar/can_tx) -->
+  <!-- input topic name which is defined by ros2_socketcan(/can_message) -->
   <arg name="input/frame" default="/can_message" />
   <!-- output topic names which are defined by ourselves -->
   <arg name="output/objects" default="objects_raw" />

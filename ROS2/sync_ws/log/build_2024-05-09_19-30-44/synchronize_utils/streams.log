@@ -1,0 +1,11 @@
+[0.066s] Invoking command in '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/sync_ws/build/synchronize_utils -- -j16 -l16
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target sync_node[0m
+[0.161s] [ 50%] [32mBuilding CXX object CMakeFiles/sync_node.dir/src/sync_node.cpp.o[0m
+[0.430s] [01m[K/home/shen/learn/ROS2/sync_ws/src/synchronize_utils/src/sync_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/image.hpp: 没有那个文件或目录
+[0.430s]     7 | #include [01;31m[K<sensor_msgs/msg/image.hpp>[m[K
+[0.430s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.430s] compilation terminated.
+[0.438s] gmake[2]: *** [CMakeFiles/sync_node.dir/build.make:76：CMakeFiles/sync_node.dir/src/sync_node.cpp.o] 错误 1
+[0.439s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/sync_node.dir/all] 错误 2
+[0.439s] gmake: *** [Makefile:146：all] 错误 2
+[0.443s] Invoked command in '/home/shen/learn/ROS2/sync_ws/build/synchronize_utils' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shen/learn/ROS2/sync_ws/build/synchronize_utils -- -j16 -l16
